@@ -5,7 +5,6 @@ const locations = [
         category: 'food',
         coordinates: [29.747720290049234, -95.38028603278978],
         img: 'https://i.imgur.com/yzjy5Ek.png',
-        popupText: 'Delicious Dumplings',
         website: 'https://wannabao.com/',
         description: ['delicious dumplings', 'delicious tea', 'crispy bottom bao']
     },
@@ -72,6 +71,14 @@ const locations = [
         img: 'https://i.imgur.com/kac6XNX.png',
         website: 'https://i.imgur.com/fBLTpv2.png',
         description: ['open late', 'kung pao beef', 'chow fun']
+    },
+    {
+        name: "The Monk's - Humble",
+        category: 'food',
+        coordinates: [30.01789841752994, -95.22461673848046],
+        img: 'https://i.imgur.com/X6qqegt.png',
+        website: 'https://www.monkshumble.com/',
+        description: ['indian', 'very spicy', 'samosas']
     }
     // Bars
 

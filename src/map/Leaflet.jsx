@@ -121,6 +121,8 @@ const Leaflet = () => {
 
       layerControl.addOverlay(restaurants, "Restaurants");
 
+      console.log(locations.length)
+
     }
   
   }, []); 
