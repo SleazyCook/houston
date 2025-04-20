@@ -32,6 +32,46 @@ const locations = [
         img: 'https://i.imgur.com/vi8bS5Z.png',
         website: 'https://mensho.com/',
         description: ['michelin recommended', 'expect a wait', 'Garlic Knock Out']
+    },
+    {
+        name: 'Blue Sushi',
+        category: 'food',
+        coordinates: [29.782854094917795, -95.40735213529982],
+        img: 'https://i.imgur.com/TI5ybqr.png',
+        website: 'https://www.bluesushisakegrill.com/locations/m-k-t-heights',
+        description: ['sushi rolls', 'sake', 'Godzilla Bomb']
+    },
+    {
+        name: 'The Taco Stand',
+        category: 'food',
+        coordinates: [29.808536107018863, -95.3899774703192],
+        img: 'https://i.imgur.com/iCIE0bY.png',
+        website: 'https://tacostandhtx.com/',
+        description: ['breakfast tacos', 'brisket & egg', 'chorizo & egg']
+    },
+    {
+        name: 'Insomnia Cookies',
+        category: 'food',
+        coordinates: [29.720482900878075, -95.40498712408545],
+        img: 'https://i.imgur.com/0cyEvM4.png',
+        website: 'https://insomniacookies.com/',
+        description: ['open late', 'deluxe cookies', 'ice cream']         
+    },
+    {
+        name: 'The Rice Box - Heights',
+        category: 'food',
+        coordinates: [29.808791599839974, -95.3801500022352],
+        img: 'https://i.imgur.com/fBLTpv2.png',
+        website: 'https://i.imgur.com/fBLTpv2.png',
+        description: ['open late', 'kung pao beef', 'chow fun']
+    },
+    {
+        name: 'The Rice Box - Rice Village',
+        category: 'food',
+        coordinates: [29.716584073640465, -95.41454967209602],
+        img: 'https://i.imgur.com/kac6XNX.png',
+        website: 'https://i.imgur.com/fBLTpv2.png',
+        description: ['open late', 'kung pao beef', 'chow fun']
     }
     // Bars
 
