@@ -46,17 +46,17 @@ const Leaflet = () => {
           // "<span style='color: red'>OpenStreetMap.HOT</span>": osmHOT
       };
 
-      var crownHill = L.marker([39.75, -105.09]).bindPopup('This is Crown Hill Park.')
-      var rubyHill = L.marker([39.68, -105.00]).bindPopup('This is Ruby Hill Park.');
+      // var crownHill = L.marker([39.75, -105.09]).bindPopup('This is Crown Hill Park.')
+      // var rubyHill = L.marker([39.68, -105.00]).bindPopup('This is Ruby Hill Park.');
           
-      var parks = L.layerGroup([crownHill, rubyHill]);
-      var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-          maxZoom: 19,
-          attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map style: © OpenTopoMap (CC-BY-SA)'
-      });
+      // var parks = L.layerGroup([crownHill, rubyHill]);
+      // var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      //     maxZoom: 19,
+      //     attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map style: © OpenTopoMap (CC-BY-SA)'
+      // });
 
-      // layerControl.addBaseLayer(openTopoMap, "OpenTopoMap");
-      layerControl.addOverlay(parks, "Parks");
+      // // layerControl.addBaseLayer(openTopoMap, "OpenTopoMap");
+      // layerControl.addOverlay(parks, "Parks");
 
 
 
@@ -78,38 +78,45 @@ const Leaflet = () => {
       const restaurants = L.layerGroup()
 
       locations.forEach(location => {
-        // Create custom icon for each location
-        const customIcon = L.icon({
-        iconUrl: location.iconUrl,
+
+      // Build Map Icons
+      let mapIconUrl = ''
+      if (location.category == "food") {
+        mapIconUrl = 'https://i.imgur.com/s2BRLZD.png'
+      }
+
+      const customIcon = L.icon({
+        iconUrl: mapIconUrl,
         iconSize: [38, 38],  // size of the icon
         iconAnchor: [19, 38], // anchor point of the icon (center of the bottom)
         popupAnchor: [0, -38] // popup should appear above the icon
-        });
-    
-        // Create the marker for the location
-        const marker = L.marker([location.lat, location.lng], { icon: customIcon }).addTo(map);
-    
+      });
+  
+      // Create the marker for the location
+      const marker = L.marker([location.coordinates[0], location.coordinates[1]], { icon: customIcon }).addTo(map);
+  
+      // add to layer
+      if (location.category == "food") {
+        // console.log(location.name, "is a restaurant")
+        restaurants.addLayer(marker)
+      }
 
+      console.log(Array.isArray(Object.values(location.description)))
+      const descriptionArray = Object.values(location.description)
+      console.log(descriptionArray)
 
-        if (location.category == "food") {
-          console.log(location.name, "is a restaurant")
-          restaurants.addLayer(marker)
-        }
+      // Bind a popup to the marker
+      marker.bindPopup(`
+        <img src=${location.img} width=200 /><br/>
+        <b>${location.name}</b><br>
+        <a href=${location.website} target='_blank'>
+            Vist Website</a>
+        <ul>
+            <li>${location.description[0]}</li>
+            <li>${location.description[1]}</li>
+            <li>${location.description[2]}</li>
+        </ul>`);
 
-        console.log(restaurants)
-
-
-        // Bind a popup to the marker
-        marker.bindPopup(`
-            <img src=${location.img} width=200 /><br/>
-            <b>${location.name}</b><br>
-            <a href=${location.website} target='_blank'>
-                Vist Website</a>
-            <ul>
-                <li>${location.description[0]}</li>
-                <li>${location.description[1]}</li>
-                <li>${location.description[2]}</li>
-            </ul>`);
       });
 
       layerControl.addOverlay(restaurants, "Restaurants");
