@@ -2,6 +2,7 @@ const locations = [
     {
         id: 1,
         name: 'Wannabao',
+        type: 'food',
         lat: 29.747720290049234,
         lng: -95.38028603278978,
         category: 'food',
@@ -14,6 +15,7 @@ const locations = [
     {
         id: 2,
         name: 'Taste of Korea',
+        type: 'food',
         lat: 30.02963651436055,
         lng: -95.20326430114102,
         category: 'food',
