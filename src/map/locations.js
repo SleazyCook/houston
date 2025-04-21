@@ -466,7 +466,6 @@ const locations = [
         blurb: 'Vibrant, retro chain serving a seasonal menu of creative breakfast & lunch fare, plus cocktails',
         description: []
     },
-
     // Bars
     {
         name: 'Ador',
@@ -516,7 +515,7 @@ const locations = [
     {
         name: 'Saint Arnold Brewing Company',
         category: 'bar',
-        cooridnates: [29.771212770697776, -95.34753793820126],
+        coordinates: [29.771212770697776, -95.34753793820126],
         img: '',
         website: 'https://www.saintarnold.com/',
         blurb: 'Established craft brewery featuring facility tours & a beer hall serving pints & pub grub for lunch.',
