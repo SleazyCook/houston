@@ -183,7 +183,7 @@ const locations = [
     {
         name: 'Breakfast Klub',
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: 'breakfast',
         coordinates: [29.73848124453339, -95.38038932724314],
         img: '',
         website: '',
@@ -244,10 +244,19 @@ const locations = [
         description: []
     },
     {
-        name: 'Velvet Taco - Rice Village',
+        name: 'Velvet Taco - Washington Ave',
         category: 'food',
         subcategory: 'tacos',
         coordinates: [29.77027627032481, -95.41004657788817],
+        img: '',
+        website: '',
+        description: []
+    },
+    {
+        name: 'Velvet Taco - Rice Village',
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.717317503095316, -95.41767773335643],
         img: '',
         website: '',
         description: []
@@ -289,6 +298,175 @@ const locations = [
         blurb: 'Sports bar known for its chicken wings',
         description: ['Double fried wings', 'Fried Mozzarella', 'Request WNBA on TV']
     },
+    {
+        name: 'Iza Robata - Spring',
+        category: 'food',
+        subcategory: 'sushi',
+        coordinates: [30.05598142350976, -95.57291198620665],
+        img: '',
+        website: '',
+        blurb: 'Japanese restaurant that serves authentic and creative Japenese cuisine',
+        description: ['Sake bar', '', '']
+    },
+    {
+        name: 'Pok Pok Po',
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.742582523950063, -95.37996336798173],
+        img: '',
+        website: '',
+        blurb: 'Fried chicken concept serving gluten free, antibiotic free, hormone free, halal chicken',
+        description: []
+    },
+    {
+        name: 'Azteca Taco House',
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.879900615131934, -95.33001824192365],
+        img: '',
+        website: '',
+        blurb: 'Casual eatery specializing in breakfast tacos, carne guisada, and homemade flour tortillas.',
+        description: []
+    },
+    {
+        name: "Brother's Pizza Express - Spring",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [30.05201190215551, -95.43342391197649],
+        img: '',
+        website: '',
+        blurb: 'Low-key pizzeria with New York-style pies whole or by the slice, plus calzones, pastas & sandwiches',
+        description: ['']
+    },
+    {
+        name: "Brother's Pizza Express - Willowbrook",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.958437436159638, -95.56441467471862],
+        img: '',
+        website: '',
+        blurb: 'Mainstay for pizza & other casual Italian-inspired comfort food, including stromboli & calzones',
+        description: []
+    },
+    {
+        name: "Yoyo's Hotdog - POST",
+        category: 'food',
+        subcategory: 'hotdogs',
+        coordinates: [29.766272186344448, -95.36461056318291],
+        img: '',
+        website: '',
+        blurb: 'Casual spot serving hot dogs and other quick bites for lunch.',
+        description: []
+    },
+    {
+        name: "Yoyo's Hotdog - EaDo",
+        category: 'food',
+        subcategory: 'hotdogs',
+        coordinates: [29.749426924148914, -95.35545770557285],
+        img: '',
+        website: '',
+        blurb: 'Hot dog stand turning out quick bites in a casual atmosphere.',
+        description: []
+    },
+    {
+        name: "Yoyo's Hotdog - Washington Ave",
+        category: 'food',
+        subcategory: 'hotdogs',
+        coordinates: [29.770734786401515, -95.40811760984687],
+        img: '',
+        website: '',
+        blurb: 'Hot dog stand turning out quick bites in a casual atmosphere.',
+        description: []
+    },
+    {
+        name: 'Fogo de Chão',
+        category: 'food',
+        coordinates: [29.738151249900074, -95.51179108918673],
+        img: '',
+        website: '',
+        blurb: "Upscale Brazilian chain for all-you-can-eat meat carved tableside plus an extensive salad bar.",
+        description: []
+    },
+    {
+        name: 'Chama Gaúcha',
+        category: 'food',
+        coordinates: [29.737575389908308, -95.48292126437322],
+        img: '',
+        website: '',
+        blurb: 'Upscale spot featuring all-you-can-eat tableside-carved Brazilian meat & a global wine list.',
+        description: []
+    },
+    {
+        name: 'Zalat - Heights',
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.803678071023104, -95.4010202575722],
+        img: '',
+        website: '',
+        blurb: 'Order handcrafted, unique-flavored pizzas for delivery or takeout. Open late to satisfy your cravings!',
+        description: []
+    },
+    {
+        name: 'Zalat - Washington Ave',
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.771050199341097, -95.40971992986691],
+        img: '',
+        website: '',
+        blurb: 'Order handcrafted, unique-flavored pizzas for delivery or takeout. Open late to satisfy your cravings!',
+        description: []
+    },
+    {
+        name: 'Butter Funk Kitchen',
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.668880222117025, -95.36784422747914],
+        img: '',
+        website: 'https://butterfunkhtx.com/',
+        blurb: 'Casual place for Southern eats, such as fried ribs, plus daiquiris and other drinks.',
+        description: ['Keith Lee approved']
+    },
+    {
+        name: "Layne's Chicken Fingers - Heights",
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.81397761857514, -95.42886442694316],
+        img: '',
+        website: '',
+        blurb: '',
+        description: []
+    },
+    {
+        name: "Layne's Chicken Fingers - Montrose",
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.74497821979449, -95.41033020946566],
+        img: '',
+        website: '',
+        blurb: '',
+        description: []
+    },
+    {
+        name: 'Snooze, an A.M. Eatery - Heights',
+        category: 'food',
+        subcategory: 'breakfast',
+        coordinates: [29.801592997027548, -95.41029116058527],
+        img: '',
+        website: '',
+        blurb: 'Vibrant, retro chain serving a seasonal menu of creative breakfast & lunch fare, plus cocktails',
+        description: []
+    },
+    {
+        name: 'Snooze, an A.M. Eatery - Montrose',
+        category: 'food',
+        subcategory: 'breakfast',
+        coordinates: [29.744047828435875, -95.39075036458118],
+        img: '',
+        website: '',
+        blurb: 'Vibrant, retro chain serving a seasonal menu of creative breakfast & lunch fare, plus cocktails',
+        description: []
+    },
+
     // Bars
     {
         name: 'Ador',
@@ -296,15 +474,8 @@ const locations = [
         coordinates: [29.753411079893684, -95.38650062691997],
         img: 'https://i.imgur.com/JTsWFwL.png',
         website: 'https://adorhouston.com/',
+        blurb: 'Bohemian joint with live music & a terrace serving pizzas, burgers & wings, plus cocktails.',
         description: ['happy hour', 'hookah', 'daiquiris']
-    },
-    {
-        name: 'Locker Room',
-        category: 'bar',
-        coordinates: [29.72193649943075, -95.36747176543562],
-        img: 'https://i.imgur.com/1MXxNyt.png',
-        website: 'https://www.google.com/search?q=locker+room+houston+bar&oq=locker+room+houston+bar&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MhYIARAuGK8BGMcBGJECGIAEGIoFGI4FMg0IAhAAGJECGIAEGIoFMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhge0gEIMzQzMWoxajSoAgCwAgE&sourceid=chrome&ie=UTF-8',
-        description: ['happy hour', 'hookah', 'shots']
     },
     {
         name: 'CRU - Downtown',
@@ -312,6 +483,7 @@ const locations = [
         coordinates: [29.762292281329156, -95.3616406517955],
         img: 'https://i.imgur.com/crlJaYk.png',
         website: 'https://crulounge.com/',
+        blurb: 'Casual bar with a neon-lit vibe offering small plates & cocktails, plus hookah pipes.',
         description: ['neon lit', 'hookah', 'dj']
     },
     {
@@ -320,7 +492,35 @@ const locations = [
         coordinates: [29.7162290256621, -95.49744793118549],
         img: 'https://i.imgur.com/TlPjazB.png',
         website: 'https://crulounge.com/',
+        blurb: 'Casual bar with a neon-lit vibe offering small plates & cocktails, plus hookah pipes.',
         description: ['neon lit', 'hookah', 'dj']
+    },
+    {
+        name: 'Heights Bier Garden',
+        category: 'bar',
+        coordinates: [29.797314935102868, -95.41030956614523],
+        img: '',
+        website: 'https://www.heightsbiergarten.com/',
+        blurb: 'Craft beer garden offering cocktails, wine, bar food, and a pet-friendly patio with fire pits.',
+        description: ['beer list', 'outdoor seating', 'soft pretzel']
+    },
+    {
+        name: 'Locker Room',
+        category: 'bar',
+        coordinates: [29.72193649943075, -95.36747176543562],
+        img: 'https://i.imgur.com/1MXxNyt.png',
+        website: 'https://www.google.com/search?q=locker+room+houston+bar&oq=locker+room+houston+bar&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MhYIARAuGK8BGMcBGJECGIAEGIoFGI4FMg0IAhAAGJECGIAEGIoFMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhge0gEIMzQzMWoxajSoAgCwAgE&sourceid=chrome&ie=UTF-8',
+        blurb: 'Casual bar and grill featuring comfort food, happy hours, and sports on TV, plus a patio.',
+        description: ['happy hour', 'hookah', 'shots']
+    },
+    {
+        name: 'Saint Arnold Brewing Company',
+        category: 'bar',
+        cooridnates: [29.771212770697776, -95.34753793820126],
+        img: '',
+        website: 'https://www.saintarnold.com/',
+        blurb: 'Established craft brewery featuring facility tours & a beer hall serving pints & pub grub for lunch.',
+        description: ['Houston Brewing', 'Cider List', 'Outdoor Seating']
     },
     {
         name: "Warren's Inn",
@@ -328,6 +528,7 @@ const locations = [
         coordinates: [29.76239315781994, -95.36150769972693],
         img: 'https://i.imgur.com/6eqneAi.png',
         website: 'https://www.google.com/search?q=warrens+houston&oq=warrens+houston&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDQzNDJqMWo0qAIAsAIB&sourceid=chrome&ie=UTF-8',
+        blurb: 'Drinks are served at this easygoing dive bar, which has a jukebox.',
         description: ['historic bar', 'friendly staff', 'tavern feel']
     },
     // Movie Theaters
@@ -357,19 +558,12 @@ const locations = [
     },
     // Music Venues
     {
-        name: 'White Oak Music Hall',
-        category: 'music',
-        coordinates: [29.786245855756498, -95.36701642980238],
-        img: 'https://i.imgur.com/lh9c1Eu.png',
-        website: 'https://whiteoakmusichall.com/',
-        description: ['upstairs room', 'downstairs room', 'lawn shows']
-    },
-    {
         name: 'House of Blues - Houston',
         category: 'music',
         coordinates: [29.754012620241973, -95.36330400949777],
         img: 'https://i.imgur.com/k5dSSlt.png',
         website: 'https://www.livenation.com/venue/KovZpZAE6k1A/house-of-blues-houston-events?awtrc=true&c=SEM_LNVenuesAutomation_ggl_18519938348_142072537436_house%20of%20blues&GCID=0&gad_source=1&gbraid=0AAAAAC1KtUphGOVv8Rofb-wxM6BpSibhT&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVoSlXtVubE-SSFspbLCjloWham5bis77jY47pOXUM-yH7Rv6b9LRIEaAhEiEALw_wcB&gclsrc=aw.ds',
+        blurb: "Rock- & blues-themed restaurant & bar serving Southern-inspired dishes, plus live music.",
         description: ['house of blues', 'bronze peacock', 'foundation room']
     },
     {
@@ -377,8 +571,18 @@ const locations = [
         category: 'music',
         coordinates: [29.746012478013213, -95.3750447679838],
         img: '',
-        website: '',
+        website: 'https://www.google.com/search?q=warehouse+live&sca_esv=1568361547b35126&sxsrf=AHTn8zowcBcGXM32ZoZru3el8iKuUm81Lg%3A1745251128310&ei=OGsGaKrFEvLep84PicCx4QQ&ved=0ahUKEwiqwa-Mv-mMAxVy78kDHQlgLEwQ4dUDCBA&uact=5&oq=warehouse+live&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIg53YXJlaG91c2UgbGl2ZTITEC4YgAQYxwEYJxiKBRiOBRivATIEECMYJzIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI4QxQAFjsC3AAeAGQAQCYAYIBoAHgCqoBAzguNrgBA8gBAPgBAZgCDqACowvCAgoQIxiABBgnGIoFwgITEC4YgAQYQxjHARiKBRiOBRivAcICEBAuGIAEGEMYxwEYigUYrwHCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICExAuGIAEGLEDGNEDGEMYxwEYigXCAg0QABiABBhDGIoFGIsDwgIZEC4YgAQYQxiYAxioAxiKBRiaAxiLAxibA8ICEBAuGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIOEC4YgAQYxwEYjgUYrwHCAgoQABiABBgUGIcCmAMAkgcDNi44oAeV6AGyBwM2Lji4B6ML&sclient=gws-wiz-serp',
+        blurb: 'Various music styles are showcased at this basic general-admission concert venue with a small bar.',
         description: []
+    },
+    {
+        name: 'White Oak Music Hall',
+        category: 'music',
+        coordinates: [29.786245855756498, -95.36701642980238],
+        img: 'https://i.imgur.com/lh9c1Eu.png',
+        website: 'https://whiteoakmusichall.com/',
+        blurb: 'Performances by popular musical acts staged in an amphitheater with a lawn, plus 2 indoor spaces.',
+        description: ['upstairs room', 'downstairs room', 'lawn shows']
     },
 
     // Parks
