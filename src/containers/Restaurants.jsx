@@ -3,8 +3,9 @@ import { useState } from "react";
 import locations from "../map/locations";
 import buttonData from "../data/restaurant-types";
 
-const ListView = () => {
-  const [selectedCategory, setSelectedCategory] = useState('food')
+const Restaurants = () => {
+  const [selectedCategory, setSelectedCategory] = useState('food');
+  const [title, setTitle] = useState('All Restaurants');
 
   let category = {}
 
@@ -110,6 +111,11 @@ const ListView = () => {
 
   function changeCategory(e) {
     setSelectedCategory(e.target.value)
+    if (selectedCategory == 'food') {
+      setTitle('All Restaurants')
+    } else {
+      setTitle(e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1))
+    }
   }
 
     return (
@@ -126,7 +132,10 @@ const ListView = () => {
         })}
 
         <br /><br />
-        <b>{selectedCategory}</b>
+        <span>selected Category: {selectedCategory}</span>
+
+        <br /><br />
+        <b>{title}</b>
 
         {category[selectedCategory]?.map((item, key) => {
           return(
@@ -166,4 +175,4 @@ const ListView = () => {
     );
   };
   
-  export default ListView;
+  export default Restaurants;

@@ -4,7 +4,8 @@ const Navigation = () => {
     return (
       <div>
         <Link to='/'>Map</Link>
-        <Link to='/list'>List View</Link>
+        <Link to='/food'>Restaurants</Link>
+        <Link to='/activities'>Activities</Link>
         <Link to='/about'>About</Link>
       </div>
     );

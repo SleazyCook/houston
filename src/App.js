@@ -6,7 +6,8 @@ import Footer from './app/Footer';
 
 // containers
 import Home from './containers/Home'
-import ListView from './containers/ListView';
+import Restaurants from './containers/Restaurants';
+import Activities from './containers/Activities';
 import About from './containers/About'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Home /> } />
-          <Route path='/list' element={<ListView />} />
+          <Route path='/food' element={<Restaurants />} />
+          <Route path='/activities' element={<Activities />} />
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
