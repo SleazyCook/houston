@@ -88,51 +88,29 @@ const Restaurants = () => {
     return a.name.localeCompare(b.name);
   });
   category.tacos = sortedTacos;
-  
-  // Bars by alpha
-  const bars = locations.filter(place => place.category === 'bar');
-  const sortedBars = bars.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
 
-  // Movie Theaters
-  const movies = locations.filter(place => place.category === 'movies');
-  const sortedMovies = movies.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-
-  // Music Venues
-  const music = locations.filter(place => place.category === 'music');
-  const sortedMusic = music.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-
-  // Music Venues by alpha
-
+  // Change display function
   function changeCategory(e) {
-    setSelectedCategory(e.target.value)
-    if (selectedCategory == 'food') {
-      setTitle('All Restaurants')
-    } else {
-      setTitle(e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1))
-    }
+    setSelectedCategory(e.target.value);
+    setTitle(e.target.name);
   }
 
     return (
       <div>
-        <h1>ListView Page</h1>
-        <p>This is the ListView page of the app.</p>
+        <h1>Food</h1>
+        <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
 
         {buttonData.map((obj, key) => {
           return(
-            <button onClick={changeCategory} key={key} value={obj.value}>
-              {obj.label}
+            <button 
+              onClick={changeCategory} 
+              key={key} 
+              value={obj.value} 
+              name={obj.label}>
+                {obj.label}
             </button>
           )
         })}
-
-        <br /><br />
-        <span>selected Category: {selectedCategory}</span>
 
         <br /><br />
         <b>{title}</b>
@@ -142,34 +120,6 @@ const Restaurants = () => {
             <p key={key}>{key +1}. {item.name}</p>
           )
         })}
-        -------------------------------
-
-        <br />
-        <div>Bars & Lounges</div>
-        {sortedBars.map((obj, key) => {
-            return(
-                <p key={key}>{key + 1}. {obj.name}</p>
-            )
-        })}
-        -------------------------------
-
-        <br />
-        <div>Movie Theaters</div>
-        {sortedMovies.map((obj, key) => {
-            return(
-                <p key={key}>{key + 1}. {obj.name}</p>
-            )
-        })}
-        -------------------------------
-
-        <br />
-        <div>Music Venues</div>
-        {sortedMusic.map((obj, key) => {
-            return(
-                <p key={key}>{key + 1}. {obj.name}</p>
-            )
-        })}
-        -------------------------------
 
       </div>
     );

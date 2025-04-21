@@ -1,12 +1,14 @@
 // Restaurants
 // Bars
+// Bookstores
+// Markets
 // Movie Theaters
 // Music Venues
 // Parks
 // Photo Opp
 // Unique (nrg, toyota, kemah)
-// Bookstores
-// Markets
+
+
 
 const locations = [
     // Restaurants
