@@ -17,6 +17,7 @@ const locations = [
         coordinates: [29.747720290049234, -95.38028603278978],
         img: 'https://i.imgur.com/yzjy5Ek.png',
         website: 'https://wannabao.com/',
+        blurb: 'Contemporary, industrial interiors & a menu of Chinese classic dishes, served family-style.',
         description: ['delicious dumplings', 'delicious tea', 'crispy bottom bao']
     },
     {
@@ -26,6 +27,7 @@ const locations = [
         coordinates: [29.997460350283827, -95.19376149496405],
         img: 'https://i.imgur.com/vixRkWH.png',
         website: 'https://www.google.com/search?q=taste+of+korea+houston+restaurant&client=opera-gx&hs=1xJ&sca_esv=4aa7399608798402&sxsrf=AHTn8zptgKriNcwjnfSJFGJA5pfFsredLw%3A1745096166437&ei=5g0EaPy7Gta4wN4PuMiVsAc&ved=0ahUKEwj8xuXo_eSMAxVWHNAFHThkBXYQ4dUDCBI&uact=5&oq=taste+of+korea+houston+restaurant&gs_lp=Egxnd3Mtd2l6LXNlcnAiIXRhc3RlIG9mIGtvcmVhIGhvdXN0b24gcmVzdGF1cmFudDIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRirAkiBLFCrBViYK3AIeAGQAQCYAacBoAH6DKoBBDE0LjO4AQPIAQD4AQGYAhmgAuENwgIKEAAYsAMY1gQYR8ICDRAAGLADGNYEGEcYyQPCAg4QABiABBiwAxiSAxiKBcICChAjGIAEGCcYigXCAgsQLhiABBjHARivAcICBhAAGBYYHsICAhAmwgILEAAYgAQYhgMYigXCAggQABiABBiiBMICBRAAGO8FwgIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQHCAgUQABiABMICEBAuGIAEGBQYhwIYxwEYrwHCAhAQLhiABBhDGMcBGIoFGK8BwgIIEAAYgAQYyQPCAgUQIRifBZgDAIgGAZAGCboGBggBEAEYFJIHBDIxLjSgB9iXAbIHBDEzLjS4B8UN&sclient=gws-wiz-serp',
+        blurb: 'Casual resource for Korean starters, soups & BBQ plus tempura, wings, shaved ice & mochi.',
         description: ['friendly owner', 'hot stone bowl', 'unreliable hours']
     },
     {
@@ -35,6 +37,7 @@ const locations = [
         coordinates: [29.751968194944496, -95.385205425497],
         img: 'https://i.imgur.com/mL0K4FI.png',
         website: 'https://pos.chowbus.com/online-ordering/store/Xiaolong-Dumpling/14867',
+        blurb: 'Opened in 2024, this cozy eatery serves handmade dumplings alongside fiery Sichuan dishes.',
         description: ['friendly staff', 'soup dumplings', 'garlic cucumbers']
     },
     {
@@ -44,6 +47,7 @@ const locations = [
         coordinates: [29.702776279471518, -95.55277518132357],
         img: 'https://i.imgur.com/vi8bS5Z.png',
         website: 'https://mensho.com/',
+        blurb: 'Creative ramen specialty store',
         description: ['michelin recommended', 'expect a wait', 'Garlic Knock Out']
     },
     {
@@ -53,6 +57,7 @@ const locations = [
         coordinates: [29.782854094917795, -95.40735213529982],
         img: 'https://i.imgur.com/TI5ybqr.png',
         website: 'https://www.bluesushisakegrill.com/locations/m-k-t-heights',
+        blurb: 'Modern, clubby restaurant featuring sushi & Japanese tapas, plus fancy mixed drinks.',
         description: ['sushi rolls', 'sake', 'Godzilla Bomb']
     },
     {
@@ -62,6 +67,7 @@ const locations = [
         coordinates: [29.80467537187449, -95.40940911953685],
         img: 'https://i.imgur.com/iCIE0bY.png',
         website: 'https://tacostandhtx.com/',
+        blurb: 'Casual, modern taco specialist using housemade tortillas, also offering drinks & an all-day menu.',
         description: ['breakfast tacos', 'brisket & egg', 'chorizo & egg']
     },
     {
@@ -71,6 +77,7 @@ const locations = [
         coordinates: [29.717783381639077, -95.41698820235376],
         img: 'https://i.imgur.com/0cyEvM4.png',
         website: 'https://insomniacookies.com/',
+        blurb: 'Bakery chain known for warm cookies, ice cream & late-night deliveries.',
         description: ['open late', 'deluxe cookies', 'ice cream']         
     },
     {
@@ -80,6 +87,7 @@ const locations = [
         coordinates: [29.803866550751028, -95.40101375817602],
         img: 'https://i.imgur.com/fBLTpv2.png',
         website: 'https://i.imgur.com/fBLTpv2.png',
+        blurb: "Hip outpost offering reinvented Chinese classics such as kung pao chicken and General Tso's chicken.",
         description: ['open late', 'kung pao beef', 'chow fun']
     },
     {
@@ -89,6 +97,7 @@ const locations = [
         coordinates: [29.71659805044453, -95.41461404468372],
         img: 'https://i.imgur.com/kac6XNX.png',
         website: 'https://i.imgur.com/fBLTpv2.png',
+        blurb: "Hip outpost offering reinvented Chinese classics such as kung pao chicken and General Tso's chicken.",
         description: ['open late', 'kung pao beef', 'chow fun']
     },
     {
@@ -104,7 +113,7 @@ const locations = [
         name: 'Betelgeuse Betelgeuse - Washington',
         category: 'food',
         subcategory: 'pizza',
-        coordinates: [29.768873079874567, -95.37747622659104],
+        coordinates: [29.767873715445898, -95.37960345473097],
         img: 'https://i.imgur.com/3EB93eb.png',
         website: 'https://www.betelgeusehou.com/',
         description: ['pizza', 'full bar', 'outdoor seating']
@@ -166,7 +175,7 @@ const locations = [
         name: 'Homeslice',
         category: 'food',
         subcategory: 'pizza',
-        coordinates: [29.738887728012283, -95.37986181031256],
+        coordinates: [29.738749524090423, -95.38015318985526],
         img: '',
         website: '',
         description: ['Austin Favorite', 'Pizza by the Slice', 'Italian Subs']
@@ -175,7 +184,7 @@ const locations = [
         name: 'Breakfast Klub',
         category: 'food',
         subcategory: 'chicken',
-        coordinates: [29.73853074643878, -95.38059909339351],
+        coordinates: [29.73848124453339, -95.38038932724314],
         img: '',
         website: '',
         description: ['Open Early', 'Expect a wait', 'Chicken and Waffles']
@@ -252,15 +261,34 @@ const locations = [
         website: '',
         description: []
     },
-    // {
-    //     name: '',
-    //     category: 'food',
-    //     subcategory: 'tacos',
-    //     coordinates: [],
-    //     img: '',
-    //     website: '',
-    //     description: []
-    // },
+    {
+        name: 'Tacodeli',
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.76797814164908, -95.37732067077975],
+        img: '',
+        website: '',
+        description: ['Austin Favorite', 'Salsa Bar', 'Grab N Go']
+    },
+    {
+        name: 'Poppa Burger',
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.774259091292073, -95.36036566574973],
+        img: '',
+        website: '',
+        description: ['Open Late', 'Cheap', 'Cash Only']
+    },
+    {
+        name: 'Pluckers - Heights',
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.773607958972853, -95.40909531330995],
+        img: '',
+        website: '',
+        blurb: 'Sports bar known for its chicken wings',
+        description: ['Double fried wings', 'Fried Mozzarella', 'Request WNBA on TV']
+    },
     // Bars
     {
         name: 'Ador',

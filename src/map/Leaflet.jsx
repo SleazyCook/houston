@@ -108,6 +108,7 @@ const Leaflet = () => {
         marker.bindPopup(`
           <img src=${location.img} width=200 /><br/>
           <b>${location.name}</b><br>
+          <span>${location.blurb}</span><br>
           <a href=${location.website} target='_blank'>
               Vist Website</a>
           <ul>
