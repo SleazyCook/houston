@@ -44,12 +44,24 @@ const buttonData = [
       value: 'sandwiches'
     },
     {
+      label: 'Seafood',
+      value: 'seafood'
+    },
+    {
+      label: 'Steakhouses',
+      value: 'steak'
+    },
+    {
       label: 'Sushi',
       value: 'sushi'
     },
     {
       label: 'Tacos',
       value: 'tacos'
+    },
+    {
+      label: 'Food Halls',
+      value: 'halls'
     }
 ]
 

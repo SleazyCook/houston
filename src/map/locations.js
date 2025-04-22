@@ -9,7 +9,6 @@
 // Unique (nrg, toyota, kemah)
 
 
-
 const locations = [
     // Restaurants
     {
@@ -168,6 +167,7 @@ const locations = [
     {
         name: 'Blodgett Hall',
         category: 'food',
+        subcategory: 'hall',
         coordinates: [29.722847269152375, -95.37002136428438],
         img: '',
         website: '',
@@ -383,6 +383,7 @@ const locations = [
     {
         name: 'Fogo de Chão',
         category: 'food',
+        subcategory: 'steak',
         coordinates: [29.738151249900074, -95.51179108918673],
         img: '',
         website: '',
@@ -392,6 +393,7 @@ const locations = [
     {
         name: 'Chama Gaúcha',
         category: 'food',
+        subcategory: 'steak',
         coordinates: [29.737575389908308, -95.48292126437322],
         img: '',
         website: '',
@@ -429,7 +431,7 @@ const locations = [
         description: ['Keith Lee approved']
     },
     {
-        name: "Layne's Chicken Fingers - Heights",
+        name: "Layne's Chicken Fingers - Ella Oaks",
         category: 'food',
         subcategory: 'chicken',
         coordinates: [29.81397761857514, -95.42886442694316],
@@ -467,6 +469,152 @@ const locations = [
         website: '',
         blurb: 'Vibrant, retro chain serving a seasonal menu of creative breakfast & lunch fare, plus cocktails',
         description: []
+    },
+    {
+        name: 'Asia Market Thai Lao Food',
+        category: 'food',
+        coordinates: [29.79111201462518, -95.37286016530489],
+        img: '',
+        website: '',
+        blurb: 'Established storefront supplying Asian produce & groceries, also serving a Thai lunch & dinner menu.',
+        description: ''
+    },
+    {
+        name: 'Flying Biscuit - EaDo',
+        category: 'food',
+        subcategory: 'breakfast',
+        coordinates: [29.758003441874767, -95.34618410261355],
+        img: '',
+        website: '',
+        blurb: 'Branch of a laid-back chain known for Southern food & all-day breakfast selections.',
+        description: ['Open early', 'chicken & waffles', 'homemade biscuits']
+    },
+    {
+        name: 'Lyric Market',
+        category: 'food',
+        subcategory: 'hall',
+        coordinates: [29.76310881612258, -95.36456102261619],
+        img: '',
+        website: 'https://www.lyricmarket.com/',
+        blurb: "Houston's most exciting and sophisticated food hall",
+        description: []
+    },
+    {
+        name: 'POST Market',
+        category: 'food',
+        subcategory: 'hall',
+        coordinates: [29.766078454632144, -95.36455736258664],
+        img: '',
+        website: 'https://www.posthtx.com/eat',
+        blurb: 'Diner styyle seating and cyberpunk vibes.',
+        description: ['shopping', 'eating', 'live performances']
+    },
+    {
+        name: 'Underground Hall',
+        category: 'food',
+        subcategory: 'hall',
+        coordinates: [29.760386415990325, -95.36154140154935],
+        img: '',
+        website: 'https://www.undergroundhall.com/',
+        blurb: 'Casual destination with food vendors doling out global bites, plus draft beer & happy hour specials.',
+        description: []
+    },
+    {
+        name: "BB's Tex-Orleans - Ella Oaks",
+        category: 'food',
+        coordinates: [29.81679853144434, -95.43075744065375],
+        img: '',
+        website: '',
+        blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
+        description: []
+    },
+    {
+        name: "BB's Tex-Orleans - Heights",
+        category: 'food',
+        coordinates: [29.78130193379262, -95.38796849551551],
+        img: '',
+        website: '',
+        blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
+        description: []
+    },
+    {
+        name: "BB's Tex-Orleans - Montrose",
+        category: 'food',
+        subcategory: 'seafood',
+        coordinates: [29.74424519171531, -95.38841579865903],
+        img: '',
+        website: '',
+        blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
+        description: []
+    },
+    {
+        name: "BB's Tex-Orleans - Richmond Ave.",
+        category: 'food',
+        subcategory: 'seafood',
+        coordinates: [29.733773605120188, -95.4261022899225],
+        img: '',
+        website: '',
+        blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
+        description: []
+    },
+    {
+        name: '7Spice',
+        category: 'food',
+        subcategory: 'seafood',
+        coordinates: [29.936995628209772, -95.24866447987408],
+        img: '',
+        website: '',
+        blurb: '',
+        description: ''
+    },
+    {
+        name: 'Hippo Burgers - Aldine Mail Rte',
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.902729653569942, -95.34997206587146],
+        img: '',
+        website: '',
+        blurb: '',
+        description: []
+    },
+    {
+        name: 'Lost & Found',
+        category: 'food',
+        coordinates: [29.75348220171603, -95.38091870436139],
+        img: '',
+        website: 'https://lostandfoundmidtown.com/',
+        blurb: 'Relaxed restaurant offerin cocktails, brunch & mains, plus patio dining with views of midtown.',
+        description: ['happy hour', 'outdoor seating', 'hookah']
+    },
+    {
+        name: "Morton's The Steakhouse - Downtown",
+        category: 'food',
+        subcategory: 'steak',
+        coordinates: [29.756924901573548, -95.36427486690646],
+        img: '',
+        website: 'https://www.mortons.com/location/mortons-the-steakhouse-houston-tx-downtown/?utm_source=Google&utm_medium=CPC&utm_campaign=MTHD-1163_TX-Houston-Downtown_Branded&utm_content=ch_google_adwords|trg_kwd-326515902124|crt_677467078720|kwmt_e|ps_|srct_g|trgt_|src_|devt_c|devm_|cid_894703348|lcl_9192926|fdi_&utm_term=morton%27s%20the%20steakhouse&gad_source=6&gbraid=0AAAAADpS1nmRvEaXQByQvZIHxdyzxEnHX&gclid=Cj0KCQjw2ZfABhDBARIsAHFTxGx0rTP-55xU5jOvCJ2ccmQy8kT6o6_H6koN6yNN-AH9B6SxNHBP7K0aAuUmEALw_wcB',
+        blurb: 'Upscale chain for aged prime beef, seafood & other traditional steakhouse fare in a clubby space',
+        description: []
+    },
+    {
+        name: "Morton's The Steakhouse - Galleria",
+        category: 'food',
+        subcategory: 'steak',
+        coordinates: [29.742058565423644, -95.46245468028471],
+        img: '',
+        website: 'https://www.mortons.com/location/mortons-the-steakhouse-houston-tx-galleria/#menus',
+        blurb: 'Upscale chain for aged prime beef, seafood & other traditional steakhouse fare in a clubby space',
+        description: []
+    },
+    {
+        name: "Hungry Howie's Pizza",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.901736784187758, -95.553412021421],
+        img: '',
+        website: '',
+        blurb: 'Basic, counter-serve pizzeria chain popular for its flavored crusts, such as sesame & garlic herb.',
+        description: ['Flavored crusts', 'Cajun Bread', 'Onion Crust']
     },
     // Bars
     {

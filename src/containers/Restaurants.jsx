@@ -76,6 +76,18 @@ const Restaurants = () => {
     return a.name.localeCompare(b.name);
   });
   category.sandwiches = sortedSandwiches;
+  // Seafood
+  const seafood = locations.filter(place => place.subcategory === 'seafood');
+  const sortedSeafood = seafood.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+  category.seafood = sortedSeafood;
+  // Steakhouses
+  const steak = locations.filter(place => place.subcategory === 'steak');
+  const sortedSteak = steak.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+  category.steak = sortedSteak;
   // Sushi
   const sushi = locations.filter(place => place.subcategory === 'sushi');
   const sortedSushi = sushi.sort((a, b) => {
@@ -88,6 +100,12 @@ const Restaurants = () => {
     return a.name.localeCompare(b.name);
   });
   category.tacos = sortedTacos;
+  // Food Halls
+  const halls = locations.filter(place => place.subcategory === 'hall');
+  const sortedHalls = halls.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+  category.halls = sortedHalls;
 
   // Change display function
   function changeCategory(e) {
