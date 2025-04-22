@@ -690,6 +690,33 @@ const locations = [
         blurb: 'Cozy family shop in a 3,5000-sq.-ft renovated house offers diverse used, rare & out-of-print books.',
         description: []
     },
+    {
+        name: 'Kaboom Books',
+        category: 'books',
+        coordinates: [29.786977712444614, -95.37189190882646],
+        img: '',
+        website: 'https://kaboombooks.com/',
+        blurb: 'Homey shop featuring pre-owned books, including hard-to-find titles, also hosts events on its patio.',
+        description: [],
+    },
+    {
+        name: 'Murder By The Book',
+        category: 'books',
+        coordinates: [29.725750721718644, -95.41452430314608],
+        img: '',
+        website: 'https://murderbooks.com',
+        blurb: 'Bookstore featuring new & used mystery novels, magazines, & collectibles also hosts author events.',
+        description: []
+    },
+    {
+        name: 'Quarter Price Books',
+        category: 'books',
+        coordinates: [29.731932134424735, -95.41079697391432],
+        img: '',
+        website: '',
+        blurb: 'Organized store offering used and collectible books, plus many titles on Texas history.',
+        description: []
+    },
     // Markets
     {
         name: 'H Mart - Katy',
@@ -707,6 +734,7 @@ const locations = [
         coordinates: [29.95353569926177, -95.54006845262985],
         img: 'https://i.imgur.com/7j18fGs.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-willowbrook-24',
+        blurb: '',
         description: ['premium seats', 'digital IMAX', 'Dolby Digital']
     },
     {
@@ -715,6 +743,7 @@ const locations = [
         coordinates: [30.010016013578735, -95.27108698884724],
         img: 'https://i.imgur.com/hkIrPr8.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-deerbrook-24',
+        burb: '',
         description: ['premium seats', 'digital IMAX', 'Dolby Digital']
     },
     {
@@ -723,7 +752,79 @@ const locations = [
         coordinates: [29.761902952575078, -95.36625280604103],
         img: 'https://i.imgur.com/Ft6rlvE.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-houston-8',
+        burb: '',
         description: ['premium seats', 'digital IMAX', 'Dolby Digital']
+    },
+    {
+        name: "Regal Edwards Houston Marq'E",
+        category: 'movies',
+        coordinates: [29.785954755242336, -95.4635497896941],
+        img: '',
+        website: 'https://regmovies.com',
+        blurb: 'Movie theater chain known for presenting 3D films on a giant screen, including blockbusters.',
+        description: []
+    },
+    {
+       name: 'Regal Lone Star',
+       category: 'movies',
+       coordinates: [30.041429887488842, -95.60524921864557],
+       img: '',
+       website: 'http://regmovies.com',
+       blurb: 'Theater complex with multiple screens featuring new release films, plush seating & concession stand.',
+       description: [] 
+    },
+    {
+        name: 'Alamo Drafthouse Cinema LaCenterra',
+        category: 'movies',
+        coordinates: [29.740641105182316, -95.77402693978205],
+        img: '',
+        website: 'https://drafthouse.com',
+        blurb: 'Stylish theater chain for new & classic films features cocktails & creative bites served seat-side.',
+        description: []
+    },
+    {
+        name: 'Star Cinema Grill - HWY 249',
+        category: 'movies',
+        coordinates: [29.994647477255967, -95.57278076841475],
+        img: '',
+        website: 'https://starcinemagrill.net',
+        blurb: 'Stylish theater chain for new & classic films features cocktails & creative bites served seat-side.',
+        description: []
+    },
+    {
+        name: 'Regal Edwards Greenway Grand Palace',
+        category: 'movies',
+        coordinates: [29.731383893300645, -95.44073989122626],
+        img: '',
+        website: 'https://regmovies.com',
+        blurb: 'Theater complex with multiple screens featuring new release films, plush seating & concession stand.',
+        description: []
+    },
+    {
+        name: 'The River Oaks Theatre',
+        category: 'movies',
+        coordinates: [29.75267309523697, -95.40907147983143],
+        img: '',
+        website: 'https://theriveroakstheatre.com',
+        blurb: 'Movie theater screening new releases as well as independent, foreign & avant-garde flicks.',
+        description: ['historic', 'local', 'retro']
+    },
+    {
+        name: 'Rooftop Cinema Club Uptown',
+        category: 'movies',
+        coordinates: [29.749438473419687, -95.46172275862284],
+        img: '',
+        website: 'https://rooftopcinemaclub.com/houston/venue/uptown/',
+        blurb: 'Open-air cinema offering concessions, headphones, and city views, plus special events.',
+        description: ['Rooftop', 'Outdoor seating', 'Monthly Schedules']
+    },
+    {
+        name: 'Cinemark Katy and XD',
+        category: 'movies',
+        coordinates: [29.786772479707707, -95.77473708220901],
+        img: '',
+        blurb: 'Chain of movie theaters, some with multiple screens, stadium seats & self-service ticketing kiosks.',
+        description: ['Near H-Mart', '', '']
     },
     // Music Venues
     {
