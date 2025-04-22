@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import locations from '../map/locations';
+import locations from '../data/locations';
 import buttonData from '../data/activity-types';
 
 const Activities = () => {
@@ -31,7 +31,7 @@ const Activities = () => {
   category.books = sortedBooks;
 
   // Markets
-  const markets = locations.filter(place => place.category === 'markets');
+  const markets = locations.filter(place => place.category === 'market');
   const sortedMarkets = markets.sort((a, b) => {
     return a.name.localeCompare(b.name);
   });

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import locations from "../map/locations";
+import locations from "../data/locations";
 import buttonData from "../data/restaurant-types";
 
 const Restaurants = () => {

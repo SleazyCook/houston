@@ -2,9 +2,8 @@ import { useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-import locations from './locations';
-import locations1 from './locations1';
-import icons from './icons';
+import locations from '../data/locations';
+import icons from '../data/icons';
 
 const Leaflet = () => {
   useEffect(() => {
@@ -57,11 +56,13 @@ const Leaflet = () => {
       // });
 
 
-      // Layers 1 of 3: Create Layer
-      const restaurants = L.layerGroup()
-      const bars = L.layerGroup()
-      const movies = L.layerGroup()
-      const music = L.layerGroup()
+      // Layers 1 of 4: Create Layer
+      const restaurants = L.layerGroup();
+      const bars = L.layerGroup();
+      const books = L.layerGroup();
+      const market = L.layerGroup();
+      const movies = L.layerGroup();
+      const music = L.layerGroup();
 
       // Start locations loop
       locations.forEach(location => {
@@ -72,6 +73,10 @@ const Leaflet = () => {
           mapIconUrl = 'https://i.imgur.com/s2BRLZD.png';
         } else if (location.category == "bar") {
           mapIconUrl = 'https://i.imgur.com/VtHXOyL.png';
+        } else if (location.category == "books") {
+          mapIconUrl = 'https://images.vexels.com/media/users/3/324280/isolated/preview/9d52451aee79d0393830d6dca2afe6b7-book-icon-in-red-color.png';
+        } else if (location.category == "market") {
+          mapIconUrl = 'https://static.thenounproject.com/png/1730-200.png' ;
         } else if (location.category == "movies") {
           mapIconUrl = 'https://i.imgur.com/DgxjJXt.png';
         } else if (location.category == 'music') {
@@ -94,6 +99,10 @@ const Leaflet = () => {
           restaurants.addLayer(marker);
         } else if (location.category == "bar") {
           bars.addLayer(marker);
+        } else if (location.category == "books") {
+          books.addLayer(marker);
+        } else if (location.category == "market") {
+          movies.addLayer(marker);
         } else if (location.category == "movies") {
           movies.addLayer(marker);
         } else if (location.category == "music") {
@@ -121,7 +130,9 @@ const Leaflet = () => {
 
       // Layers 4 of 4: Add Controls for Each Layer
       layerControl.addOverlay(restaurants, "Restaurants");
-      layerControl.addOverlay(bars, "Bars");
+      layerControl.addOverlay(bars, "Bars & Lounges");
+      layerControl.addOverlay(books, "Bookstores");
+      layerControl.addOverlay(market, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
     }

@@ -680,6 +680,26 @@ const locations = [
         blurb: 'Drinks are served at this easygoing dive bar, which has a jukebox.',
         description: ['historic bar', 'friendly staff', 'tavern feel']
     },
+    // Bookstores
+    {
+        name: "Becker's Books",
+        category: 'books',
+        coordinates: [29.794251635722954, -95.47768854366207],
+        img: '',
+        website: 'https://www.beckersbooks.com/',
+        blurb: 'Cozy family shop in a 3,5000-sq.-ft renovated house offers diverse used, rare & out-of-print books.',
+        description: []
+    },
+    // Markets
+    {
+        name: 'H Mart - Katy',
+        category: 'market',
+        coordinates: [29.792680234069884, -95.77433038249025],
+        img: '',
+        website: 'https://www.hmart.com/',
+        blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
+        description: []
+    },
     // Movie Theaters
     {
         name: 'AMC Willowbrook 24',
