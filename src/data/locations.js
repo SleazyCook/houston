@@ -637,7 +637,7 @@ const locations = [
         description: ['Kool Aid']
     },
     {
-        name: "Timmy Chan's - I-45",
+        name: "Timmy Chan's - Acres Home",
         category: 'food',
         subcategory: 'chicken',
         coordinates: [29.864652305790308, -95.40565798665216],
@@ -655,6 +655,16 @@ const locations = [
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
         description: ['Kool Aid']
+    },
+    {
+        name: "Spanky's ",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.694876795984932, -95.29955061154651],
+        img: '',
+        website: 'https://www.spankyspizza.net/',
+        blurb: 'This family-owned pizza parlor using from-scratch dough also offers burgers, pasta & a full bar.',
+        description: ['oven baked wings', 'large pizzas', 'full menu']
     },
     // Bars
     {
