@@ -616,6 +616,46 @@ const locations = [
         blurb: 'Basic, counter-serve pizzeria chain popular for its flavored crusts, such as sesame & garlic herb.',
         description: ['Flavored crusts', 'Cajun Bread', 'Onion Crust']
     },
+    {
+        name: 'House of Pies',
+        category: 'food',
+        subcategory: 'dessert',
+        coordinates: [29.737118864189952, -95.41921689703939],
+        img: '',
+        website: 'https://houseofpies.com/',
+        blurb: 'Classic 24-hour American diner serving burgers, salads, sandwiches, breakfast fare & homemade pies.',
+        description: ['Lemon Meringue', 'Key Lime', 'Coconut Meringue']
+    },
+    {
+        name: "Timmy Chan's - Greenspoint",
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.946170791694453, -95.46510803077007],
+        img: '',
+        website: 'https://www.timmychanshouston.com/',
+        blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
+        description: ['Kool Aid']
+    },
+    {
+        name: "Timmy Chan's - I-45",
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.864652305790308, -95.40565798665216],
+        img: '',
+        website: 'https://www.timmychanshouston.com/',
+        blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
+        description: ['Kool Aid']
+    },
+    {
+        name: "Timmy Chan's - Antoine Dr",
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.844238187755664, -95.47286949870724],
+        img: '',
+        website: 'https://www.timmychanshouston.com/',
+        blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
+        description: ['Kool Aid']
+    },
     // Bars
     {
         name: 'Ador',
@@ -645,7 +685,7 @@ const locations = [
         description: ['neon lit', 'hookah', 'dj']
     },
     {
-        name: 'Heights Bier Garden',
+        name: 'Heights Bier Garten',
         category: 'bar',
         coordinates: [29.797314935102868, -95.41030956614523],
         img: '',
@@ -679,6 +719,69 @@ const locations = [
         website: 'https://www.google.com/search?q=warrens+houston&oq=warrens+houston&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDQzNDJqMWo0qAIAsAIB&sourceid=chrome&ie=UTF-8',
         blurb: 'Drinks are served at this easygoing dive bar, which has a jukebox.',
         description: ['historic bar', 'friendly staff', 'tavern feel']
+    },
+    {
+        name: 'Cidercade',
+        category: 'bar',
+        coordinates: [29.7574399740177, -95.34675785219966],
+        img: '',
+        website: 'https://cidercade.com/houston/',
+        blurb: 'Huge arcade bar with a mix of classic & modern games, plus house-made hard ciders',
+        description: ['free parking', 'unlimited arcade', 'cider flights']
+    },
+    {
+        name: 'Houston Watch Company',
+        category: 'bar',
+        coordinates: [29.763506399996455, -95.36059241953069],
+        img: '',
+        website: 'https://www.houstonwatchcompany.com/',
+        blurb: 'This former watch shop is now a quaint, 2-level cocktail bar in the lobby of the Bayou Lofts.',
+        description: ['historic', 'quiet seating', 'second floor']
+    },
+    {
+        name: 'Behind Closed Doors',
+        category: 'bar',
+        coordinates: [29.761971390805527, -95.3611870578859],
+        img: '',
+        website: 'https://bcd-htx.com/',
+        blurb: 'Trendy bar featuring a hidden speakeasy with music and dancing.',
+        description: ['secret spaces']
+    },
+    {
+        name: 'Cherry',
+        category: 'bar',
+        coordinates: [29.762068172596784, -95.3611910729658],
+        img: '',
+        website: 'https://cherryhtx.com',
+        blurb: 'Trendy nightclub with a packed dance floor featuring retro music and cocktails.',
+        description: []
+    },
+    {
+        name: 'Notsuoh',
+        category: 'bar',
+        coordinates: [29.761835136484965, -95.3612382178252],
+        img: '',
+        website: 'https://notsuoh.com',
+        blurb: 'Quirky watering hole ofering poetry readings, live music & performing artists with a funky vibe.',
+        description: []
+    },
+    {
+        name: 'Ladybirds',
+        category: 'bar',
+        coordinates: [29.77476119202706, -95.41842694823647],
+        img: '',
+        website: 'https://ladybirdsbar.com',
+        blurb: 'Family-owned watering hole offering craft brews & specialty cocktails, plus a spacious patio.',
+        description: []
+    },
+    {
+        name: 'Sugar Room',
+        category: 'bar',
+        coordinates: [29.770604569930263, -95.41329371711167],
+        img: '',
+        website: '',
+        blurb: 'An Upscale Speakeasy An innuendo to Prohibition days past, Sugar Room is a hidden speakeasy-inspired bar located in the heart of Houston’s bustling nightlife scene. Enjoy hand-crafted cocktails cocktails in our upscale lounge, or move the party to our outdoor patio with 2,000 square feet of space for socializing.',
+        description: []
     },
     // Bookstores
     {
