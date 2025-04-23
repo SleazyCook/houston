@@ -943,7 +943,7 @@ const locations = [
     {
         name: 'House of Blues - Houston',
         category: 'music',
-        coordinates: [29.754012620241973, -95.36330400949777],
+        coordinates: [29.75383522265906, -95.36392444303341],
         img: 'https://i.imgur.com/k5dSSlt.png',
         website: 'https://www.livenation.com/venue/KovZpZAE6k1A/house-of-blues-houston-events?awtrc=true&c=SEM_LNVenuesAutomation_ggl_18519938348_142072537436_house%20of%20blues&GCID=0&gad_source=1&gbraid=0AAAAAC1KtUphGOVv8Rofb-wxM6BpSibhT&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVoSlXtVubE-SSFspbLCjloWham5bis77jY47pOXUM-yH7Rv6b9LRIEaAhEiEALw_wcB&gclsrc=aw.ds',
         blurb: "Rock- & blues-themed restaurant & bar serving Southern-inspired dishes, plus live music.",
@@ -967,8 +967,170 @@ const locations = [
         blurb: 'Performances by popular musical acts staged in an amphitheater with a lawn, plus 2 indoor spaces.',
         description: ['upstairs room', 'downstairs room', 'lawn shows']
     },
-
     // Parks
+    {
+        name: 'Hermann Park',
+        category: 'park',
+        coordinates: [29.717301075222434, -95.3909421495944],
+        img: '',
+        website: '',
+        blurb: 'Expansive park featuring a golf course, Japanese garden, a natrual science museum & a kiddie train.',
+        description: ['houston zoo', 'proximity to museums', 'japanese garden']
+    },
+    {
+        name: 'McGovern Centennial Gardens',
+        category: 'park',
+        coordinates: [29.720893009262795, -95.38748097934554],
+        img: '',
+        website: '',
+        blurb: 'An 8-acre site featuring themed gardens, a sculpture promenade & a 30-foot mount with city views.',
+        description: []
+    },
+    {
+        name: 'Japanese Garden',
+        category: 'park',
+        coordinates: [29.719023089618833, -95.3922959042466],
+        img: '',
+        website: '',
+        blurb: 'Tranquil Japanese garden in Hermann Park featuring plants, ponds & rocks, plus a teahouse.',
+        description: []
+    },
+    {
+        name: 'Gerald D. Hines Waterfall Park',
+        category: 'park',
+        coordinates: [29.736395850451597, -95.46129776187128],
+        img: '',
+        website: '',
+        blurb: 'Park whose centerpiece is a 64-ft.-tall fountain circulating 11,000 gallons per minute.',
+        description: []        
+    },
+    {
+        name: 'West Lake Park',
+        category: 'park',
+        coordinates: [29.921505793676292, -95.20916263040671],
+        img: '',
+        website: '',
+        blurb: 'Unpaved, tree-lined trail with a pond for wildlife viewing and a solid walking bridge.',
+        description: ['great for walking', 'beatiful lake', 'bridges over lake']
+    },
+    {
+        name: 'Jesse Jones',
+        category: 'park',
+        coordinates: [30.026748418753336, -95.29677063305253],
+        img: '',
+        website: '',
+        blurb: 'This large tract features play & fishing areas, an educational facility & a network of trails.',
+        description: []
+    },
+    {
+        name: 'Eleanor Tinsley Park',
+        category: 'park',
+        coordinates: [29.761374885269195, -95.37885567530404],
+        img: '',
+        website: '',
+        blurb: 'Park popular for its running trails, lush green hills & playing host to multiple annual festivals.',
+        description: ['connects to downtown', 'beach volleyball', 'view of skyline']
+    },
+    {
+        name: 'Buffalou Bayou Park Cistern',
+        category: 'park',
+        coordinates: [29.762086622873017, -95.37651349958786],
+        img: '',
+        website: '',
+        blurb: 'This decommissioned underground reservoir was built in 1926 & now features art installations.',
+        description: ''
+    },
+    {
+        name: 'Buffalo Bayou Park',
+        category: 'park',
+        coordinates: [29.761675749675707, -95.38298771065615],
+        img: '',
+        website: '',
+        blurb: 'Winding 160-acre green space featuring views of the Houston skyline plus a fountain & skate park.',
+        description: ['Jane Gregory Garden', 'Tolerance (Plensa) Statues', 'Spindle Sculpture']
+    },
+    {
+        name: 'Houston Arboretum & Nature Center',
+        category: 'park',
+        coordinates: [29.764528595602318, -95.45235240872859],
+        img: '',
+        website: '',
+        blurb: '155-acre urban green space offering nature trails, exhibits, workshops & events in various habitats.',
+        description: ['beatiful trails', '', '']
+    },
+    {
+        name: 'Memorial Park Mountain Biking Trails',
+        category: 'park',
+        coordinates: [29.76200492007245, -95.44252415394965],
+        img: '',
+        website: '',
+        blurb: '',
+        description: []
+    },
+    {
+        name: 'Clay Family Eastern Glades',
+        category: 'park',
+        coordinates: [29.76671697995398, -95.43031888718707],
+        img: '',
+        website: '',
+        blurb: '',
+        description: []
+    },
+    {
+        name: 'Memorial Park',
+        category: 'park',
+        coordinates: [29.767614728267546, -95.43987406688974],
+        img: '',
+        website: '',
+        blurb: 'Expansive city park with lush natural features, popular running trail, golf course & lots of shade.',
+        description: []
+    },
+    {
+        name: 'Keith-Wiess Park',
+        category: 'park',
+        coordinates: [29.89209916399693, -95.34494706745201],
+        img: '',
+        website: '',
+        blurb: 'This expansive park features ball fields & tennis courts, plus trails & picnic areas.',
+        description: ['walking trails', 'natural ponds', '1-2 hour walk']
+    },
+    {
+        name: 'George Bush Park Boardwalk',
+        category: 'park',
+        coordinates: [29.737655260492083, -95.70020706442541],
+        img: '',
+        website: '',
+        blurb: '',
+        description: ['long walk to boardwalk', 'large alligators', 'walking trais']
+    },
+    {
+        name: 'Smither Park',
+        category: 'park',
+        coordinates: [29.71685018952467, -95.32464507168103],
+        img: '',
+        website: 'https://orangeshow.com',
+        blurb: 'Urban green space with a quirky collection of large mosaic sculptures created by local artists.',
+        description: ['artistic', 'local culture', 'quirky']
+    },
+    {
+        name: 'Clear Lake Park',
+        category: 'park',
+        coordinates: [29.564997477711, -95.0675657604324],
+        img: '',
+        website: '',
+        blurb: 'Park with archaeological features on 59 acres with fishing pier, boat launch, playground & trails.',
+        description: ['close to Kemah', 'relaxing', 'great lake view']
+    },
+    {
+        name: 'Sheldon Lake State Park',
+        category: 'park',
+        coordinates: [29.860423185296234, -95.16076925862397],
+        img: '',
+        website: 'https://tpwd.texas.gov',
+        blurb: 'State park with wetlands, lake & ponds for fishing & wildlife watching, plus educational exhibits.',
+        description: ['observation tower', 'wetlands walking trails', 'lush ponds']
+    }
+
 
     // Photo Opp
 

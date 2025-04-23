@@ -52,7 +52,7 @@ const Activities = () => {
   category.music = sortedMusic;
 
   // Parks
-  const parks = locations.filter(place => place.category === 'parks');
+  const parks = locations.filter(place => place.category === 'park');
   const sortedParks = parks.sort((a, b) => {
     return a.name.localeCompare(b.name);
   });

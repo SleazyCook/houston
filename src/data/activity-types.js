@@ -24,6 +24,10 @@ const buttonData = [
         value: 'music'
     },
     {
+        label: 'Parks',
+        value: 'parks'
+    },
+    {
         label: 'Photo Opp',
         value: 'photo'
     },

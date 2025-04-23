@@ -63,6 +63,7 @@ const Leaflet = () => {
       const market = L.layerGroup();
       const movies = L.layerGroup();
       const music = L.layerGroup();
+      const parks = L.layerGroup();
 
       // Start locations loop
       locations.forEach(location => {
@@ -81,6 +82,8 @@ const Leaflet = () => {
           mapIconUrl = 'https://i.imgur.com/DgxjJXt.png';
         } else if (location.category == 'music') {
           mapIconUrl = 'https://i.imgur.com/2SrhTIj.png';
+        } else if (location.category == 'park') {
+          mapIconUrl = 'https://cdn-icons-png.flaticon.com/512/6089/6089406.png';
         }
 
         const customIcon = L.icon({
@@ -107,6 +110,8 @@ const Leaflet = () => {
           movies.addLayer(marker);
         } else if (location.category == "music") {
           music.addLayer(marker);
+        } else if (location.category == "park") {
+          music.addLayer(marker);
         }
 
         // console.log(Array.isArray(Object.values(location.description)))
@@ -129,12 +134,21 @@ const Leaflet = () => {
       // End locations loop
 
       // Layers 4 of 4: Add Controls for Each Layer
+      restaurants.addTo(map);
+      bars.addTo(map);
+      books.addTo(map);
+      market.addTo(map);
+      movies.addTo(map);
+      music.addTo(map);
+      parks.addTo(map);
+
       layerControl.addOverlay(restaurants, "Restaurants");
       layerControl.addOverlay(bars, "Bars & Lounges");
       layerControl.addOverlay(books, "Bookstores");
       layerControl.addOverlay(market, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
+      layerControl.addOverlay(parks, "Parks")
     }
   
   }, []); 
