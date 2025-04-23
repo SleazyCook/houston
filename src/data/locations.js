@@ -1129,12 +1129,57 @@ const locations = [
         website: 'https://tpwd.texas.gov',
         blurb: 'State park with wetlands, lake & ponds for fishing & wildlife watching, plus educational exhibits.',
         description: ['observation tower', 'wetlands walking trails', 'lush ponds']
+    },
+    {
+        name: 'Sam Houston Park',
+        category: 'park',
+        coordinates: [29.760128161149296, -95.37212300100511],
+        img: '',
+        website: 'https://www.houstontx.gov/abouthouston/samhoustonpark.html',
+        blurb: 'Historically focused park featuring guided tours of old structures dating back to the 1800s.',
+        description: ['downtown', 'frequent events', 'access to Buffalo Bayou']
+    },
+    {
+        name: 'Market Square Park',
+        category: 'park',
+        coordinates: [29.76261811690755, -95.36235930384555],
+        img: '',
+        website: '',
+        blurb: 'Historic public space with outdoor movies, walkways, a dog run & an open-air Greek restaurant.',
+        description: ['movies in the park', 'proximity to bars', 'proximity to restaurants']
+    },
+    {
+        name: 'Discovery Green',
+        category: 'park',
+        coordinates: [29.753051375319636, -95.35957755310606],
+        img: '',
+        website: 'https://www.discoverygreen.com/',
+        blurb: 'Park with live music, public art, restaurants, playground, pong for kayaking & exercise classes.',
+        description: []
+    },
+    {
+        name: 'Guadalupe Plaza Park',
+        category: 'park',
+        coordinates: [29.75992389270082, -95.34570820433815],
+        img: '',
+        website: 'https://www.eastenddistrict.com/capital-projects/guadalupe-plaza-park-nears-completion/',
+        blurb: 'Public park known for hosting events, including wine festivals.',
+        description: []
+    },
+    {
+        name: 'Woodland Park Bird Sanctuary',
+        category: 'park',
+        coordinates: [29.781623738438856, -95.37042159415712],
+        img: '',
+        website: '',
+        blurb: '',
+        description:[]
     }
 
 
     // Photo Opp
 
-    // Unique (nrg, toyota)
+    // Attractions (nrg, toyota, kemah, shell, houston zoo)
 
     // bookstores
 
