@@ -60,7 +60,7 @@ const Leaflet = () => {
       const restaurants = L.layerGroup();
       const bars = L.layerGroup();
       const books = L.layerGroup();
-      const market = L.layerGroup();
+      const markets = L.layerGroup();
       const movies = L.layerGroup();
       const music = L.layerGroup();
       const parks = L.layerGroup();
@@ -105,7 +105,7 @@ const Leaflet = () => {
         } else if (location.category == "books") {
           books.addLayer(marker);
         } else if (location.category == "market") {
-          movies.addLayer(marker);
+          markets.addLayer(marker);
         } else if (location.category == "movies") {
           movies.addLayer(marker);
         } else if (location.category == "music") {
@@ -137,7 +137,7 @@ const Leaflet = () => {
       restaurants.addTo(map);
       bars.addTo(map);
       books.addTo(map);
-      market.addTo(map);
+      markets.addTo(map);
       movies.addTo(map);
       music.addTo(map);
       parks.addTo(map);
@@ -145,7 +145,7 @@ const Leaflet = () => {
       layerControl.addOverlay(restaurants, "Restaurants");
       layerControl.addOverlay(bars, "Bars & Lounges");
       layerControl.addOverlay(books, "Bookstores");
-      layerControl.addOverlay(market, "Markets");
+      layerControl.addOverlay(markets, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
       layerControl.addOverlay(parks, "Parks")
