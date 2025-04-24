@@ -393,7 +393,7 @@ const locations = [
     {
         name: 'Fogo de Chão',
         category: 'food',
-        subcategory: 'steak',
+        subcategory: 'upscale',
         coordinates: [29.738151249900074, -95.51179108918673],
         img: '',
         website: '',
@@ -403,7 +403,7 @@ const locations = [
     {
         name: 'Chama Gaúcha',
         category: 'food',
-        subcategory: 'steak',
+        subcategory: 'upscale',
         coordinates: [29.737575389908308, -95.48292126437322],
         img: '',
         website: '',
@@ -599,7 +599,7 @@ const locations = [
     {
         name: "Morton's The Steakhouse - Downtown",
         category: 'food',
-        subcategory: 'steak',
+        subcategory: 'upscale',
         coordinates: [29.756924901573548, -95.36427486690646],
         img: '',
         website: 'https://www.mortons.com/location/mortons-the-steakhouse-houston-tx-downtown/?utm_source=Google&utm_medium=CPC&utm_campaign=MTHD-1163_TX-Houston-Downtown_Branded&utm_content=ch_google_adwords|trg_kwd-326515902124|crt_677467078720|kwmt_e|ps_|srct_g|trgt_|src_|devt_c|devm_|cid_894703348|lcl_9192926|fdi_&utm_term=morton%27s%20the%20steakhouse&gad_source=6&gbraid=0AAAAADpS1nmRvEaXQByQvZIHxdyzxEnHX&gclid=Cj0KCQjw2ZfABhDBARIsAHFTxGx0rTP-55xU5jOvCJ2ccmQy8kT6o6_H6koN6yNN-AH9B6SxNHBP7K0aAuUmEALw_wcB',
@@ -609,7 +609,7 @@ const locations = [
     {
         name: "Morton's The Steakhouse - Galleria",
         category: 'food',
-        subcategory: 'steak',
+        subcategory: 'upscale',
         coordinates: [29.742058565423644, -95.46245468028471],
         img: '',
         website: 'https://www.mortons.com/location/mortons-the-steakhouse-houston-tx-galleria/#menus',
@@ -675,6 +675,24 @@ const locations = [
         website: 'https://www.spankyspizza.net/',
         blurb: 'This family-owned pizza parlor using from-scratch dough also offers burgers, pasta & a full bar.',
         description: ['oven baked wings', 'large pizzas', 'full menu']
+    },
+    {
+        name: 'Joey Uptown',
+        category: 'food',
+        subcategory: 'upscale',
+        coordinates: [29.74019123438663, -95.46277629362307],
+        website: 'https://joeyrestaurants.com/location/joey-uptown',
+        blurb: 'Relaxed, contemporary dining spot with a broad menu featuring international & regional dishes.',
+        description: ['fine dining', 'full bar', 'quality steak']
+    },
+    {
+        name: 'Thirteen',
+        category: 'food',
+        subcategory: 'upscale',
+        coordinates: [29.752621777966795, -95.37569459231442],
+        website: 'https://13htx.com',
+        blurb: 'Upscale restaurant offering New American cuisine & a raw bar, plus a hookah and cocktail lounge.',
+        description: ['hookah', 'full bar', 'midtown']
     },
     // Bars
     {
@@ -1093,6 +1111,69 @@ const locations = [
         website: 'https://whiteoakmusichall.com/',
         blurb: 'Performances by popular musical acts staged in an amphitheater with a lawn, plus 2 indoor spaces.',
         description: ['upstairs room', 'downstairs room', 'lawn shows']
+    },
+    {
+        name: 'Axelrad',
+        category: 'music',
+        coordinates: [29.734989085866363, -95.37481472963191],
+        img: '',
+        website: 'https://www.axelradhouston.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb',
+        blurb: 'Craft beers galore offered in a laid-back outdoor setup with hammocks, food trucks & regular events.',
+        description: ['concerts', 'hammocks', 'food trucks']
+    },
+    {
+        name: '713 Music Hall',
+        category: 'music',
+        coordinates: [29.765904133313427, -95.36386788724305],
+        img: '',
+        website: 'https://www.713musichall.com/?utm_source=GMBlisting&utm_medium=organic',
+        blurb: 'Venue in a former post office with a restaurant and bar, hosting a variety of artists.',
+        description: ['paid parking', 'attached to POST Food Hall', 'medium to large concerts']
+    },
+    {
+        name: 'Heights Theater',
+        category: 'music',
+        coordinates: [29.80306916916203, -95.40285985023765],
+        img: '',
+        website: 'https://theheightstheater.com',
+        blurb: 'Restored early-1900s movie theater available for private events, with marquee & film projector.',
+        description: ['smaller shows', 'walkable neighborhood', 'old movie theater']
+    },
+    {
+        name: 'The Bronze Peacock',
+        category: 'music',
+        coordinates: [29.75390437423625, -95.36408936405562],
+        img: '',
+        website: 'https://locations.houseofblues.com/restaurant-and-bar/tx/houston/1204-caroline-st.',
+        blurb: 'Smaller venue attached to House of Blues - Houston',
+        description: ['house of blues', 'foundation room', 'cheap tickets']
+    },
+    {
+        name: 'The Foundation Room',
+        category: 'music',
+        coordinates: [29.753973571962955, -95.36402390495192],
+        img: '',
+        website: 'https://locations.houseofblues.com/foundation-room/tx/houston/1204-caroline-st.',
+        blurb: 'Upscale lounge featuring a New American restaurant, plus craft cocktails, and live music.',
+        description: ['vip room', 'house of blues', 'bronze peacock']
+    },
+    {
+        name: "Rockefeller's",
+        category: 'music',
+        coordinates: [29.769681526351384, -95.39680068906254],
+        img: '',
+        website: 'http://www.rockefellershouston.com',
+        blurb: 'Intimate venue with a bar hosting live music performances, including blues and jazz, and poetry events.',
+        description: ['intimate', 'less frequent concerts', 'private rentals']
+    },
+    {
+        name: 'Eldorado Ballroom',
+        category: 'music',
+        coordinates: [29.734460962203446, -95.36542150051352],
+        img: '',
+        website: 'https://www.theeldoradoballroom.com',
+        blurb: 'Eldorado Ballroom is a former nightclub in the Third Ward, Houston, on the other side of the road from Emancipation Park.',
+        description: ['intimate', 'private events', 'historic']
     },
     // Parks
     {

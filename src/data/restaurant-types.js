@@ -47,10 +47,11 @@ const buttonData = [
       label: 'Seafood',
       value: 'seafood'
     },
-    {
-      label: 'Steakhouses',
-      value: 'steak'
-    },
+    // {
+    //   label: 'Steakhouses',
+    //   value: 'steak'
+    // },
+
     {
       label: 'Sushi',
       value: 'sushi'
@@ -58,6 +59,10 @@ const buttonData = [
     {
       label: 'Tacos',
       value: 'tacos'
+    },
+    {
+      label: 'Upscale',
+      value: 'upscale'
     },
     {
       label: 'Food Halls',

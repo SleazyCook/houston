@@ -100,6 +100,12 @@ const Restaurants = () => {
     return a.name.localeCompare(b.name);
   });
   category.tacos = sortedTacos;
+    // Tacos
+  const upscale = locations.filter(place => place.subcategory === 'upscale');
+  const sortedUpscale = upscale.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+  category.upscale = sortedUpscale;
   // Food Halls
   const halls = locations.filter(place => place.subcategory === 'hall');
   const sortedHalls = halls.sort((a, b) => {
