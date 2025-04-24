@@ -1342,7 +1342,7 @@ const locations = [
 
     // Photo Opp
 
-    // Attractions (nrg, toyota, kemah, shell, houston zoo)
+    // Attractions (nrg, toyota, kemah, shell, houston zoo, punchline)
 
 ]
 
