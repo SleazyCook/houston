@@ -129,6 +129,16 @@ const locations = [
         description: ['pizza', 'full bar', 'outdoor seating']
     },
     {
+        name: "Pepperoni's Pizza - Montrose",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.745293850102062, -95.39171676019866],
+        img: '',
+        website: 'https://www.pepperonis.net',
+        blurb: 'Casual pizzeria chain serving wings & New York-style pies, including vegan & gluten-free options.',
+        description: ['open late', 'pizza by the slice', 'drive through']
+    },
+    {
         name: "Nielson's Delicatessen",
         category: 'food',
         subcategory: 'sandwiches',
@@ -793,6 +803,51 @@ const locations = [
         blurb: 'An Upscale Speakeasy An innuendo to Prohibition days past, Sugar Room is a hidden speakeasy-inspired bar located in the heart of Houston’s bustling nightlife scene. Enjoy hand-crafted cocktails cocktails in our upscale lounge, or move the party to our outdoor patio with 2,000 square feet of space for socializing.',
         description: []
     },
+    {
+        name: 'Pitch 25',
+        category: 'bar',
+        coordinates: [29.751557482444884, -95.35468225434623],
+        img: '',
+        website: 'https://www.facebook.com/pitch25beerpark/menu/',
+        blurb: 'Pub grub & nearly 100 draft beers in a cool, cavernous warehouse with games & lots of outdoor seats.',
+        description: ['sports bar', 'dodgeball', 'axe throwing']
+    },
+    {
+        name: 'Tejas Brewery',
+        category: 'bar',
+        coordinates: [29.772552031946326, -95.37956184665045],
+        img: '',
+        website: 'https://tejasbeer.com',
+        blurb: 'Tejas Brewery is located in the heart of vibrant Sawyer Yards, offering three stories of exceptional food, handcrafted beer, creative cocktails, artisan coffee, and versatile event spaces—all with a stunning view of downtown Houston.',
+        description: ['view of skyline', 'outdoor seating', 'full menu']
+    },
+    {
+        name: 'Postino - Heights',
+        category: 'bar',
+        coordinates: [29.782984392258367, -95.39855598565903],
+        img: '',
+        website: 'https://www.postinowinecafe.com/locations/postino-heights',
+        blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
+        description: ['classy', 'wine bar', 'full menu']
+    },
+    {
+        name: 'Postino - Montrose',
+        category: 'bar',
+        coordinates: [29.746522189697743, -95.39033692975383],
+        img: '',
+        website: 'https://www.postinowinecafe.com/locations/postino-montrose',
+        blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
+        description: ['classy', 'wine bar', 'full menu']
+    },
+    {
+        name: 'Postino - Uptown Park',
+        category: 'bar',
+        coordinates: [29.75432446959847, -95.45728990091776],
+        img: '',
+        website: 'https://www.postinowinecafe.com/locations/postino-uptown-park',
+        blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
+        description: ['classy', 'wine bar', 'full menu']    
+    },
     // Bookstores
     {
         name: "Becker's Books",
@@ -830,6 +885,15 @@ const locations = [
         blurb: 'Organized store offering used and collectible books, plus many titles on Texas history.',
         description: []
     },
+    {
+        name: 'Kinokuniya',
+        category: 'books',
+        coordinates: [29.7889472043791, -95.77308058127569],
+        img: '',
+        website: 'https://usa.kinokuniya.com/stores-kinokuniya-katy',
+        blurb: 'Japanese-based retailer known for its collection of Asian books & magazines.',
+        description: ['stationery', 'fountain pens', 'book nooks'],
+    },
     // Markets
     {
         name: 'H Mart - Katy',
@@ -839,6 +903,69 @@ const locations = [
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
         description: []
+    },
+    {
+        name: 'Mi Tienda',
+        category: 'market',
+        coordinates: [29.869779060715402, -95.33290961508173],
+        img: '',
+        website: 'https://mitiendatx.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb_stores&utm_content=mi_tienda_648',
+        blurb: 'Sizable Latin grocery store with a tortilleria & a bakery, plus ready-made food court eats.',
+        description: ['Mexican Market', 'Food Court', 'Fresh Produce']
+    },
+    {
+        name: "Trader Joe's",
+        category: 'market',
+        coordinates: [29.73920558665379, -95.41112752066111],
+        img: '',
+        website: 'https://locations.traderjoes.com/tx/houston/426/?utm_source=gmb&utm_medium=organic&utm_campaign=local',
+        blurb: 'Grocery chain with a variety of signature items, plus produce, dairy & more.',
+        description: ['Ready to eat meals', 'wine & beer', 'seasonal foods']
+    },
+    {
+        name: 'Phoenicia Specialty Foods - Downtown',
+        category: 'market',
+        coordinates: [29.75441879503811, -95.36160806283416],
+        img: '',
+        website: 'https://phoeniciafoods.com/locations/downtown-market/',
+        blurb: 'Mediterranean market with deli & prepared foods, plus cheeses, baked goods, meats, wine & beer.',
+        description: ['mediterranean', 'ready to eat snacks', 'specialty foods']
+    },
+    {
+        name: 'Phoenicia Specialty Foods - Westheimer',
+        category: 'market',
+        coordinates: [29.734632883016253, -95.59485050486693],
+        img: '',
+        website: 'https://phoeniciafoods.com/locations/westheimer-market/',
+        blurb: 'Mediterranean market with deli & prepared foods, plus cheeses, baked goods, meats, wine & beer.',
+        description: ['mediterranean', 'ready to eat snacks', 'specialty foods']
+    },
+    {
+        name: '99 Ranch Market',
+        category: 'market',
+        coordinates: [29.785449825593115, -95.5229681661174],
+        img: '',
+        website: 'https://www.99ranch.com/stores/search',
+        blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
+        description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
+    },
+    {
+        name: '99 Ranch Market - Westheimer',
+        category: 'market',
+        coordinates: [29.737573908010656, -95.59568067398935],
+        img: '',
+        website: 'https://www.99ranch.com/stores/search',
+        blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
+        description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
+    },
+    {
+        name: '99 Ranch Market - Katy',
+        category: 'market',
+        coordinates: [29.775705653355033, -95.7501533006404],
+        img: '',
+        website: 'https://www.99ranch.com/stores/search',
+        blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
+        description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
     },
     // Movie Theaters
     {
@@ -1174,16 +1301,49 @@ const locations = [
         website: '',
         blurb: '',
         description:[]
-    }
+    },
+    {
+        name: 'Levy Park',
+        category: 'park',
+        coordinates: [29.732625704956543, -95.42328805641604],
+        img: '',
+        website: 'https://www.levyparkhouston.org',
+        blurb: 'This classic green space features a asoftball field & playground, plus a community garden & dog park.',
+        description: ['food trucks', 'short walking trails', 'artistic']
+    },
+    {
+        name: 'Bagby Park',
+        category: 'park',
+        coordinates: [29.75183245570911, -95.37602483396185],
+        img: '',
+        website: '',
+        blurb: 'Combat urban green space featuring a historic fountain, plus a trail, chess tables & public art.',
+        description: ['small park', 'la calle tacos', 'large fountain']
+    },
+    {
+        name: 'Midtown Park',
+        category: 'park',
+        coordinates: [29.743629216217624, -95.37615072468216],
+        img: '',
+        website: 'https://midtownhouston.com/project/midtown-park/',
+        blurb: 'Urban space & events site with a dog park, a playground, sports courts & a wetland trail.',
+        description: ['ponds', 'paved walking trails', 'artistic']
+    },
+    {
+        name: 'Emancipation Park',
+        category: 'park',
+        coordinates: [29.73568063718464, -95.36524382995843],
+        img: '',
+        website: 'https://epconservancy.org',
+        blurb: 'Historic park dedicated to the end of slavery offers a pool, athletic fields & a large playground.',
+        description: ['community center', 'pool', 'memorials']
+    },
 
 
     // Photo Opp
 
     // Attractions (nrg, toyota, kemah, shell, houston zoo)
 
-    // bookstores
-
-    // markets
 ]
 
 export default locations;

@@ -111,7 +111,7 @@ const Leaflet = () => {
         } else if (location.category == "music") {
           music.addLayer(marker);
         } else if (location.category == "park") {
-          music.addLayer(marker);
+          parks.addLayer(marker);
         }
 
         // console.log(Array.isArray(Object.values(location.description)))
