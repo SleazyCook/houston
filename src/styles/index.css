@@ -125,3 +125,18 @@
     border-radius: 50px;
     margin-bottom: 12px;
 }
+
+@media (max-width: 800px) {
+    .location {
+        flex-direction: column;
+        padding-bottom: .5rem;
+    }
+
+    .location:not(:first-of-type) {
+        margin-top: 2rem;
+    }
+
+    .location__img-box {
+        min-width: 100%;
+    }
+}
