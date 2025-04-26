@@ -144,7 +144,7 @@ const Leaflet = () => {
 
       layerControl.addOverlay(restaurants, "Restaurants");
       layerControl.addOverlay(bars, "Bars & Lounges");
-      layerControl.addOverlay(books, "Bookstores");
+      layerControl.addOverlay(books, "Books");
       layerControl.addOverlay(markets, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");

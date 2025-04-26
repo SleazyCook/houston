@@ -8,7 +8,7 @@ const buttonData = [
         value: 'bars'
     },
     {
-        label: 'Bookstores',
+        label: 'Books',
         value: 'books'
     },
     {

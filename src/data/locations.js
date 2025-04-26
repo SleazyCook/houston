@@ -85,7 +85,7 @@ const locations = [
         name: 'The Rice Box - Heights',
         category: 'food',
         subcategory: 'ricebowl',
-        coordinates: [29.803866550751028, -95.40101375817602],
+        coordinates: [29.80367761668916, -95.40176409739686],
         img: 'https://i.imgur.com/fBLTpv2.png',
         website: 'https://i.imgur.com/fBLTpv2.png',
         blurb: "Hip outpost offering reinvented Chinese classics such as kung pao chicken and General Tso's chicken.",
@@ -232,7 +232,7 @@ const locations = [
         name: "Frenchy's",
         category: 'food',
         subcategory: 'chicken',
-        coordinates: [29.72911471639174, -95.33228021691421],
+        coordinates: [29.723491931484464, -95.35128034035448],
         img: '',
         website: '',
         description: ['Houston Favorite', 'Best Fried Chicken', 'Jalapenos']
@@ -694,6 +694,51 @@ const locations = [
         blurb: 'Upscale restaurant offering New American cuisine & a raw bar, plus a hookah and cocktail lounge.',
         description: ['hookah', 'full bar', 'midtown']
     },
+    {
+        name: 'Seafood Man Shack',
+        category: 'food',
+        subcategory: 'seafood',
+        coordinates: [29.81584956949366, -95.32898273227359],
+        website: 'https://www.instagram.com/theseafoodmanshack/',
+        blurb: 'Laid-back seafood shack offering quick bites, including crawfish, shrimp, and gumbo.',
+        description: ['seafood boil', 'fried seafood', 'burgers']
+    },
+    {
+        name: 'Boil House',
+        category: 'food',
+        subcategory: 'seafood',
+        coordinates: [29.790529597726433, -95.39167411678872],
+        website: 'https://www.theboilhouse.com',
+        blurb: 'Open-air counter-serve featuring Cajun crawfish & shrimp boils with corn, plus outside tables.',
+        description: ['high quality', 'worth the price', 'king cake']
+    },
+    {
+        name: 'Cantina Barba',
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.790805407102635, -95.37342269156582],
+        website: 'https://www.cantinabarba.com',
+        blurb: 'Unfussy joint with late-night hours crafting house-smoked meat tacos, coffee, beer & mezcal.',
+        description: ['open late', 'great tacos', 'quality cocktails']
+    },
+    {
+        name: "Culver's",
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.98801261114251, -95.1927731083066],
+        website: 'https://www.culvers.com/restaurants/atascocita?utm_source=Google&utm_medium=Maps&utm_campaign=Google%20Places',
+        blurb: 'Fast-food chain specializing in frozen custard & signature burgers made with Midwest beef & dairy.',
+        description:['High quality fast food', 'ice cream', 'root beer']
+    },
+    {
+        name: "Papa John's Pizza",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [30.00041303571167, -95.16024942826793],
+        website: 'https://locations.papajohns.com/united-states/tx/77346/atascosita-%28humble%29/7591-fm-1960-road-east?utm_source=yext-listings&utm_medium=referral&y_source=1_MTA1OTI1NDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D',
+        blurb: 'Pizza take-out & delivery chain offering classic & specialty pizzas, plus wings, sides & desserts.',
+        description: ['wonderful GM', 'better ingredients', 'better pizza']
+    },
     // Bars
     {
         name: 'Ador',
@@ -866,7 +911,16 @@ const locations = [
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
         description: ['classy', 'wine bar', 'full menu']    
     },
-    // Bookstores
+    {
+        name: "Neighbors",
+        category: 'bar',
+        coordinates: [29.748317085532182, -95.34099179797487],
+        img: '',
+        website: 'https://www.neighborspizzabar.com',
+        blurb: 'Neighborhood bar offering beer, cocktails, and wine, plus live entertainment and games.',
+        description: ['live music', 'card games', 'outdoor seating']
+    },
+    // Bookstores & Libraries
     {
         name: "Becker's Books",
         category: 'books',
@@ -911,6 +965,24 @@ const locations = [
         website: 'https://usa.kinokuniya.com/stores-kinokuniya-katy',
         blurb: 'Japanese-based retailer known for its collection of Asian books & magazines.',
         description: ['stationery', 'fountain pens', 'book nooks'],
+    },
+    {
+        name: 'Lanier Theological Library',
+        category: 'books',
+        coordinates: [29.977528244026878, -95.54897270621879],
+        img: '',
+        website: 'https://lanierlibraryandlearningcenter.org',
+        blurb: 'Lanier Theological Library is a 17,000 sq. ft non-circulating research library located in northwest Houston, Texas. It was built by Mark Lanier, who has taught Sunday school at Champion Forest Baptist Church for more than 20 years, and is part of his 35-acre estate.',
+        description: ['photogenic', '']
+    },
+    {
+        name: 'Houston Public Library',
+        category: 'books',
+        coordinates: [29.759442236774625, -95.36996502172211],
+        img: '',
+        website: 'https://houstonlibrary.org/home',
+        blurb: 'Public library offering books, computers, and passport applications, plus a parking garage.',
+        description: ['downtown', '', '']
     },
     // Markets
     {
@@ -1174,6 +1246,24 @@ const locations = [
         website: 'https://www.theeldoradoballroom.com',
         blurb: 'Eldorado Ballroom is a former nightclub in the Third Ward, Houston, on the other side of the road from Emancipation Park.',
         description: ['intimate', 'private events', 'historic']
+    },
+    {
+        name: 'The Hobby Center for Performing Arts',
+        category: 'music',
+        coordinates: [29.76164086726989, -95.36966571708332],
+        img: '',
+        website: 'https://www.thehobbycenter.org',
+        blurb: 'Modern spot with 2 theaters, a 3-story grand lobby with French styling & views of the city skyline.',
+        description: ['downtown', 'proximity to Buffalo Bayou park', 'promiximity to bars']
+    },
+    {
+        name: 'Toyota Center',
+        category: 'music',
+        coordinates: [29.75072566656762, -95.36205637080953],
+        img: '',
+        website: 'https://www.toyotacenter.com',
+        blurb: 'Toyota Center is an indoor arena located in Houston, Texas, United States. It is named after the Japanese automobile manufacturer Toyota.',
+        description: ['Home of the Rockets', 'large concerts', '']
     },
     // Parks
     {
