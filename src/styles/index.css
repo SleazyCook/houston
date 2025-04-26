@@ -39,7 +39,8 @@
 
 .location__details {
     border: 1px solid red;
-    width: 50%;
+    width: 100%;
+    max-width: 550px;
     padding-left: 20px;
 }
 

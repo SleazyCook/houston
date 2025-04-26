@@ -23,7 +23,7 @@ const Location = ({item, setLat, setLon, setZoom}) => {
         <div className='location__details'>
             {/* Neighborhood */}
             <p className='location__details--neighborhood'>
-                Houston
+                {item.neighborhood}
             </p>
 
             {/* Name */}
