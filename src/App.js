@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// 3rd Party
+import ScrollToTop from "react-scroll-to-top";
+
 // app
 import Navigation from './app/Navigation';
 import Footer from './app/Footer';
@@ -18,47 +21,50 @@ function App() {
 
   return (
       <Router>
-      <Navigation 
-        setLat={setLat}  
-        setLon={setLon} 
-        setZoom={setZoom}/>
-        <Routes>
-          <Route 
-            path="/" 
-            element={
-              <Home 
-                lat={lat} 
-                lon={lon} 
-                zoom={zoom}
-                key={lat}
-              /> 
-            } 
-          />
-          <Route 
-            path='/food'
-            element={
-              <Restaurants 
-                setLat={setLat} 
-                setLon={setLon} 
-                setZoom={setZoom}
-              />
-            } 
-          />
-          <Route 
-            path='/activities'
-            element={
-              <Activities 
-                setLat={setLat} 
-                setLon={setLon} 
-                setZoom={setZoom}
-              />
-            } 
-          />
-          <Route 
-            path="/about" 
-            element={<About />} />
-        </Routes>
-        <Footer />
+
+        <ScrollToTop smooth />
+
+        <Navigation 
+          setLat={setLat}  
+          setLon={setLon} 
+          setZoom={setZoom}/>
+          <Routes>
+            <Route 
+              path="/" 
+              element={
+                <Home 
+                  lat={lat} 
+                  lon={lon} 
+                  zoom={zoom}
+                  key={lat}
+                /> 
+              } 
+            />
+            <Route 
+              path='/food'
+              element={
+                <Restaurants 
+                  setLat={setLat} 
+                  setLon={setLon} 
+                  setZoom={setZoom}
+                />
+              } 
+            />
+            <Route 
+              path='/activities'
+              element={
+                <Activities 
+                  setLat={setLat} 
+                  setLon={setLon} 
+                  setZoom={setZoom}
+                />
+              } 
+            />
+            <Route 
+              path="/about" 
+              element={<About />} />
+          </Routes>
+          <Footer />
       </Router>
   );
 }

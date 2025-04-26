@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-import locations from '../data/locations';
+import Location from '../components/Location';
+
 import buttonData from '../data/activity-types';
 import activitiesFiltered from '../data/activities-filtered';
 
 const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [title, setTitle] = useState('All Activities');
-  const navigate = useNavigate();
 
   // Change display function
   function changeCategory(e) {
@@ -37,20 +37,14 @@ const Activities = ({ setLat, setLon, setZoom}) => {
         <b>{title}</b>
 
         {activitiesFiltered[selectedCategory]?.map((item, key) => {
-          const handleClick = () => {
-            setLat(item.coordinates[0]);
-            setLon(item.coordinates[1]);
-            setZoom(17);
-            navigate('/'); // go to map page after setting location
-          };
           return(
-            <div key={key}>
-              <p>{key + 1}. {item.name}</p>
-              <button onClick={handleClick}>
-                View on Map
-              </button>
-            </div>
-          )
+            <Location 
+              key={key} 
+              item={item} 
+              setLat={setLat} 
+              setLon={setLon} 
+              setZoom={setZoom}/>
+          );
         })}
       </div>
     );

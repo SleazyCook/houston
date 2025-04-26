@@ -1,3 +1,115 @@
+@font-face {
+    font-family: "Avenir Next Condensed Bold";
+    src: url("https://db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.eot");
+    src: url("https://db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.svg#Avenir Next Condensed Bold")format("svg");
+}
+
+@font-face {
+    font-family: 'Canto'; /* Name the font family */
+    src: url('../fonts/canto-roman.woff') format('woff'); /* Path to the WOFF file */
+
+    font-style: normal;
+    font-display: swap; /* Ensures text is visible while the font loads */
+}
 
 
 #map { height: 180px; }
+
+
+/* Location Card */
+.location {
+    display: flex;
+    width: 100%;
+}
+
+    /* Img Side */
+
+.location__img-box { 
+    width: 10%;
+    border: 1px solid blue;
+}
+
+.location__img { }
+
+    /* Details Side */
+
+.location__details {
+    border: 1px solid red;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.location__details--neighborhood { 
+    font-size: .94em;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: "Avenir Next Condensed";
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.location__details--name { 
+    /* remove anchor styles */
+    all: unset;
+    display: inline-block;
+    text-decoration: none;
+    /* custom styles */
+    font-family: 'Canto';
+    font-size: 2em;
+    line-height: 1.2em;
+    letter-spacing: -.02em;
+}
+
+.location__details--blurb,
+.location__details--description { 
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: 'Avenir Next Condensed';
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.location__details--description { 
+    margin-bottom: 12px;
+}
+
+.location__details--descriotion-item { }
+
+.location__details--map-btn { 
+    all: unset;
+    display: inline-block; 
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: green;
+    margin-right: .5rem;
+}
+
+.location__details--site-btn { 
+    all: unset;
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+}
+
+.location__details--map-btn,
+.location__details--site-btn {
+    font-family: "Avenir Next Condensed";
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
