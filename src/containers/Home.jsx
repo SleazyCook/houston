@@ -1,10 +1,17 @@
 import Leaflet from "../map/Leaflet";
+import locations from "../data/locations";
 
 const Home = ({lat, lon, zoom}) => {
+  const totalLocations = Object.keys(locations).length;
+
     return (
       <div>
         <h1>HOME</h1>
-        <p>This is the Home page of the app.</p>
+        <p>Drewford's favorite locations in Houston, Texas</p>
+        <p>{totalLocations} locations recorded and counting...</p>
+        
+
+
 
         <Leaflet lat={lat} lon={lon} zoom={zoom}/>
 
