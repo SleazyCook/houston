@@ -17,7 +17,11 @@ const Location = ({item, setLat, setLon, setZoom}) => {
 
         <div className='location__img-box'>
             {/* image - left on desktop, top on mobile */}
-            img
+            {item.img && item.img.length > 0 && 
+                <img 
+                    className='location__img'
+                    src={item.img} 
+                    alt="Item" />}        
         </div>
 
         <div className='location__details'>

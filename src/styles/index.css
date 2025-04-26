@@ -24,21 +24,32 @@
 .location {
     display: flex;
     width: 100%;
+
+    border-bottom: 1px solid #8F8F8F;
+    max-width: 900px;
 }
 
     /* Img Side */
 
-.location__img-box { 
-    width: 10%;
-    border: 1px solid blue;
+.location__img-box {
+    width: 300px;
+    height: 300px; /* Define height to make vertical centering effective */
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
 }
 
-.location__img { }
+.location__img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: contain; /* Make sure the image scales properly within the container */
+}
+
 
     /* Details Side */
 
 .location__details {
-    border: 1px solid red;
+
     width: 100%;
     max-width: 550px;
     padding-left: 20px;
