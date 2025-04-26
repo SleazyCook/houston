@@ -1,11 +1,14 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 import locations from '../data/locations';
 import icons from '../data/icons';
 
-const Leaflet = () => {
+const Leaflet = ({lat, lon, zoom }) => {
+
+  console.log('map page: ', lat, lon)
+
   useEffect(() => {
     // Prevent map from initializing multiple times
     if (!document.getElementById('map')._leaflet_id) {
@@ -21,8 +24,8 @@ const Leaflet = () => {
       //     attribution: '© OpenStreetMap contributors, Tiles style by Humanitarian OpenStreetMap Team hosted by OpenStreetMap France'});
 
       var map = L.map('map', {
-          center: [29.7604, -95.3698],
-          zoom: 11,
+          center: [lat, lon],
+          zoom: zoom,
           layers: []
       });
 
