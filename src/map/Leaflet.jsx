@@ -7,8 +7,6 @@ import icons from '../data/icons';
 
 const Leaflet = ({lat, lon, zoom }) => {
 
-  console.log('map page: ', lat, lon)
-
   useEffect(() => {
     // Prevent map from initializing multiple times
     if (!document.getElementById('map')._leaflet_id) {

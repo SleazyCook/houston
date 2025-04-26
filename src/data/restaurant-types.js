@@ -1,3 +1,4 @@
+// This file is strictly for the controls on the Restaurant page
 const buttonData = [
     {
       label: 'All Restaurants',

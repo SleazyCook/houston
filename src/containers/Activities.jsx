@@ -1,69 +1,14 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 import locations from '../data/locations';
 import buttonData from '../data/activity-types';
+import activitiesFiltered from '../data/activities-filtered';
 
-const Activities = () => {
+const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [title, setTitle] = useState('All Activities');
-
-  let category = {}
-
-  // All Activities
-  const all = locations.filter(place => place.category !== 'food');
-  const sortedAll = all.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  })
-  category.all  = sortedAll;
-
-  // Bars
-  const bars = locations.filter(place => place.category === 'bar');
-  const sortedBars = bars.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.bars = sortedBars;
-
-  // Bookstores
-  const books = locations.filter(place => place.category === 'books');
-  const sortedBooks = books.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.books = sortedBooks;
-
-  // Markets
-  const markets = locations.filter(place => place.category === 'market');
-  const sortedMarkets = markets.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.markets = sortedMarkets;
-
-  // Movie Theaters
-  const movies = locations.filter(place => place.category === 'movies');
-  const sortedMovies = movies.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.movies = sortedMovies;
-
-  // Music Venues
-  const music = locations.filter(place => place.category === 'music');
-  const sortedMusic = music.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.music = sortedMusic;
-
-  // Parks
-  const parks = locations.filter(place => place.category === 'park');
-  const sortedParks = parks.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.parks = sortedParks;
-
-  // Photo Opp
-  const photos = locations.filter(place => place.category === 'photo');
-  const sortedPhotos = photos.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
-  category.photos = sortedPhotos;
+  const navigate = useNavigate();
 
   // Change display function
   function changeCategory(e) {
@@ -91,9 +36,20 @@ const Activities = () => {
         <br /><br />
         <b>{title}</b>
 
-        {category[selectedCategory]?.map((item, key) => {
+        {activitiesFiltered[selectedCategory]?.map((item, key) => {
+          const handleClick = () => {
+            setLat(item.coordinates[0]);
+            setLon(item.coordinates[1]);
+            setZoom(17);
+            navigate('/'); // go to map page after setting location
+          };
           return(
-            <p key={key}>{key +1}. {item.name}</p>
+            <div key={key}>
+              <p>{key + 1}. {item.name}</p>
+              <button onClick={handleClick}>
+                View on Map
+              </button>
+            </div>
           )
         })}
       </div>

@@ -1,3 +1,4 @@
+// This file is strictly for the controls n the Activities page
 const buttonData = [
     {
         label: 'All Activities',

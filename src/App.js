@@ -16,9 +16,6 @@ function App() {
   const [lon, setLon] = useState(-95.3698);
   const [zoom, setZoom] = useState(11);
 
-  console.log(lat, lon)
-  console.log(typeof lat, typeof lat)
-
   return (
       <Router>
       <Navigation 
@@ -33,6 +30,7 @@ function App() {
                 lat={lat} 
                 lon={lon} 
                 zoom={zoom}
+                key={lat}
               /> 
             } 
           />
@@ -49,8 +47,13 @@ function App() {
           <Route 
             path='/activities'
             element={
-              <Activities />
-            } />
+              <Activities 
+                setLat={setLat} 
+                setLon={setLon} 
+                setZoom={setZoom}
+              />
+            } 
+          />
           <Route 
             path="/about" 
             element={<About />} />
