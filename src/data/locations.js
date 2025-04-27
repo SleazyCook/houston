@@ -1451,6 +1451,16 @@ const locations = [
         blurb: 'Cozy performing arts center featuring nationally known musicians & comedians since 1997.',
         description: ['medium size concerts', 'downtown area', 'walkable area']
     },
+    {
+        name: 'Cactus Music',
+        category: 'music',
+        coordinates: [29.733567939771763, -95.41127535965643],
+        neighborhood: 'Greenway',
+        img: '',
+        website: 'https://www.cactusmusictx.com',
+        blurb: 'Huge emporium for rare vinyl albums & used DVDs, records & CDs hosts local music performances too.',
+        description: ['Record store', 'Small concerts', 'Prints & DVDs']
+    },
     // Parks
     {
         name: 'Hermann Park',
