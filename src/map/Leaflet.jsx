@@ -100,17 +100,17 @@ const Leaflet = ({lat, lon, zoom }) => {
         }  else if (location.category == "food") {
           mapIconUrl = icons.burgers;
         } else if (location.category == "bar") {
-          mapIconUrl = 'https://i.imgur.com/VtHXOyL.png';
+          mapIconUrl = icons.bar;
         } else if (location.category == "books") {
-          mapIconUrl = 'https://images.vexels.com/media/users/3/324280/isolated/preview/9d52451aee79d0393830d6dca2afe6b7-book-icon-in-red-color.png';
+          mapIconUrl = icons.books;
         } else if (location.category == "market") {
-          mapIconUrl = 'https://static.thenounproject.com/png/1730-200.png' ;
+          mapIconUrl = icons.market ;
         } else if (location.category == "movies") {
-          mapIconUrl = 'https://i.imgur.com/DgxjJXt.png';
+          mapIconUrl = icons.movies;
         } else if (location.category == 'music') {
-          mapIconUrl = 'https://i.imgur.com/2SrhTIj.png';
+          mapIconUrl = icons.music;
         } else if (location.category == 'park') {
-          mapIconUrl = 'https://cdn-icons-png.flaticon.com/512/6089/6089406.png';
+          mapIconUrl = icons.parks;
         }
 
         const customIcon = L.icon({
