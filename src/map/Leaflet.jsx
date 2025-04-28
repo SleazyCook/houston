@@ -19,10 +19,6 @@ const Leaflet = ({lat, lon, zoom }) => {
           maxZoom: 19,
           // attribution: '© OpenStreetMap'
       });
-      
-      // var osmHOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-      //     maxZoom: 19,
-      //     attribution: '© OpenStreetMap contributors, Tiles style by Humanitarian OpenStreetMap Team hosted by OpenStreetMap France'});
 
       var map = L.map('map', {
           center: [lat, lon],
@@ -140,10 +136,6 @@ const Leaflet = ({lat, lon, zoom }) => {
         } else if (location.category == "park") {
           parks.addLayer(marker);
         }
-
-        // console.log(Array.isArray(Object.values(location.description)))
-        // const descriptionArray = Object.values(location.description)
-        // console.log(descriptionArray)
 
         // Bind a popup to the marker
         marker.bindPopup(`
