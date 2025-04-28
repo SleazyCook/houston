@@ -2,8 +2,11 @@ import { useState, useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
+import { FaBeer, FaMapMarkerAlt, FaCar, FaBicycle } from 'react-icons/fa';
+
 import locations from '../data/locations';
 import icons from '../data/icons';
+
 
 const Leaflet = ({lat, lon, zoom }) => {
 
@@ -49,14 +52,6 @@ const Leaflet = ({lat, lon, zoom }) => {
           '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       }).addTo(map);
 
-      // const customIcon = L.icon({
-      //   iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png', // example icon (map pin)
-      //   iconSize: [38, 38], // size of the icon
-      //   iconAnchor: [19, 38], // point of the icon which will correspond to marker's location
-      //   popupAnchor: [0, -38] // point from which the popup should open relative to the iconAnchor
-      // });
-
-
       // Layers 1 of 4: Create Layer
       const restaurants = L.layerGroup();
       const bars = L.layerGroup();
@@ -71,8 +66,39 @@ const Leaflet = ({lat, lon, zoom }) => {
 
         // Layers 2 of 4: Assign Icon Image
         let mapIconUrl = ''
-        if (location.category == "food") {
-          mapIconUrl = 'https://i.imgur.com/s2BRLZD.png';
+        if (location.subcategory == 'burgers') {
+          mapIconUrl = icons.burgers;
+        } else if (location.subcategory == 'breakfast') {
+          mapIconUrl = icons.breakfast;
+        } else if (location.subcategory == 'chicken') {
+          mapIconUrl = icons.chicken;
+        } else if (location.subcategory == 'dessert') {
+          mapIconUrl = icons.dessert;
+        } else if (location.subcategory == 'dumplings') {
+          mapIconUrl = icons.dumplings;
+        } else if (location.subcategory == 'hotdogs') {
+          mapIconUrl = icons.hotdogs;
+        } else if (location.subcategory == 'pizza') {
+          mapIconUrl = icons.pizza;
+        } else if (location.subcategory == 'ramen') {
+          mapIconUrl = icons.ramen;
+        } else if (location.subcategory == 'ricebowl') {
+          mapIconUrl = icons.rice;
+        } else if (location.subcategory == 'sandwiches') {
+          mapIconUrl = icons.sandwiches;
+        } else if (location.subcategory == 'seafood') {
+          mapIconUrl = icons.seafood;
+        } else if (location.subcategory == 'sushi') {
+          mapIconUrl = icons.sushi;
+        } else if (location.subcategory == 'tacos') {
+          mapIconUrl = icons.tacos;
+        } else if (location.subcategory == 'upscale') {
+          mapIconUrl = icons.upscale;
+        } else if (location.subcategory == 'hall') {
+          mapIconUrl = icons.foodhalls;
+
+        }  else if (location.category == "food") {
+          mapIconUrl = icons.burgers;
         } else if (location.category == "bar") {
           mapIconUrl = 'https://i.imgur.com/VtHXOyL.png';
         } else if (location.category == "books") {
