@@ -128,6 +128,7 @@ const locations = [
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/3EB93eb.png',
         website: 'https://www.betelgeusehou.com/',
+        blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
         description: ['pizza', 'full bar', 'outdoor seating']
     },
     {
@@ -138,6 +139,7 @@ const locations = [
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/xuiw7Ya.png',
         website: 'https://www.betelgeusehou.com/',
+        blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
         description: ['pizza', 'full bar', 'outdoor seating']
     },
     {
@@ -223,6 +225,7 @@ const locations = [
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/Vhk1SH7.png',
         website: 'https://thebreakfastklub.com',
+        blurb: 'Hotspot for diner-style American eats & stick-to-your-ribs soul food including chicken & waffles.',
         description: ['Open Early', 'Expect a wait', 'Chicken and Waffles']
     },
     {
@@ -647,8 +650,8 @@ const locations = [
         coordinates: [29.936995628209772, -95.24866447987408],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/ExpOpZX.jpg',
-        website: '',
-        blurb: '',
+        website: 'https://7spicecajun.com',
+        blurb: 'Fast-casual chain prepping made-to-order Cajun seafood dishes, including popular fried shrimp.',
         description: ''
     },
     {
