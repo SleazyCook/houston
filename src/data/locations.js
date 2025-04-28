@@ -287,8 +287,9 @@ const locations = [
         coordinates: [29.804085974827032, -95.41029345468208],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/YCP3F7w.png',
-        website: '',
-        description: []
+        website: 'https://www.velvettaco.com',
+        blurb: 'Tacos with global-inspired fillings, plus margaritas and beer, in a trendy atmosphere.',
+        description: ['Creative Menu', 'Backdoor Chicken', 'Elote']
     },
     {
         name: 'Velvet Taco',
@@ -297,8 +298,9 @@ const locations = [
         coordinates: [29.77027627032481, -95.41004657788817],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/hGeXyPH.png',
-        website: '',
-        description: []
+        website: 'https://www.velvettaco.com',
+        blurb: 'Tacos with global-inspired fillings, plus margaritas and beer, in a trendy atmosphere.',
+        description: ['Creative Menu', 'Backdoor Chicken', 'Elote']
     },
     {
         name: 'Velvet Taco',
@@ -307,8 +309,9 @@ const locations = [
         coordinates: [29.717317503095316, -95.41767773335643],
         neighborhood: 'Rice Village',
         img: 'https://i.imgur.com/h2egeXD.png',
-        website: '',
-        description: []
+        website: 'https://www.velvettaco.com',
+        blurb: 'Tacos with global-inspired fillings, plus margaritas and beer, in a trendy atmosphere.',
+        description: ['Creative Menu', 'Backdoor Chicken', 'Elote']
     },
     {
         name: 'Velvet Taco',
@@ -318,7 +321,8 @@ const locations = [
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/XJpCvG9.png',
         website: '',
-        description: []
+        blurb: 'Tacos with global-inspired fillings, plus margaritas and beer, in a trendy atmosphere.',
+        description: ['Creative Menu', 'Backdoor Chicken', 'Elote']
     },
     {
         name: 'Tacodeli',
@@ -384,7 +388,7 @@ const locations = [
         img: 'https://i.imgur.com/vOWNjpt.png',
         website: '',
         blurb: 'Casual eatery specializing in breakfast tacos, carne guisada, and homemade flour tortillas.',
-        description: []
+        description: ['Texas Monthly Top 10 Tacos', 'Delicious Breakfast Tacos', 'Spanish Speaking Preferred']
     },
     {
         name: "Brother's Pizza Express",

@@ -27,6 +27,8 @@
 
     border-bottom: 1px solid #8F8F8F;
     max-width: 900px;
+
+
 }
 
     /* Img Side */
@@ -53,6 +55,7 @@
     width: 100%;
     max-width: 550px;
     padding-left: 20px;
+    padding-top: 10px;
 }
 
 .location__details--neighborhood { 
@@ -62,7 +65,7 @@
     text-transform: uppercase;
     font-family: "Avenir Next Condensed";
     color: #666666;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .location__details--name { 
@@ -75,6 +78,7 @@
     font-size: 2em;
     line-height: 1.2em;
     letter-spacing: -.02em;
+    margin-bottom: 10px;
 }
 
 .location__details--blurb,
@@ -84,7 +88,7 @@
     font-family: 'Avenir Next Condensed';
     color: #666666;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 
