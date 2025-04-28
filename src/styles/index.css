@@ -138,5 +138,6 @@
 
     .location__img-box {
         min-width: 100%;
+        max-width: 100%;
     }
 }
