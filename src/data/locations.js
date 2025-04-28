@@ -136,7 +136,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.73385004922882, -95.3868317708331],
         neighborhood: 'Montrose',
-        img: 'https://i.imgur.com/3EB93eb.png',
+        img: 'https://i.imgur.com/xuiw7Ya.png',
         website: 'https://www.betelgeusehou.com/',
         description: ['pizza', 'full bar', 'outdoor seating']
     },
@@ -146,7 +146,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.745293850102062, -95.39171676019866],
         neighborhood: 'Montrose',
-        img: '',
+        img: 'https://i.imgur.com/Dl2FSsJ.png',
         website: 'https://www.pepperonis.net',
         blurb: 'Casual pizzeria chain serving wings & New York-style pies, including vegan & gluten-free options.',
         description: ['open late', 'pizza by the slice', 'drive through']
@@ -167,8 +167,9 @@ const locations = [
         subcategory: 'hotdogs',
         coordinates: [29.964633753145392, -95.54078033344278],
         neighborhood: 'Willowbrook',  
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/zGO20pT.png',
+        website: 'https://www.portillos.com/index.html',
+        blurb: 'Chicago-born chain for hot dogs, Italian beef sandwiches & more, plus beer & wine, in retro digs.',
         description: ['Chicago Favorite', 'Original Beef', 'Chicago Hotdog']
     },
     {
@@ -177,18 +178,19 @@ const locations = [
         subcategory: 'burgers',
         coordinates: [29.963688061809677, -95.5421339703664],
         neighborhood: 'Willowbrook',  
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/TVe6KH1.png',
+        website: 'www.in-n-out.com/',
         description: ['California Favorite', 'Flying Dutchman w/ Onions', 'Flying Ducthman w/ Tomatoes']
     },
     {
-        name: 'Cheba Hut - Lower Heights',
+        name: 'Cheba Hut',
         category: 'food',
         subcategory: 'sanwiches',
         coordinates: [29.77234244004, -95.37822662667772],
         neighborhood: 'Washington',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/ThKWsLq.png',
+        website: 'https://chebahut.com/locations/houston-sawyer-yards/',
+        blurb: 'Laid-back sandwich-shop chain for creative toasted subs, plus snacks & desserts.',
         description: ["'Toasted' Subs", 'Open Late', 'Stoner Themed']
     },
     {
@@ -197,8 +199,9 @@ const locations = [
         subcategory: 'hall',
         coordinates: [29.722847269152375, -95.37002136428438],
         neighborhood: 'South Side',
-        img: '',
+        img: 'https://i.imgur.com/4CSW5F3.png',
         website: '',
+        blurb: 'Food hall with multiple kitchens dishing up global fare, including vegan options.',
         description: ['Food Hall', 'Open Late', 'BYOB']
     },
     {
@@ -207,8 +210,9 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.738749524090423, -95.38015318985526],
         neighborhood: 'Midtown',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/8UP0hfL.png',
+        website: 'https://homeslicepizza.com/location/houston-midtown/',
+        blurb: 'Casual pizzeria serving New York-style and Sicilian pies plus subs, beer, and wine.',
         description: ['Austin Favorite', 'Pizza by the Slice', 'Italian Subs']
     },
     {
@@ -217,8 +221,8 @@ const locations = [
         subcategory: 'breakfast',
         coordinates: [29.73848124453339, -95.38038932724314],
         neighborhood: 'Midtown',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/Vhk1SH7.png',
+        website: 'https://thebreakfastklub.com',
         description: ['Open Early', 'Expect a wait', 'Chicken and Waffles']
     },
     {
@@ -227,9 +231,10 @@ const locations = [
         subcategory: 'sushi',
         coordinates: [29.935672247210096, -95.25000159496145],
         neighborhood: 'Humble',
-        img: '',
-        website: '',
-        description: []
+        img: 'https://i.imgur.com/DeH0uJX.png',
+        website: 'https://www.humbleiekei.com',
+        blurb: 'Casual Japanese restaurant offering sushi and small plates including ramen and sake.',
+        description: ['Sushi', 'Hand Rolls', 'Ramen']
     },    
     {
         name: "Frank's Pizza",
@@ -237,8 +242,9 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.761548417674607, -95.36217053914736],
         neighborhood: 'Downtown',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/r9WxDCJ.png',
+        website: 'https://www.frankspizza.com',
+        blurb: 'Giant, foldable slices of New York-style thin crust pizza (or whole pies) available late night.',
         description: ['Historic', 'Pizza by the Slice', 'Open Late']
     },
     {
@@ -247,8 +253,9 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.840820719855106, -95.35421491888364],
         neighborhood: 'Northside',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/uOPHIrD.png',
+        website: 'https://tacosaracelys.shop',
+        blurb: 'Casual Mexican stand serving traditional comfort food such as barbacoa, gorditas, and breakfast tacos.',
         description: ['Delicious Tacos', 'Open Early', 'Mexican Potato w/ Sausage']
     },
     {
@@ -257,8 +264,9 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.723491931484464, -95.35128034035448],
         neighborhood: 'South Side',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/6U88NCq.png',
+        website: 'https://frenchyschicken.com',
+        blurb: 'Fast-food chain serving fried chicken, gumbo, jambalaya & other classic Creole dishes.',
         description: ['Houston Favorite', 'Best Fried Chicken', 'Jalapenos']
     },
     {
@@ -267,9 +275,10 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.75397083325556, -95.38335480760226],
         neighborhood: 'Montrose',
-        img: '',
-        website: '',
-        description: ['Breakfast tacos', '', '']
+        img: 'https://i.imgur.com/vqse05w.png',
+        website: 'https://www.laguadalupanacafeandbakery.com',
+        blurb: 'Family-run eatery featuring sweet & savory baked goods & Mexican breakfasts in cozy, no-frills digs.',
+        description: ['Breakfast tacos', 'Coffee', 'Bakery']
     },
     {
         name: 'Velvet Taco',
@@ -277,7 +286,7 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.804085974827032, -95.41029345468208],
         neighborhood: 'Heights',
-        img: '',
+        img: 'https://i.imgur.com/YCP3F7w.png',
         website: '',
         description: []
     },
@@ -287,7 +296,7 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.77027627032481, -95.41004657788817],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/hGeXyPH.png',
         website: '',
         description: []
     },
@@ -297,7 +306,7 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.717317503095316, -95.41767773335643],
         neighborhood: 'Rice Village',
-        img: '',
+        img: 'https://i.imgur.com/h2egeXD.png',
         website: '',
         description: []
     },
@@ -307,7 +316,7 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.744484475293824, -95.39052608843915],
         neighborhood: 'Montrose',
-        img: '',
+        img: 'https://i.imgur.com/XJpCvG9.png',
         website: '',
         description: []
     },
@@ -317,8 +326,9 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.76797814164908, -95.37732067077975],
         neighborhood: 'Washington',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/pA5cQfu.jpg',
+        website: 'https://www.tacodeli.com',
+        blurb: 'Austin-born outpost of a taqueria chain serving more than 40 taco types, including breakfast.',
         description: ['Austin Favorite', 'Salsa Bar', 'Grab N Go']
     },
     {
@@ -327,8 +337,9 @@ const locations = [
         subcategory: 'burgers',
         coordinates: [29.774259091292073, -95.36036566574973],
         neighborhood: 'Northside',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/Cgsjnw4.png',
+        website: 'https://www.facebook.com/people/POPPA-BURGER-INC/100057602081572/',
+        blurb: 'Longstanding 24-hour burger stand with covered seating featuring American classics & tacos too.',
         description: ['Open Late', 'Cheap', 'Cash Only']
     },
     {
@@ -337,8 +348,8 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.773607958972853, -95.40909531330995],
         neighborhood: 'Heights',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/M9FqFGx.png',
+        website: 'https://www.pluckers.com/location/shepherd',
         blurb: 'Sports bar known for its chicken wings',
         description: ['Double fried wings', 'Fried Mozzarella', 'Request WNBA on TV']
     },
@@ -348,10 +359,10 @@ const locations = [
         subcategory: 'sushi',
         coordinates: [30.05598142350976, -95.57291198620665],
         neighborhood: 'Spring',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/NBFiFJo.jpg',
+        website: 'https://izarobatatx.com',
         blurb: 'Japanese restaurant that serves authentic and creative Japenese cuisine',
-        description: ['Sake bar', '', '']
+        description: ['Sake bar', 'Hibachi', 'Poke']
     },
     {
         name: 'Pok Pok Po',
@@ -359,10 +370,10 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.742582523950063, -95.37996336798173],
         midtown: 'Midtown',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/jtwveVK.png',
+        website: 'https://www.pokpokpo.com',
         blurb: 'Fried chicken concept serving gluten free, antibiotic free, hormone free, halal chicken',
-        description: []
+        description: ["'Indian Chick Fil A'", 'Halal & Gluten Free', 'Mango Lassi']
     },
     {
         name: 'Azteca Taco House',
@@ -370,7 +381,7 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.879900615131934, -95.33001824192365],
         neighborhood: 'Greenwood Village',
-        img: '',
+        img: 'https://i.imgur.com/vOWNjpt.png',
         website: '',
         blurb: 'Casual eatery specializing in breakfast tacos, carne guisada, and homemade flour tortillas.',
         description: []
@@ -381,7 +392,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [30.05201190215551, -95.43342391197649],
         neighborhood: 'Spring',
-        img: '',
+        img: 'https://i.imgur.com/ONoiyzI.png',
         website: '',
         blurb: 'Low-key pizzeria with New York-style pies whole or by the slice, plus calzones, pastas & sandwiches',
         description: ['']
@@ -392,7 +403,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.958437436159638, -95.56441467471862],
         neighborhood: 'Willowbrook',
-        img: '',
+        img: 'https://i.imgur.com/EaSTaIk.png',
         website: '',
         blurb: 'Mainstay for pizza & other casual Italian-inspired comfort food, including stromboli & calzones',
         description: []
@@ -403,7 +414,7 @@ const locations = [
         subcategory: 'hotdogs',
         coordinates: [29.766272186344448, -95.36461056318291],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/Lz71WDl.png',
         website: '',
         blurb: 'Casual spot serving hot dogs and other quick bites for lunch.',
         description: []
@@ -414,7 +425,7 @@ const locations = [
         subcategory: 'hotdogs',
         coordinates: [29.749426924148914, -95.35545770557285],
         neighborhood: 'EaDo',
-        img: '',
+        img: 'https://i.imgur.com/PQCIziO.png',
         website: '',
         blurb: 'Hot dog stand turning out quick bites in a casual atmosphere.',
         description: []
@@ -425,7 +436,7 @@ const locations = [
         subcategory: 'hotdogs',
         coordinates: [29.770734786401515, -95.40811760984687],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/IqsbBbr.png',
         website: '',
         blurb: 'Hot dog stand turning out quick bites in a casual atmosphere.',
         description: []
@@ -436,7 +447,7 @@ const locations = [
         subcategory: 'upscale',
         coordinates: [29.738151249900074, -95.51179108918673],
         neighborhood: 'Mid West',
-        img: '',
+        img: 'https://i.imgur.com/e6B9RR1.png',
         website: '',
         blurb: "Upscale Brazilian chain for all-you-can-eat meat carved tableside plus an extensive salad bar.",
         description: []
@@ -447,7 +458,7 @@ const locations = [
         subcategory: 'upscale',
         coordinates: [29.737575389908308, -95.48292126437322],
         neighborhood: 'Mid West',
-        img: '',
+        img: 'https://i.imgur.com/YTOriix.png',
         website: '',
         blurb: 'Upscale spot featuring all-you-can-eat tableside-carved Brazilian meat & a global wine list.',
         description: []
@@ -458,8 +469,8 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.803678071023104, -95.4010202575722],
         neighborhood: 'Heights',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/ooiiaUo.png',
+        website: 'https://zalatpizza.com',
         blurb: 'Order handcrafted, unique-flavored pizzas for delivery or takeout. Open late to satisfy your cravings!',
         description: []
     },
@@ -469,8 +480,8 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.771050199341097, -95.40971992986691],
         neighborhood: 'Washington',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/mxTDr8B.png',
+        website: 'https://zalatpizza.com',
         blurb: 'Order handcrafted, unique-flavored pizzas for delivery or takeout. Open late to satisfy your cravings!',
         description: []
     },
@@ -480,7 +491,7 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.668880222117025, -95.36784422747914],
         neighborhood: 'South Side',
-        img: '',
+        img: 'https://i.imgur.com/5eNndPo.png',
         website: 'https://butterfunkhtx.com/',
         blurb: 'Casual place for Southern eats, such as fried ribs, plus daiquiris and other drinks.',
         description: ['Keith Lee approved']
@@ -491,10 +502,10 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.81397761857514, -95.42886442694316],
         neighborhood: 'Ella Oaks',
-        img: '',
-        website: '',
-        blurb: '',
-        description: []
+        img: 'https://i.imgur.com/cIiMWdH.png',
+        website: 'https://www.layneschickenfingers.com',
+        blurb: 'Chain restaurant specializing in its iconic chicken fingers, plus lemonade and Texas toast.',
+        description: ['Chicken Fingers', 'Special Sauce', 'French Fries']
     },
     {
         name: "Layne's Chicken Fingers",
@@ -502,10 +513,10 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.74497821979449, -95.41033020946566],
         neighborhood: 'Montrose',
-        img: '',
-        website: '',
-        blurb: '',
-        description: []
+        img: 'https://i.imgur.com/oLa5wLU.png',
+        website: 'https://www.layneschickenfingers.com',
+        blurb: 'Chain restaurant specializing in its iconic chicken fingers, plus lemonade and Texas toast.',
+        description: ['Chicken Fingers', 'Special Sauce', 'French Fries']
     },
     {
         name: 'Snooze, an A.M. Eatery',
@@ -513,10 +524,10 @@ const locations = [
         subcategory: 'breakfast',
         coordinates: [29.801592997027548, -95.41029116058527],
         neighborhood: 'Heights',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/Wwqhz6d.png',
+        website: 'https://www.snoozeeatery.com',
         blurb: 'Vibrant, retro chain serving a seasonal menu of creative breakfast & lunch fare, plus cocktails',
-        description: []
+        description: ['Full bar', 'Bacon but Different', 'Creative Menu']
     },
     {
         name: 'Snooze, an A.M. Eatery',
@@ -524,17 +535,17 @@ const locations = [
         subcategory: 'breakfast',
         coordinates: [29.744047828435875, -95.39075036458118],
         neighborhood: 'Montrose',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/ENuHYXH.png',
+        website: 'https://www.snoozeeatery.com',
         blurb: 'Vibrant, retro chain serving a seasonal menu of creative breakfast & lunch fare, plus cocktails',
-        description: []
+        description: ['Full bar', 'Bacon but Different', 'Creative Menu']
     },
     {
         name: 'Asia Market Thai Lao Food',
         category: 'food',
         coordinates: [29.79111201462518, -95.37286016530489],
         neighborhood: 'Norhill',
-        img: '',
+        img: 'https://i.imgur.com/ZIICkRg.jpg',
         website: '',
         blurb: 'Established storefront supplying Asian produce & groceries, also serving a Thai lunch & dinner menu.',
         description: ''
@@ -545,7 +556,7 @@ const locations = [
         subcategory: 'breakfast',
         coordinates: [29.758003441874767, -95.34618410261355],
         neighborhood: 'EaDo',
-        img: '',
+        img: 'https://i.imgur.com/qxyPStD.png',
         website: '',
         blurb: 'Branch of a laid-back chain known for Southern food & all-day breakfast selections.',
         description: ['Open early', 'chicken & waffles', 'homemade biscuits']
@@ -556,7 +567,7 @@ const locations = [
         subcategory: 'hall',
         coordinates: [29.76310881612258, -95.36456102261619],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/hANqcZO.png',
         website: 'https://www.lyricmarket.com/',
         blurb: "Houston's most exciting and sophisticated food hall",
         description: []
@@ -567,7 +578,7 @@ const locations = [
         subcategory: 'hall',
         coordinates: [29.766078454632144, -95.36455736258664],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/8LXZmob.png',
         website: 'https://www.posthtx.com/eat',
         blurb: 'Diner styyle seating and cyberpunk vibes.',
         description: ['shopping', 'eating', 'live performances']
@@ -578,7 +589,7 @@ const locations = [
         subcategory: 'hall',
         coordinates: [29.760386415990325, -95.36154140154935],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/cRslLrK.png',
         website: 'https://www.undergroundhall.com/',
         blurb: 'Casual destination with food vendors doling out global bites, plus draft beer & happy hour specials.',
         description: []
@@ -588,7 +599,7 @@ const locations = [
         category: 'food',
         coordinates: [29.81679853144434, -95.43075744065375],
         neighborhood: 'Ella Oaks',
-        img: '',
+        img: 'https://i.imgur.com/5aK3wLH.png',
         website: '',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
         description: []
@@ -598,7 +609,7 @@ const locations = [
         category: 'food',
         coordinates: [29.78130193379262, -95.38796849551551],
         neighborhood: 'Heights',
-        img: '',
+        img: 'https://i.imgur.com/UHoh7Tn.png',
         website: '',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
         description: []
@@ -609,7 +620,7 @@ const locations = [
         subcategory: 'seafood',
         coordinates: [29.74424519171531, -95.38841579865903],
         neighborhood: 'Montrose',
-        img: '',
+        img: 'https://i.imgur.com/agJyn5R.png',
         website: '',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
         description: []
@@ -620,7 +631,7 @@ const locations = [
         subcategory: 'seafood',
         coordinates: [29.733773605120188, -95.4261022899225],
         neighborhood: 'Richmond Ave',
-        img: '',
+        img: 'https://i.imgur.com/vPRgLRV.png',
         website: '',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
         description: []
@@ -631,7 +642,7 @@ const locations = [
         subcategory: 'seafood',
         coordinates: [29.936995628209772, -95.24866447987408],
         neighborhood: 'Humble',
-        img: '',
+        img: 'https://i.imgur.com/ExpOpZX.jpg',
         website: '',
         blurb: '',
         description: ''
@@ -642,20 +653,10 @@ const locations = [
         subcategory: 'burgers',
         coordinates: [29.902729653569942, -95.34997206587146],
         neighborhood: 'East Aldine',
-        img: '',
-        website: '',
-        blurb: '',
-        description: []
-    },
-    {
-        name: 'Lost & Found',
-        category: 'food',
-        coordinates: [29.75348220171603, -95.38091870436139],
-        neighborhood: 'Fourth Ward',
-        img: '',
-        website: 'https://lostandfoundmidtown.com/',
-        blurb: 'Relaxed restaurant offering cocktails, brunch & mains, plus patio dining with views of midtown.',
-        description: ['happy hour', 'outdoor seating', 'hookah']
+        img: 'https://i.imgur.com/T9SYuRm.png',
+        website: 'https://hippoburgers.com',
+        blurb: 'Chain eatery known for its fresh, never-frozen burgers and buffalo chicken sandwiches, plus a patio.',
+        description: ['Creative Burgers', 'Diverse Menu', 'Snacks']
     },
     {
         name: "Morton's The Steakhouse",
@@ -663,10 +664,10 @@ const locations = [
         subcategory: 'upscale',
         coordinates: [29.756924901573548, -95.36427486690646],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/NDYUIgG.png',
         website: 'https://www.mortons.com/location/mortons-the-steakhouse-houston-tx-downtown/?utm_source=Google&utm_medium=CPC&utm_campaign=MTHD-1163_TX-Houston-Downtown_Branded&utm_content=ch_google_adwords|trg_kwd-326515902124|crt_677467078720|kwmt_e|ps_|srct_g|trgt_|src_|devt_c|devm_|cid_894703348|lcl_9192926|fdi_&utm_term=morton%27s%20the%20steakhouse&gad_source=6&gbraid=0AAAAADpS1nmRvEaXQByQvZIHxdyzxEnHX&gclid=Cj0KCQjw2ZfABhDBARIsAHFTxGx0rTP-55xU5jOvCJ2ccmQy8kT6o6_H6koN6yNN-AH9B6SxNHBP7K0aAuUmEALw_wcB',
         blurb: 'Upscale chain for aged prime beef, seafood & other traditional steakhouse fare in a clubby space',
-        description: []
+        description: ['Steak', 'Full bar', 'Downtown']
     },
     {
         name: "Morton's The Steakhouse",
@@ -674,10 +675,10 @@ const locations = [
         subcategory: 'upscale',
         coordinates: [29.742058565423644, -95.46245468028471],
         neighborhood: 'Galleria',
-        img: '',
+        img: 'https://i.imgur.com/gUCdiM5.png',
         website: 'https://www.mortons.com/location/mortons-the-steakhouse-houston-tx-galleria/#menus',
         blurb: 'Upscale chain for aged prime beef, seafood & other traditional steakhouse fare in a clubby space',
-        description: []
+        description: ['Steak', 'Full bar', 'Galleria']
     },
     {
         name: "Hungry Howie's Pizza",
@@ -685,8 +686,8 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.901736784187758, -95.553412021421],
         neighborhood: 'Jersey Village',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/jN4nRox.png',
+        website: 'https://www.hungryhowies.com/stores/tx/houston/9213-west-rd-suite-100?utm_source=google&utm_medium=organic&utm_campaign=googlebusinessprofile',
         blurb: 'Basic, counter-serve pizzeria chain popular for its flavored crusts, such as sesame & garlic herb.',
         description: ['Flavored crusts', 'Cajun Bread', 'Onion Crust']
     },
@@ -696,7 +697,7 @@ const locations = [
         subcategory: 'dessert',
         coordinates: [29.737118864189952, -95.41921689703939],
         neighborhood: 'Greenway',
-        img: '',
+        img: 'https://i.imgur.com/kT7WhKM.png',
         website: 'https://houseofpies.com/',
         blurb: 'Classic 24-hour American diner serving burgers, salads, sandwiches, breakfast fare & homemade pies.',
         description: ['Lemon Meringue', 'Key Lime', 'Coconut Meringue']
@@ -707,7 +708,7 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.946170791694453, -95.46510803077007],
         neighborhood: 'Greenspoint',
-        img: '',
+        img: 'https://i.imgur.com/XPMlMpQ.png',
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
         description: ['Kool Aid']
@@ -718,7 +719,7 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.864652305790308, -95.40565798665216],
         neighborhood: 'Acres Home',
-        img: '',
+        img: 'https://i.imgur.com/MPtLL5H.png',
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
         description: ['Kool Aid']
@@ -729,7 +730,7 @@ const locations = [
         subcategory: 'chicken',
         coordinates: [29.844238187755664, -95.47286949870724],
         neighborhood: 'Central Northwest',
-        img: '',
+        img: 'https://i.imgur.com/C0M6SOh.png',
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
         description: ['Kool Aid']
@@ -740,7 +741,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.694876795984932, -95.29955061154651],
         neighborhood: 'Southeast Houston',
-        img: '',
+        img: 'https://i.imgur.com/KAPwDYt.jpg',
         website: 'https://www.spankyspizza.net/',
         blurb: 'This family-owned pizza parlor using from-scratch dough also offers burgers, pasta & a full bar.',
         description: ['oven baked wings', 'large pizzas', 'full menu']
@@ -751,6 +752,7 @@ const locations = [
         subcategory: 'upscale',
         coordinates: [29.74019123438663, -95.46277629362307],
         neighborhood: 'Uptown',
+        img: 'https://i.imgur.com/CavBhh7.png',
         website: 'https://joeyrestaurants.com/location/joey-uptown',
         blurb: 'Relaxed, contemporary dining spot with a broad menu featuring international & regional dishes.',
         description: ['fine dining', 'full bar', 'quality steak']
@@ -761,6 +763,7 @@ const locations = [
         subcategory: 'upscale',
         coordinates: [29.752621777966795, -95.37569459231442],
         neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/S8jcVg6.png',
         website: 'https://13htx.com',
         blurb: 'Upscale restaurant offering New American cuisine & a raw bar, plus a hookah and cocktail lounge.',
         description: ['hookah', 'full bar', 'midtown']
@@ -771,6 +774,7 @@ const locations = [
         subcategory: 'seafood',
         coordinates: [29.81584956949366, -95.32898273227359],
         neighborhood: 'Houston Gardens',
+        img: 'https://i.imgur.com/2UoXXY7.png',
         website: 'https://www.instagram.com/theseafoodmanshack/',
         blurb: 'Laid-back seafood shack offering quick bites, including crawfish, shrimp, and gumbo.',
         description: ['seafood boil', 'fried seafood', 'burgers']
@@ -781,6 +785,7 @@ const locations = [
         subcategory: 'seafood',
         coordinates: [29.790529597726433, -95.39167411678872],
         neighborhood: 'Northside',
+        img: 'https://i.imgur.com/2hKXN1q.png',
         website: 'https://www.theboilhouse.com',
         blurb: 'Open-air counter-serve featuring Cajun crawfish & shrimp boils with corn, plus outside tables.',
         description: ['high quality', 'worth the price', 'king cake']
@@ -791,6 +796,7 @@ const locations = [
         subcategory: 'tacos',
         coordinates: [29.790805407102635, -95.37342269156582],
         neighborhood: 'Northside',
+        img: 'https://i.imgur.com/GKuJcT6.png',
         website: 'https://www.cantinabarba.com',
         blurb: 'Unfussy joint with late-night hours crafting house-smoked meat tacos, coffee, beer & mezcal.',
         description: ['open late', 'great tacos', 'quality cocktails']
@@ -800,6 +806,7 @@ const locations = [
         category: 'food',
         subcategory: 'burgers',
         coordinates: [29.98801261114251, -95.1927731083066],
+        img: 'https://i.imgur.com/QBGyurN.png',
         neighborhood: 'Atascocita',
         website: 'https://www.culvers.com/restaurants/atascocita?utm_source=Google&utm_medium=Maps&utm_campaign=Google%20Places',
         blurb: 'Fast-food chain specializing in frozen custard & signature burgers made with Midwest beef & dairy.',
@@ -811,6 +818,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [30.00041303571167, -95.16024942826793],
         neighborhood: 'Humble',
+        img: 'https://i.imgur.com/XSn7t71.png',
         website: 'https://locations.papajohns.com/united-states/tx/77346/atascosita-%28humble%29/7591-fm-1960-road-east?utm_source=yext-listings&utm_medium=referral&y_source=1_MTA1OTI1NDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D',
         blurb: 'Pizza take-out & delivery chain offering classic & specialty pizzas, plus wings, sides & desserts.',
         description: ['wonderful GM', 'better ingredients', 'better pizza']
@@ -821,7 +829,7 @@ const locations = [
         subcategory: 'pizza',
         coordinates: [29.77258286899414, -95.398930888628],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/IOMxpjF.png',
         website: 'https://www.lunapizzeria.com',
         blurb: 'Modern, family-friendly pizzeria turning out pies with creative toppings, plus salads & sandwiches.',
         description: ['prosciutto & arugala', 'spicy andouille', 'games']
@@ -832,12 +840,22 @@ const locations = [
         subcategory: 'burgers',
         coordinates: [29.767238194517333, -95.40970321005263],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/ANec7Sy.png',
         website: 'https://www.cni713.com',
         blurb: 'Easygoing eatery offering Indian & Southern fare such as burgers & kebabs in low-key surrounds.',
         description: ['date night', 'drinks', 'indian western fusion']        
     },
     // Bars
+    {
+        name: 'Lost & Found',
+        category: 'bar',
+        coordinates: [29.75348220171603, -95.38091870436139],
+        neighborhood: 'Fourth Ward',
+        img: 'https://i.imgur.com/P657VXU.png',
+        website: 'https://lostandfoundmidtown.com/',
+        blurb: 'Relaxed restaurant offering cocktails, brunch & mains, plus patio dining with views of midtown.',
+        description: ['happy hour', 'outdoor seating', 'hookah']
+    },
     {
         name: 'Ador',
         category: 'bar',
