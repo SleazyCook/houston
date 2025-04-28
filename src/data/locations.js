@@ -89,7 +89,7 @@ const locations = [
         description: ['open late', 'deluxe cookies', 'ice cream']         
     },
     {
-        name: 'The Rice Boxs',
+        name: 'The Rice Box',
         category: 'food',
         subcategory: 'ricebowl',
         coordinates: [29.80367761668916, -95.40176409739686],
