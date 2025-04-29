@@ -62,7 +62,20 @@ const Leaflet = ({lat, lon, zoom }) => {
 
         // Layers 2 of 4: Assign Icon Image
         let mapIconUrl = ''
-        if (location.subcategory == 'burgers') {
+        // Activities First, to avoid food subcategory override.
+        if (location.category == "bar") {
+          mapIconUrl = icons.bar;
+        } else if (location.category == "books") {
+          mapIconUrl = icons.books;
+        } else if (location.category == "market") {
+          mapIconUrl = icons.market ;
+        } else if (location.category == "movies") {
+          mapIconUrl = icons.movies;
+        } else if (location.category == 'music') {
+          mapIconUrl = icons.music;
+        } else if (location.category == 'park') {
+          mapIconUrl = icons.parks;
+        } else if (location.subcategory == 'burgers') {
           mapIconUrl = icons.burgers;
         } else if (location.subcategory == 'breakfast') {
           mapIconUrl = icons.breakfast;
@@ -92,21 +105,8 @@ const Leaflet = ({lat, lon, zoom }) => {
           mapIconUrl = icons.upscale;
         } else if (location.subcategory == 'hall') {
           mapIconUrl = icons.foodhalls;
-
         }  else if (location.category == "food") {
           mapIconUrl = icons.burgers;
-        } else if (location.category == "bar") {
-          mapIconUrl = icons.bar;
-        } else if (location.category == "books") {
-          mapIconUrl = icons.books;
-        } else if (location.category == "market") {
-          mapIconUrl = icons.market ;
-        } else if (location.category == "movies") {
-          mapIconUrl = icons.movies;
-        } else if (location.category == 'music') {
-          mapIconUrl = icons.music;
-        } else if (location.category == 'park') {
-          mapIconUrl = icons.parks;
         }
 
         const customIcon = L.icon({

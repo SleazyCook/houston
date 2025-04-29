@@ -1067,12 +1067,24 @@ const locations = [
     {
         name: "Neighbors",
         category: 'bar',
+        subcategory: 'pizza',
         coordinates: [29.748317085532182, -95.34099179797487],
         neighborhood: 'Second Ward',
-        img: '',
+        img: 'https://i.imgur.com/HwOUYHs.png',
         website: 'https://www.neighborspizzabar.com',
         blurb: 'Neighborhood bar offering beer, cocktails, and wine, plus live entertainment and games.',
-        description: ['live music', 'card games', 'outdoor seating']
+        description: ['Live music', 'Card games', 'Outdoor seating']
+    },
+    {
+        name: "Jethro's Cocktail Lounge",
+        category: 'bar',
+        subcategory: 'burgers',
+        coordinates: [29.748620029553102, -95.38363990559155],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/plw9xXM.png',
+        website: 'https://www.jethroshouston.com',
+        blurb: 'Casual, neighborhood cocktail lounge serving beer, wine, spirits, and espresso martinis.',
+        description: ['Happy Hour Burgers', 'Full Bar', 'Relaxing Atmospher']
     },
     // Bookstores & Libraries
     {
