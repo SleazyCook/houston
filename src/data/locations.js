@@ -323,7 +323,7 @@ const locations = [
         coordinates: [29.744484475293824, -95.39052608843915],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/XJpCvG9.png',
-        website: '',
+        website: 'https://www.velvettaco.com',
         blurb: 'Tacos with global-inspired fillings, plus margaritas and beer, in a trendy atmosphere.',
         description: ['Creative Menu', 'Backdoor Chicken', 'Elote']
     },
@@ -389,7 +389,7 @@ const locations = [
         coordinates: [29.879900615131934, -95.33001824192365],
         neighborhood: 'Greenwood Village',
         img: 'https://i.imgur.com/vOWNjpt.png',
-        website: '',
+        website: 'https://aztecatacohousetx.com',
         blurb: 'Casual eatery specializing in breakfast tacos, carne guisada, and homemade flour tortillas.',
         description: ['Texas Monthly Top 10 Tacos', 'Delicious Breakfast Tacos', 'Spanish Speaking Preferred']
     },
@@ -400,9 +400,9 @@ const locations = [
         coordinates: [30.05201190215551, -95.43342391197649],
         neighborhood: 'Spring',
         img: 'https://i.imgur.com/ONoiyzI.png',
-        website: '',
+        website: 'https://brotherspizzeriahouston.com',
         blurb: 'Low-key pizzeria with New York-style pies whole or by the slice, plus calzones, pastas & sandwiches',
-        description: ['']
+        description: ['Pizza by the Slice', 'Large Pizzas', 'Sub Sandwiches']
     },
     {
         name: "Brother's Pizza Express",
@@ -411,9 +411,9 @@ const locations = [
         coordinates: [29.958437436159638, -95.56441467471862],
         neighborhood: 'Willowbrook',
         img: 'https://i.imgur.com/EaSTaIk.png',
-        website: '',
+        website: 'https://brotherspizzeriahouston.com',
         blurb: 'Mainstay for pizza & other casual Italian-inspired comfort food, including stromboli & calzones',
-        description: []
+        description: ['Pizza by the Slice', 'Large Pizzas', 'Sub Sandwiches']
     },
     {
         name: "Yoyo's Hotdog - POST",
@@ -422,9 +422,9 @@ const locations = [
         coordinates: [29.766272186344448, -95.36461056318291],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/Lz71WDl.png',
-        website: '',
+        website: 'https://www.instagram.com/yoyoshotdogshtx/?hl=en',
         blurb: 'Casual spot serving hot dogs and other quick bites for lunch.',
-        description: []
+        description: ['Original Hotdog', 'Drinks', "That's It."]
     },
     {
         name: "Yoyo's Hotdog",
@@ -433,9 +433,9 @@ const locations = [
         coordinates: [29.749426924148914, -95.35545770557285],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/PQCIziO.png',
-        website: '',
+        website: 'https://www.instagram.com/yoyoshotdogshtx/?hl=en',
         blurb: 'Hot dog stand turning out quick bites in a casual atmosphere.',
-        description: []
+        description: ['Original Hotdog', 'Drinks', "That's It."]
     },
     {
         name: "Yoyo's Hotdog",
@@ -444,9 +444,9 @@ const locations = [
         coordinates: [29.770734786401515, -95.40811760984687],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/IqsbBbr.png',
-        website: '',
+        website: 'https://www.instagram.com/yoyoshotdogshtx/?hl=en',
         blurb: 'Hot dog stand turning out quick bites in a casual atmosphere.',
-        description: []
+        description: ['Original Hotdog', 'Drinks', "That's It."]
     },
     {
         name: 'Fogo de Chão',
@@ -455,9 +455,9 @@ const locations = [
         coordinates: [29.738151249900074, -95.51179108918673],
         neighborhood: 'Mid West',
         img: 'https://i.imgur.com/e6B9RR1.png',
-        website: '',
+        website: 'https://fogodechao.com',
         blurb: "Upscale Brazilian chain for all-you-can-eat meat carved tableside plus an extensive salad bar.",
-        description: []
+        description: ['Brazilian Steakhouse', 'Salad Bar', 'Sweet Plantains']
     },
     {
         name: 'Chama Gaúcha',
@@ -466,9 +466,9 @@ const locations = [
         coordinates: [29.737575389908308, -95.48292126437322],
         neighborhood: 'Mid West',
         img: 'https://i.imgur.com/YTOriix.png',
-        website: '',
+        website: 'https://www.chamagaucha.com/houston',
         blurb: 'Upscale spot featuring all-you-can-eat tableside-carved Brazilian meat & a global wine list.',
-        description: []
+        description: ['Brazilian Steakhouse', 'Salad Bar', 'Sweet Plantains']
     },
     {
         name: 'Zalat',
@@ -479,7 +479,7 @@ const locations = [
         img: 'https://i.imgur.com/ooiiaUo.png',
         website: 'https://zalatpizza.com',
         blurb: 'Order handcrafted, unique-flavored pizzas for delivery or takeout. Open late to satisfy your cravings!',
-        description: []
+        description: ['Creative Pizzas', 'Open Late', 'Walkable Area']
     },
     {
         name: 'Zalat',
@@ -490,7 +490,7 @@ const locations = [
         img: 'https://i.imgur.com/mxTDr8B.png',
         website: 'https://zalatpizza.com',
         blurb: 'Order handcrafted, unique-flavored pizzas for delivery or takeout. Open late to satisfy your cravings!',
-        description: []
+        description: ['Creative Pizzas', 'Open Late', 'Walkable Area']
     },
     {
         name: 'Butter Funk Kitchen',
@@ -501,7 +501,7 @@ const locations = [
         img: 'https://i.imgur.com/5eNndPo.png',
         website: 'https://butterfunkhtx.com/',
         blurb: 'Casual place for Southern eats, such as fried ribs, plus daiquiris and other drinks.',
-        description: ['Keith Lee approved']
+        description: ['Keith Lee approved', 'Fried Entrees', 'Kool Aid']
     },
     {
         name: "Layne's Chicken Fingers",
@@ -564,7 +564,7 @@ const locations = [
         coordinates: [29.758003441874767, -95.34618410261355],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/qxyPStD.png',
-        website: '',
+        website: 'https://flyingbiscuit.com',
         blurb: 'Branch of a laid-back chain known for Southern food & all-day breakfast selections.',
         description: ['Open early', 'chicken & waffles', 'homemade biscuits']
     },
@@ -577,7 +577,7 @@ const locations = [
         img: 'https://i.imgur.com/hANqcZO.png',
         website: 'https://www.lyricmarket.com/',
         blurb: "Houston's most exciting and sophisticated food hall",
-        description: []
+        description: ["Order From App", 'Full Bar', 'Range of options']
     },
     {
         name: 'POST Market',
@@ -599,7 +599,7 @@ const locations = [
         img: 'https://i.imgur.com/cRslLrK.png',
         website: 'https://www.undergroundhall.com/',
         blurb: 'Casual destination with food vendors doling out global bites, plus draft beer & happy hour specials.',
-        description: []
+        description: ['Happy Hour 2-6', 'Noodles', 'Burgers']
     },
     {
         name: "BB's Tex-Orleans",
@@ -607,9 +607,9 @@ const locations = [
         coordinates: [29.81679853144434, -95.43075744065375],
         neighborhood: 'Ella Oaks',
         img: 'https://i.imgur.com/5aK3wLH.png',
-        website: '',
+        website: 'https://bbstexorleans.com',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
-        description: []
+        description: ['Crawfish', 'Gumbo', 'Fried Fish']
     },
     {
         name: "BB's Tex-Orleans",
@@ -617,9 +617,9 @@ const locations = [
         coordinates: [29.78130193379262, -95.38796849551551],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/UHoh7Tn.png',
-        website: '',
+        website: 'https://bbstexorleans.com',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
-        description: []
+        description: ['Crawfish', 'Gumbo', 'Fried Fish']
     },
     {
         name: "BB's Tex-Orleans",
@@ -628,9 +628,9 @@ const locations = [
         coordinates: [29.74424519171531, -95.38841579865903],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/agJyn5R.png',
-        website: '',
+        website: 'https://bbstexorleans.com',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
-        description: []
+        description: ['Crawfish', 'Gumbo', 'Fried Fish']
     },
     {
         name: "BB's Tex-Orleans",
@@ -639,9 +639,9 @@ const locations = [
         coordinates: [29.733773605120188, -95.4261022899225],
         neighborhood: 'Richmond Ave',
         img: 'https://i.imgur.com/vPRgLRV.png',
-        website: '',
+        website: 'https://bbstexorleans.com',
         blurb: "Local Tex-Orleans chain serving po'boys, gumbo, fried seafood & more in a casual setting.",
-        description: []
+        description: ['Crawfish', 'Gumbo', 'Fried Fish']
     },
     {
         name: '7Spice',
@@ -718,7 +718,7 @@ const locations = [
         img: 'https://i.imgur.com/XPMlMpQ.png',
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
-        description: ['Kool Aid']
+        description: ['Kool Aid', 'Chicken Wings', 'Fried Rice']
     },
     {
         name: "Timmy Chan's",
@@ -729,7 +729,7 @@ const locations = [
         img: 'https://i.imgur.com/MPtLL5H.png',
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
-        description: ['Kool Aid']
+        description: ['Kool Aid', 'Chicken Wings', 'Fried Rice']
     },
     {
         name: "Timmy Chan's",
@@ -740,7 +740,7 @@ const locations = [
         img: 'https://i.imgur.com/C0M6SOh.png',
         website: 'https://www.timmychanshouston.com/',
         blurb: 'Utilitarian Chinese joint with a drive-thru offering fast food such as chicken wings & fried rice.',
-        description: ['Kool Aid']
+        description: ['Kool Aid', 'Chicken Wings', 'Fried Rice']
     },
     {
         name: "Spanky's ",
@@ -851,6 +851,17 @@ const locations = [
         website: 'https://www.cni713.com',
         blurb: 'Easygoing eatery offering Indian & Southern fare such as burgers & kebabs in low-key surrounds.',
         description: ['date night', 'drinks', 'indian western fusion']        
+    },
+    {
+        name: 'Kami Ramen & Sushi',
+        category: 'food',
+        subcategory: 'ramen',
+        coordinates: [30.003902312520257, -95.27018922268779],
+        neighborhood: 'Deerbrook',
+        img: 'https://i.imgur.com/xTFTDOH.png',
+        website: 'https://www.kamiramenhumble.com',
+        blurb: 'Casual, anime-themed restaurant serving ramen, sushi, and other Japanese eats plus sake and beer.',
+        description: ['Ramen', 'Pepper Tuna', 'Sushi Rolls']
     },
     // Bars
     {

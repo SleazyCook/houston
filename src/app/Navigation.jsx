@@ -8,7 +8,7 @@ const Navigation = ({ setLat, setLon, setZoom }) => {
     setZoom(11);
   };
     return (
-      <div>
+      <div className='navigation'>
       <Link to="/" onClick={resetCoordinates}>Map</Link>
         <Link to='/food'>Restaurants</Link>
         <Link to='/activities'>Activities</Link>
