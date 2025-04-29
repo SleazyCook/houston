@@ -180,7 +180,7 @@ const locations = [
         subcategory: 'burgers',
         coordinates: [29.963688061809677, -95.5421339703664],
         neighborhood: 'Willowbrook',  
-        img: 'https://i.imgur.com/TVe6KH1.png',
+        img: 'https://i.imgur.com/U7f9s2M.png',
         website: 'www.in-n-out.com/',
         description: ['California Favorite', 'Flying Dutchman w/ Onions', 'Flying Ducthman w/ Tomatoes']
     },
@@ -553,9 +553,9 @@ const locations = [
         coordinates: [29.79111201462518, -95.37286016530489],
         neighborhood: 'Norhill',
         img: 'https://i.imgur.com/ZIICkRg.jpg',
-        website: '',
+        website: 'http://www.asiamarketthailaofoods.com',
         blurb: 'Established storefront supplying Asian produce & groceries, also serving a Thai lunch & dinner menu.',
-        description: ''
+        description: ['Asian Market', 'Full Thai Food Menu', 'Noodles & Curries']
     },
     {
         name: 'Flying Biscuit',
@@ -652,7 +652,7 @@ const locations = [
         img: 'https://i.imgur.com/ExpOpZX.jpg',
         website: 'https://7spicecajun.com',
         blurb: 'Fast-casual chain prepping made-to-order Cajun seafood dishes, including popular fried shrimp.',
-        description: ''
+        description: ['Seafood boil', 'Corn & Potatoes', 'Crawfish']
     },
     {
         name: 'Hippo Burgers',

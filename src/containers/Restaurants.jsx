@@ -36,16 +36,18 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
         <br /><br />
         <b>{title}</b>
 
-        {restaurantsFiltered[selectedCategory]?.map((item, key) => {
-          return (
-            <Location 
-              key={key} 
-              item={item} 
-              setLat={setLat} 
-              setLon={setLon} 
-              setZoom={setZoom}/>
-          );
-        })}
+        <div className='location__container'>     
+          {restaurantsFiltered[selectedCategory]?.map((item, key) => {
+            return (
+              <Location 
+                key={key} 
+                item={item} 
+                setLat={setLat} 
+                setLon={setLon} 
+                setZoom={setZoom}/>
+            );
+          })}
+        </div>   
 
       </div>
     );
