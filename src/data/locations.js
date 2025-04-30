@@ -875,7 +875,7 @@ const locations = [
         description: ['happy hour', 'outdoor seating', 'hookah']
     },
     {
-        name: 'Ador',
+        name: "A'dor",
         category: 'bar',
         coordinates: [29.753411079893684, -95.38650062691997],
         neighborhood: 'Fourth Ward',
@@ -909,7 +909,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.797314935102868, -95.41030956614523],
         neighborhood: 'Heights',
-        img: '',
+        img: 'https://i.imgur.com/5IAvJoV.png',
         website: 'https://www.heightsbiergarten.com/',
         blurb: 'Craft beer garden offering cocktails, wine, bar food, and a pet-friendly patio with fire pits.',
         description: ['beer list', 'outdoor seating', 'soft pretzel']
@@ -929,7 +929,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.771212770697776, -95.34753793820126],
         neighborhood: 'Greater Fifth Ward',
-        img: '',
+        img: 'https://i.imgur.com/qkG3Lm3.png',
         website: 'https://www.saintarnold.com/',
         blurb: 'Established craft brewery featuring facility tours & a beer hall serving pints & pub grub for lunch.',
         description: ['Houston Brewing', 'Cider List', 'Outdoor Seating']
@@ -949,7 +949,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.7574399740177, -95.34675785219966],
         neighborhood: 'Eado',
-        img: '',
+        img: 'https://i.imgur.com/8JVJfkN.png',
         website: 'https://cidercade.com/houston/',
         blurb: 'Huge arcade bar with a mix of classic & modern games, plus house-made hard ciders',
         description: ['free parking', 'unlimited arcade', 'cider flights']
@@ -959,7 +959,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.763506399996455, -95.36059241953069],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/nT6Kd5H.png',
         website: 'https://www.houstonwatchcompany.com/',
         blurb: 'This former watch shop is now a quaint, 2-level cocktail bar in the lobby of the Bayou Lofts.',
         description: ['historic', 'quiet seating', 'second floor']
@@ -969,7 +969,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.761971390805527, -95.3611870578859],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/uyHPLGM.png',
         website: 'https://bcd-htx.com/',
         blurb: 'Trendy bar featuring a hidden speakeasy with music and dancing.',
         description: ['secret spaces']
@@ -979,7 +979,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.762068172596784, -95.3611910729658],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/OxYv0nj.png',
         website: 'https://cherryhtx.com',
         blurb: 'Trendy nightclub with a packed dance floor featuring retro music and cocktails.',
         description: []
@@ -989,7 +989,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.761835136484965, -95.3612382178252],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/BJuiv6f.png',
         website: 'https://notsuoh.com',
         blurb: 'Quirky watering hole ofering poetry readings, live music & performing artists with a funky vibe.',
         description: []
@@ -999,7 +999,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.77476119202706, -95.41842694823647],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/IOnQn4G.png',
         website: 'https://ladybirdsbar.com',
         blurb: 'Family-owned watering hole offering craft brews & specialty cocktails, plus a spacious patio.',
         description: []
@@ -1009,17 +1009,17 @@ const locations = [
         category: 'bar',
         coordinates: [29.770604569930263, -95.41329371711167],
         neighborhood: 'Washington',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/C80jglX.png',
+        website: 'https://www.instagram.com/sugarroomhtx/?hl=en',
         blurb: 'An Upscale Speakeasy An innuendo to Prohibition days past, Sugar Room is a hidden speakeasy-inspired bar located in the heart of Houston’s bustling nightlife scene. Enjoy hand-crafted cocktails cocktails in our upscale lounge, or move the party to our outdoor patio with 2,000 square feet of space for socializing.',
-        description: []
+        description: ['Speakeasy', 'Cocktails', 'DJ Nights']
     },
     {
         name: 'Pitch 25',
         category: 'bar',
         coordinates: [29.751557482444884, -95.35468225434623],
         neighborhood: 'EaDo',
-        img: '',
+        img: 'https://i.imgur.com/pL05Sc6.png',
         website: 'https://www.facebook.com/pitch25beerpark/menu/',
         blurb: 'Pub grub & nearly 100 draft beers in a cool, cavernous warehouse with games & lots of outdoor seats.',
         description: ['sports bar', 'dodgeball', 'axe throwing']
@@ -1029,7 +1029,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.772552031946326, -95.37956184665045],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/Kpw0cYz.png',
         website: 'https://tejasbeer.com',
         blurb: 'Tejas Brewery is located in the heart of vibrant Sawyer Yards, offering three stories of exceptional food, handcrafted beer, creative cocktails, artisan coffee, and versatile event spaces—all with a stunning view of downtown Houston.',
         description: ['view of skyline', 'outdoor seating', 'full menu']
@@ -1039,7 +1039,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.782984392258367, -95.39855598565903],
         neighborhood: 'Heights',
-        img: '',
+        img: 'https://i.imgur.com/VOeVq1m.png',
         website: 'https://www.postinowinecafe.com/locations/postino-heights',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
         description: ['classy', 'wine bar', 'full menu']
@@ -1049,7 +1049,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.746522189697743, -95.39033692975383],
         neighborhood: 'Montrose',
-        img: '',
+        img: 'https://i.imgur.com/AfbB55w.png',
         website: 'https://www.postinowinecafe.com/locations/postino-montrose',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
         description: ['classy', 'wine bar', 'full menu']
@@ -1059,7 +1059,7 @@ const locations = [
         category: 'bar',
         coordinates: [29.75432446959847, -95.45728990091776],
         neighborhood: 'Uptown Park',
-        img: '',
+        img: 'https://i.imgur.com/wajbCUB.png',
         website: 'https://www.postinowinecafe.com/locations/postino-uptown-park',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
         description: ['classy', 'wine bar', 'full menu']    
@@ -1213,7 +1213,7 @@ const locations = [
         category: 'market',
         coordinates: [29.785449825593115, -95.5229681661174],
         neighborhood: 'Blalock Market',        
-        img: '',
+        img: 'https://i.imgur.com/lscVoE1.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
         description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
@@ -1223,7 +1223,7 @@ const locations = [
         category: 'market',
         coordinates: [29.737573908010656, -95.59568067398935],
         neighborhood: 'Westheimer',      
-        img: '',
+        img: 'https://i.imgur.com/QyyVC3v.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
         description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
@@ -1233,7 +1233,7 @@ const locations = [
         category: 'market',
         coordinates: [29.775705653355033, -95.7501533006404],
         neighborhood: 'Katy',      
-        img: '',
+        img: 'https://i.imgur.com/TQphagr.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
         description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
@@ -1464,7 +1464,7 @@ const locations = [
         category: 'music',
         coordinates: [29.765904133313427, -95.36386788724305],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/t93sdjO.png',
         website: 'https://www.713musichall.com/?utm_source=GMBlisting&utm_medium=organic',
         blurb: 'Venue in a former post office with a restaurant and bar, hosting a variety of artists.',
         description: ['paid parking', 'attached to POST Food Hall', 'medium to large concerts']
