@@ -1086,6 +1086,16 @@ const locations = [
         blurb: 'Casual, neighborhood cocktail lounge serving beer, wine, spirits, and espresso martinis.',
         description: ['Happy Hour Burgers', 'Full Bar', 'Relaxing Atmospher']
     },
+    {
+        name: 'The Art Room HTX',
+        category: 'bar',    
+        coordinates: [29.7222807494074, -95.37865293968716],
+        neighborhood: 'Museum District',
+        img: 'https://i.imgur.com/pR8oSA9.png',
+        website: 'https://artroomcafe.wordpress.com',
+        blurb: 'Local Cafe for us to vibe, work, eat, and meet.',
+        description: ['Hookah', 'Poetry', 'Live Music']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
