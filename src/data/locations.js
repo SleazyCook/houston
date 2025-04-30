@@ -187,7 +187,7 @@ const locations = [
     {
         name: 'Cheba Hut',
         category: 'food',
-        subcategory: 'sanwiches',
+        subcategory: 'sandwiches',
         coordinates: [29.77234244004, -95.37822662667772],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/ThKWsLq.png',
@@ -1037,6 +1037,7 @@ const locations = [
     {
         name: 'Postino',
         category: 'bar',
+        subcategory: 'sandwiches',
         coordinates: [29.782984392258367, -95.39855598565903],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/VOeVq1m.png',
@@ -1047,6 +1048,7 @@ const locations = [
     {
         name: 'Postino',
         category: 'bar',
+        subcategory: 'sandwiches',
         coordinates: [29.746522189697743, -95.39033692975383],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/AfbB55w.png',
@@ -1057,6 +1059,7 @@ const locations = [
     {
         name: 'Postino',
         category: 'bar',
+        subcategory: 'sandwiches',
         coordinates: [29.75432446959847, -95.45728990091776],
         neighborhood: 'Uptown Park',
         img: 'https://i.imgur.com/wajbCUB.png',
@@ -1301,6 +1304,7 @@ const locations = [
     {
         name: 'Sprouts',
         category: 'market',
+        subcategory: 'sandwiches',
         coordinates: [29.774566750083107, -95.40017316062348],
         neighborhood: 'Washington',  
         img: '',
