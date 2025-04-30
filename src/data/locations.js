@@ -1092,70 +1092,70 @@ const locations = [
         category: 'books',
         coordinates: [29.794251635722954, -95.47768854366207],
         neighborhood: 'Northwest Houston',
-        img: '',
+        img: 'https://i.imgur.com/7Tc5Kuc.png',
         website: 'https://www.beckersbooks.com/',
         blurb: 'Cozy family shop in a 3,5000-sq.-ft renovated house offers diverse used, rare & out-of-print books.',
-        description: []
+        description: ['Renonvated House', 'Friendly Staff & Pets', 'Maze of used books']
     },
     {
         name: 'Kaboom Books',
         category: 'books',
         coordinates: [29.786977712444614, -95.37189190882646],
         neighborhood: 'Northside',
-        img: '',
+        img: 'https://i.imgur.com/qIspkWO.png',
         website: 'https://kaboombooks.com/',
         blurb: 'Homey shop featuring pre-owned books, including hard-to-find titles, also hosts events on its patio.',
-        description: [],
+        description: ['Walkable Area', 'Events', 'Outside Patio'],
     },
     {
         name: 'Murder By The Book',
         category: 'books',
         coordinates: [29.725750721718644, -95.41452430314608],
         neighborhood: 'University Place',
-        img: '',
+        img: 'https://i.imgur.com/vINmybd.png',
         website: 'https://murderbooks.com',
         blurb: 'Bookstore featuring new & used mystery novels, magazines, & collectibles also hosts author events.',
-        description: []
+        description: ['Walkable Area', 'Mystery Section', 'Collectibles']
     },
     {
         name: 'Quarter Price Books',
         category: 'books',
         coordinates: [29.731932134424735, -95.41079697391432],
         neighborhood: 'Greenway',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/riQzvW6.png',
+        website: 'https://www.yelp.com/biz/1-4-price-books-houston-2',
         blurb: 'Organized store offering used and collectible books, plus many titles on Texas history.',
-        description: []
+        description: ['Affordable Books', 'Walkable Area', 'First Editions']
     },
     {
         name: 'Kinokuniya',
         category: 'books',
         coordinates: [29.7889472043791, -95.77308058127569],
         neighborhood: 'Katy',
-        img: '',
+        img: 'https://i.imgur.com/XsqHn2C.png',
         website: 'https://usa.kinokuniya.com/stores-kinokuniya-katy',
         blurb: 'Japanese-based retailer known for its collection of Asian books & magazines.',
-        description: ['stationery', 'fountain pens', 'book nooks'],
+        description: ['Stationery', 'Fountain Pens', 'Book Nooks'],
     },
     {
         name: 'Lanier Theological Library',
         category: 'books',
         coordinates: [29.977528244026878, -95.54897270621879],
         neighborhood: 'Prestonwood Forest',
-        img: '',
+        img: 'https://i.imgur.com/v8Pmeg7.png',
         website: 'https://lanierlibraryandlearningcenter.org',
         blurb: 'Lanier Theological Library is a 17,000 sq. ft non-circulating research library located in northwest Houston, Texas. It was built by Mark Lanier, who has taught Sunday school at Champion Forest Baptist Church for more than 20 years, and is part of his 35-acre estate.',
-        description: ['photogenic', '']
+        description: ['Photogenic', 'Religious Library', 'Castle-like']
     },
     {
         name: 'Houston Public Library',
         category: 'books',
         coordinates: [29.759442236774625, -95.36996502172211],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/QsaagUi.png',
         website: 'https://houstonlibrary.org/home',
         blurb: 'Public library offering books, computers, and passport applications, plus a parking garage.',
-        description: ['downtown', '', '']
+        description: ['Downtown', 'Banned Books Section', 'Tech Equipment Available']
     },
     // Markets
     {
