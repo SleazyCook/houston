@@ -118,6 +118,7 @@ const locations = [
         neighborhood: 'Deerbrook',
         img: 'https://i.imgur.com/X6qqegt.png',
         website: 'https://www.monkshumble.com/',
+        blurb: 'Indian and Chinese cooking, including vegetarian options, served in a casual space with counter and table service.',
         description: ['indian', 'very spicy', 'samosas']
     },
     {
@@ -604,6 +605,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
+        subcategory: 'seafood',
         coordinates: [29.81679853144434, -95.43075744065375],
         neighborhood: 'Ella Oaks',
         img: 'https://i.imgur.com/5aK3wLH.png',
@@ -614,6 +616,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
+        subcategory: 'seafood',
         coordinates: [29.78130193379262, -95.38796849551551],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/UHoh7Tn.png',
@@ -862,6 +865,39 @@ const locations = [
         website: 'https://www.kamiramenhumble.com',
         blurb: 'Casual, anime-themed restaurant serving ramen, sushi, and other Japanese eats plus sake and beer.',
         description: ['Ramen', 'Pepper Tuna', 'Sushi Rolls']
+    },
+    {
+        name: 'Somisomi',
+        category: 'food',
+        subcategory: 'dessert',
+        coordinates: [29.788818320818113, -95.77298887199107],
+        neighborhood: 'Katy',
+        img: 'https://i.imgur.com/1y81OeD.png',
+        website: 'https://somisomi.com',
+        blurb: 'Playful Korean-style soft serve in flavors like matcha and black sesame served in specialty cones.',
+        description: ['Fun Ice Cream', 'Refreshing', 'Colorful']
+    },
+    {
+        name: "Simple Simon's",
+        category: 'food',
+        subcategory: 'pizza',
+        coordinates: [29.930726076398745, -95.30876976284986],
+        neighborhood: 'Fountain View',
+        img: 'https://i.imgur.com/S6K4xYy.png',
+        website: 'https://www.simplesimonspizza.com',
+        blurb: 'Classic & creative pizzas, subs & calzones fill the menu at this easygoing Italian chain.',
+        description: ['Take Out', 'Sandwiches', 'Pizza']
+    },
+    {
+        name: 'Flower & Cream',
+        category: 'food',
+        subcategory: 'dessert',
+        coordinates: [29.756607768458114, -95.40288712731353],
+        neightborhood: 'Montrose',
+        img: 'https://i.imgur.com/xR6Rz7v.png',
+        website: 'https://www.flowerandcream.com',
+        blurb: 'Ice cream shop featuring a variety of flavors, including cereal milk and roasted strawberry.',
+        description: ['Unique Flavors', 'Seasonal Flavors', 'Ube Ice Cream']
     },
     // Bars
     {
