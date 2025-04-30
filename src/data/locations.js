@@ -122,7 +122,7 @@ const locations = [
     },
     {
         name: 'Betelgeuse Betelgeuse',
-        category: 'food',
+        category: 'bar',
         subcategory: 'pizza',
         coordinates: [29.767873715445898, -95.37960345473097],
         neighborhood: 'Washington',
@@ -133,7 +133,7 @@ const locations = [
     },
     {
         name: 'Betelgeuse Betelgeuse',
-        category: 'food',
+        category: 'bar',
         subcategory: 'pizza',
         coordinates: [29.73385004922882, -95.3868317708331],
         neighborhood: 'Montrose',
