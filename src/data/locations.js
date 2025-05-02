@@ -1988,6 +1988,28 @@ const locations = [
         website: 'https://www.houstonzoo.org',
         blurb: 'Visitors can see 6,000+ animals in natural, habitat-style exhibits & watch daily care & feedings.',
         description: ['Giraffes', 'Tigers', 'Flamingos']
+    },
+    {
+        name: 'Punch Line Houston',
+        category: 'attraction',
+        subcategory: 'comedy',
+        coordinates: [29.753678669519708, -95.3638775798053],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/lhRlNnI.png',
+        website: 'https://www.punchlinehtx.com',
+        blurb: 'Comedy club restaurant & bar.',
+        description: ['International Comedians', 'Full Bar', 'Full Restaurant']
+    },
+    {
+        name: 'NRG Stadium',
+        category: 'attraction',
+        subcategory: 'football',
+        coordinates: [29.684656629326128, -95.41077177682311],
+        neighborhood: 'Astrodome Area',
+        img: 'https://i.imgur.com/54hw9Jj.png',
+        website: 'https://www.nrgpark.com/nrg-stadium/',
+        blurb: 'Huge arena with a retractable roof hosting Houston Texans football games, rodeos, concerts & more.',
+        description: ['Home of the Texans', 'Arena Concerts', 'Houston Rodeo']
     }
     // (nrg,  punchline, )
 

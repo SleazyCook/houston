@@ -89,6 +89,10 @@ const Leaflet = ({lat, lon, zoom }) => {
           mapIconUrl = icons.basketball;
         } else if (location.subcategory == 'zoo') {
           mapIconUrl = icons.zoo;
+        } else if (location.subcategory == 'comedy') {
+          mapIconUrl = icons.comedy;
+        } else if (location.subcategory == 'football') {
+          mapIconUrl = icons.football;
           // Restaurants subcategories
         } else if (location.subcategory == 'burgers') {
           mapIconUrl = icons.burgers;

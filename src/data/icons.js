@@ -1,18 +1,16 @@
 // customIcons.js
+
 import { renderToStaticMarkup } from 'react-dom/server';
+import { BsJoystick } from "react-icons/bs";
 import { FaIceCream, FaCocktail } from 'react-icons/fa';
 import { FaBurger, FaHotdog, FaPizzaSlice, FaBook, FaBagShopping, FaMusic } from 'react-icons/fa6';
-import { MdRamenDining } from "react-icons/md";
-import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead } from "react-icons/gi";
-import { LuSandwich } from "react-icons/lu";
-import { IoIosBowtie } from "react-icons/io";
+import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall } from "react-icons/gi";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
+import { IoIosBowtie } from "react-icons/io";
+import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
+import { MdRamenDining, MdTheaterComedy } from "react-icons/md";
+import { PiFilmReelFill, PiCatFill } from "react-icons/pi";
 import { RiTreeFill } from "react-icons/ri";
-import { PiFilmReelFill } from "react-icons/pi";
-import { LuFerrisWheel } from "react-icons/lu";
-import { BsJoystick } from "react-icons/bs";
-import { PiCatFill } from "react-icons/pi";
-
 
 const makeSvgDataUrl = (icon) =>
     `data:image/svg+xml,${encodeURIComponent(renderToStaticMarkup(icon))}`;
@@ -50,6 +48,9 @@ export const icons = {
     meow: makeSvgDataUrl(<PiCatFill size={38} color="#222222"  />),
     basketball: makeSvgDataUrl(<GiBasketballBall size={38} color="#222222"  />),
     zoo: makeSvgDataUrl(<GiTigerHead size={38} color="#222222"  />),
+    comedy: makeSvgDataUrl(<MdTheaterComedy size={38} color="#222222"  />),
+    football: makeSvgDataUrl(<GiAmericanFootballBall size={38} color="#222222"  />),
+    
 };
 
 export default icons;
