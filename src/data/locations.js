@@ -888,6 +888,28 @@ const locations = [
         blurb: 'Ice cream shop featuring a variety of flavors, including cereal milk and roasted strawberry.',
         description: ['Unique Flavors', 'Seasonal Flavors', 'Ube Ice Cream']
     },
+    { 
+        name: "Jersey Mike's Subs",
+        category: 'food',
+        subcategory: 'sandwiches',
+        coordinates: [29.925487840354876, -95.19694102868498],
+        neighborhood: 'Summerwood',
+        img: 'https://i.imgur.com/bFnrKIr.png',
+        website: 'https://www.jerseymikes.com/menu',
+        blurb: 'New Jersey–based counter-serve sandwich chain serving jumbo subs filled with cold cuts & toppings.',
+        description: ['Fresh Sandwiches', 'Hot Peppers', "Mike's Ways"]
+    },
+    {
+        name: 'Sv Donuts & Kolaches',
+        category: 'food',
+        subcategory: 'breakfast',
+        coordinates: [29.897511116995208, -95.21243011252079],
+        neighborhood: 'Kingslake Forest',
+        img: 'https://i.imgur.com/BxEIdFC.png',
+        website: 'https://restaurantguru.com/Sv-Donuts-and-Kolaches-Houston',
+        blurb: 'Donut shop known for its kolaches, plus breakfast sandwiches, and custom orders.',
+        description: ['Sausage Kolaches', 'Chocolate Donuts', 'Chocolate Milk']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
