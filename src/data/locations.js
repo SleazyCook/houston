@@ -1223,7 +1223,7 @@ const locations = [
         category: 'market',
         coordinates: [29.792680234069884, -95.77433038249025],
         neighborhood: 'Katy',
-        img: '',
+        img: 'https://i.imgur.com/HVUrkrB.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
         description: []
@@ -1233,7 +1233,7 @@ const locations = [
         category: 'market',
         coordinates: [29.869779060715402, -95.33290961508173],
         neighborhood: 'Little York',
-        img: '',
+        img: 'https://i.imgur.com/lqJKoeX.png',
         website: 'https://mitiendatx.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb_stores&utm_content=mi_tienda_648',
         blurb: 'Sizable Latin grocery store with a tortilleria & a bakery, plus ready-made food court eats.',
         description: ['Mexican Market', 'Food Court', 'Fresh Produce']
@@ -1253,7 +1253,7 @@ const locations = [
         category: 'market',
         coordinates: [29.75441879503811, -95.36160806283416],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/cUVgFdW.png',
         website: 'https://phoeniciafoods.com/locations/downtown-market/',
         blurb: 'Mediterranean market with deli & prepared foods, plus cheeses, baked goods, meats, wine & beer.',
         description: ['mediterranean', 'ready to eat snacks', 'specialty foods']
@@ -1263,7 +1263,7 @@ const locations = [
         category: 'market',
         coordinates: [29.734632883016253, -95.59485050486693],
         neighborhood: 'Westheimer',
-        img: '',
+        img: 'https://i.imgur.com/KgoJrYo.png',
         website: 'https://phoeniciafoods.com/locations/westheimer-market/',
         blurb: 'Mediterranean market with deli & prepared foods, plus cheeses, baked goods, meats, wine & beer.',
         description: ['mediterranean', 'ready to eat snacks', 'specialty foods']
@@ -1309,21 +1309,31 @@ const locations = [
         description: ['fresh pizza', 'tin fish', 'wine']
     },
     {
-        name: 'H-E-B - Shepherd',
+        name: 'H-E-B',
         category: 'market',
         coordinates: [29.807331827706797, -95.40907973637934],
         neighborhood: 'Heights',  
-        img: '',
+        img: 'https://i.imgur.com/w4H8HWL.png',
         website: 'https://www.heb.com/heb-store/US/tx/houston/the-heights-h-e-b-737?utm_source=google&utm_medium=organic&utm_campaign=gmb_stores',
         blurb: 'Branch of a supermarket chain offering groceries, beer & wine, plus a deli, pharmacy & florist.',
-        description: ['pharmacy', 'sushi', 'groceries']
+        description: ['Fresh Sushi', 'Groceries', 'Pharmacy']
+    },
+    {
+        name: 'H-E-B',
+        category: 'market',
+        coordinates: [29.923112090034746, -95.19692257308988],
+        neighborhood: 'Summerwood',
+        img: 'https://i.imgur.com/QUvViYV.png',
+        website: 'https://www.heb.com/heb-store/US/tx/houston/summerwood-market-h-e-b-614?utm_source=google&utm_medium=organic&utm_campaign=gmb_stores',
+        blurb: 'Branch of a supermarket chain offering groceries, beer & wine, plus a deli, pharmacy & florist.',
+        description: ['Fresh Sushi', 'Groceries', 'Seasonal Seafood Boils']        
     },
     {
         name: 'B & W Meat Company',
         category: 'market',
         coordinates: [29.835171688340367, -95.41169405321867],
         neighborhood: 'Indenendence Heights',  
-        img: '',
+        img: 'https://i.imgur.com/Dk66E5Q.png',
         website: 'https://bwmeatcompany.com',
         blurb: 'Butcher shop offering high-quality meats, housemade sausage, custom cuts, deer processing & more.',
         description: ['butcher', 'oxtail', 'brisket']
@@ -1364,7 +1374,7 @@ const locations = [
         category: 'market',
         coordinates: [29.740862933310016, -95.44399540235871],
         neighborhood: 'River Oaks',  
-        img: '',
+        img: 'https://i.imgur.com/1RL7t9V.png',
         website: 'https://www.centralmarket.com/locations/houston?utm_source=google&utm_medium=organic&utm_campaign=cm_stores',
         blurb: 'Gourmet veggies, meats & wine, plus an in-house cafe, food events & live music in a vast space.',
         description: ['fancy H-E-B', 'cooking classes', 'premium groceries']
