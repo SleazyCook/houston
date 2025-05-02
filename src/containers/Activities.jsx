@@ -10,6 +10,8 @@ const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [title, setTitle] = useState('All Activities');
 
+  let pageLength = Object.keys(activitiesFiltered[selectedCategory]).length
+
   // Change display function
   function changeCategory(e) {
     setSelectedCategory(e.target.value);
@@ -34,7 +36,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
         })}
 
         <br /><br />
-        <b>{title}</b>
+        <b>{title} ({pageLength})</b>
 
         <div className='location__container'>   
           {activitiesFiltered[selectedCategory]?.map((item, key) => {

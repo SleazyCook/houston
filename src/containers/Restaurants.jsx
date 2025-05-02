@@ -10,11 +10,16 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
   const [selectedCategory, setSelectedCategory] = useState('food');
   const [title, setTitle] = useState('All Restaurants');
 
+  let pageLength = Object.keys(restaurantsFiltered[selectedCategory]).length
+
   // Change display function
   function changeCategory(e) {
     setSelectedCategory(e.target.value);
     setTitle(e.target.name);
   }
+
+
+
 
     return (
       <div>
@@ -34,7 +39,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
         })}
 
         <br /><br />
-        <b>{title}</b>
+        <b>{title} ({pageLength})</b>
 
         <div className='location__container'>     
           {restaurantsFiltered[selectedCategory]?.map((item, key) => {
