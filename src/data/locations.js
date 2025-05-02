@@ -1447,10 +1447,10 @@ const locations = [
         category: 'movies',
         coordinates: [29.785954755242336, -95.4635497896941],
         neighborhood: 'Northwest Houston',
-        img: '',
+        img: 'https://i.imgur.com/xHaBTom.png',
         website: 'https://regmovies.com',
         blurb: 'Movie theater chain known for presenting 3D films on a giant screen, including blockbusters.',
-        description: []
+        description: ['IMAX', 'Screen X', '4DX']
     },
     {
        name: 'Regal Lone Star',
@@ -1467,10 +1467,10 @@ const locations = [
         category: 'movies',
         coordinates: [29.740641105182316, -95.77402693978205],
         neighborhood: 'Cinco Ranch',  
-        img: '',
+        img: 'https://i.imgur.com/WL4kIO0.png',
         website: 'https://drafthouse.com',
         blurb: 'Stylish theater chain for new & classic films features cocktails & creative bites served seat-side.',
-        description: []
+        description: ['Creative Menu', 'Seat-side Service', 'Eclectic Film Selection']
     },
     {
         name: 'Star Cinema Grill - HWY 249',
@@ -1487,7 +1487,7 @@ const locations = [
         category: 'movies',
         coordinates: [29.731383893300645, -95.44073989122626],
         neighborhood: 'Greenway',  
-        img: '',
+        img: 'https://i.imgur.com/TYifVuY.png',
         website: 'https://regmovies.com',
         blurb: 'Theater complex with multiple screens featuring new release films, plush seating & concession stand.',
         description: []
@@ -1517,9 +1517,9 @@ const locations = [
         category: 'movies',
         coordinates: [29.786772479707707, -95.77473708220901],
         neighborhood: 'Katy',  
-        img: '',
+        img: 'https://i.imgur.com/5BLFALw.png',
         blurb: 'Chain of movie theaters, some with multiple screens, stadium seats & self-service ticketing kiosks.',
-        description: ['Near H-Mart', '', '']
+        description: ['Near H-Mart', 'Cinemark XD', 'Snack Bar']
     },
     // Music Venues
     {
@@ -1989,10 +1989,11 @@ const locations = [
         blurb: 'Visitors can see 6,000+ animals in natural, habitat-style exhibits & watch daily care & feedings.',
         description: ['Giraffes', 'Tigers', 'Flamingos']
     }
+    // (nrg,  punchline, )
 
     // Photo Opp
 
-    // Attractions (nrg, toyota, kemah, shell, houston zoo, punchline, meow wolf)
+    // 
 
 ]
 
