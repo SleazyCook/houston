@@ -12,6 +12,7 @@ const activitiesFiltered = {
   music: sortByName(locations.filter(place => place.category === 'music')),
   parks: sortByName(locations.filter(place => place.category === 'park')),
   photos: sortByName(locations.filter(place => place.category === 'photo')),
+  attraction: sortByName(locations.filter(place => place.category === 'attraction')),
 };
 
 export default activitiesFiltered;

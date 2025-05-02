@@ -5,6 +5,10 @@ const buttonData = [
         value: 'all'
     },
     {
+        label: 'Attractions',
+        value: 'attraction'
+    },
+    {
         label: 'Bars & Lounges',
         value: 'bars'
     },

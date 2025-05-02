@@ -1239,6 +1239,16 @@ const locations = [
         blurb: 'Public library offering books, computers, and passport applications, plus a parking garage.',
         description: ['Downtown', 'Banned Books Section', 'Tech Equipment Available']
     },
+    {
+        name: 'TECHLink Dixon',
+        category: 'books',
+        coordinates: [29.833382192599448, -95.3287627739861],
+        neighborhood: 'Houston Gardens',
+        img: 'https://i.imgur.com/Kd2whMY.png',
+        website: 'https://houstonlibrary.org/techlink',
+        blurb: 'Public library featuring resources for learning such as a music studio.',
+        description: ['Library', 'Music Studio', 'Computer Equipment']
+    },
     // Markets
     {
         name: 'H Mart',
@@ -1623,16 +1633,6 @@ const locations = [
         description: ['downtown', 'proximity to Buffalo Bayou park', 'promiximity to bars']
     },
     {
-        name: 'Toyota Center',
-        category: 'music',
-        coordinates: [29.75072566656762, -95.36205637080953],
-        neighborhood: 'Downtown',
-        img: '',
-        website: 'https://www.toyotacenter.com',
-        blurb: 'Toyota Center is an indoor arena located in Houston, Texas, United States. It is named after the Japanese automobile manufacturer Toyota.',
-        description: ['Home of the Rockets', 'large concerts', '']
-    },
-    {
         name: 'Bayou Music Center',
         category: 'music',
         coordinates: [29.762360386097406, -95.36749274478409],
@@ -1657,7 +1657,7 @@ const locations = [
         name: 'Hermann Park',
         category: 'park',
         coordinates: [29.717301075222434, -95.3909421495944],
-        neighborhood: 'South Central',
+        neighborhood: 'Museum District',
         img: '',
         website: '',
         blurb: 'Expansive park featuring a golf course, Japanese garden, a natrual science museum & a kiddie train.',
@@ -1667,7 +1667,7 @@ const locations = [
         name: 'McGovern Centennial Gardens',
         category: 'park',
         coordinates: [29.720893009262795, -95.38748097934554],
-        neighborhood: 'South Central',
+        neighborhood: 'Museum District',
         img: '',
         website: '',
         blurb: 'An 8-acre site featuring themed gardens, a sculpture promenade & a 30-foot mount with city views.',
@@ -1677,7 +1677,7 @@ const locations = [
         name: 'Japanese Garden',
         category: 'park',
         coordinates: [29.719023089618833, -95.3922959042466],
-        neighborhood: 'South Central',
+        neighborhood: 'Museum District',
         img: '',
         website: '',
         blurb: 'Tranquil Japanese garden in Hermann Park featuring plants, ponds & rocks, plus a teahouse.',
@@ -1922,7 +1922,73 @@ const locations = [
         blurb: 'Historic park dedicated to the end of slavery offers a pool, athletic fields & a large playground.',
         description: ['community center', 'pool', 'memorials']
     },
-
+    // Attractions
+    {
+        name: 'Shell Stadium',
+        category: 'attraction',
+        subcategory: 'soccer',
+        coordinates: [29.75223407697903, -95.35244790076325],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/PtL0PQs.png',
+        website: 'https://www.houstondynamofc.com/shell-energy-stadium/',
+        blurb: "Shell Energy Stadium is an American multi-purpose stadium located in Houston, Texas, that is home to Houston Dynamo FC, a Major League Soccer club and the Houston Dash of the National Women's Soccer League and was the first soccer specific stadium built in a major metropolitan downtown city.",
+        description: ['Houston Dynamo', 'Houston Dash', 'Diverse Food Options']
+    },
+    {
+        name: 'Kemah Boardwalk',
+        category: 'attraction',
+        subcategory: 'kemah',
+        coordinates: [29.547601137961802, -95.01973613835622],
+        neighborhood: 'Kemah',
+        img: 'https://i.imgur.com/j9s4KLr.jpeg',
+        website: 'https://www.kemahboardwalk.com',
+        blurb: 'Kemah Boardwalk is a sprawling entertainment complex, with waterfront dining and theme-park rides, plus a stingray touch pool and a rainforest exhibit with snakes and turtles.',
+        description: ['Amusement Park', 'Bayside', 'Restaurants']
+    },
+    {
+        name: 'Andretti Indoor Karting & Games',
+        category: 'attraction',
+        subcategory: 'gokart',
+        coordinates: [29.78932631988743, -95.76945188644805],
+        neighborhood: 'Katy',
+        img: 'https://i.imgur.com/aiBqZz2.png',
+        website: 'https://andrettikarting.com/katy',
+        blurb: 'Indoor sports hub with a karting track, video arcades & VR games, plus laser tag & food trucks.',
+        description: ['Fast Go Karts', 'VR Gaming', 'Laser Tag']
+    },
+    {
+        name: 'Meow Wolf',
+        category: 'attraction',
+        subcategory: 'meow',
+        coordinates: [29.772103990703904, -95.34773256280762],
+        neighborhood: 'Greater Fifth Ward',
+        img: 'https://i.imgur.com/JpDkbho.png',
+        website: 'https://meowwolf.com/visit/houston/tickets',
+        blurb: 'Radio Tave invites you to explore mind-expanding installations created by local Houston-area artists in collaboration with Meow Wolf’s visionary team.',
+        description: ['Mystery', 'Creative', 'Full Bar']
+    },
+    {
+        name: 'Toyota Center',
+        category: 'attraction',
+        subcategory: 'basketball',
+        coordinates: [29.75072566656762, -95.36205637080953],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/frk2ADY.png',
+        website: 'https://www.toyotacenter.com',
+        blurb: 'Toyota Center is an indoor arena located in Houston, Texas, United States. It is named after the Japanese automobile manufacturer Toyota.',
+        description: ['Home of the Rockets', 'Arena Concerts', 'Reserved Seating']
+    },
+    {
+        name: 'Houston Zoo',
+        category: 'attraction',
+        subcategory: 'zoo',
+        coordinates: [29.715730026405268, -95.3906157467979],
+        neighborhood: 'Museum District',
+        img: 'https://i.imgur.com/B6WvSwH.png',
+        website: 'https://www.houstonzoo.org',
+        blurb: 'Visitors can see 6,000+ animals in natural, habitat-style exhibits & watch daily care & feedings.',
+        description: ['Giraffes', 'Tigers', 'Flamingos']
+    }
 
     // Photo Opp
 

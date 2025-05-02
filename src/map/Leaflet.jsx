@@ -56,6 +56,7 @@ const Leaflet = ({lat, lon, zoom }) => {
       const movies = L.layerGroup();
       const music = L.layerGroup();
       const parks = L.layerGroup();
+      const attractions = L.layerGroup();
 
       // Start locations loop
       locations.forEach(location => {
@@ -75,6 +76,20 @@ const Leaflet = ({lat, lon, zoom }) => {
           mapIconUrl = icons.music;
         } else if (location.category == 'park') {
           mapIconUrl = icons.parks;
+          // Attractions subcategories
+        } else if (location.subcategory == 'soccer') {
+          mapIconUrl = icons.soccer;
+        } else if (location.subcategory == 'kemah') {
+          mapIconUrl = icons.kemah;
+        } else if (location.subcategory == 'gokart') {
+          mapIconUrl = icons.gokart;
+        } else if (location.subcategory == 'meow') {
+          mapIconUrl = icons.meow;
+        } else if (location.subcategory == 'basketball') {
+          mapIconUrl = icons.basketball;
+        } else if (location.subcategory == 'zoo') {
+          mapIconUrl = icons.zoo;
+          // Restaurants subcategories
         } else if (location.subcategory == 'burgers') {
           mapIconUrl = icons.burgers;
         } else if (location.subcategory == 'breakfast') {
@@ -135,6 +150,8 @@ const Leaflet = ({lat, lon, zoom }) => {
           music.addLayer(marker);
         } else if (location.category == "park") {
           parks.addLayer(marker);
+        } else if (location.category == "attractions") {
+          parks.addLayer(marker);
         }
 
         // Bind a popup to the marker
@@ -154,6 +171,7 @@ const Leaflet = ({lat, lon, zoom }) => {
 
       // Layers 4 of 4: Add Controls for Each Layer
       restaurants.addTo(map);
+      attractions.addTo(map);
       bars.addTo(map);
       books.addTo(map);
       markets.addTo(map);
@@ -162,12 +180,14 @@ const Leaflet = ({lat, lon, zoom }) => {
       parks.addTo(map);
 
       layerControl.addOverlay(restaurants, "Restaurants");
+
       layerControl.addOverlay(bars, "Bars & Lounges");
       layerControl.addOverlay(books, "Books");
       layerControl.addOverlay(markets, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
       layerControl.addOverlay(parks, "Parks")
+      layerControl.addOverlay(parks, "Attractions")
     }
   
   }, []); 
