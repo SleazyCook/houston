@@ -1985,7 +1985,7 @@ const locations = [
         name: 'Houston Zoo',
         category: 'attraction',
         subcategory: 'zoo',
-        coordinates: [29.715730026405268, -95.3906157467979],
+        coordinates: [29.712357766627584, -95.39194493955178],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/B6WvSwH.png',
         website: 'https://www.houstonzoo.org',
