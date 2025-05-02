@@ -154,8 +154,8 @@ const Leaflet = ({lat, lon, zoom }) => {
           music.addLayer(marker);
         } else if (location.category == "park") {
           parks.addLayer(marker);
-        } else if (location.category == "attractions") {
-          parks.addLayer(marker);
+        } else if (location.category == "attraction") {
+          attractions.addLayer(marker);
         }
 
         // Bind a popup to the marker
@@ -182,6 +182,7 @@ const Leaflet = ({lat, lon, zoom }) => {
       movies.addTo(map);
       music.addTo(map);
       parks.addTo(map);
+      attractions.addTo(map);
 
       layerControl.addOverlay(restaurants, "Restaurants");
 
@@ -191,7 +192,7 @@ const Leaflet = ({lat, lon, zoom }) => {
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
       layerControl.addOverlay(parks, "Parks")
-      layerControl.addOverlay(parks, "Attractions")
+      layerControl.addOverlay(attractions, "Attractions")
     }
   
   }, []); 
