@@ -160,16 +160,22 @@ const Leaflet = ({lat, lon, zoom }) => {
 
         // Bind a popup to the marker
         marker.bindPopup(`
-          <img src=${location.img} width=200 /><br/>
-          <b>${location.name}</b><br>
-          <span>${location.blurb}</span><br>
-          <a href=${location.website} target='_blank'>
-              Vist Website</a>
-          <ul>
-              <li>${location.description[0]}</li>
-              <li>${location.description[1]}</li>
-              <li>${location.description[2]}</li>
-          </ul>`);
+          <div class='popup'>
+            <img src=${location.img} width=200 /><br/>
+            <div class='popup__content'>
+              <span class='popup__name'>${location.name}</span>
+              <span class='popup__blurb'>${location.blurb}</span><br>
+              <a href=${location.website} target='_blank'>
+                  Vist Website</a>
+
+            </div>
+          <div>`);
+
+          // <ul>
+            // <li>${location.description[0]}</li>
+            // <li>${location.description[1]}</li>
+            // <li>${location.description[2]}</li>
+          // </ul>
       });
       // End locations loop
 
