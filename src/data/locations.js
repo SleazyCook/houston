@@ -1626,16 +1626,6 @@ const locations = [
         description: ['intimate', 'private events', 'historic']
     },
     {
-        name: 'The Hobby Center for Performing Arts',
-        category: 'music',
-        coordinates: [29.76164086726989, -95.36966571708332],
-        neighborhood: 'Downtown',
-        img: '',
-        website: 'https://www.thehobbycenter.org',
-        blurb: 'Modern spot with 2 theaters, a 3-story grand lobby with French styling & views of the city skyline.',
-        description: ['downtown', 'proximity to Buffalo Bayou park', 'promiximity to bars']
-    },
-    {
         name: 'Bayou Music Center',
         category: 'music',
         coordinates: [29.762360386097406, -95.36749274478409],
@@ -2013,7 +2003,18 @@ const locations = [
         website: 'https://www.nrgpark.com/nrg-stadium/',
         blurb: 'Huge arena with a retractable roof hosting Houston Texans football games, rodeos, concerts & more.',
         description: ['Home of the Texans', 'Arena Concerts', 'Houston Rodeo']
-    }
+    },
+    {
+        name: 'The Hobby Center for Performing Arts',
+        category: 'attraction',
+        subcategory: 'comedy',
+        coordinates: [29.76164086726989, -95.36966571708332],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/SsQ4U3d.png',
+        website: 'https://www.thehobbycenter.org',
+        blurb: 'Modern spot with 2 theaters, a 3-story grand lobby with French styling & views of the city skyline.',
+        description: ['downtown', 'proximity to Buffalo Bayou park', 'promiximity to bars']
+    },
     // (nrg,  punchline, )
 
     // Photo Opp
