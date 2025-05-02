@@ -6,8 +6,7 @@
 // Music Venues
 // Parks
 // Photo Opp
-// Unique (nrg, toyota, kemah)
-
+// Attractions (nrg, toyota, kemah)
 
 const locations = [
     // Restaurants
@@ -1253,6 +1252,7 @@ const locations = [
     {
         name: 'H Mart',
         category: 'market',
+        subcategory: 'hall',
         coordinates: [29.792680234069884, -95.77433038249025],
         neighborhood: 'Katy',
         img: 'https://i.imgur.com/HVUrkrB.png',
@@ -1303,6 +1303,7 @@ const locations = [
     {
         name: '99 Ranch Market',
         category: 'market',
+        subcategory: 'hall',
         coordinates: [29.785449825593115, -95.5229681661174],
         neighborhood: 'Blalock Market',        
         img: 'https://i.imgur.com/lscVoE1.png',
@@ -1373,6 +1374,7 @@ const locations = [
     {
         name: 'H Mart',
         category: 'market',
+        subcategory: 'hall',
         coordinates: [29.792552001430632, -95.5209030224523],
         neighborhood: 'Blalock Market',  
         img: 'https://i.imgur.com/9cruNYm.png',
@@ -1383,6 +1385,7 @@ const locations = [
     {
         name: 'H Mart',
         category: 'market',
+        subcategory: 'hall',
         coordinates: [29.706641204872156, -95.55391477248872],
         neighborhood: 'Bellaire',  
         img: 'https://i.imgur.com/K0nt0I0.png',
