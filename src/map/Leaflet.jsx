@@ -14,11 +14,11 @@ const Leaflet = ({lat, lon, zoom }) => {
     // Prevent map from initializing multiple times
     if (!document.getElementById('map')._leaflet_id) {
 
-      // open street map
-      var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 19,
-          // attribution: '© OpenStreetMap'
-      });
+      // // open street map
+      // var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      //     maxZoom: 19,
+      //     // attribution: '© OpenStreetMap'
+      // });
 
       var map = L.map('map', {
           center: [lat, lon],
@@ -37,10 +37,10 @@ const Leaflet = ({lat, lon, zoom }) => {
 
       var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
 
-      var baseMaps = {
-          "OpenStreetMap": osm,
-          // "<span style='color: red'>OpenStreetMap.HOT</span>": osmHOT
-      };
+      // var baseMaps = {
+      //     "OpenStreetMap": osm,
+      //     // "<span style='color: red'>OpenStreetMap.HOT</span>": osmHOT
+      // };
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
@@ -200,7 +200,7 @@ const Leaflet = ({lat, lon, zoom }) => {
   return (
     <div>
 
-      <div id="map" style={{ height: '400px', width: '100%' }}></div>
+      <div id="map" style={{width: '100%' }}></div>
 
     </div>
   );
