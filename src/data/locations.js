@@ -122,28 +122,6 @@ const locations = [
         description: ['indian', 'very spicy', 'samosas']
     },
     {
-        name: 'Betelgeuse Betelgeuse',
-        category: 'bar',
-        subcategory: 'pizza',
-        coordinates: [29.767873715445898, -95.37960345473097],
-        neighborhood: 'Washington',
-        img: 'https://i.imgur.com/3EB93eb.png',
-        website: 'https://www.betelgeusehou.com/',
-        blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
-        description: ['pizza', 'full bar', 'outdoor seating']
-    },
-    {
-        name: 'Betelgeuse Betelgeuse',
-        category: 'bar',
-        subcategory: 'pizza',
-        coordinates: [29.73385004922882, -95.3868317708331],
-        neighborhood: 'Montrose',
-        img: 'https://i.imgur.com/xuiw7Ya.png',
-        website: 'https://www.betelgeusehou.com/',
-        blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
-        description: ['pizza', 'full bar', 'outdoor seating']
-    },
-    {
         name: "Pepperoni's Pizza",
         category: 'food',
         subcategory: 'pizza',
@@ -812,6 +790,17 @@ const locations = [
         description: ['open late', 'great tacos', 'quality cocktails']
     },
     {
+        name: "Dona Lena's",
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.80193023090178, -95.4318876273503],
+        neighborhood: 'Timbergrove',           
+        img: 'https://i.imgur.com/xihg7al.png',
+        website: 'https://www.donalenatacos.com',
+        blurb: 'Casual Mexican option dishing up quesabirria and other comfort eats plus margaritas.',        
+        description: ['Tostadas', 'Tortas', 'Birria']
+    },
+    {
         name: "Culver's",
         category: 'food',
         subcategory: 'burgers',
@@ -900,6 +889,28 @@ const locations = [
         description: ['Unique Flavors', 'Seasonal Flavors', 'Ube Ice Cream']
     },
     // Bars
+    {
+        name: 'Betelgeuse Betelgeuse',
+        category: 'bar',
+        subcategory: 'pizza',
+        coordinates: [29.767873715445898, -95.37960345473097],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/3EB93eb.png',
+        website: 'https://www.betelgeusehou.com/',
+        blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
+        description: ['pizza', 'full bar', 'outdoor seating']
+    },
+    {
+        name: 'Betelgeuse Betelgeuse',
+        category: 'bar',
+        subcategory: 'pizza',
+        coordinates: [29.73385004922882, -95.3868317708331],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/xuiw7Ya.png',
+        website: 'https://www.betelgeusehou.com/',
+        blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
+        description: ['pizza', 'full bar', 'outdoor seating']
+    },
     {
         name: 'Lost & Found',
         category: 'bar',
