@@ -909,6 +909,17 @@ const locations = [
         blurb: 'Donut shop known for its kolaches, plus breakfast sandwiches, and custom orders.',
         description: ['Sausage Kolaches', 'Chocolate Donuts', 'Chocolate Milk']
     },
+    {
+        name: 'Agnes & Sherman',
+        category: 'food',
+        subcategory: 'upscale',
+        coordinates: [29.80263725272135, -95.40106693761525],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/CizVixn.png',
+        website: 'https://www.agnesandsherman.com',
+        blurb:  "Agnes and Sherman’s mission is to deliver a nostalgic, whimsical, and inclusive dining experience through the lens of Asian American food; and by doing so, expand the definition of American culture",
+        description: ['Reservations', 'Asian - American Fusion', 'Sharable Plates']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
