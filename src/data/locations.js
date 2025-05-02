@@ -1265,7 +1265,7 @@ const locations = [
         category: 'market',
         coordinates: [29.73920558665379, -95.41112752066111],
         neighborhood: 'Montrose',
-        img: '',
+        img: 'https://i.imgur.com/GHrfdPc.png',
         website: 'https://locations.traderjoes.com/tx/houston/426/?utm_source=gmb&utm_medium=organic&utm_campaign=local',
         blurb: 'Grocery chain with a variety of signature items, plus produce, dairy & more.',
         description: ['Ready to eat meals', 'wine & beer', 'seasonal foods']
@@ -1325,7 +1325,7 @@ const locations = [
         category: 'market',
         coordinates: [29.81378493265026, -95.39815226977178],
         neighborhood: 'Heights',  
-        img: '',
+        img: 'https://i.imgur.com/o7vIOi4.png',
         website: 'https://www.wholefoodsmarket.com/stores/independenceheights?utm_sourc',
         blurb: 'Eco-minded chain with natural & organic grocery items, housewares & other products (most sell wine).',
         description: ['fresh pizza', 'tin fish', 'wine']
@@ -1361,11 +1361,11 @@ const locations = [
         description: ['butcher', 'oxtail', 'brisket']
     },
     {
-        name: 'H Mart Houston',
+        name: 'H Mart',
         category: 'market',
         coordinates: [29.792552001430632, -95.5209030224523],
         neighborhood: 'Blalock Market',  
-        img: '',
+        img: 'https://i.imgur.com/9cruNYm.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
         description: []
@@ -1375,7 +1375,7 @@ const locations = [
         category: 'market',
         coordinates: [29.706641204872156, -95.55391477248872],
         neighborhood: 'Bellaire',  
-        img: '',
+        img: 'https://i.imgur.com/K0nt0I0.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
         description: []
@@ -1386,7 +1386,7 @@ const locations = [
         subcategory: 'sandwiches',
         coordinates: [29.774566750083107, -95.40017316062348],
         neighborhood: 'Washington',  
-        img: '',
+        img: 'https://i.imgur.com/kN1pdBy.png',
         website: 'https://www.sprouts.com/store/tx/houston/the-heights/',
         blurb: 'Specialty chain offering a range of natural & organic grocery items, including own-brand goods.',
         description: ['fresh sandwiches', 'candy', 'organic groceries']
