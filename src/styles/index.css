@@ -21,31 +21,6 @@
     height: 80svh;
 }
 
-/* 
-.leaflet-top.leaflet-right {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Force a specific control to appear first */
-/* .leaflet-control-layers {
-    order: 2; 
-    width: 45px;
-}
-
-.leaflet-control-pinsearch {
-    order: 1; 
-} */ */
-
-/* 
-When the layers control is open
-.leaflet-control-layers-expanded {
-
-    z-index: 1001;
-    background-color: red;
-    border: 1px solid #ccc;
-} */
-
 
 /* Navigation */
 .navigation {
