@@ -1471,7 +1471,7 @@ const locations = [
        category: 'movies',
        coordinates: [30.041429887488842, -95.60524921864557],
        neighborhood: 'Tomball',
-       img: '',
+       img: 'https://i.imgur.com/rRvHN2t.png',
        website: 'http://regmovies.com',
        blurb: 'Theater complex with multiple screens featuring new release films, plush seating & concession stand.',
        description: [] 
@@ -1491,10 +1491,10 @@ const locations = [
         category: 'movies',
         coordinates: [29.994647477255967, -95.57278076841475],
         neighborhood: 'Vintage Park',
-        img: '',
+        img: 'https://i.imgur.com/MTkFi0H.png',
         website: 'https://starcinemagrill.net',
         blurb: 'Stylish theater chain for new & classic films features cocktails & creative bites served seat-side.',
-        description: []
+        description: ['Full Bar', 'Full Restaurant', 'Table Service']
     },
     {
         name: 'Regal Edwards Greenway Grand Palace',
@@ -1511,7 +1511,7 @@ const locations = [
         category: 'movies',
         coordinates: [29.75267309523697, -95.40907147983143],
         neighborhood: 'River Oaks',  
-        img: '',
+        img: 'https://i.imgur.com/tbkApma.png',
         website: 'https://theriveroakstheatre.com',
         blurb: 'Movie theater screening new releases as well as independent, foreign & avant-garde flicks.',
         description: ['historic', 'local', 'retro']
@@ -1521,7 +1521,7 @@ const locations = [
         category: 'movies',
         coordinates: [29.749438473419687, -95.46172275862284],
         neighborhood: 'Uptown',  
-        img: '',
+        img: 'https://i.imgur.com/w2uQJt0.png',
         website: 'https://rooftopcinemaclub.com/houston/venue/uptown/',
         blurb: 'Open-air cinema offering concessions, headphones, and city views, plus special events.',
         description: ['Rooftop', 'Outdoor seating', 'Monthly Schedules']
@@ -1571,7 +1571,7 @@ const locations = [
         category: 'music',
         coordinates: [29.734989085866363, -95.37481472963191],
         neighborhood: 'Midtown',
-        img: '',
+        img: 'https://i.imgur.com/RKS2yyq.png',
         website: 'https://www.axelradhouston.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb',
         blurb: 'Craft beers galore offered in a laid-back outdoor setup with hammocks, food trucks & regular events.',
         description: ['concerts', 'hammocks', 'food trucks']
@@ -1631,7 +1631,7 @@ const locations = [
         category: 'music',
         coordinates: [29.734460962203446, -95.36542150051352],
         neighborhood: 'South Central Houston',
-        img: '',
+        img: 'https://i.imgur.com/H3NJeKJ.png',
         website: 'https://www.theeldoradoballroom.com',
         blurb: 'Eldorado Ballroom is a former nightclub in the Third Ward, Houston, on the other side of the road from Emancipation Park.',
         description: ['intimate', 'private events', 'historic']
@@ -1641,7 +1641,7 @@ const locations = [
         category: 'music',
         coordinates: [29.762360386097406, -95.36749274478409],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/vo0kW16.png',
         website: 'https://www.bayoumusiccenter.com/?utm_source=GMBlisting&utm_medium=organic',
         blurb: 'Cozy performing arts center featuring nationally known musicians & comedians since 1997.',
         description: ['medium size concerts', 'downtown area', 'walkable area']
@@ -1901,10 +1901,10 @@ const locations = [
         category: 'park',
         coordinates: [29.75183245570911, -95.37602483396185],
         neighborhood: 'Midtown',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/GWn9kgv.png',
+        website: 'https://midtownhouston.com/explore/parks/bagby-park/',
         blurb: 'Combat urban green space featuring a historic fountain, plus a trail, chess tables & public art.',
-        description: ['small park', 'la calle tacos', 'large fountain']
+        description: ['Small park', 'La Calle Tacos', 'Large Fountain']
     },
     {
         name: 'Midtown Park',
