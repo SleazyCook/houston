@@ -79,6 +79,7 @@
     top: 50%;
     left: 65%;
     border-radius: 5px;
+    opacity: .8;
 }
 
 .popup__content {
@@ -103,19 +104,21 @@
 }
 
 .popup__content a {
+    display: inline-block;
     font-family: "Avenir Next Condensed";
     text-transform: uppercase;
-    color: white;
+
     cursor: pointer;
     padding: 0 2rem;
     text-align: center;
     line-height: 48px;
     border-radius: 50px;
-    margin-bottom: 20px;
-    all: unset;
-    display: inline-block;
+    /* margin-bottom: 20px;
+    all: unset; */
+    border-radius: 50px;
     text-decoration: none;
     background-color: blue;
+    color: white !important;
 }
 
 

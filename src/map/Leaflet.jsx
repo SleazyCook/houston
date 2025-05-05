@@ -165,6 +165,15 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           attractions.addLayer(marker);
         }
 
+      
+      // Truncated Blurb for Popup
+      // const maxBlurbLength = 100;
+      // const truncatedBlurb = location.blurb.length > maxBlurbLength
+      //   ? location.blurb.slice(0, maxBlurbLength) + "..."
+      //   : location.blurb;
+
+      //   console.log(truncatedBlurb)
+
         // Bind a popup to the marker
         marker.bindPopup(`
           <div class='popup'>
@@ -207,8 +216,6 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
             // console.log('Search query:', query);
             setZoom(17);
             map.setZoom(17);
-            console.log('zoom is now ', zoom)
-            // Handle the search query here
         },
         searchBarWidth: '200px',
         searchBarHeight: '30px',
