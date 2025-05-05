@@ -36,7 +36,8 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           // "Cities": cities,
       };
 
-      var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+
 
       // var baseMaps = {
       //     "OpenStreetMap": osm,
@@ -48,6 +49,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
         attribution:
           '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       }).addTo(map);
+
 
       // Layers 1 of 4: Create Layer
       const restaurants = L.layerGroup();
@@ -195,6 +197,8 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       });
       // End locations loop
 
+
+
       // Layers 4 of 4: Add Controls for Each Layer
       restaurants.addTo(map);
       attractions.addTo(map);
@@ -206,21 +210,25 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       parks.addTo(map);
       attractions.addTo(map);
 
+            // PinSearch component
+            var searchBar = L.control.pinSearch({
+              position: 'topright',
+              placeholder: 'Search...',
+              buttonText: 'Search',
+              onSearch: function(query) {
+                  // console.log('Search query:', query);
+                  setZoom(17);
+                  map.setZoom(17);
+              },
+              searchBarWidth: '200px',
+              searchBarHeight: '30px',
+              maxSearchResults: 3
+          }).addTo(map);
+    
+          var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
 
-  // PinSearch component
-    var searchBar = L.control.pinSearch({
-        position: 'topright',
-        placeholder: 'Search...',
-        buttonText: 'Search',
-        onSearch: function(query) {
-            // console.log('Search query:', query);
-            setZoom(17);
-            map.setZoom(17);
-        },
-        searchBarWidth: '200px',
-        searchBarHeight: '30px',
-        maxSearchResults: 3
-    }).addTo(map);
+
+
 
       layerControl.addOverlay(restaurants, "Restaurants");
 
