@@ -1,7 +1,7 @@
 import Leaflet from "../map/Leaflet";
 import locations from "../data/locations";
 
-const Home = ({lat, lon, zoom}) => {
+const Home = ({lat, lon, zoom, setZoom}) => {
   const totalLocations = Object.keys(locations).length;
 
     return (
@@ -13,7 +13,7 @@ const Home = ({lat, lon, zoom}) => {
 
 
 
-        <Leaflet lat={lat} lon={lon} zoom={zoom}/>
+        <Leaflet lat={lat} lon={lon} zoom={zoom} setZoom={setZoom}/>
 
       </div>
     );

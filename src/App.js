@@ -36,6 +36,7 @@ function App() {
                   lat={lat} 
                   lon={lon} 
                   zoom={zoom}
+                  setZoom={setZoom}
                   key={lat}
                 /> 
               } 

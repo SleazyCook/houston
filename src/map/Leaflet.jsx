@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet.pinsearch'; 
 
 import { FaBeer, FaMapMarkerAlt, FaCar, FaBicycle } from 'react-icons/fa';
 
@@ -8,7 +9,7 @@ import locations from '../data/locations';
 import icons from '../data/icons';
 
 
-const Leaflet = ({lat, lon, zoom }) => {
+const Leaflet = ({lat, lon, zoom, setZoom }) => {
 
   useEffect(() => {
     // Prevent map from initializing multiple times
@@ -136,8 +137,14 @@ const Leaflet = ({lat, lon, zoom }) => {
         });
     
         // Create the marker for the location
-        const marker = L.marker([location.coordinates[0], location.coordinates[1]], { icon: customIcon }).addTo(map);
-    
+        const marker = L.marker(
+          [location.coordinates[0], location.coordinates[1]],
+          {
+            icon: customIcon,
+            title: location.name || 'Default Title'  // Make sure this is a string
+          }
+        ).addTo(map);
+        
         // Layers 3 of 4: Assign Marker to Layer
         if (location.category == "food") {
           // console.log(location.name, "is a restaurant")
@@ -190,6 +197,24 @@ const Leaflet = ({lat, lon, zoom }) => {
       parks.addTo(map);
       attractions.addTo(map);
 
+
+  // PinSearch component
+    var searchBar = L.control.pinSearch({
+        position: 'topright',
+        placeholder: 'Search...',
+        buttonText: 'Search',
+        onSearch: function(query) {
+            // console.log('Search query:', query);
+            setZoom(17);
+            map.setZoom(17);
+            console.log('zoom is now ', zoom)
+            // Handle the search query here
+        },
+        searchBarWidth: '200px',
+        searchBarHeight: '30px',
+        maxSearchResults: 3
+    }).addTo(map);
+
       layerControl.addOverlay(restaurants, "Restaurants");
 
       layerControl.addOverlay(bars, "Bars & Lounges");
@@ -199,12 +224,23 @@ const Leaflet = ({lat, lon, zoom }) => {
       layerControl.addOverlay(music, "Music Venues");
       layerControl.addOverlay(parks, "Parks")
       layerControl.addOverlay(attractions, "Attractions")
+
+
+
+
     }
+
+
   
-  }, []); 
+  }, [zoom]); 
 
   return (
     <div>
+
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.pinsearch/src/Leaflet.PinSearch.css" crossOrigin="" />
+
+      <script src="https://unpkg.com/leaflet.pinsearch/src/Leaflet.PinSearch.js" crossOrigin=""></script> 
+
 
       <div id="map" style={{width: '100%' }}></div>
 
