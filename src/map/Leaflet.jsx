@@ -11,6 +11,18 @@ import icons from '../data/icons';
 
 const Leaflet = ({lat, lon, zoom, setZoom }) => {
 
+  // Click outside search to close AC
+  // const searchContainer = document.querySelector('.leaflet-control-pinsearch');
+  // const autocompleteResults = document.querySelector('.search-results'); // update with actual class
+
+  // document.addEventListener('click', function (event) {
+  //     if (!searchContainer.contains(event.target)) {
+  //         if (autocompleteResults) {
+  //             autocompleteResults.style.display = 'none';
+  //         }
+  //     }
+  // });
+
   useEffect(() => {
     // Prevent map from initializing multiple times
     if (!document.getElementById('map')._leaflet_id) {
