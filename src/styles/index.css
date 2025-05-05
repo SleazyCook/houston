@@ -118,6 +118,16 @@ When the layers control is open
     display: block;
 }
 
+.popup__neighborhood {
+    position: absolute;
+    top: -12%;
+    left: 5%;
+    color: white;
+    font-family: 'Canto';
+    font-size: 18px;
+    z-index: 1;
+}
+
 .popup__name {
     font-family: 'Canto';
     font-size: 20px;

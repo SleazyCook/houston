@@ -109,6 +109,8 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
         } else if (location.subcategory == 'football') {
           mapIconUrl = icons.football;
           // Restaurants subcategories
+        } else if (location.subcategory == 'bbq') {
+          mapIconUrl = icons.bbq;
         } else if (location.subcategory == 'burgers') {
           mapIconUrl = icons.burgers;
         } else if (location.subcategory == 'breakfast') {
@@ -193,6 +195,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           <div class='popup'>
             <img src=${location.img} width=200 /><br/>
             <div class='popup__content'>
+              <span class='popup__neighborhood'>${location.neighborhood}</span>
               <span class='popup__name'>${location.name}</span>
               <span class='popup__blurb'>${location.blurb}</span><br>
               <a href=${location.website} target='_blank'>

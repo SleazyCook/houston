@@ -26,7 +26,7 @@ const locations = [
         category: 'food',
         subcategory: 'ricebowl',
         coordinates: [29.997460350283827, -95.19376149496405],
-        neighborhood: 'Humble',
+        neighborhood: 'Atascocita',
         img: 'https://i.imgur.com/vixRkWH.png',
         website: 'https://www.google.com/search?q=taste+of+korea+houston+restaurant&client=opera-gx&hs=1xJ&sca_esv=4aa7399608798402&sxsrf=AHTn8zptgKriNcwjnfSJFGJA5pfFsredLw%3A1745096166437&ei=5g0EaPy7Gta4wN4PuMiVsAc&ved=0ahUKEwj8xuXo_eSMAxVWHNAFHThkBXYQ4dUDCBI&uact=5&oq=taste+of+korea+houston+restaurant&gs_lp=Egxnd3Mtd2l6LXNlcnAiIXRhc3RlIG9mIGtvcmVhIGhvdXN0b24gcmVzdGF1cmFudDIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRirAkiBLFCrBViYK3AIeAGQAQCYAacBoAH6DKoBBDE0LjO4AQPIAQD4AQGYAhmgAuENwgIKEAAYsAMY1gQYR8ICDRAAGLADGNYEGEcYyQPCAg4QABiABBiwAxiSAxiKBcICChAjGIAEGCcYigXCAgsQLhiABBjHARivAcICBhAAGBYYHsICAhAmwgILEAAYgAQYhgMYigXCAggQABiABBiiBMICBRAAGO8FwgIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQHCAgUQABiABMICEBAuGIAEGBQYhwIYxwEYrwHCAhAQLhiABBhDGMcBGIoFGK8BwgIIEAAYgAQYyQPCAgUQIRifBZgDAIgGAZAGCboGBggBEAEYFJIHBDIxLjSgB9iXAbIHBDEzLjS4B8UN&sclient=gws-wiz-serp',
         blurb: 'Casual resource for Korean starters, soups & BBQ plus tempura, wings, shaved ice & mochi.',
@@ -160,6 +160,7 @@ const locations = [
         neighborhood: 'Willowbrook',  
         img: 'https://i.imgur.com/U7f9s2M.png',
         website: 'www.in-n-out.com/',
+        blurb: 'Classic burger chain serving customizable burgers, hand-cut fries & shakes.',
         description: ['California Favorite', 'Flying Dutchman w/ Onions', 'Flying Ducthman w/ Tomatoes']
     },
     {
@@ -354,7 +355,7 @@ const locations = [
         category: 'food',
         subcategory: 'chicken',
         coordinates: [29.742582523950063, -95.37996336798173],
-        midtown: 'Midtown',
+        neighborhood: 'Midtown',
         img: 'https://i.imgur.com/jtwveVK.png',
         website: 'https://www.pokpokpo.com',
         blurb: 'Fried chicken concept serving gluten free, antibiotic free, hormone free, halal chicken',
@@ -815,7 +816,7 @@ const locations = [
         category: 'food',
         subcategory: 'pizza',
         coordinates: [30.00041303571167, -95.16024942826793],
-        neighborhood: 'Humble',
+        neighborhood: 'Atascocita',
         img: 'https://i.imgur.com/XSn7t71.png',
         website: 'https://locations.papajohns.com/united-states/tx/77346/atascosita-%28humble%29/7591-fm-1960-road-east?utm_source=yext-listings&utm_medium=referral&y_source=1_MTA1OTI1NDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D',
         blurb: 'Pizza take-out & delivery chain offering classic & specialty pizzas, plus wings, sides & desserts.',
@@ -881,7 +882,7 @@ const locations = [
         category: 'food',
         subcategory: 'dessert',
         coordinates: [29.756607768458114, -95.40288712731353],
-        neightborhood: 'Montrose',
+        neighborhood: 'Montrose',
         img: 'https://i.imgur.com/xR6Rz7v.png',
         website: 'https://www.flowerandcream.com',
         blurb: 'Ice cream shop featuring a variety of flavors, including cereal milk and roasted strawberry.',
@@ -919,6 +920,28 @@ const locations = [
         website: 'https://www.agnesandsherman.com',
         blurb:  "Agnes and Sherman’s mission is to deliver a nostalgic, whimsical, and inclusive dining experience through the lens of Asian American food; and by doing so, expand the definition of American culture",
         description: ['Reservations', 'Asian - American Fusion', 'Sharable Plates']
+    },
+    {
+        name: "Triple J's Smokehouse",
+        category: 'food',
+        subcategory: 'bbq',
+        coordinates: [29.81917729379479, -95.30228403326238],
+        neighborhood: 'Houston Gardens',
+        img: 'https://i.imgur.com/2Wvua82.png',
+        website: 'https://triplejsmokehouse.com',
+        blurb: 'Burgers, ribs, sandwiches & potatoes round out the menu at this casual spot known for smoked meats.',
+        description: ['Brisket', 'Ribs', 'Boudain']
+    },
+    {
+        name: 'Pappas Bar-B-Q',
+        category: 'food',
+        subcategory: 'bbq',
+        coordinates: [29.871432138949643, -95.32843650525928],
+        neighborhood: 'Sherwood Place',
+        img: 'https://i.imgur.com/FANOjRk.png',
+        website: 'https://pappasbbq.com/home/',
+        blurb: 'Long-standing chain dishing up Texas-style smoked meats & sides in a relaxed counter-serve setting.',
+        description: ['BBQ Sandwiches', 'Sausage', 'Pecan Pie']
     },
     // Bars
     {
@@ -1433,7 +1456,7 @@ const locations = [
         neighborhood: 'Willowbrook',  
         img: 'https://i.imgur.com/7j18fGs.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-willowbrook-24',
-        blurb: '',
+        blurb: 'Casual movie theater with IMAX, Dolby Cinema, and Prime at AMC, plus rocking seats and recliners.',
         description: ['premium seats', 'digital IMAX', 'Dolby Digital']
     },
     {
