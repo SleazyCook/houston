@@ -965,6 +965,83 @@ const locations = [
         blurb: 'Relaxed spot for breakfast, tacos, and other traditional Mexican eats, plus coffee.',
         description: ['Breakfast tacos', 'Homemade Tortillas', 'Mexican Sodas']
     },
+    {
+        name: 'District 7',
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.752103485592464, -95.37487153428916],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/vm8lMvI.png',
+        website: 'https://www.district7grill.com',
+        blurb: 'Bustling chain serving eclectic fare such as mussels, muffalettas & burgers in colorful digs.',
+        description: ['Wings', 'Sandwiches', 'Wine']
+    },
+    {
+        name: "Lankford's Grocery & Market",
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.75001334070072, -95.38387329126209],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/3CNPbOI.png',
+        website: 'https://midtown.lankfordsburgers.com',
+        blurb: 'No-frills spot for classic American eats including burgers & hearty breakfasts in a kitschy space.',
+        description: ['Burgers', 'Fried Pickles', 'Outdoor Seating']
+    },
+    {
+        name: 'Fat Bao',
+        category: 'food',
+        subcategory: 'sandwiches',
+        coordinates: [29.735109780616774, -95.41800455744735],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/q49vIEQ.png',
+        website: 'https://www.fatbaohouston.com',
+        blurb: 'Simple Asian fusion joint offering steamed buns stuffed with meat, fish, vegetables or sweets.',
+        description: ['Bao', 'Fries', 'Edamame']
+    },
+    {
+        name: "Tony's Italian Delicatessen",
+        category: 'food',
+        subcategory: 'sandwiches',
+        coordinates: [30.117366594399364, -95.55401930269417],
+        neighborhood: 'Tomball',
+        img: 'https://i.imgur.com/UFcOJfi.png',
+        website: 'https://tonysitaliandelicatessen.com',
+        blurb: 'Casual sandwich shop dishing up hot and cold subs, plus salads.',
+        description: ['Sandwiches', 'Muffaletta', 'The De Niro']
+    },
+    {
+        name: "Lennys Grill & Subs",
+        category: 'food',
+        subcategory: 'sandwiches',
+        coordinates: [30.004289246025856, -95.2919931972898],
+        neighborhood: 'Humble',
+        img: 'https://i.imgur.com/6IXndO8.png',
+        website: 'https://www.lennys.com/locations/lennys-grill-subs-281/?gad_source=1&gad_campaignid=22329163159&gclid=Cj0KCQjw5ubABhDIARIsAHMighZnJ0QWm-dnz49XcnRfLcl8qj-zyDd7oD2Vq2oOprgnkhVzP-W8cbEaAhpBEALw_wcB',
+        blurb: 'Outpost of a chain specializing in Philly-style cheesesteaks & submarine sandwiches.',
+        description: ['Sandwiches', 'Chicken Salad', 'Philly Cheese']
+    },
+    {
+        name: "Jeff's Bagel Run",
+        category: 'food',
+        subcategory: 'breakfast',
+        coordinates: [29.70534774550307, -95.43868953381072],
+        neighborhood: 'West University Place',
+        img: 'https://i.imgur.com/T6IvG3Q.png',
+        website: 'https://jeffsbagelrun.com/locations/west-u/',
+        blurb: "Jeff’s Bagel Run, founded by Jeff and Danielle Perera in Central Florida, brings authentic New York-style, hand-rolled, boiled bagels to the community—born from a home kitchen, fueled by local love, and now a thriving bakery with a heartwarming story.",
+        description: ['Jalapeno Cheddar', 'Asiago Everything', 'Cacio E Pepe']
+    },
+    {
+        name: 'Gaspachos Mexican Bites',
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.732792699377697, -95.42422401272596],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/F7FHJfa.png',
+        website: 'https://www.gaspachoshtx.com',
+        blurb: 'Easygoing Mexican joint serving street tacos and other favorites, plus beer, cocktails, and dog treats.',
+        description: ['Juices', 'Tacos', 'Fruit Bowls']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
