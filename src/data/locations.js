@@ -937,11 +937,22 @@ const locations = [
         category: 'food',
         subcategory: 'bbq',
         coordinates: [29.871432138949643, -95.32843650525928],
-        neighborhood: 'Sherwood Place',
+        neighborhood: 'Little York',
         img: 'https://i.imgur.com/FANOjRk.png',
         website: 'https://pappasbbq.com/home/',
         blurb: 'Long-standing chain dishing up Texas-style smoked meats & sides in a relaxed counter-serve setting.',
         description: ['BBQ Sandwiches', 'Sausage', 'Pecan Pie']
+    },
+    {
+        name: 'Sichuan Pepper Express',
+        category: 'food',
+        subcategory: 'ricebowl',
+        coordinates: [29.868824247412608, -95.32745028567592],
+        neighborhood: 'Little York',
+        img: 'https://i.imgur.com/o5dq5N1.png',
+        website: 'https://sichuanpepperexpress.com',
+        blurb: "Fast-food option at the Northeast Marketplace for Chinese standards such as General Tso's chicken and orange chicken, plus catering.",
+        description: ['Combo plates', 'Soup', 'Large portions']
     },
     // Bars
     {
