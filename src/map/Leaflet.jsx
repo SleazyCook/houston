@@ -48,9 +48,6 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           // "Cities": cities,
       };
 
-
-
-
       // var baseMaps = {
       //     "OpenStreetMap": osm,
       //     // "<span style='color: red'>OpenStreetMap.HOT</span>": osmHOT
@@ -181,14 +178,13 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           attractions.addLayer(marker);
         }
 
-      
-      // Truncated Blurb for Popup
-      // const maxBlurbLength = 100;
-      // const truncatedBlurb = location.blurb.length > maxBlurbLength
-      //   ? location.blurb.slice(0, maxBlurbLength) + "..."
-      //   : location.blurb;
+        // Truncated Blurb for Popup
+        // const maxBlurbLength = 100;
+        // const truncatedBlurb = location.blurb.length > maxBlurbLength
+        //   ? location.blurb.slice(0, maxBlurbLength) + "..."
+        //   : location.blurb;
 
-      //   console.log(truncatedBlurb)
+        //   console.log(truncatedBlurb)
 
         // Bind a popup to the marker
         marker.bindPopup(`
@@ -212,9 +208,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       });
       // End locations loop
 
-
-
-      // Layers 4 of 4: Add Controls for Each Layer
+      // Layers 4 of 5: Add layer to map
       restaurants.addTo(map);
       attractions.addTo(map);
       bars.addTo(map);
@@ -225,28 +219,26 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       parks.addTo(map);
       attractions.addTo(map);
 
-            // PinSearch component
-            var searchBar = L.control.pinSearch({
-              position: 'topright',
-              placeholder: 'Search...',
-              buttonText: 'Search',
-              onSearch: function(query) {
-                  // console.log('Search query:', query);
-                  setZoom(17);
-                  map.setZoom(17);
-              },
-              searchBarWidth: '200px',
-              searchBarHeight: '30px',
-              maxSearchResults: 3
-          }).addTo(map);
-    
-          var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+      // PinSearch component, addToMap
+      var searchBar = L.control.pinSearch({
+        position: 'topright',
+        placeholder: 'Search...',
+        buttonText: 'Search',
+        onSearch: function(query) {
+            // console.log('Search query:', query);
+            setZoom(17);
+            map.setZoom(17);
+        },
+        searchBarWidth: '200px',
+        searchBarHeight: '30px',
+        maxSearchResults: 3
+      }).addTo(map);
 
+      // layerControl, addToMap
+      var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
 
-
-
+      // Layers 5 of 5: Add layer  to layerControl
       layerControl.addOverlay(restaurants, "Restaurants");
-
       layerControl.addOverlay(bars, "Bars & Lounges");
       layerControl.addOverlay(books, "Books");
       layerControl.addOverlay(markets, "Markets");
