@@ -1574,7 +1574,7 @@ const locations = [
         category: 'music',
         coordinates: [29.746012478013213, -95.3750447679838],
         neighborhood: 'Midtown',
-        img: '',
+        img: 'https://i.imgur.com/VxrN62G.png',
         website: 'https://www.google.com/search?q=warehouse+live&sca_esv=1568361547b35126&sxsrf=AHTn8zowcBcGXM32ZoZru3el8iKuUm81Lg%3A1745251128310&ei=OGsGaKrFEvLep84PicCx4QQ&ved=0ahUKEwiqwa-Mv-mMAxVy78kDHQlgLEwQ4dUDCBA&uact=5&oq=warehouse+live&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIg53YXJlaG91c2UgbGl2ZTITEC4YgAQYxwEYJxiKBRiOBRivATIEECMYJzIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI4QxQAFjsC3AAeAGQAQCYAYIBoAHgCqoBAzguNrgBA8gBAPgBAZgCDqACowvCAgoQIxiABBgnGIoFwgITEC4YgAQYQxjHARiKBRiOBRivAcICEBAuGIAEGEMYxwEYigUYrwHCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICExAuGIAEGLEDGNEDGEMYxwEYigXCAg0QABiABBhDGIoFGIsDwgIZEC4YgAQYQxiYAxioAxiKBRiaAxiLAxibA8ICEBAuGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIOEC4YgAQYxwEYjgUYrwHCAgoQABiABBgUGIcCmAMAkgcDNi44oAeV6AGyBwM2Lji4B6ML&sclient=gws-wiz-serp',
         blurb: 'Various music styles are showcased at this basic general-admission concert venue with a small bar.',
         description: ['medium size concerts', 'walkable area', 'drinks and good nearby']
@@ -1614,7 +1614,7 @@ const locations = [
         category: 'music',
         coordinates: [29.80306916916203, -95.40285985023765],
         neighborhood: 'Heights',
-        img: '',
+        img: 'https://i.imgur.com/BNG0lPy.png',
         website: 'https://theheightstheater.com',
         blurb: 'Restored early-1900s movie theater available for private events, with marquee & film projector.',
         description: ['smaller shows', 'walkable neighborhood', 'old movie theater']
@@ -1624,7 +1624,7 @@ const locations = [
         category: 'music',
         coordinates: [29.75390437423625, -95.36408936405562],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/CnsV7fk.png',
         website: 'https://locations.houseofblues.com/restaurant-and-bar/tx/houston/1204-caroline-st.',
         blurb: 'Smaller venue attached to House of Blues - Houston',
         description: ['house of blues', 'foundation room', 'cheap tickets']
@@ -1634,7 +1634,7 @@ const locations = [
         category: 'music',
         coordinates: [29.753973571962955, -95.36402390495192],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/0ghz4Sg.png',
         website: 'https://locations.houseofblues.com/foundation-room/tx/houston/1204-caroline-st.',
         blurb: 'Upscale lounge featuring a New American restaurant, plus craft cocktails, and live music.',
         description: ['vip room', 'house of blues', 'bronze peacock']
@@ -1644,7 +1644,7 @@ const locations = [
         category: 'music',
         coordinates: [29.769681526351384, -95.39680068906254],
         neighborhood: 'Washington',
-        img: '',
+        img: 'https://i.imgur.com/i5DyCEI.png',
         website: 'http://www.rockefellershouston.com',
         blurb: 'Intimate venue with a bar hosting live music performances, including blues and jazz, and poetry events.',
         description: ['intimate', 'less frequent concerts', 'private rentals']
@@ -1667,14 +1667,14 @@ const locations = [
         img: 'https://i.imgur.com/vo0kW16.png',
         website: 'https://www.bayoumusiccenter.com/?utm_source=GMBlisting&utm_medium=organic',
         blurb: 'Cozy performing arts center featuring nationally known musicians & comedians since 1997.',
-        description: ['medium size concerts', 'downtown area', 'walkable area']
+        description: ['Medium size concerts', 'Downtown area', 'Walkable area']
     },
     {
         name: 'Cactus Music',
         category: 'music',
         coordinates: [29.733567939771763, -95.41127535965643],
         neighborhood: 'Greenway',
-        img: '',
+        img: 'https://i.imgur.com/Q6Ft77d.png',
         website: 'https://www.cactusmusictx.com',
         blurb: 'Huge emporium for rare vinyl albums & used DVDs, records & CDs hosts local music performances too.',
         description: ['Record store', 'Small concerts', 'Prints & DVDs']
