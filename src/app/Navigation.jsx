@@ -8,6 +8,15 @@ const Navigation = ({ setLat, setLon, setZoom }) => {
     setZoom(11);
   };
 
+  // Reset map without useState (if already on Map component)
+  const handleReset = () => {
+    if (mapRef?.current) {
+      mapRef.current.setView([29.7604, -95.3698], 11);
+    } else {
+      console.warn("Map is not ready yet.");
+    }
+  };
+
   // Scroll to top of the page
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -16,7 +25,10 @@ const Navigation = ({ setLat, setLon, setZoom }) => {
   // Combines scroll + optional coordinate reset
   const handleClick = (shouldResetCoordinates = false) => () => {
     scrollToTop();
-    if (shouldResetCoordinates) resetCoordinates();
+    if (shouldResetCoordinates) {
+      resetCoordinates();
+      handleReset();
+    }
   };
 
   return (

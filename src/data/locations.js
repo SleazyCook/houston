@@ -954,6 +954,17 @@ const locations = [
         blurb: "Fast-food option at the Northeast Marketplace for Chinese standards such as General Tso's chicken and orange chicken, plus catering.",
         description: ['Combo plates', 'Soup', 'Large portions']
     },
+    {
+        name: 'Taco Real',
+        category: 'food',
+        subcategory: 'tacos',
+        coordinates: [29.9032297520123, -95.31061365838374],
+        neighborhood: 'Pine Village North',
+        img: 'https://i.imgur.com/wgp6t5t.png',
+        website: 'https://www.tacoreal.com',
+        blurb: 'Relaxed spot for breakfast, tacos, and other traditional Mexican eats, plus coffee.',
+        description: ['Breakfast tacos', 'Homemade Tortillas', 'Mexican Sodas']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.pinsearch'; 
@@ -10,6 +10,7 @@ import icons from '../data/icons';
 
 
 const Leaflet = ({lat, lon, zoom, setZoom }) => {
+  const mapRef = useRef(null);
 
   // Click outside search to close AC
   // const searchContainer = document.querySelector('.leaflet-control-pinsearch');
