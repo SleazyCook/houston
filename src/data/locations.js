@@ -1097,6 +1097,17 @@ const locations = [
         blurb: 'Laid-back restaurant serving savory & sweet waffle sandwiches, plus hot chicken snacks.',
         description: ['Chicken', 'Waffles', 'Sweet Sandiwches']
     },
+    {
+        name: 'Marmo',
+        category: 'food',
+        subcategory: 'upscale',
+        coordinates: [29.744837337864322, -95.39033391153052],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/FBrR44x.jpeg',
+        website: 'https://marmoitalian.com',
+        blurb: 'Italian chophouse concept from Atlas Restaurant Group',
+        description: ['Happy Hour', 'Cocktails', 'Delicious']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
@@ -1364,6 +1375,16 @@ const locations = [
         website: 'https://badastronautbeer.com',
         blurb: 'Chill brewpub offering live music, as well as bar games such as air hockey, pool, and foosball.',
         description: ['Events', 'Drinks', 'Seltzers']
+    },
+    {
+        name: 'LOV3 Houston',
+        category: 'bar',
+        coordinates: [29.743772099614706, -95.37712392834055],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/w0bFP5h.png',
+        website: 'https://www.lov3htx.com',
+        blurb: 'Bar serving global fare alongside hookahs, cocktails, and live entertainment.',
+        description: ['Daily Events', ' Live Music', 'Happy Hour']
     },
     // Bookstores & Libraries
     {
