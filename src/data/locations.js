@@ -1108,6 +1108,28 @@ const locations = [
         blurb: 'Italian chophouse concept from Atlas Restaurant Group',
         description: ['Happy Hour', 'Cocktails', 'Delicious']
     },
+    {
+        name: 'Toro Toro',
+        category: 'food',
+        subcategory: 'upscale',
+        coordinates: [29.754135330781605, -95.36270750186235],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/20ccHyw.png',
+        website: 'https://www.torotorohouston.com',
+        blurb: 'Global Pan-Latin steakhouse at the Four Seasons Hotel offering rodízio-style churrasco steaks and Asian dishes.',
+        description: ['Inside Four Seasons', 'Breakfast, Lunch, Dinner', 'Happy Hour 3pm - 6pm']
+    },
+    {
+        name: 'Spindletop',
+        category: 'food',
+        subcategory: 'upscale',
+        coordinates: [29.757210181311688, -95.36954758353014],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/ZOv1hRe.png',
+        website: 'https://www.instagram.com/officialspindletophouston/?hl=en',
+        blurb: 'Upscale revolving restaurant perched atop the Hyatt hotel serving Southwestern-inspired seafood.',
+        description: ['Inside Hyatt', 'Revolving Restuarant', 'Reservations']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
@@ -1385,6 +1407,26 @@ const locations = [
         website: 'https://www.lov3htx.com',
         blurb: 'Bar serving global fare alongside hookahs, cocktails, and live entertainment.',
         description: ['Daily Events', ' Live Music', 'Happy Hour']
+    },
+    {
+        name: 'Melrose',
+        category: 'bar',
+        coordinates: [29.743234981473602, -95.40106372780808],
+        neighborhood: 'Hyde Park',
+        img: 'https://i.imgur.com/WfPjlro.png',
+        website: 'https://www.melrosehtx.com',
+        blurb: "Upscale cocktail lounge in Houston's Montrose neighborhood, offering a curated selection of seasonal cocktails and elevated bar bites in a chic, sensory-rich setting.",
+        description: ['Intimate', 'Cocktails', "Espresso 'Tini"]
+    },
+    {
+        name: 'Sixes and Sevens',
+        category: 'bar',
+        coordinates: [29.7499426960642, -95.39667766947576],
+        neighborhood: 'Hyde Park',
+        img: 'https://i.imgur.com/H8UiGPG.png',
+        website: 'https://www.sixesandsevenshtx.com',
+        blurb: 'Local cocktail lounge with outdoor seating.',
+        description: ['Live Music', 'Full Bar', 'Intimate']
     },
     // Bookstores & Libraries
     {
