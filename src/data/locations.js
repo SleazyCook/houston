@@ -1519,7 +1519,7 @@ const locations = [
         img: 'https://i.imgur.com/HVUrkrB.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
-        description: []
+        description: ['Noodles', 'Produce', 'Food Court']
     },
     {
         name: 'Mi Tienda',
@@ -1641,7 +1641,7 @@ const locations = [
         img: 'https://i.imgur.com/9cruNYm.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
-        description: []
+        description: ['Noodles', 'Produce', 'Food Court']
     },
     {
         name: 'H Mart',
@@ -1652,7 +1652,7 @@ const locations = [
         img: 'https://i.imgur.com/K0nt0I0.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
-        description: []
+        description: ['Noodles', 'Produce', 'Food Court']
     },
     {
         name: 'Sprouts',
