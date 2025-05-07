@@ -69,7 +69,7 @@ const locations = [
         name: 'The Taco Stand',
         category: 'food',
         subcategory: 'tacos',
-        coordinates: [29.80467537187449, -95.40940911953685],
+        coordinates: [29.804581677923732, -95.40996772397978],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/iCIE0bY.png',
         website: 'https://tacostandhtx.com/',
@@ -859,7 +859,7 @@ const locations = [
         name: 'Somisomi',
         category: 'food',
         subcategory: 'dessert',
-        coordinates: [29.788818320818113, -95.77298887199107],
+        coordinates: [29.788748228653198, -95.77294693210428],
         neighborhood: 'Katy',
         img: 'https://i.imgur.com/1y81OeD.png',
         website: 'https://somisomi.com',
@@ -1041,6 +1041,61 @@ const locations = [
         website: 'https://www.gaspachoshtx.com',
         blurb: 'Easygoing Mexican joint serving street tacos and other favorites, plus beer, cocktails, and dog treats.',
         description: ['Juices', 'Tacos', 'Fruit Bowls']
+    },
+    {
+        name: 'The Burger Joint',
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.804033915214887, -95.40988938793168],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/t9F4bpx.png',
+        website: 'https://burgerjointhtx.com',
+        blurb: 'Casual option dishing up burgers and craft beer, with shaded outdoor seating and sports on TV.',
+        description: ['Creative Burgers', 'Hot dogs', 'Chicken Sandwiches']
+    },
+    {
+        name: 'Rodeo Goat',
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.749983355864877, -95.35621545128976],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/KSGarKU.png',
+        website: 'https://www.rodeogoat.com/houston/',
+        blurb: 'Casual joint offering inventive variations on house-ground burgers and a lengthy craft-beer lineup, with takeout options.',
+        description: ['Burgers', 'Cocktails', 'Milkshakes']
+    },
+    {
+        name: 'Two Hands Fresh Corn Dogs',
+        category: 'food',
+        subcategory: 'hotdogs',
+        coordinates: [29.788814207973186, -95.77300638786825],
+        neighborhood: 'Katy',
+        img: 'https://i.imgur.com/9fdJSnt.png',
+        website: 'https://www.twohandsus.com',
+        blurb: 'Eatery dishing up Korean-style corn dogs with a variety of toppings plus kimchi fries.',
+        description: ['Kimchi Fries', 'Hot Cheeto Toppings', 'Drinks']
+    },
+    {
+        name: 'The Waffle Bus',
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.80250060993677, -95.41044891450004],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/YsUgurm.jpeg',
+        website: 'https://www.thewafflebus.com',
+        blurb: 'Laid-back restaurant serving savory & sweet waffle sandwiches, plus hot chicken snacks.',
+        description: ['Chicken', 'Waffles', 'Sweet Sandiwches']
+    },
+    {
+        name: 'The Waffle Bus',
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.738872423986365, -95.39901834587168],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/zEa5LEB.png',
+        website: 'https://www.thewafflebus.com',
+        blurb: 'Laid-back restaurant serving savory & sweet waffle sandwiches, plus hot chicken snacks.',
+        description: ['Chicken', 'Waffles', 'Sweet Sandiwches']
     },
     // Bars
     {
