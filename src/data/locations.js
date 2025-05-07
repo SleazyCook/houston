@@ -2176,6 +2176,16 @@ const locations = [
         blurb: 'Historic park dedicated to the end of slavery offers a pool, athletic fields & a large playground.',
         description: ['community center', 'pool', 'memorials']
     },
+    {
+        name: 'Menil Park',
+        category: 'park',
+        coordinates: [29.73741753692353, -95.39706742222512],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/Raxgswn.png',
+        website: 'https://www.menil.org/visit/campus/menil-park',
+        blurb: '30-acre urban gathering spot offering open lawns, trails & sculptures surrounded by shady oak trees.',
+        description: ['Walkable Area', 'Drawing & Photography Centers', 'Large Trees']
+    },
     // Attractions
     {
         name: 'Shell Stadium',
