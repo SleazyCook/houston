@@ -1355,6 +1355,16 @@ const locations = [
         blurb: 'Local Cafe for us to vibe, work, eat, and meet.',
         description: ['Hookah', 'Poetry', 'Live Music']
     },
+    {
+        name: 'Bad Astronaut',
+        category: 'bar',
+        coordinates: [29.77382898968824, -95.35642157871743],
+        neighborhood: 'Northside',
+        img: 'https://i.imgur.com/3krCSVs.png',
+        website: 'https://badastronautbeer.com',
+        blurb: 'Chill brewpub offering live music, as well as bar games such as air hockey, pool, and foosball.',
+        description: ['Events', 'Drinks', 'Seltzers']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
