@@ -1130,6 +1130,17 @@ const locations = [
         blurb: 'Upscale revolving restaurant perched atop the Hyatt hotel serving Southwestern-inspired seafood.',
         description: ['Inside Hyatt', 'Revolving Restuarant', 'Reservations']
     },
+    {
+        name: 'The Sunrise House',
+        category: 'food',
+        subcategory: 'breakfast',
+        coordinates: [29.738935860322403, -95.40586450262902],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/H0fKMWt.png',
+        website: 'https://www.thesunrisehouse.com',
+        blurb: 'Upscale restaurant serving an array of breakfast and brunch classics in an elevated setting.',
+        description: ['Brunch', 'Affordable', 'Cute']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
@@ -1539,6 +1550,36 @@ const locations = [
         website: 'https://lalalandkindcafe.com/pages/mkt-shepherd',
         blurb: 'Trendy cafe known for its matcha drinks and avocado toast, plus an emphasis on kindness.',
         description: ['Walkable area', 'Yellow', 'Coffee']
+    },
+    {
+        name: 'Luce Coffee Roasters',
+        category: 'coffee',
+        coordinates: [29.816500709021927, -95.42918113240202],
+        neighborhood: 'Ella Oaks',
+        img: 'https://i.imgur.com/aFa0Ekd.png',
+        website: 'https://www.instagram.com/lucecoffeeroasters/',
+        blurb: "Specialty coffee shop and roastery for espresso drinks, tea, breakfast tacos, pastries, and a kids' menu.",
+        description: ['Coffee', 'Events', 'Walkable area']
+    },
+    {
+        name: 'HTeaO',
+        category: 'coffee',
+        coordinates: [30.092839580594955, -95.62470622095695],
+        neighborhood: 'Tomball',
+        img: 'https://i.imgur.com/fVLyiQA.png',
+        website: 'https://hteao.com/locations/tomball-tx/',
+        blurb: 'Chain tea shop offering an array of iced tea flavors and crushed or cubed ice.',
+        description: ['Samples', 'Dog Treats', 'Texasi Chai']
+    },
+    {
+        name: 'The Boba Shop',
+        category: 'coffee',
+        coordinates: [30.072344295099644, -95.43639807164976],
+        neighborhood: 'Spring',
+        img: 'https://i.imgur.com/WnuY4Nr.png',
+        website: 'https://www.yelp.com/biz/the-boba-shop-spring-4',
+        blurb: 'Local cafe offering smoothies, tea, and coffee plus banh mi and dumplings.',
+        description: ['Drinks', 'Mangonada', 'Board Games']
     },
     // Markets
     {
