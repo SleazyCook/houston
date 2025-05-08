@@ -1520,6 +1520,26 @@ const locations = [
         blurb: 'Modern, stylish cafe serving coffee & Latin American specialty drinks, plus empanadas & sandwiches.',
         description: ['Cuban Coffee', 'Tamales', 'Empanadas']
     },
+    {
+        name: 'Chicha San Chen',
+        category: 'coffee',
+        coordinates: [29.705427281762052, -95.55272318332219],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/PoAFeJt.png',
+        website: 'https://www.instagram.com/chichasanchen.tx/?hl=en',
+        blurb: "Michelin recommended boba shop in Houston's Chinatown",
+        description: ['Michelin Recommended', 'Bubble Milk Tea', 'Sugar Levels']
+    },
+    {
+        name: 'La La Land Kind Coffee',
+        category: 'coffee',
+        coordinates: [29.78216306202337, -95.40822417541648],
+        neighborhood: 'Heights MKT',
+        img: 'https://i.imgur.com/kOi6K5h.png',
+        website: 'https://lalalandkindcafe.com/pages/mkt-shepherd',
+        blurb: 'Trendy cafe known for its matcha drinks and avocado toast, plus an emphasis on kindness.',
+        description: ['Walkable area', 'Yellow', 'Coffee']
+    },
     // Markets
     {
         name: 'H Mart',
@@ -1659,7 +1679,7 @@ const locations = [
         category: 'market',
         subcategory: 'hall',
         coordinates: [29.706641204872156, -95.55391477248872],
-        neighborhood: 'Bellaire',  
+        neighborhood: 'Chinatown',  
         img: 'https://i.imgur.com/K0nt0I0.png',
         website: 'https://www.hmart.com/',
         blurb: 'Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.',
