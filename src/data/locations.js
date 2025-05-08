@@ -1141,6 +1141,17 @@ const locations = [
         blurb: 'Upscale restaurant serving an array of breakfast and brunch classics in an elevated setting.',
         description: ['Brunch', 'Affordable', 'Cute']
     },
+    {
+        name: "Lucille's",
+        category: 'food',
+        subcategory: 'chicken',
+        coordinates: [29.723799143236427, -95.38506435895276],
+        neighborhood: 'Museum District',
+        img: 'https://i.imgur.com/4e4itNW.png',
+        website: 'https://www.lucilleshouston.com',
+        blurb: 'Modern takes on Southern classics by a classically trained chef served in a cozy, vintage house.',
+        description: ['Fried Green Tomatoes', 'Full bar', 'Fried Fish']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
