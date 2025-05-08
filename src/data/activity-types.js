@@ -17,6 +17,10 @@ const buttonData = [
         value: 'books'
     },
     {
+        label: 'Coffee',
+        value: 'coffee'
+    },
+    {
         label: 'Markets',
         value: 'markets'
     },

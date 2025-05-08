@@ -1509,6 +1509,17 @@ const locations = [
         blurb: 'Public library featuring resources for learning such as a music studio.',
         description: ['Library', 'Music Studio', 'Computer Equipment']
     },
+    // Coffee Shops
+    {
+        name: 'Campesino Coffee House',
+        category: 'coffee',
+        coordinates: [29.745984548960436, -95.39419752711699],
+        neighborhood: 'Hyde Park',
+        img: 'https://i.imgur.com/3Auw5wb.png',
+        website: 'https://www.instagram.com/campesinocoffee1/?hl=en',
+        blurb: 'Modern, stylish cafe serving coffee & Latin American specialty drinks, plus empanadas & sandwiches.',
+        description: ['Cuban Coffee', 'Tamales', 'Empanadas']
+    },
     // Markets
     {
         name: 'H Mart',

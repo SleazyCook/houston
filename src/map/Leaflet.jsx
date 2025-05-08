@@ -61,10 +61,11 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       }).addTo(map);
 
 
-      // Layers 1 of 4: Create Layer
+      // Layers 1 of 5: Create Layer
       const restaurants = L.layerGroup();
       const bars = L.layerGroup();
       const books = L.layerGroup();
+      const coffee = L.layerGroup();
       const markets = L.layerGroup();
       const movies = L.layerGroup();
       const music = L.layerGroup();
@@ -74,13 +75,15 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       // Start locations loop
       locations.forEach(location => {
 
-        // Layers 2 of 4: Assign Icon Image
+        // Layers 2 of 5: Assign Icon Image
         let mapIconUrl = ''
         // Activities First, to avoid food subcategory override.
         if (location.category == "bar") {
           mapIconUrl = icons.bar;
         } else if (location.category == "books") {
           mapIconUrl = icons.books;
+        } else if (location.category == "coffee") {
+          mapIconUrl = icons.coffee;
         } else if (location.category == "market") {
           mapIconUrl = icons.market ;
         } else if (location.category == "movies") {
@@ -159,13 +162,15 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           }
         ).addTo(map);
         
-        // Layers 3 of 4: Assign Marker to Layer
+        // Layers 3 of 5: Assign Marker to Layer
         if (location.category == "food") {
           // console.log(location.name, "is a restaurant")
           restaurants.addLayer(marker);
         } else if (location.category == "bar") {
           bars.addLayer(marker);
         } else if (location.category == "books") {
+          books.addLayer(marker);
+        } else if (location.category == "coffee") {
           books.addLayer(marker);
         } else if (location.category == "market") {
           markets.addLayer(marker);
@@ -214,6 +219,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       attractions.addTo(map);
       bars.addTo(map);
       books.addTo(map);
+      coffee.addTo(map);
       markets.addTo(map);
       movies.addTo(map);
       music.addTo(map);
@@ -242,14 +248,12 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       layerControl.addOverlay(restaurants, "Restaurants");
       layerControl.addOverlay(bars, "Bars & Lounges");
       layerControl.addOverlay(books, "Books");
+      layerControl.addOverlay(coffee, "Coffee");
       layerControl.addOverlay(markets, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
       layerControl.addOverlay(parks, "Parks")
       layerControl.addOverlay(attractions, "Attractions")
-
-
-
 
     }
 
