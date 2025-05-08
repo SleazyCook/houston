@@ -1525,7 +1525,7 @@ const locations = [
         category: 'coffee',
         coordinates: [29.705427281762052, -95.55272318332219],
         neighborhood: 'Chinatown',
-        img: 'https://i.imgur.com/PoAFeJt.png',
+        img: 'https://i.imgur.com/S9Wr6rg.png',
         website: 'https://www.instagram.com/chichasanchen.tx/?hl=en',
         blurb: "Michelin recommended boba shop in Houston's Chinatown",
         description: ['Michelin Recommended', 'Bubble Milk Tea', 'Sugar Levels']
