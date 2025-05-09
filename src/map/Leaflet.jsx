@@ -70,6 +70,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       const movies = L.layerGroup();
       const music = L.layerGroup();
       const parks = L.layerGroup();
+      const photo = L.layerGroup();
       const attractions = L.layerGroup();
 
       // Start locations loop
@@ -92,6 +93,8 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           mapIconUrl = icons.music;
         } else if (location.category == 'park') {
           mapIconUrl = icons.parks;
+        } else if (location.category == 'photo') {
+          mapIconUrl = icons.photo;
           // Attractions subcategories
         } else if (location.subcategory == 'soccer') {
           mapIconUrl = icons.soccer;
@@ -180,6 +183,8 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           music.addLayer(marker);
         } else if (location.category == "park") {
           parks.addLayer(marker);
+        } else if (location.category == "photo") {
+          photo.addLayer(marker);
         } else if (location.category == "attraction") {
           attractions.addLayer(marker);
         }
@@ -224,6 +229,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       movies.addTo(map);
       music.addTo(map);
       parks.addTo(map);
+      photo.addTo(map);
       attractions.addTo(map);
 
       // PinSearch component, addToMap
@@ -252,8 +258,9 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       layerControl.addOverlay(markets, "Markets");
       layerControl.addOverlay(movies, "Movie Theaters");
       layerControl.addOverlay(music, "Music Venues");
-      layerControl.addOverlay(parks, "Parks")
-      layerControl.addOverlay(attractions, "Attractions")
+      layerControl.addOverlay(parks, "Parks");
+      layerControl.addOverlay(photo, "Photo Opp");
+      layerControl.addOverlay(attractions, "Attractions");
 
     }
 

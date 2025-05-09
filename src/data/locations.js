@@ -1,6 +1,7 @@
 // Restaurants
 // Bars
 // Bookstores
+// Coffee / Tea / Boba Shops
 // Markets
 // Movie Theaters
 // Music Venues
@@ -1151,6 +1152,17 @@ const locations = [
         website: 'https://www.lucilleshouston.com',
         blurb: 'Modern takes on Southern classics by a classically trained chef served in a cozy, vintage house.',
         description: ['Fried Green Tomatoes', 'Full bar', 'Fried Fish']
+    },
+    {
+        name: 'Onion Creek',
+        category: 'food',
+        subcategory: 'burgers',
+        coordinates: [29.781753679987595, -95.39102295778669],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/l7I5cqS.png',
+        website: 'https://www.onioncreekcafe.com',
+        blurb: 'Casual breakfast & lunch eatery serving burgers & local beers inside or on the woodsy outdoor patio.',
+        description: ['Tacos', 'Sandwiches', 'Pizza']
     },
     // Bars
     {
@@ -2372,6 +2384,16 @@ const locations = [
     // (nrg,  punchline, )
 
     // Photo Opp
+    {
+        name: 'White Oak Bayou Rails to Trail Bridge',
+        category: 'photo',
+        coordinates: [29.765619728541605, -95.35796023407394],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/ALfMgCP.png',
+        website: 'https://www.google.com/search?client=opera-gx&hs=Fno&sca_esv=5c6211a02afc286c&sxsrf=AHTn8zpvW9EBOf8Uht14p2vaqEXfQCFLSQ:1746803461175&q=MKT+-+White+Oak+Bayou+Rails+To+Trails+Bridge&source=lnms&fbs=ABzOT_ByvNd_aIaDo5kB7Bu3gQZnW56Me--q0mBVqLHrHhEw6G4xZFB1KEALaTNfNtnq0rXvIBnNYNPUIf5ymOOWjHB5NY-5Vr64dkNpB_qYTCfuOVhNSogDEL4nMuyaU5XsE8PELbRxGePzyc7ngdUL82daXTL6Z9ym_KNaUQtqskndKR8U7axXY2J_uKnRIy6CmbGoavmBkmic5Yx6otCESUdfi017msLfUsyc7_c92iR9GPYqPfs&sa=X&ved=2ahUKEwii167-1ZaNAxVN48kDHc1sHbUQ0pQJegQIEBAB&biw=1879&bih=903&dpr=1',
+        blurb: 'Downtown bridge connecting White Oak Bayou to University of Houston - Downtown',
+        description: ['Bridge', 'Skyline', 'Trains']
+    }
 
     // 
 

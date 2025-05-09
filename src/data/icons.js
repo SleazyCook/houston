@@ -1,7 +1,7 @@
 // customIcons.js
 
 import { renderToStaticMarkup } from 'react-dom/server';
-import { BsJoystick } from "react-icons/bs";
+import { BsJoystick, BsCameraFill } from "react-icons/bs";
 import { FaIceCream, FaCocktail } from 'react-icons/fa';
 import { FaBurger, FaHotdog, FaPizzaSlice, FaBook, FaBagShopping, FaMusic } from 'react-icons/fa6';
 import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage } from "react-icons/gi";
@@ -43,6 +43,7 @@ export const icons = {
     movies: makeSvgDataUrl(<PiFilmReelFill size={38} color="#000000" />),
     music: makeSvgDataUrl(<FaMusic size={38} color="#2E8B57" />),
     parks: makeSvgDataUrl(<RiTreeFill size={38} color="green" />),
+    photo: makeSvgDataUrl(<BsCameraFill size={38} color="#000000" />),
 
     // Custom
     soccer: makeSvgDataUrl(<GiSoccerBall size={38} color="#222222"  />),

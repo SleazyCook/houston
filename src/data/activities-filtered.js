@@ -12,7 +12,7 @@ const activitiesFiltered = {
   movies: sortByName(locations.filter(place => place.category === 'movies')),
   music: sortByName(locations.filter(place => place.category === 'music')),
   parks: sortByName(locations.filter(place => place.category === 'park')),
-  photos: sortByName(locations.filter(place => place.category === 'photo')),
+  photo: sortByName(locations.filter(place => place.category === 'photo')),
   attraction: sortByName(locations.filter(place => place.category === 'attraction')),
 };
 
