@@ -1711,7 +1711,7 @@ const locations = [
         img: 'https://i.imgur.com/KgoJrYo.png',
         website: 'https://phoeniciafoods.com/locations/westheimer-market/',
         blurb: 'Mediterranean market with deli & prepared foods, plus cheeses, baked goods, meats, wine & beer.',
-        description: ['mediterranean', 'ready to eat snacks', 'specialty foods']
+        description: ['Mediterranean', 'Ready to eat snacks', 'Specialty foods']
     },
     {
         name: '99 Ranch Market',
@@ -1732,7 +1732,7 @@ const locations = [
         img: 'https://i.imgur.com/QyyVC3v.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
-        description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
+        description: ['Asian foods', 'Restaurants attached', 'Pricier than H Mart']
     },
     {
         name: '99 Ranch Market',
@@ -1742,7 +1742,7 @@ const locations = [
         img: 'https://i.imgur.com/TQphagr.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
-        description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
+        description: ['Asian foods', 'Restaurants attached', 'Pricier than H Mart']
     },
     {
         name: 'Whole Foods Market',
@@ -1752,7 +1752,7 @@ const locations = [
         img: 'https://i.imgur.com/o7vIOi4.png',
         website: 'https://www.wholefoodsmarket.com/stores/independenceheights?utm_sourc',
         blurb: 'Eco-minded chain with natural & organic grocery items, housewares & other products (most sell wine).',
-        description: ['fresh pizza', 'tin fish', 'wine']
+        description: ['Fresh pizza', 'Tin fish', 'Wine']
     },
     {
         name: 'H-E-B',
@@ -1782,7 +1782,7 @@ const locations = [
         img: 'https://i.imgur.com/Dk66E5Q.png',
         website: 'https://bwmeatcompany.com',
         blurb: 'Butcher shop offering high-quality meats, housemade sausage, custom cuts, deer processing & more.',
-        description: ['butcher', 'oxtail', 'brisket']
+        description: ['Butcher', 'Oxtail', 'Brisket']
     },
     {
         name: 'H Mart',
@@ -1815,7 +1815,7 @@ const locations = [
         img: 'https://i.imgur.com/kN1pdBy.png',
         website: 'https://www.sprouts.com/store/tx/houston/the-heights/',
         blurb: 'Specialty chain offering a range of natural & organic grocery items, including own-brand goods.',
-        description: ['fresh sandwiches', 'candy', 'organic groceries']
+        description: ['Fresh sandwiches', 'Candy', 'Organic groceries']
     },
     {
         name: 'Central Market',
@@ -1825,7 +1825,7 @@ const locations = [
         img: 'https://i.imgur.com/1RL7t9V.png',
         website: 'https://www.centralmarket.com/locations/houston?utm_source=google&utm_medium=organic&utm_campaign=cm_stores',
         blurb: 'Gourmet veggies, meats & wine, plus an in-house cafe, food events & live music in a vast space.',
-        description: ['fancy H-E-B', 'cooking classes', 'premium groceries']
+        description: ['Fancy H-E-B', 'Cooking classes', 'Premium groceries']
     },
     // Movie Theaters
     {
@@ -1836,7 +1836,7 @@ const locations = [
         img: 'https://i.imgur.com/7j18fGs.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-willowbrook-24',
         blurb: 'Casual movie theater with IMAX, Dolby Cinema, and Prime at AMC, plus rocking seats and recliners.',
-        description: ['premium seats', 'digital IMAX', 'Dolby Digital']
+        description: ['Premium seats', 'Digital IMAX', 'Dolby Digital']
     },
     {
         name: 'AMC Deerbrook 24',
@@ -1846,7 +1846,7 @@ const locations = [
         img: 'https://i.imgur.com/hkIrPr8.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-deerbrook-24',
         burb: '',
-        description: ['premium seats', 'digital IMAX', 'Dolby Digital']
+        description: ['Premium seats', 'Digital IMAX', 'Dolby Digital']
     },
     {
         name: 'AMC Houston 8',
@@ -1856,7 +1856,7 @@ const locations = [
         img: 'https://i.imgur.com/Ft6rlvE.png',
         website: 'https://www.amctheatres.com/movie-theatres/houston/amc-houston-8',
         burb: '',
-        description: ['premium seats', 'digital IMAX', 'Dolby Digital']
+        description: ['Premium seats', 'Digital IMAX', 'Dolby Digital']
     },
     {
         name: "Regal Edwards Houston Marq'E",
@@ -1876,7 +1876,7 @@ const locations = [
        img: 'https://i.imgur.com/rRvHN2t.png',
        website: 'http://regmovies.com',
        blurb: 'Theater complex with multiple screens featuring new release films, plush seating & concession stand.',
-       description: [] 
+       description: ['Movies', 'Popcorn', 'Soda'] 
     },
     {
         name: 'Alamo Drafthouse Cinema LaCenterra',
@@ -1906,7 +1906,7 @@ const locations = [
         img: 'https://i.imgur.com/TYifVuY.png',
         website: 'https://regmovies.com',
         blurb: 'Theater complex with multiple screens featuring new release films, plush seating & concession stand.',
-        description: []
+        description: ['Movies', 'Popcorn', 'Soda'] 
     },
     {
         name: 'The River Oaks Theatre',
@@ -1916,7 +1916,7 @@ const locations = [
         img: 'https://i.imgur.com/tbkApma.png',
         website: 'https://theriveroakstheatre.com',
         blurb: 'Movie theater screening new releases as well as independent, foreign & avant-garde flicks.',
-        description: ['historic', 'local', 'retro']
+        description: ['Historic', 'Local', 'Retro']
     },
     {
         name: 'Rooftop Cinema Club Uptown',
@@ -1946,7 +1946,7 @@ const locations = [
         img: 'https://i.imgur.com/k5dSSlt.png',
         website: 'https://www.livenation.com/venue/KovZpZAE6k1A/house-of-blues-houston-events?awtrc=true&c=SEM_LNVenuesAutomation_ggl_18519938348_142072537436_house%20of%20blues&GCID=0&gad_source=1&gbraid=0AAAAAC1KtUphGOVv8Rofb-wxM6BpSibhT&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVoSlXtVubE-SSFspbLCjloWham5bis77jY47pOXUM-yH7Rv6b9LRIEaAhEiEALw_wcB&gclsrc=aw.ds',
         blurb: "Rock- & blues-themed restaurant & bar serving Southern-inspired dishes, plus live music.",
-        description: ['house of blues', 'bronze peacock', 'foundation room']
+        description: ['House of blues', 'Bronze peacock', 'Foundation room']
     },
     {
         name: 'Warehouse Live',
@@ -1956,7 +1956,7 @@ const locations = [
         img: 'https://i.imgur.com/VxrN62G.png',
         website: 'https://www.google.com/search?q=warehouse+live&sca_esv=1568361547b35126&sxsrf=AHTn8zowcBcGXM32ZoZru3el8iKuUm81Lg%3A1745251128310&ei=OGsGaKrFEvLep84PicCx4QQ&ved=0ahUKEwiqwa-Mv-mMAxVy78kDHQlgLEwQ4dUDCBA&uact=5&oq=warehouse+live&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIg53YXJlaG91c2UgbGl2ZTITEC4YgAQYxwEYJxiKBRiOBRivATIEECMYJzIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI4QxQAFjsC3AAeAGQAQCYAYIBoAHgCqoBAzguNrgBA8gBAPgBAZgCDqACowvCAgoQIxiABBgnGIoFwgITEC4YgAQYQxjHARiKBRiOBRivAcICEBAuGIAEGEMYxwEYigUYrwHCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICExAuGIAEGLEDGNEDGEMYxwEYigXCAg0QABiABBhDGIoFGIsDwgIZEC4YgAQYQxiYAxioAxiKBRiaAxiLAxibA8ICEBAuGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIOEC4YgAQYxwEYjgUYrwHCAgoQABiABBgUGIcCmAMAkgcDNi44oAeV6AGyBwM2Lji4B6ML&sclient=gws-wiz-serp',
         blurb: 'Various music styles are showcased at this basic general-admission concert venue with a small bar.',
-        description: ['medium size concerts', 'walkable area', 'drinks and good nearby']
+        description: ['Medium size concerts', 'Walkable area', 'Drinks and good nearby']
     },
     {
         name: 'White Oak Music Hall',
@@ -1966,7 +1966,7 @@ const locations = [
         img: 'https://i.imgur.com/lh9c1Eu.png',
         website: 'https://whiteoakmusichall.com/',
         blurb: 'Performances by popular musical acts staged in an amphitheater with a lawn, plus 2 indoor spaces.',
-        description: ['upstairs room', 'downstairs room', 'lawn shows']
+        description: ['Upstairs room', 'Downstairs room', 'Lawn shows']
     },
     {
         name: 'Axelrad',
@@ -1976,7 +1976,7 @@ const locations = [
         img: 'https://i.imgur.com/RKS2yyq.png',
         website: 'https://www.axelradhouston.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb',
         blurb: 'Craft beers galore offered in a laid-back outdoor setup with hammocks, food trucks & regular events.',
-        description: ['concerts', 'hammocks', 'food trucks']
+        description: ['Concerts', 'Hammocks', 'Food trucks']
     },
     {
         name: '713 Music Hall',
@@ -1986,7 +1986,7 @@ const locations = [
         img: 'https://i.imgur.com/t93sdjO.png',
         website: 'https://www.713musichall.com/?utm_source=GMBlisting&utm_medium=organic',
         blurb: 'Venue in a former post office with a restaurant and bar, hosting a variety of artists.',
-        description: ['paid parking', 'attached to POST Food Hall', 'medium to large concerts']
+        description: ['Paid parking', 'Attached to POST Food Hall', 'Medium to large concerts']
     },
     {
         name: 'Heights Theater',
@@ -1996,7 +1996,7 @@ const locations = [
         img: 'https://i.imgur.com/BNG0lPy.png',
         website: 'https://theheightstheater.com',
         blurb: 'Restored early-1900s movie theater available for private events, with marquee & film projector.',
-        description: ['smaller shows', 'walkable neighborhood', 'old movie theater']
+        description: ['Smaller shows', 'Walkable neighborhood', 'Old movie theater']
     },
     {
         name: 'The Bronze Peacock',
@@ -2006,7 +2006,7 @@ const locations = [
         img: 'https://i.imgur.com/CnsV7fk.png',
         website: 'https://locations.houseofblues.com/restaurant-and-bar/tx/houston/1204-caroline-st.',
         blurb: 'Smaller venue attached to House of Blues - Houston',
-        description: ['house of blues', 'foundation room', 'cheap tickets']
+        description: ['House of blues', 'Foundation room', 'Cheap tickets']
     },
     {
         name: 'The Foundation Room',
@@ -2016,7 +2016,7 @@ const locations = [
         img: 'https://i.imgur.com/0ghz4Sg.png',
         website: 'https://locations.houseofblues.com/foundation-room/tx/houston/1204-caroline-st.',
         blurb: 'Upscale lounge featuring a New American restaurant, plus craft cocktails, and live music.',
-        description: ['vip room', 'house of blues', 'bronze peacock']
+        description: ['VIP room', 'House of blues', 'Bronze peacock']
     },
     {
         name: "Rockefeller's",
@@ -2026,7 +2026,7 @@ const locations = [
         img: 'https://i.imgur.com/i5DyCEI.png',
         website: 'http://www.rockefellershouston.com',
         blurb: 'Intimate venue with a bar hosting live music performances, including blues and jazz, and poetry events.',
-        description: ['intimate', 'less frequent concerts', 'private rentals']
+        description: ['Intimate', 'Less frequent concerts', 'Private rentals']
     },
     {
         name: 'Eldorado Ballroom',
@@ -2036,7 +2036,7 @@ const locations = [
         img: 'https://i.imgur.com/H3NJeKJ.png',
         website: 'https://www.theeldoradoballroom.com',
         blurb: 'Eldorado Ballroom is a former nightclub in the Third Ward, Houston, on the other side of the road from Emancipation Park.',
-        description: ['intimate', 'private events', 'historic']
+        description: ['Intimate', 'Private events', 'Historic']
     },
     {
         name: 'Bayou Music Center',
@@ -2067,7 +2067,7 @@ const locations = [
         img: '',
         website: '',
         blurb: 'Expansive park featuring a golf course, Japanese garden, a natrual science museum & a kiddie train.',
-        description: ['houston zoo', 'proximity to museums', 'japanese garden']
+        description: ['Houston zoo', 'Proximity to museums', 'Japanese garden']
     },
     {
         name: 'McGovern Centennial Gardens',
