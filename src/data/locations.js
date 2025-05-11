@@ -84,6 +84,7 @@ const locations = [
         name: 'Insomnia Cookies',
         category: 'food',
         subcategory: 'dessert',
+        badges: ['openLate'],
         coordinates: [29.717783381639077, -95.41698820235376],
         neighborhood: 'Rice Village',
         img: 'https://i.imgur.com/0cyEvM4.png',
@@ -424,6 +425,7 @@ const locations = [
         name: "Yoyo's Hotdog",
         category: 'food',
         subcategory: 'hotdogs',
+        badges: ['openLate'],
         coordinates: [29.749426924148914, -95.35545770557285],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/PQCIziO.png',
@@ -435,6 +437,7 @@ const locations = [
         name: "Yoyo's Hotdog",
         category: 'food',
         subcategory: 'hotdogs',
+        badges: ['openLate'],
         coordinates: [29.770734786401515, -95.40811760984687],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/IqsbBbr.png',
@@ -704,6 +707,7 @@ const locations = [
         name: 'House of Pies',
         category: 'food',
         subcategory: 'dessert',
+        badges: ['openLate'],
         coordinates: [29.737118864189952, -95.41921689703939],
         neighborhood: 'Greenway',
         img: 'https://i.imgur.com/kT7WhKM.png',
@@ -1193,6 +1197,17 @@ const locations = [
         website: 'https://www.onioncreekcafe.com',
         blurb: 'Casual breakfast & lunch eatery serving burgers & local beers inside or on the woodsy outdoor patio.',
         description: ['Tacos', 'Sandwiches', 'Pizza']
+    },
+    {
+        name: 'Midwest Coney Connection',
+        category: 'food',
+        subcategory: 'hotdogs',
+        coordinates: [29.73733267569881, -95.58346995304211],
+        neighborhood: 'Briar Forest',
+        img: 'https://i.imgur.com/7Ryj662.png',
+        website: 'https://midwestconeyconnection.com/',
+        blurb: 'Hot dogs, wings, fries & Philly cheesesteak egg rolls offered in an informal counter-serve setting.',
+        description: ['Chili Dogs', 'Philly Cheese Steak Egg Rolls', 'Texas Frito Pie']
     },
     // Bars
     {
