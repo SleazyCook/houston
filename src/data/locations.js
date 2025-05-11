@@ -44,7 +44,7 @@ const locations = [
         img: 'https://i.imgur.com/mL0K4FI.png',
         website: 'https://pos.chowbus.com/online-ordering/store/Xiaolong-Dumpling/14867',
         blurb: 'Opened in 2024, this cozy eatery serves handmade dumplings alongside fiery Sichuan dishes.',
-        description: ['friendly staff', 'soup dumplings', 'garlic cucumbers']
+        description: ['Friendly staff', 'Soup dumplings', 'Garlic cucumbers']
     },
     {
         name: 'Mensho',
@@ -55,7 +55,7 @@ const locations = [
         img: 'https://i.imgur.com/vi8bS5Z.png',
         website: 'https://mensho.com/',
         blurb: 'Creative ramen specialty store',
-        description: ['michelin recommended', 'expect a wait', 'Garlic Knock Out']
+        description: ['Michelin recommended', 'Expect a wait', 'Garlic Knock Out']
     },
     {
         name: 'Blue Sushi',
@@ -66,7 +66,7 @@ const locations = [
         img: 'https://i.imgur.com/TI5ybqr.png',
         website: 'https://www.bluesushisakegrill.com/locations/m-k-t-heights',
         blurb: 'Modern, clubby restaurant featuring sushi & Japanese tapas, plus fancy mixed drinks.',
-        description: ['sushi rolls', 'sake', 'Godzilla Bomb']
+        description: ['Sushi rolls', 'Sake', 'Godzilla Bomb']
     },
     {
         name: 'The Taco Stand',
@@ -89,7 +89,7 @@ const locations = [
         img: 'https://i.imgur.com/0cyEvM4.png',
         website: 'https://insomniacookies.com/',
         blurb: 'Bakery chain known for warm cookies, ice cream & late-night deliveries.',
-        description: ['open late', 'deluxe cookies', 'ice cream']         
+        description: ['Open late', 'Deluxe cookies', 'Ice cream']         
     },
     {
         name: 'The Rice Box',
@@ -101,7 +101,7 @@ const locations = [
         img: 'https://i.imgur.com/fBLTpv2.png',
         website: 'https://i.imgur.com/fBLTpv2.png',
         blurb: "Hip outpost offering reinvented Chinese classics such as kung pao chicken and General Tso's chicken.",
-        description: ['open late', 'kung pao beef', 'chow fun']
+        description: ['Open late', 'Kung pao beef', 'Chow fun']
     },
     {
         name: 'The Rice Box',
@@ -113,7 +113,7 @@ const locations = [
         img: 'https://i.imgur.com/kac6XNX.png',
         website: 'https://i.imgur.com/fBLTpv2.png',
         blurb: "Hip outpost offering reinvented Chinese classics such as kung pao chicken and General Tso's chicken.",
-        description: ['open late', 'kung pao beef', 'chow fun']
+        description: ['Open late', 'Kung pao beef', 'Chow fun']
     },
     {
         name: "The Monk's - Humble",
@@ -124,7 +124,7 @@ const locations = [
         img: 'https://i.imgur.com/X6qqegt.png',
         website: 'https://www.monkshumble.com/',
         blurb: 'Indian and Chinese cooking, including vegetarian options, served in a casual space with counter and table service.',
-        description: ['indian', 'very spicy', 'samosas']
+        description: ['Indian', 'Very spicy', 'Samosas']
     },
     {
         name: "Pepperoni's Pizza",
@@ -2109,7 +2109,7 @@ const locations = [
         img: '',
         website: '',
         blurb: 'Unpaved, tree-lined trail with a pond for wildlife viewing and a solid walking bridge.',
-        description: ['great for walking', 'beatiful lake', 'bridges over lake']
+        description: ['Great for walking', 'Beatiful lake', 'Bridges over lake']
     },
     {
         name: 'Jesse H. Jones Park & Nature Center',
@@ -2129,7 +2129,7 @@ const locations = [
         img: '',
         website: '',
         blurb: 'Park popular for its running trails, lush green hills & playing host to multiple annual festivals.',
-        description: ['connects to downtown', 'beach volleyball', 'view of skyline']
+        description: ['Connects to downtown', 'Beach volleyball', 'View of skyline']
     },
     {
         name: 'Buffalou Bayou Park Cistern',
@@ -2159,7 +2159,7 @@ const locations = [
         img: '',
         website: '',
         blurb: '155-acre urban green space offering nature trails, exhibits, workshops & events in various habitats.',
-        description: ['beatiful trails', '', '']
+        description: ['Gardens', 'Walking Trails', 'Ponds']
     },
     {
         name: 'Memorial Park Mountain Biking Trails',
@@ -2206,7 +2206,7 @@ const locations = [
         img: '',
         website: '',
         blurb: '',
-        description: ['long walk to boardwalk', 'large alligators', 'walking trais']
+        description: ['Long walk to boardwalk', 'Large alligators', 'Walking trais']
     },
     {
         name: 'Smither Park',
@@ -2216,7 +2216,7 @@ const locations = [
         img: '',
         website: 'https://orangeshow.com',
         blurb: 'Urban green space with a quirky collection of large mosaic sculptures created by local artists.',
-        description: ['artistic', 'local culture', 'quirky']
+        description: ['Artistic', 'Local culture', 'Quirky']
     },
     {
         name: 'Clear Lake Park',
@@ -2236,7 +2236,7 @@ const locations = [
         img: '',
         website: 'https://tpwd.texas.gov',
         blurb: 'State park with wetlands, lake & ponds for fishing & wildlife watching, plus educational exhibits.',
-        description: ['observation tower', 'wetlands walking trails', 'lush ponds']
+        description: ['Observation tower', 'Wetlands walking trails', 'Lush ponds']
     },
     {
         name: 'Sam Houston Park',
@@ -2245,7 +2245,7 @@ const locations = [
         img: '',
         website: 'https://www.houstontx.gov/abouthouston/samhoustonpark.html',
         blurb: 'Historically focused park featuring guided tours of old structures dating back to the 1800s.',
-        description: ['downtown', 'frequent events', 'access to Buffalo Bayou']
+        description: ['Downtown', 'Frequent events', 'Access to Buffalo Bayou']
     },
     {
         name: 'Market Square Park',
@@ -2255,7 +2255,7 @@ const locations = [
         img: '',
         website: '',
         blurb: 'Historic public space with outdoor movies, walkways, a dog run & an open-air Greek restaurant.',
-        description: ['movies in the park', 'proximity to bars', 'proximity to restaurants']
+        description: ['Movies in the park', 'Proximity to bars', 'Proximity to restaurants']
     },
     {
         name: 'Discovery Green',
@@ -2315,7 +2315,7 @@ const locations = [
         img: '',
         website: 'https://midtownhouston.com/project/midtown-park/',
         blurb: 'Urban space & events site with a dog park, a playground, sports courts & a wetland trail.',
-        description: ['ponds', 'paved walking trails', 'artistic']
+        description: ['Ponds', 'Paved walking trails', 'Artistic']
     },
     {
         name: 'Emancipation Park',
@@ -2325,7 +2325,7 @@ const locations = [
         img: '',
         website: 'https://epconservancy.org',
         blurb: 'Historic park dedicated to the end of slavery offers a pool, athletic fields & a large playground.',
-        description: ['community center', 'pool', 'memorials']
+        description: ['Community center', 'Pool', 'Memorials']
     },
     {
         name: 'Menil Park',
@@ -2437,8 +2437,6 @@ const locations = [
         blurb: 'Modern spot with 2 theaters, a 3-story grand lobby with French styling & views of the city skyline.',
         description: ['downtown', 'proximity to Buffalo Bayou park', 'promiximity to bars']
     },
-    // (nrg,  punchline, )
-
     // Photo Opp
     {
         name: 'White Oak Bayou Rails to Trail Bridge',
