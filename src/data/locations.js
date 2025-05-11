@@ -1223,6 +1223,17 @@ const locations = [
         blurb: 'Convivial hangout with a contemporary vibe serving shrimp, fried catfish, gumbo, and more.',
         description: ['Full bar', 'Televised Sports', 'Happy Hour']
     },
+    {
+        name: 'JINYA Ramen Bar',
+        category: 'food',
+        subcategory: ['ramen'],
+        coordinates: [29.803223903801737, -95.40544469527859],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/OxWGhO1.png',
+        website: 'https://www.jinyaramenbar.com/',
+        blurb: 'Restaurant serving traditional Japanese noodle soups plus vegetarian and vegan options in a casual setting.',
+        description: ['Ramen', 'Edamame', 'Miso Garlic']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
@@ -1703,6 +1714,16 @@ const locations = [
         website: 'https://www.yelp.com/biz/the-boba-shop-spring-4',
         blurb: 'Local cafe offering smoothies, tea, and coffee plus banh mi and dumplings.',
         description: ['Drinks', 'Mangonada', 'Board Games']
+    },
+    {
+        name: 'Kung Fu Tea',
+        category: 'coffee',
+        coordinates: [29.74273235292798, -95.37984373447486],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/xt7oaM6.png',
+        website: 'https://www.kungfutea.com',
+        blurb: 'Bubble tea specialist with a selection of other hot & cold drinks, including coffee & slushes.',
+        description: ['Games', 'Tea', 'Boba']
     },
     // Markets
     {
