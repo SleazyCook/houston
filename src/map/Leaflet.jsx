@@ -176,7 +176,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
         } else if (location.category == "books") {
           books.addLayer(marker);
         } else if (location.category == "coffee") {
-          books.addLayer(marker);
+          coffee.addLayer(marker);
         } else if (location.category == "market") {
           markets.addLayer(marker);
         } else if (location.category == "movies") {
