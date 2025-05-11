@@ -96,54 +96,56 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
         } else if (location.category == 'photo') {
           mapIconUrl = icons.photo;
           // Attractions subcategories
-        } else if (location.subcategory == 'soccer') {
+        } else if (location.subcategory?.[0] == 'soccer') {
           mapIconUrl = icons.soccer;
-        } else if (location.subcategory == 'kemah') {
+        } else if (location.subcategory?.[0] == 'kemah') {
           mapIconUrl = icons.kemah;
-        } else if (location.subcategory == 'gokart') {
+        } else if (location.subcategory?.[0] == 'gokart') {
           mapIconUrl = icons.gokart;
-        } else if (location.subcategory == 'meow') {
+        } else if (location.subcategory?.[0] == 'meow') {
           mapIconUrl = icons.meow;
-        } else if (location.subcategory == 'basketball') {
+        } else if (location.subcategory?.[0] == 'basketball') {
           mapIconUrl = icons.basketball;
-        } else if (location.subcategory == 'zoo') {
+        } else if (location.subcategory?.[0] == 'zoo') {
           mapIconUrl = icons.zoo;
-        } else if (location.subcategory == 'comedy') {
+        } else if (location.subcategory?.[0] == 'comedy') {
           mapIconUrl = icons.comedy;
-        } else if (location.subcategory == 'football') {
+        } else if (location.subcategory?.[0] == 'football') {
           mapIconUrl = icons.football;
           // Restaurants subcategories
-        } else if (location.subcategory == 'bbq') {
+        } else if (location.subcategory?.[0] == 'bbq') {
           mapIconUrl = icons.bbq;
-        } else if (location.subcategory == 'burgers') {
+        } else if (location.subcategory?.[0] == 'burgers') {
           mapIconUrl = icons.burgers;
-        } else if (location.subcategory == 'breakfast') {
+        } else if (location.subcategory?.[0] == 'breakfast') {
           mapIconUrl = icons.breakfast;
-        } else if (location.subcategory == 'chicken') {
+        } else if (location.subcategory?.[0] == 'chicken') {
           mapIconUrl = icons.chicken;
-        } else if (location.subcategory == 'dessert') {
+        } else if (location.subcategory?.[0] == 'dessert') {
           mapIconUrl = icons.dessert;
-        } else if (location.subcategory == 'dumplings') {
+        } else if (location.subcategory?.[0] == 'dumplings') {
           mapIconUrl = icons.dumplings;
-        } else if (location.subcategory == 'hotdogs') {
+        } else if (location.subcategory?.[0] == 'hotdogs') {
           mapIconUrl = icons.hotdogs;
-        } else if (location.subcategory == 'pizza') {
+        } else if (location.subcategory?.[0] == 'pizza') {
           mapIconUrl = icons.pizza;
-        } else if (location.subcategory == 'ramen') {
+        } else if (location.subcategory?.[0] == 'ramen') {
           mapIconUrl = icons.ramen;
-        } else if (location.subcategory == 'ricebowl') {
+        } else if (location.subcategory?.[0] === 'ramen') {
+          mapIconUrl = icons.ramen;
+        } else if (location.subcategory?.[0] == 'ricebowl') {
           mapIconUrl = icons.rice;
-        } else if (location.subcategory == 'sandwiches') {
+        } else if (location.subcategory?.[0] == 'sandwiches') {
           mapIconUrl = icons.sandwiches;
-        } else if (location.subcategory == 'seafood') {
+        } else if (location.subcategory?.[0] == 'seafood') {
           mapIconUrl = icons.seafood;
-        } else if (location.subcategory == 'sushi') {
+        } else if (location.subcategory?.[0] == 'sushi') {
           mapIconUrl = icons.sushi;
-        } else if (location.subcategory == 'tacos') {
+        } else if (location.subcategory?.[0] == 'tacos') {
           mapIconUrl = icons.tacos;
-        } else if (location.subcategory == 'upscale') {
+        } else if (location.subcategory?.[0] == 'upscale') {
           mapIconUrl = icons.upscale;
-        } else if (location.subcategory == 'hall') {
+        } else if (location.subcategory?.[0] == 'hall') {
           mapIconUrl = icons.foodhalls;
         }  else if (location.category == "food") {
           mapIconUrl = icons.burgers;
@@ -261,11 +263,7 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
       layerControl.addOverlay(parks, "Parks");
       layerControl.addOverlay(photo, "Photo Opp");
       layerControl.addOverlay(attractions, "Attractions");
-
     }
-
-
-  
   }, [zoom]); 
 
   return (

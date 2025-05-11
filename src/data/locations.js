@@ -14,7 +14,7 @@ const locations = [
     {
         name: 'Wannabao',
         category: 'food',
-        subcategory: 'dumplings',
+        subcategory: ['dumplings'],
         badges: ['contactless'],
         coordinates: [29.747720290049234, -95.38028603278978],
         neighborhood: 'Midtown',
@@ -26,7 +26,7 @@ const locations = [
     {
         name: 'Taste of Korea',
         category: 'food',
-        subcategory: 'ricebowl',
+        subcategory: ['ricebowl'],
         coordinates: [29.997460350283827, -95.19376149496405],
         neighborhood: 'Atascocita',
         img: 'https://i.imgur.com/vixRkWH.png',
@@ -37,7 +37,7 @@ const locations = [
     {
         name: 'Xiaolong Dumpling',
         category: 'food',
-        subcategory: 'dumplings',
+        subcategory: ['dumplings'],
         badges: ['contactless'],
         coordinates: [29.751968194944496, -95.385205425497],
         neighborhood: 'Fourth Ward',
@@ -49,7 +49,7 @@ const locations = [
     {
         name: 'Mensho',
         category: 'food',
-        subcategory: 'ramen',
+        subcategory: ['ramen'],
         coordinates: [29.702776279471518, -95.55277518132357],
         neighborhood: 'Chinatown',
         img: 'https://i.imgur.com/vi8bS5Z.png',
@@ -60,7 +60,7 @@ const locations = [
     {
         name: 'Blue Sushi',
         category: 'food',
-        subcategory: 'sushi',
+        subcategory: ['sushi'],
         coordinates: [29.782854094917795, -95.40735213529982],
         neighborhood: 'Heights MKT',
         img: 'https://i.imgur.com/TI5ybqr.png',
@@ -71,7 +71,7 @@ const locations = [
     {
         name: 'The Taco Stand',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos', 'breakfast'],
         badges: ['driveThru', 'openLate', 'contactless'],
         coordinates: [29.804581677923732, -95.40996772397978],
         neighborhood: 'Heights',
@@ -83,7 +83,7 @@ const locations = [
     {
         name: 'Insomnia Cookies',
         category: 'food',
-        subcategory: 'dessert',
+        subcategory: ['dessert'],
         badges: ['openLate'],
         coordinates: [29.717783381639077, -95.41698820235376],
         neighborhood: 'Rice Village',
@@ -95,7 +95,7 @@ const locations = [
     {
         name: 'The Rice Box',
         category: 'food',
-        subcategory: 'ricebowl',
+        subcategory: ['ricebowl'],
         badges: ['openLate', 'contactless'],
         coordinates: [29.80367761668916, -95.40176409739686],
         neighborhood: 'Heights',
@@ -107,7 +107,7 @@ const locations = [
     {
         name: 'The Rice Box',
         category: 'food',
-        subcategory: 'ricebowl',
+        subcategory: ['ricebowl'],
         badges: ['openLate', 'contactless'],
         coordinates: [29.71659805044453, -95.41461404468372],
         neighborhood: 'Rice Village',
@@ -119,7 +119,7 @@ const locations = [
     {
         name: "The Monk's - Humble",
         category: 'food',
-        subcategory: 'ricebowl',
+        subcategory: ['ricebowl'],
         coordinates: [30.003620305655076, -95.27773996608327],
         neighborhood: 'Deerbrook',
         img: 'https://i.imgur.com/X6qqegt.png',
@@ -130,7 +130,7 @@ const locations = [
     {
         name: "Pepperoni's Pizza",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['driveThru', 'openLate'],
         coordinates: [29.745293850102062, -95.39171676019866],
         neighborhood: 'Montrose',
@@ -142,7 +142,7 @@ const locations = [
     {
         name: "Nielson's Delicatessen",
         category: 'food',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         coordinates: [29.733001745772487, -95.45125833534226],
         neighborhood: 'River Oaks',
         img: 'https://i.imgur.com/2j3MCnc.png',
@@ -152,7 +152,7 @@ const locations = [
     {
         name: "Portillo's",
         category: 'food',
-        subcategory: 'hotdogs',
+        subcategory: ['hotdogs', 'hamburgers', 'sandwiches'],
         badges: ['driveThru', 'openLate', 'contactless'],
         coordinates: [29.964633753145392, -95.54078033344278],
         neighborhood: 'Willowbrook',  
@@ -164,7 +164,7 @@ const locations = [
     {
         name: 'In & Out',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         badges: ['driveThru', 'openLate', 'contactless'],
         coordinates: [29.963688061809677, -95.5421339703664],
         neighborhood: 'Willowbrook',  
@@ -176,7 +176,7 @@ const locations = [
     {
         name: 'Cheba Hut',
         category: 'food',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         badges: ['openLate', 'contactless'],
         coordinates: [29.77234244004, -95.37822662667772],
         neighborhood: 'Washington',
@@ -188,7 +188,7 @@ const locations = [
     {
         name: 'Blodgett Hall',
         category: 'food',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         badges: ['openLate', 'contactless'],
         coordinates: [29.722847269152375, -95.37002136428438],
         neighborhood: 'South Side',
@@ -200,7 +200,7 @@ const locations = [
     {
         name: 'Homeslice',
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza', 'sandwiches'],
         coordinates: [29.738749524090423, -95.38015318985526],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/8UP0hfL.png',
@@ -211,7 +211,7 @@ const locations = [
     {
         name: 'Breakfast Klub',
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.73848124453339, -95.38038932724314],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/Vhk1SH7.png',
@@ -222,7 +222,7 @@ const locations = [
     {
         name: 'Iekei',
         category: 'food',
-        subcategory: 'sushi',
+        subcategory: ['sushi', 'ramen'],
         coordinates: [29.935672247210096, -95.25000159496145],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/DeH0uJX.png',
@@ -233,7 +233,7 @@ const locations = [
     {
         name: "Frank's Pizza",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate'],
         coordinates: [29.761548417674607, -95.36217053914736],
         neighborhood: 'Downtown',
@@ -245,7 +245,7 @@ const locations = [
     {
         name: "Tacos Aracely's",
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos', 'breakfast'],
         coordinates: [29.840820719855106, -95.35421491888364],
         neighborhood: 'Northside',
         img: 'https://i.imgur.com/uOPHIrD.png',
@@ -256,7 +256,7 @@ const locations = [
     {
         name: "Frenchy's",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['driveThru', 'openLate'],
         coordinates: [29.723491931484464, -95.35128034035448],
         neighborhood: 'South Side',
@@ -268,7 +268,7 @@ const locations = [
     {
         name: 'La Guadalupana',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos', 'breakfast'],
         coordinates: [29.75397083325556, -95.38335480760226],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/vqse05w.png',
@@ -279,7 +279,7 @@ const locations = [
     {
         name: 'Velvet Taco',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         coordinates: [29.804085974827032, -95.41029345468208],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/YCP3F7w.png',
@@ -290,7 +290,7 @@ const locations = [
     {
         name: 'Velvet Taco',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         coordinates: [29.77027627032481, -95.41004657788817],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/hGeXyPH.png',
@@ -301,7 +301,7 @@ const locations = [
     {
         name: 'Velvet Taco',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         coordinates: [29.717317503095316, -95.41767773335643],
         neighborhood: 'Rice Village',
         img: 'https://i.imgur.com/h2egeXD.png',
@@ -312,7 +312,7 @@ const locations = [
     {
         name: 'Velvet Taco',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         coordinates: [29.744484475293824, -95.39052608843915],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/XJpCvG9.png',
@@ -323,7 +323,7 @@ const locations = [
     {
         name: 'Tacodeli',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos', 'breakfast'],
         coordinates: [29.76797814164908, -95.37732067077975],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/pA5cQfu.jpg',
@@ -334,7 +334,7 @@ const locations = [
     {
         name: 'Poppa Burger',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         badges: ['openLate', 'cashOnly'],
         coordinates: [29.774259091292073, -95.36036566574973],
         neighborhood: 'Northside',
@@ -346,7 +346,7 @@ const locations = [
     {
         name: 'Pluckers',
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['openLate'],
         coordinates: [29.773607958972853, -95.40909531330995],
         neighborhood: 'Heights',
@@ -358,7 +358,7 @@ const locations = [
     {
         name: 'Iza Robata',
         category: 'food',
-        subcategory: 'sushi',
+        subcategory: ['sushi', 'ramen'],
         coordinates: [30.05598142350976, -95.57291198620665],
         neighborhood: 'Spring',
         img: 'https://i.imgur.com/NBFiFJo.jpg',
@@ -369,7 +369,7 @@ const locations = [
     {
         name: 'Pok Pok Po',
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         coordinates: [29.742582523950063, -95.37996336798173],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/jtwveVK.png',
@@ -380,7 +380,7 @@ const locations = [
     {
         name: 'Azteca Taco House',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos', 'breakfast'],
         coordinates: [29.879900615131934, -95.33001824192365],
         neighborhood: 'Greenwood Village',
         img: 'https://i.imgur.com/vOWNjpt.png',
@@ -391,7 +391,7 @@ const locations = [
     {
         name: "Brother's Pizza Express",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         coordinates: [30.05201190215551, -95.43342391197649],
         neighborhood: 'Spring',
         img: 'https://i.imgur.com/ONoiyzI.png',
@@ -402,7 +402,7 @@ const locations = [
     {
         name: "Brother's Pizza Express",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         coordinates: [29.958437436159638, -95.56441467471862],
         neighborhood: 'Willowbrook',
         img: 'https://i.imgur.com/EaSTaIk.png',
@@ -413,7 +413,7 @@ const locations = [
     {
         name: "Yoyo's Hotdog - POST",
         category: 'food',
-        subcategory: 'hotdogs',
+        subcategory: ['hotdogs'],
         coordinates: [29.766272186344448, -95.36461056318291],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/Lz71WDl.png',
@@ -424,7 +424,7 @@ const locations = [
     {
         name: "Yoyo's Hotdog",
         category: 'food',
-        subcategory: 'hotdogs',
+        subcategory: ['hotdogs'],
         badges: ['openLate'],
         coordinates: [29.749426924148914, -95.35545770557285],
         neighborhood: 'EaDo',
@@ -436,7 +436,7 @@ const locations = [
     {
         name: "Yoyo's Hotdog",
         category: 'food',
-        subcategory: 'hotdogs',
+        subcategory: ['hotdogs'],
         badges: ['openLate'],
         coordinates: [29.770734786401515, -95.40811760984687],
         neighborhood: 'Washington',
@@ -448,7 +448,7 @@ const locations = [
     {
         name: 'Fogo de Chão',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale', 'steak'],
         coordinates: [29.738151249900074, -95.51179108918673],
         neighborhood: 'Mid West',
         img: 'https://i.imgur.com/e6B9RR1.png',
@@ -459,7 +459,7 @@ const locations = [
     {
         name: 'Chama Gaúcha',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale', 'steak'],
         coordinates: [29.737575389908308, -95.48292126437322],
         neighborhood: 'Mid West',
         img: 'https://i.imgur.com/YTOriix.png',
@@ -470,7 +470,7 @@ const locations = [
     {
         name: 'Zalat',
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate', 'contactless'],
         coordinates: [29.803678071023104, -95.4010202575722],
         neighborhood: 'Heights',
@@ -482,7 +482,7 @@ const locations = [
     {
         name: 'Zalat',
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate', 'contactless'],
         coordinates: [29.771050199341097, -95.40971992986691],
         neighborhood: 'Washington',
@@ -494,7 +494,7 @@ const locations = [
     {
         name: 'Butter Funk Kitchen',
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken', 'seafood'],
         coordinates: [29.668880222117025, -95.36784422747914],
         neighborhood: 'South Side',
         img: 'https://i.imgur.com/5eNndPo.png',
@@ -505,7 +505,7 @@ const locations = [
     {
         name: "Layne's Chicken Fingers",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['driveThru', 'openLate', 'contactless'],
         coordinates: [29.81397761857514, -95.42886442694316],
         neighborhood: 'Ella Oaks',
@@ -517,7 +517,7 @@ const locations = [
     {
         name: "Layne's Chicken Fingers",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['driveThru', 'openLate', 'contactless'],
         coordinates: [29.74497821979449, -95.41033020946566],
         neighborhood: 'Montrose',
@@ -529,7 +529,7 @@ const locations = [
     {
         name: 'Snooze, an A.M. Eatery',
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.801592997027548, -95.41029116058527],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/Wwqhz6d.png',
@@ -540,7 +540,7 @@ const locations = [
     {
         name: 'Snooze, an A.M. Eatery',
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.744047828435875, -95.39075036458118],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/ENuHYXH.png',
@@ -551,6 +551,7 @@ const locations = [
     {
         name: 'Asia Market Thai Lao Food',
         category: 'food',
+        subcategory: ['ricebowl'],
         coordinates: [29.79111201462518, -95.37286016530489],
         neighborhood: 'Norhill',
         img: 'https://i.imgur.com/ZIICkRg.jpg',
@@ -561,7 +562,7 @@ const locations = [
     {
         name: 'Flying Biscuit',
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.758003441874767, -95.34618410261355],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/qxyPStD.png',
@@ -572,7 +573,7 @@ const locations = [
     {
         name: 'Lyric Market',
         category: 'food',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         badges: ['contactless'],
         coordinates: [29.76310881612258, -95.36456102261619],
         neighborhood: 'Downtown',
@@ -584,7 +585,7 @@ const locations = [
     {
         name: 'POST Market',
         category: 'food',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         badges: ['contactless'],
         coordinates: [29.766078454632144, -95.36455736258664],
         neighborhood: 'Downtown',
@@ -596,7 +597,7 @@ const locations = [
     {
         name: 'Underground Hall',
         category: 'food',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         coordinates: [29.760386415990325, -95.36154140154935],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/cRslLrK.png',
@@ -607,7 +608,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         coordinates: [29.81679853144434, -95.43075744065375],
         neighborhood: 'Ella Oaks',
         img: 'https://i.imgur.com/5aK3wLH.png',
@@ -618,7 +619,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         coordinates: [29.78130193379262, -95.38796849551551],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/UHoh7Tn.png',
@@ -629,7 +630,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         coordinates: [29.74424519171531, -95.38841579865903],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/agJyn5R.png',
@@ -640,7 +641,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         coordinates: [29.733773605120188, -95.4261022899225],
         neighborhood: 'Richmond Ave',
         img: 'https://i.imgur.com/vPRgLRV.png',
@@ -651,7 +652,7 @@ const locations = [
     {
         name: '7Spice',
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         coordinates: [29.936995628209772, -95.24866447987408],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/ExpOpZX.jpg',
@@ -662,7 +663,7 @@ const locations = [
     {
         name: 'Hippo Burgers',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         coordinates: [29.902729653569942, -95.34997206587146],
         neighborhood: 'East Aldine',
         img: 'https://i.imgur.com/T9SYuRm.png',
@@ -673,7 +674,7 @@ const locations = [
     {
         name: "Morton's The Steakhouse",
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale', 'steak'],
         coordinates: [29.756924901573548, -95.36427486690646],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/NDYUIgG.png',
@@ -684,7 +685,7 @@ const locations = [
     {
         name: "Morton's The Steakhouse",
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale', 'steak'],
         coordinates: [29.742058565423644, -95.46245468028471],
         neighborhood: 'Galleria',
         img: 'https://i.imgur.com/gUCdiM5.png',
@@ -695,7 +696,7 @@ const locations = [
     {
         name: "Hungry Howie's Pizza",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         coordinates: [29.901736784187758, -95.553412021421],
         neighborhood: 'Jersey Village',
         img: 'https://i.imgur.com/jN4nRox.png',
@@ -706,7 +707,7 @@ const locations = [
     {
         name: 'House of Pies',
         category: 'food',
-        subcategory: 'dessert',
+        subcategory: ['dessert'],
         badges: ['openLate'],
         coordinates: [29.737118864189952, -95.41921689703939],
         neighborhood: 'Greenway',
@@ -718,7 +719,7 @@ const locations = [
     {
         name: "Timmy Chan's",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['driveThru'],
         coordinates: [29.946170791694453, -95.46510803077007],
         neighborhood: 'Greenspoint',
@@ -730,7 +731,7 @@ const locations = [
     {
         name: "Timmy Chan's",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['driveThru'],
         coordinates: [29.864652305790308, -95.40565798665216],
         neighborhood: 'Acres Home',
@@ -742,7 +743,7 @@ const locations = [
     {
         name: "Timmy Chan's",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         badges: ['driveThru'],
         coordinates: [29.844238187755664, -95.47286949870724],
         neighborhood: 'Central Northwest',
@@ -754,7 +755,7 @@ const locations = [
     {
         name: "Spanky's ",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza', 'chicken'],
         coordinates: [29.694876795984932, -95.29955061154651],
         neighborhood: 'Southeast Houston',
         img: 'https://i.imgur.com/KAPwDYt.jpg',
@@ -765,7 +766,7 @@ const locations = [
     {
         name: 'Joey Uptown',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale', 'steak'],
         coordinates: [29.74019123438663, -95.46277629362307],
         neighborhood: 'Uptown',
         img: 'https://i.imgur.com/CavBhh7.png',
@@ -776,7 +777,7 @@ const locations = [
     {
         name: 'Thirteen',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale', 'steak'],
         badges: ['hookah'],
         coordinates: [29.752621777966795, -95.37569459231442],
         neighborhood: 'Midtown',
@@ -788,7 +789,7 @@ const locations = [
     {
         name: 'Seafood Man Shack',
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         coordinates: [29.81584956949366, -95.32898273227359],
         neighborhood: 'Houston Gardens',
         img: 'https://i.imgur.com/2UoXXY7.png',
@@ -799,7 +800,7 @@ const locations = [
     {
         name: 'Boil House',
         category: 'food',
-        subcategory: 'seafood',
+        subcategory: ['seafood'],
         badges: ['driveThru'],
         coordinates: [29.790529597726433, -95.39167411678872],
         neighborhood: 'Northside',
@@ -811,7 +812,7 @@ const locations = [
     {
         name: 'Cantina Barba',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         badges: ['openLate'],
         coordinates: [29.790805407102635, -95.37342269156582],
         neighborhood: 'Northside',
@@ -823,7 +824,7 @@ const locations = [
     {
         name: "Dona Lena's",
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         coordinates: [29.80193023090178, -95.4318876273503],
         neighborhood: 'Timbergrove',           
         img: 'https://i.imgur.com/xihg7al.png',
@@ -834,7 +835,7 @@ const locations = [
     {
         name: "Culver's",
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         badges: ['driveThru', 'contactless'],
         coordinates: [29.98801261114251, -95.1927731083066],
         img: 'https://i.imgur.com/QBGyurN.png',
@@ -846,7 +847,7 @@ const locations = [
     {
         name: "Papa John's Pizza",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate'],
         coordinates: [30.00041303571167, -95.16024942826793],
         neighborhood: 'Atascocita',
@@ -858,7 +859,7 @@ const locations = [
     {
         name: 'Luna Pizzeria',
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         coordinates: [29.77258286899414, -95.398930888628],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/IOMxpjF.png',
@@ -869,7 +870,7 @@ const locations = [
     {
         name: 'Cowboys & Indians',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['upscale'],
         coordinates: [29.767238194517333, -95.40970321005263],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/ANec7Sy.png',
@@ -880,7 +881,7 @@ const locations = [
     {
         name: 'Kami Ramen & Sushi',
         category: 'food',
-        subcategory: 'ramen',
+        subcategory: ['ramen', 'sushi'],
         coordinates: [30.003902312520257, -95.27018922268779],
         neighborhood: 'Deerbrook',
         img: 'https://i.imgur.com/xTFTDOH.png',
@@ -891,7 +892,7 @@ const locations = [
     {
         name: 'Somisomi',
         category: 'food',
-        subcategory: 'dessert',
+        subcategory: ['dessert'],
         coordinates: [29.788748228653198, -95.77294693210428],
         neighborhood: 'Katy',
         img: 'https://i.imgur.com/1y81OeD.png',
@@ -902,7 +903,7 @@ const locations = [
     {
         name: "Simple Simon's",
         category: 'food',
-        subcategory: 'pizza',
+        subcategory: ['pizza', 'sandwiches'],
         coordinates: [29.930726076398745, -95.30876976284986],
         neighborhood: 'Fountain View',
         img: 'https://i.imgur.com/S6K4xYy.png',
@@ -913,7 +914,7 @@ const locations = [
     {
         name: 'Flower & Cream',
         category: 'food',
-        subcategory: 'dessert',
+        subcategory: ['dessert'],
         coordinates: [29.756607768458114, -95.40288712731353],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/xR6Rz7v.png',
@@ -924,7 +925,7 @@ const locations = [
     { 
         name: "Jersey Mike's Subs",
         category: 'food',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         badges: ['contactless'],
         coordinates: [29.925487840354876, -95.19694102868498],
         neighborhood: 'Summerwood',
@@ -936,7 +937,7 @@ const locations = [
     {
         name: 'Sv Donuts & Kolaches',
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.897511116995208, -95.21243011252079],
         neighborhood: 'Kingslake Forest',
         img: 'https://i.imgur.com/BxEIdFC.png',
@@ -947,7 +948,7 @@ const locations = [
     {
         name: 'Agnes & Sherman',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale'],
         coordinates: [29.80263725272135, -95.40106693761525],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/CizVixn.png',
@@ -958,7 +959,7 @@ const locations = [
     {
         name: "Triple J's Smokehouse",
         category: 'food',
-        subcategory: 'bbq',
+        subcategory: ['bbq'],
         coordinates: [29.81917729379479, -95.30228403326238],
         neighborhood: 'Houston Gardens',
         img: 'https://i.imgur.com/2Wvua82.png',
@@ -969,7 +970,7 @@ const locations = [
     {
         name: 'Pappas Bar-B-Q',
         category: 'food',
-        subcategory: 'bbq',
+        subcategory: ['bbq', 'sandwiches'],
         badges: ['driveThru', 'contactless'],
         coordinates: [29.871432138949643, -95.32843650525928],
         neighborhood: 'Little York',
@@ -981,7 +982,7 @@ const locations = [
     {
         name: 'Sichuan Pepper Express',
         category: 'food',
-        subcategory: 'ricebowl',
+        subcategory: ['ricebowl'],
         coordinates: [29.868824247412608, -95.32745028567592],
         neighborhood: 'Little York',
         img: 'https://i.imgur.com/o5dq5N1.png',
@@ -992,7 +993,7 @@ const locations = [
     {
         name: 'Taco Real',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos', 'breakfast'],
         coordinates: [29.9032297520123, -95.31061365838374],
         neighborhood: 'Pine Village North',
         img: 'https://i.imgur.com/wgp6t5t.png',
@@ -1003,7 +1004,7 @@ const locations = [
     {
         name: 'District 7',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         coordinates: [29.752103485592464, -95.37487153428916],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/vm8lMvI.png',
@@ -1014,7 +1015,7 @@ const locations = [
     {
         name: "Lankford's Grocery & Market",
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         coordinates: [29.75001334070072, -95.38387329126209],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/3CNPbOI.png',
@@ -1025,7 +1026,7 @@ const locations = [
     {
         name: 'Fat Bao',
         category: 'food',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         coordinates: [29.735109780616774, -95.41800455744735],
         neighborhood: 'Greenway',
         img: 'https://i.imgur.com/q49vIEQ.png',
@@ -1036,7 +1037,7 @@ const locations = [
     {
         name: "Tony's Italian Delicatessen",
         category: 'food',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         coordinates: [30.117366594399364, -95.55401930269417],
         neighborhood: 'Tomball',
         img: 'https://i.imgur.com/UFcOJfi.png',
@@ -1047,7 +1048,7 @@ const locations = [
     {
         name: "Lennys Grill & Subs",
         category: 'food',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         coordinates: [30.004289246025856, -95.2919931972898],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/6IXndO8.png',
@@ -1058,7 +1059,7 @@ const locations = [
     {
         name: "Jeff's Bagel Run",
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.70534774550307, -95.43868953381072],
         neighborhood: 'West University Place',
         img: 'https://i.imgur.com/T6IvG3Q.png',
@@ -1069,7 +1070,7 @@ const locations = [
     {
         name: 'Gaspachos Mexican Bites',
         category: 'food',
-        subcategory: 'tacos',
+        subcategory: ['tacos'],
         coordinates: [29.732792699377697, -95.42422401272596],
         neighborhood: 'Greenway',
         img: 'https://i.imgur.com/F7FHJfa.png',
@@ -1080,7 +1081,7 @@ const locations = [
     {
         name: 'The Burger Joint',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         coordinates: [29.804033915214887, -95.40988938793168],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/t9F4bpx.png',
@@ -1091,7 +1092,7 @@ const locations = [
     {
         name: 'Rodeo Goat',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         coordinates: [29.749983355864877, -95.35621545128976],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/KSGarKU.png',
@@ -1102,7 +1103,7 @@ const locations = [
     {
         name: 'Two Hands Fresh Corn Dogs',
         category: 'food',
-        subcategory: 'hotdogs',
+        subcategory: ['hotdogs'],
         coordinates: [29.788814207973186, -95.77300638786825],
         neighborhood: 'Katy',
         img: 'https://i.imgur.com/9fdJSnt.png',
@@ -1113,7 +1114,7 @@ const locations = [
     {
         name: 'The Waffle Bus',
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         coordinates: [29.80250060993677, -95.41044891450004],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/YsUgurm.jpeg',
@@ -1124,7 +1125,7 @@ const locations = [
     {
         name: 'The Waffle Bus',
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         coordinates: [29.738872423986365, -95.39901834587168],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/zEa5LEB.png',
@@ -1135,7 +1136,7 @@ const locations = [
     {
         name: 'Marmo',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale'],
         coordinates: [29.744837337864322, -95.39033391153052],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/FBrR44x.jpeg',
@@ -1146,7 +1147,7 @@ const locations = [
     {
         name: 'Toro Toro',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale'],
         coordinates: [29.754135330781605, -95.36270750186235],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/20ccHyw.png',
@@ -1157,7 +1158,7 @@ const locations = [
     {
         name: 'Spindletop',
         category: 'food',
-        subcategory: 'upscale',
+        subcategory: ['upscale'],
         coordinates: [29.757210181311688, -95.36954758353014],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/ZOv1hRe.png',
@@ -1168,7 +1169,7 @@ const locations = [
     {
         name: 'The Sunrise House',
         category: 'food',
-        subcategory: 'breakfast',
+        subcategory: ['breakfast'],
         coordinates: [29.738935860322403, -95.40586450262902],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/H0fKMWt.png',
@@ -1179,7 +1180,7 @@ const locations = [
     {
         name: "Lucille's",
         category: 'food',
-        subcategory: 'chicken',
+        subcategory: ['chicken'],
         coordinates: [29.723799143236427, -95.38506435895276],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/4e4itNW.png',
@@ -1190,7 +1191,7 @@ const locations = [
     {
         name: 'Onion Creek',
         category: 'food',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         coordinates: [29.781753679987595, -95.39102295778669],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/l7I5cqS.png',
@@ -1201,7 +1202,7 @@ const locations = [
     {
         name: 'Midwest Coney Connection',
         category: 'food',
-        subcategory: 'hotdogs',
+        subcategory: ['hotdogs'],
         coordinates: [29.73733267569881, -95.58346995304211],
         neighborhood: 'Briar Forest',
         img: 'https://i.imgur.com/7Ryj662.png',
@@ -1213,7 +1214,7 @@ const locations = [
     {
         name: 'Betelgeuse Betelgeuse',
         category: 'bar',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate'],
         coordinates: [29.767873715445898, -95.37960345473097],
         neighborhood: 'Washington',
@@ -1225,7 +1226,7 @@ const locations = [
     {
         name: 'Betelgeuse Betelgeuse',
         category: 'bar',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate'],
         coordinates: [29.73385004922882, -95.3868317708331],
         neighborhood: 'Montrose',
@@ -1237,6 +1238,7 @@ const locations = [
     {
         name: 'Lost & Found',
         category: 'bar',
+        subcategory: ['seafood'],
         badges: ['openLate', 'hookah'],
         coordinates: [29.75348220171603, -95.38091870436139],
         neighborhood: 'Fourth Ward',
@@ -1424,7 +1426,7 @@ const locations = [
     {
         name: 'Postino',
         category: 'bar',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         badges: ['openLate'],
         coordinates: [29.782984392258367, -95.39855598565903],
         neighborhood: 'Heights',
@@ -1436,7 +1438,7 @@ const locations = [
     {
         name: 'Postino',
         category: 'bar',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         badges: ['openLate'],
         coordinates: [29.746522189697743, -95.39033692975383],
         neighborhood: 'Montrose',
@@ -1448,7 +1450,7 @@ const locations = [
     {
         name: 'Postino',
         category: 'bar',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         badges: ['openLate'],
         coordinates: [29.75432446959847, -95.45728990091776],
         neighborhood: 'Uptown Park',
@@ -1460,7 +1462,7 @@ const locations = [
     {
         name: "Neighbors",
         category: 'bar',
-        subcategory: 'pizza',
+        subcategory: ['pizza'],
         badges: ['openLate'],
         coordinates: [29.748317085532182, -95.34099179797487],
         neighborhood: 'Second Ward',
@@ -1472,7 +1474,7 @@ const locations = [
     {
         name: "Jethro's Cocktail Lounge",
         category: 'bar',
-        subcategory: 'burgers',
+        subcategory: ['burgers'],
         badges: ['openLate'],
         coordinates: [29.748620029553102, -95.38363990559155],
         neighborhood: 'Montrose',
@@ -1682,7 +1684,7 @@ const locations = [
     {
         name: 'H Mart',
         category: 'market',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         coordinates: [29.792680234069884, -95.77433038249025],
         neighborhood: 'Katy',
         img: 'https://i.imgur.com/HVUrkrB.png',
@@ -1733,7 +1735,7 @@ const locations = [
     {
         name: '99 Ranch Market',
         category: 'market',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         coordinates: [29.785449825593115, -95.5229681661174],
         neighborhood: 'Blalock Market',        
         img: 'https://i.imgur.com/lscVoE1.png',
@@ -1804,7 +1806,7 @@ const locations = [
     {
         name: 'H Mart',
         category: 'market',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         coordinates: [29.792552001430632, -95.5209030224523],
         neighborhood: 'Blalock Market',  
         img: 'https://i.imgur.com/9cruNYm.png',
@@ -1815,7 +1817,7 @@ const locations = [
     {
         name: 'H Mart',
         category: 'market',
-        subcategory: 'hall',
+        subcategory: ['hall'],
         coordinates: [29.706641204872156, -95.55391477248872],
         neighborhood: 'Chinatown',  
         img: 'https://i.imgur.com/K0nt0I0.png',
@@ -1826,7 +1828,7 @@ const locations = [
     {
         name: 'Sprouts',
         category: 'market',
-        subcategory: 'sandwiches',
+        subcategory: ['sandwiches'],
         coordinates: [29.774566750083107, -95.40017316062348],
         neighborhood: 'Washington',  
         img: 'https://i.imgur.com/kN1pdBy.png',
@@ -2356,7 +2358,7 @@ const locations = [
     {
         name: 'Shell Stadium',
         category: 'attraction',
-        subcategory: 'soccer',
+        subcategory: ['soccer'],
         coordinates: [29.75223407697903, -95.35244790076325],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/PtL0PQs.png',
@@ -2367,7 +2369,7 @@ const locations = [
     {
         name: 'Kemah Boardwalk',
         category: 'attraction',
-        subcategory: 'kemah',
+        subcategory: ['kemah'],
         coordinates: [29.547601137961802, -95.01973613835622],
         neighborhood: 'Kemah',
         img: 'https://i.imgur.com/j9s4KLr.jpeg',
@@ -2378,7 +2380,7 @@ const locations = [
     {
         name: 'Andretti Indoor Karting & Games',
         category: 'attraction',
-        subcategory: 'gokart',
+        subcategory: ['gokart'],
         coordinates: [29.78932631988743, -95.76945188644805],
         neighborhood: 'Katy',
         img: 'https://i.imgur.com/aiBqZz2.png',
@@ -2389,7 +2391,7 @@ const locations = [
     {
         name: 'Meow Wolf',
         category: 'attraction',
-        subcategory: 'meow',
+        subcategory: ['meow'],
         coordinates: [29.772103990703904, -95.34773256280762],
         neighborhood: 'Greater Fifth Ward',
         img: 'https://i.imgur.com/JpDkbho.png',
@@ -2400,7 +2402,7 @@ const locations = [
     {
         name: 'Toyota Center',
         category: 'attraction',
-        subcategory: 'basketball',
+        subcategory: ['basketball'],
         coordinates: [29.75072566656762, -95.36205637080953],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/frk2ADY.png',
@@ -2411,7 +2413,7 @@ const locations = [
     {
         name: 'Houston Zoo',
         category: 'attraction',
-        subcategory: 'zoo',
+        subcategory: ['zoo'],
         coordinates: [29.712357766627584, -95.39194493955178],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/B6WvSwH.png',
@@ -2422,7 +2424,7 @@ const locations = [
     {
         name: 'Punch Line Houston',
         category: 'attraction',
-        subcategory: 'comedy',
+        subcategory: ['comedy'],
         coordinates: [29.753678669519708, -95.3638775798053],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/lhRlNnI.png',
@@ -2433,7 +2435,7 @@ const locations = [
     {
         name: 'NRG Stadium',
         category: 'attraction',
-        subcategory: 'football',
+        subcategory: ['football'],
         coordinates: [29.684656629326128, -95.41077177682311],
         neighborhood: 'Astrodome Area',
         img: 'https://i.imgur.com/54hw9Jj.png',
@@ -2444,7 +2446,7 @@ const locations = [
     {
         name: 'The Hobby Center for Performing Arts',
         category: 'attraction',
-        subcategory: 'comedy',
+        subcategory: ['comedy'],
         coordinates: [29.76164086726989, -95.36966571708332],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/SsQ4U3d.png',
