@@ -21,7 +21,7 @@ const locations = [
         img: 'https://i.imgur.com/yzjy5Ek.png',
         website: 'https://wannabao.com/',
         blurb: 'Contemporary, industrial interiors & a menu of Chinese classic dishes, served family-style.',
-        description: ['delicious dumplings', 'delicious tea', 'crispy bottom bao']
+        description: ['Delicious dumplings', 'Delicious tea', 'Crispy bottom bao']
     },
     {
         name: 'Taste of Korea',
@@ -32,7 +32,7 @@ const locations = [
         img: 'https://i.imgur.com/vixRkWH.png',
         website: 'https://www.google.com/search?q=taste+of+korea+houston+restaurant&client=opera-gx&hs=1xJ&sca_esv=4aa7399608798402&sxsrf=AHTn8zptgKriNcwjnfSJFGJA5pfFsredLw%3A1745096166437&ei=5g0EaPy7Gta4wN4PuMiVsAc&ved=0ahUKEwj8xuXo_eSMAxVWHNAFHThkBXYQ4dUDCBI&uact=5&oq=taste+of+korea+houston+restaurant&gs_lp=Egxnd3Mtd2l6LXNlcnAiIXRhc3RlIG9mIGtvcmVhIGhvdXN0b24gcmVzdGF1cmFudDIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRirAkiBLFCrBViYK3AIeAGQAQCYAacBoAH6DKoBBDE0LjO4AQPIAQD4AQGYAhmgAuENwgIKEAAYsAMY1gQYR8ICDRAAGLADGNYEGEcYyQPCAg4QABiABBiwAxiSAxiKBcICChAjGIAEGCcYigXCAgsQLhiABBjHARivAcICBhAAGBYYHsICAhAmwgILEAAYgAQYhgMYigXCAggQABiABBiiBMICBRAAGO8FwgIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQHCAgUQABiABMICEBAuGIAEGBQYhwIYxwEYrwHCAhAQLhiABBhDGMcBGIoFGK8BwgIIEAAYgAQYyQPCAgUQIRifBZgDAIgGAZAGCboGBggBEAEYFJIHBDIxLjSgB9iXAbIHBDEzLjS4B8UN&sclient=gws-wiz-serp',
         blurb: 'Casual resource for Korean starters, soups & BBQ plus tempura, wings, shaved ice & mochi.',
-        description: ['friendly owner', 'hot stone bowl', 'unreliable hours']
+        description: ['Friendly owner', 'Hot stone bowl', 'Unreliable hours']
     },
     {
         name: 'Xiaolong Dumpling',
@@ -585,8 +585,8 @@ const locations = [
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/8LXZmob.png',
         website: 'https://www.posthtx.com/eat',
-        blurb: 'Diner styyle seating and cyberpunk vibes.',
-        description: ['shopping', 'eating', 'live performances']
+        blurb: 'Diner style seating and cyberpunk vibes.',
+        description: ['Shopping', 'Eating', 'Live performances']
     },
     {
         name: 'Underground Hall',
@@ -754,7 +754,7 @@ const locations = [
         img: 'https://i.imgur.com/KAPwDYt.jpg',
         website: 'https://www.spankyspizza.net/',
         blurb: 'This family-owned pizza parlor using from-scratch dough also offers burgers, pasta & a full bar.',
-        description: ['oven baked wings', 'large pizzas', 'full menu']
+        description: ['Oven baked wings', 'Large pizzas', 'Full menu']
     },
     {
         name: 'Joey Uptown',
@@ -765,18 +765,19 @@ const locations = [
         img: 'https://i.imgur.com/CavBhh7.png',
         website: 'https://joeyrestaurants.com/location/joey-uptown',
         blurb: 'Relaxed, contemporary dining spot with a broad menu featuring international & regional dishes.',
-        description: ['fine dining', 'full bar', 'quality steak']
+        description: ['Fine dining', 'Full bar', 'Quality steak']
     },
     {
         name: 'Thirteen',
         category: 'food',
         subcategory: 'upscale',
+        badges: ['hookah'],
         coordinates: [29.752621777966795, -95.37569459231442],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/S8jcVg6.png',
         website: 'https://13htx.com',
         blurb: 'Upscale restaurant offering New American cuisine & a raw bar, plus a hookah and cocktail lounge.',
-        description: ['hookah', 'full bar', 'midtown']
+        description: ['Hookah', 'Full bar', 'Walkable Area']
     },
     {
         name: 'Seafood Man Shack',
@@ -787,18 +788,19 @@ const locations = [
         img: 'https://i.imgur.com/2UoXXY7.png',
         website: 'https://www.instagram.com/theseafoodmanshack/',
         blurb: 'Laid-back seafood shack offering quick bites, including crawfish, shrimp, and gumbo.',
-        description: ['seafood boil', 'fried seafood', 'burgers']
+        description: ['Seafood boil', 'Fried seafood', 'Burgers']
     },
     {
         name: 'Boil House',
         category: 'food',
         subcategory: 'seafood',
+        badges: ['driveThru'],
         coordinates: [29.790529597726433, -95.39167411678872],
         neighborhood: 'Northside',
         img: 'https://i.imgur.com/2hKXN1q.png',
         website: 'https://www.theboilhouse.com',
         blurb: 'Open-air counter-serve featuring Cajun crawfish & shrimp boils with corn, plus outside tables.',
-        description: ['high quality', 'worth the price', 'king cake']
+        description: ['High quality', 'Worth the price', 'King cake']
     },
     {
         name: 'Cantina Barba',
@@ -810,7 +812,7 @@ const locations = [
         img: 'https://i.imgur.com/GKuJcT6.png',
         website: 'https://www.cantinabarba.com',
         blurb: 'Unfussy joint with late-night hours crafting house-smoked meat tacos, coffee, beer & mezcal.',
-        description: ['open late', 'great tacos', 'quality cocktails']
+        description: ['Open late', 'Great tacos', 'Quality cocktails']
     },
     {
         name: "Dona Lena's",
@@ -833,7 +835,7 @@ const locations = [
         neighborhood: 'Atascocita',
         website: 'https://www.culvers.com/restaurants/atascocita?utm_source=Google&utm_medium=Maps&utm_campaign=Google%20Places',
         blurb: 'Fast-food chain specializing in frozen custard & signature burgers made with Midwest beef & dairy.',
-        description:['High quality fast food', 'ice cream', 'root beer']
+        description:['High quality fast food', 'Ice cream', 'Root beer']
     },
     {
         name: "Papa John's Pizza",
@@ -845,7 +847,7 @@ const locations = [
         img: 'https://i.imgur.com/XSn7t71.png',
         website: 'https://locations.papajohns.com/united-states/tx/77346/atascosita-%28humble%29/7591-fm-1960-road-east?utm_source=yext-listings&utm_medium=referral&y_source=1_MTA1OTI1NDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D',
         blurb: 'Pizza take-out & delivery chain offering classic & specialty pizzas, plus wings, sides & desserts.',
-        description: ['wonderful GM', 'better ingredients', 'better pizza']
+        description: ['Wonderful GM', 'Better ingredients', 'Better pizza']
     },
     {
         name: 'Luna Pizzeria',
@@ -856,7 +858,7 @@ const locations = [
         img: 'https://i.imgur.com/IOMxpjF.png',
         website: 'https://www.lunapizzeria.com',
         blurb: 'Modern, family-friendly pizzeria turning out pies with creative toppings, plus salads & sandwiches.',
-        description: ['prosciutto & arugala', 'spicy andouille', 'games']
+        description: ['Prosciutto & arugala', 'Spicy andouille', 'Games']
     },
     {
         name: 'Cowboys & Indians',
@@ -867,7 +869,7 @@ const locations = [
         img: 'https://i.imgur.com/ANec7Sy.png',
         website: 'https://www.cni713.com',
         blurb: 'Easygoing eatery offering Indian & Southern fare such as burgers & kebabs in low-key surrounds.',
-        description: ['date night', 'drinks', 'indian western fusion']        
+        description: ['Date night', 'Drinks', 'Indian western fusion']        
     },
     {
         name: 'Kami Ramen & Sushi',
@@ -1201,7 +1203,7 @@ const locations = [
         img: 'https://i.imgur.com/3EB93eb.png',
         website: 'https://www.betelgeusehou.com/',
         blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
-        description: ['pizza', 'full bar', 'outdoor seating']
+        description: ['Pizza', 'Full bar', 'Outdoor seating']
     },
     {
         name: 'Betelgeuse Betelgeuse',
@@ -1213,7 +1215,7 @@ const locations = [
         img: 'https://i.imgur.com/xuiw7Ya.png',
         website: 'https://www.betelgeusehou.com/',
         blurb: 'Betelgeuse Betelgeuse is a neighborhood cocktail bar with pizza and snacks',
-        description: ['pizza', 'full bar', 'outdoor seating']
+        description: ['Pizza', 'Full bar', 'Outdoor seating']
     },
     {
         name: 'Lost & Found',
@@ -1224,7 +1226,7 @@ const locations = [
         img: 'https://i.imgur.com/P657VXU.png',
         website: 'https://lostandfoundmidtown.com/',
         blurb: 'Relaxed restaurant offering cocktails, brunch & mains, plus patio dining with views of midtown.',
-        description: ['happy hour', 'outdoor seating', 'hookah']
+        description: ['Happy hour', 'Outdoor seating', 'Hookah']
     },
     {
         name: "A'dor",
@@ -1235,7 +1237,7 @@ const locations = [
         img: 'https://i.imgur.com/JTsWFwL.png',
         website: 'https://adorhouston.com/',
         blurb: 'Bohemian joint with live music & a terrace serving pizzas, burgers & wings, plus cocktails.',
-        description: ['happy hour', 'hookah', 'daiquiris']
+        description: ['Happy hour', 'Hookah', 'Daiquiris']
     },
     {
         name: 'CRU',
@@ -1246,7 +1248,7 @@ const locations = [
         img: 'https://i.imgur.com/crlJaYk.png',
         website: 'https://crulounge.com/',
         blurb: 'Casual bar with a neon-lit vibe offering small plates & cocktails, plus hookah pipes.',
-        description: ['neon lit', 'hookah', 'dj']
+        description: ['Neon lit', 'Hookah', 'DJ']
     },
     {
         name: 'CRU',
@@ -1257,7 +1259,7 @@ const locations = [
         img: 'https://i.imgur.com/TlPjazB.png',
         website: 'https://crulounge.com/',
         blurb: 'Casual bar with a neon-lit vibe offering small plates & cocktails, plus hookah pipes.',
-        description: ['neon lit', 'hookah', 'dj']
+        description: ['Neon lit', 'Hookah', 'DJ']
     },
     {
         name: 'Heights Bier Garten',
@@ -1268,7 +1270,7 @@ const locations = [
         img: 'https://i.imgur.com/5IAvJoV.png',
         website: 'https://www.heightsbiergarten.com/',
         blurb: 'Craft beer garden offering cocktails, wine, bar food, and a pet-friendly patio with fire pits.',
-        description: ['beer list', 'outdoor seating', 'soft pretzel']
+        description: ['Beer list', 'Outdoor seating', 'Soft pretzel']
     },
     {
         name: 'Locker Room',
@@ -1279,7 +1281,7 @@ const locations = [
         img: 'https://i.imgur.com/1MXxNyt.png',
         website: 'https://www.google.com/search?q=locker+room+houston+bar&oq=locker+room+houston+bar&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MhYIARAuGK8BGMcBGJECGIAEGIoFGI4FMg0IAhAAGJECGIAEGIoFMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhge0gEIMzQzMWoxajSoAgCwAgE&sourceid=chrome&ie=UTF-8',
         blurb: 'Casual bar and grill featuring comfort food, happy hours, and sports on TV, plus a patio.',
-        description: ['happy hour', 'hookah', 'shots']
+        description: ['Happy hour', 'Hookah', 'Shots']
     },
     {
         name: 'Saint Arnold Brewing Company',
@@ -1301,7 +1303,7 @@ const locations = [
         img: 'https://i.imgur.com/6eqneAi.png',
         website: 'https://www.google.com/search?q=warrens+houston&oq=warrens+houston&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDQzNDJqMWo0qAIAsAIB&sourceid=chrome&ie=UTF-8',
         blurb: 'Drinks are served at this easygoing dive bar, which has a jukebox.',
-        description: ['historic bar', 'friendly staff', 'tavern feel']
+        description: ['Historic bar', 'Friendly staff', 'Tavern feel']
     },
     {
         name: 'Cidercade',
@@ -1312,7 +1314,7 @@ const locations = [
         img: 'https://i.imgur.com/8JVJfkN.png',
         website: 'https://cidercade.com/houston/',
         blurb: 'Huge arcade bar with a mix of classic & modern games, plus house-made hard ciders',
-        description: ['free parking', 'unlimited arcade', 'cider flights']
+        description: ['Free parking', 'Unlimited arcade', 'Cider flights']
     },
     {
         name: 'Houston Watch Company',
@@ -1323,7 +1325,7 @@ const locations = [
         img: 'https://i.imgur.com/nT6Kd5H.png',
         website: 'https://www.houstonwatchcompany.com/',
         blurb: 'This former watch shop is now a quaint, 2-level cocktail bar in the lobby of the Bayou Lofts.',
-        description: ['historic', 'quiet seating', 'second floor']
+        description: ['Historic', 'Quiet seating', 'Second floor']
     },
     {
         name: 'Behind Closed Doors',
@@ -1389,7 +1391,7 @@ const locations = [
         img: 'https://i.imgur.com/pL05Sc6.png',
         website: 'https://www.facebook.com/pitch25beerpark/menu/',
         blurb: 'Pub grub & nearly 100 draft beers in a cool, cavernous warehouse with games & lots of outdoor seats.',
-        description: ['sports bar', 'dodgeball', 'axe throwing']
+        description: ['Sports bar', 'Dodgeball', 'Axe throwing']
     },
     {
         name: 'Tejas Brewery',
@@ -1400,7 +1402,7 @@ const locations = [
         img: 'https://i.imgur.com/Kpw0cYz.png',
         website: 'https://tejasbeer.com',
         blurb: 'Tejas Brewery is located in the heart of vibrant Sawyer Yards, offering three stories of exceptional food, handcrafted beer, creative cocktails, artisan coffee, and versatile event spaces—all with a stunning view of downtown Houston.',
-        description: ['view of skyline', 'outdoor seating', 'full menu']
+        description: ['View of skyline', 'Outdoor seating', 'Full menu']
     },
     {
         name: 'Postino',
@@ -1412,7 +1414,7 @@ const locations = [
         img: 'https://i.imgur.com/VOeVq1m.png',
         website: 'https://www.postinowinecafe.com/locations/postino-heights',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
-        description: ['classy', 'wine bar', 'full menu']
+        description: ['Classy', 'Wine bar', 'Full menu']
     },
     {
         name: 'Postino',
@@ -1424,7 +1426,7 @@ const locations = [
         img: 'https://i.imgur.com/AfbB55w.png',
         website: 'https://www.postinowinecafe.com/locations/postino-montrose',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
-        description: ['classy', 'wine bar', 'full menu']
+        description: ['Classy', 'Wine bar', 'Full menu']
     },
     {
         name: 'Postino',
@@ -1436,7 +1438,7 @@ const locations = [
         img: 'https://i.imgur.com/wajbCUB.png',
         website: 'https://www.postinowinecafe.com/locations/postino-uptown-park',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
-        description: ['classy', 'wine bar', 'full menu']    
+        description: ['Classy', 'Wine bar', 'Full menu']
     },
     {
         name: "Neighbors",
@@ -1720,7 +1722,7 @@ const locations = [
         img: 'https://i.imgur.com/lscVoE1.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
-        description: ['asian foods', 'restaurants attached', 'pricier than H Mart']
+        description: ['Asian foods', 'Restaurants attached', 'Pricier than H Mart']
     },
     {
         name: '99 Ranch Market',

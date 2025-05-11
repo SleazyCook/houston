@@ -18,9 +18,6 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
     setTitle(e.target.name);
   }
 
-
-
-
     return (
       <div>
         <h1>Food</h1>
