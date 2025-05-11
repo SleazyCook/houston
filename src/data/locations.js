@@ -2132,18 +2132,18 @@ const locations = [
         category: 'park',
         coordinates: [29.762086622873017, -95.37651349958786],
         neighborhood: 'Fourth Ward',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/KYh8RCH.png',
+        website: 'https://www.buffalobayou.org/location/the-cistern/',
         blurb: 'This decommissioned underground reservoir was built in 1926 & now features art installations.',
-        description: ''
+        description: ['Light shows', 'Events', 'Walkable Area']
     },
     {
         name: 'Buffalo Bayou Park',
         category: 'park',
         coordinates: [29.761675749675707, -95.38298771065615],
         neighborhood: 'Fourth Ward',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/grW6XMU.png',
+        website: 'https://buffalobayou.org/location/buffalo-bayou-park/',
         blurb: 'Winding 160-acre green space featuring views of the Houston skyline plus a fountain & skate park.',
         description: ['Jane Gregory Garden', 'Tolerance (Plensa) Statues', 'Spindle Sculpture']
     },
@@ -2162,20 +2162,17 @@ const locations = [
         category: 'park',
         coordinates: [29.76200492007245, -95.44252415394965],
         neighborhood: 'Memorial Park',
-        img: '',
-        website: '',
-        blurb: '',
-        description: []
+        description: ['Garden', 'Walking Trails', 'Art installations']
     },
     {
         name: 'Clay Family Eastern Glades',
         category: 'park',
         coordinates: [29.76671697995398, -95.43031888718707],
         neighborhood: 'Memorial Park',
-        img: '',
-        website: '',
-        blurb: '',
-        description: []
+        img: 'https://i.imgur.com/QfzjPHb.png',
+        website: 'https://www.memorialparkconservancy.org/discover/master-plan/eastern-glades/',
+        blurb: 'Park offering public restrooms, picnic tables, trails, and a lake with ducks.',
+        description: ['Garden', 'Walking Trails', 'Art installations']
     },
     {
         name: 'Memorial Park',
@@ -2222,10 +2219,10 @@ const locations = [
         category: 'park',
         coordinates: [29.564997477711, -95.0675657604324],
         neighborhood: 'Seabrook',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/tBfhTlE.png',
+        website: 'https://www.visithoustontexas.com/listings/clear-lake-park-bay-area-museum/20767/',
         blurb: 'Park with archaeological features on 59 acres with fishing pier, boat launch, playground & trails.',
-        description: ['close to Kemah', 'relaxing', 'great lake view']
+        description: ['Close to Kemah', 'Relaxing', 'Great lake view']
     },
     {
         name: 'Sheldon Lake State Park',
@@ -2261,10 +2258,10 @@ const locations = [
         category: 'park',
         coordinates: [29.753051375319636, -95.35957755310606],
         neighborhood: 'Downtown',
-        img: '',
+        img: 'https://i.imgur.com/cQkkSbH.jpeg',
         website: 'https://www.discoverygreen.com/',
         blurb: 'Park with live music, public art, restaurants, playground, pong for kayaking & exercise classes.',
-        description: []
+        description: ['Events', 'Walkable Area', 'Family-friendly']
     },
     {
         name: 'Guadalupe Plaza Park',
