@@ -1,6 +1,6 @@
 # My Houston Picks
 
-site designed to share my favorite places in Houston
+Static website designed to share my favorite places in Houston, Texas.
 hosted @ https://houstonpicks.netlify.app
 
 Using Leaflet & React

@@ -631,6 +631,7 @@ const locations = [
         name: "BB's Tex-Orleans",
         category: 'food',
         subcategory: ['seafood'],
+        badges: ['openLate'],
         coordinates: [29.74424519171531, -95.38841579865903],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/agJyn5R.png',
@@ -1209,6 +1210,18 @@ const locations = [
         website: 'https://midwestconeyconnection.com/',
         blurb: 'Hot dogs, wings, fries & Philly cheesesteak egg rolls offered in an informal counter-serve setting.',
         description: ['Chili Dogs', 'Philly Cheese Steak Egg Rolls', 'Texas Frito Pie']
+    },
+    {
+        name: "Gotti's",
+        category: 'food',
+        subcategory: ['seafood'],
+        badges: ['openLate'],
+        coordinates: [29.75216243542135, -95.35437411958986],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/Cvk1yFd.png',
+        website: 'https://www.gottis.com',
+        blurb: 'Convivial hangout with a contemporary vibe serving shrimp, fried catfish, gumbo, and more.',
+        description: ['Full bar', 'Televised Sports', 'Happy Hour']
     },
     // Bars
     {
