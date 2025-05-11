@@ -1538,6 +1538,17 @@ const locations = [
         blurb: 'Local cocktail lounge with outdoor seating.',
         description: ['Live Music', 'Full Bar', 'Intimate']
     },
+    {
+        name: 'Bald Kity',
+        category: 'bar',
+        badges: ['openLate'],
+        coordinates: [29.769105737978585, -95.35636272826707],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/2EQ1Hhq.png',
+        website: 'https://www.instagram.com/baldkittyhouston/?hl=en',
+        blurb: 'A design-focused space for live jazz, Latin nights, DJs, curated art and great company.',
+        description: ['Live DJ', 'Events', 'Cover']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
