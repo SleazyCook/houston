@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
+import Badges from "./Badges";
+
 const Location = ({item, setLat, setLon, setZoom}) => {
     const navigate = useNavigate();
 
@@ -39,6 +41,9 @@ const Location = ({item, setLat, setLon, setZoom}) => {
             <p className='location__details--blurb'>
                 {item.blurb}
             </p>
+
+            {item.badges && 
+                <Badges item={item}/>}
 
             {/* Desciption */}
             <ul className='location__details--description'>

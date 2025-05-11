@@ -70,6 +70,7 @@ const locations = [
         name: 'The Taco Stand',
         category: 'food',
         subcategory: 'tacos',
+        badges: ['openLate'],
         coordinates: [29.804581677923732, -95.40996772397978],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/iCIE0bY.png',

@@ -235,6 +235,14 @@
     max-width: 80%;
 }
 
+.location__badges {
+
+}
+
+.location__badges img {
+    max-height: 35px;
+}
+
 .location__details--description { 
     margin-bottom: 12px;
 }
