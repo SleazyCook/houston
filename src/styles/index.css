@@ -236,7 +236,8 @@
 }
 
 .location__badges {
-
+    display: flex;
+    gap: 8px;
 }
 
 .location__badges img {

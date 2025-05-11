@@ -70,13 +70,13 @@ const locations = [
         name: 'The Taco Stand',
         category: 'food',
         subcategory: 'tacos',
-        badges: ['openLate'],
+        badges: ['driveThru', 'openLate', 'contactless'],
         coordinates: [29.804581677923732, -95.40996772397978],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/iCIE0bY.png',
         website: 'https://tacostandhtx.com/',
         blurb: 'Casual, modern taco specialist using housemade tortillas, also offering drinks & an all-day menu.',
-        description: ['breakfast tacos', 'brisket & egg', 'chorizo & egg']
+        description: ['Breakfast tacos', 'Brisket & egg', 'Chorizo & egg']
     },
     {
         name: 'Insomnia Cookies',
