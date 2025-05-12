@@ -1,12 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.pinsearch'; 
 
-import { FaBeer, FaMapMarkerAlt, FaCar, FaBicycle } from 'react-icons/fa';
-
 import locations from '../data/locations';
 import icons from '../data/icons';
+
+import generateLocationSlug from '../utils/slug.js'
 
 
 const Leaflet = ({lat, lon, zoom, setZoom }) => {
@@ -207,8 +208,9 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
               <span class='popup__neighborhood'>${location.neighborhood}</span>
               <span class='popup__name'>${location.name}</span>
               <span class='popup__blurb'>${location.blurb}</span><br>
-              <a href=${location.website} target='_blank'>
-                  Vist Website</a>
+              <a href="/location/${generateLocationSlug(location)}">
+                View Details
+              </a>
 
             </div>
           <div>`);
