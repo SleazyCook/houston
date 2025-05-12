@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import Filters from '../components/Filters';
 import Location from '../components/Location';
@@ -12,6 +12,10 @@ const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedFilters, setSelectedFilters] = useState({}); 
 
   const list = activitiesFiltered;
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
 
   // Handle category change
   function changeCategory(e) {
