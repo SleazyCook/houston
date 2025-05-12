@@ -6,9 +6,7 @@ const Badges = ({item}) => {
             {item.badges?.map((item, id) => {
                 const badgeSrc = badges[item]; // Dynamic lookup
                 return (
-                    <img key={id} src={badgeSrc} alt={item} >
-                        {console.log(badges)}
-                    </img>
+                    <img key={id} src={badgeSrc} alt={item} />
                 )
             })}
         </div>

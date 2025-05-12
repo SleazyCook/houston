@@ -1,5 +1,4 @@
 import { useNavigate, Link } from "react-router-dom";
-import slugify from 'slugify';
 
 import Badges from "./Badges";
 

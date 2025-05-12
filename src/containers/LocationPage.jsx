@@ -1,12 +1,17 @@
 // pages/LocationPage.js
 import { useParams } from 'react-router-dom';
+
+import Location from '../components/Location.jsx';
+
 import locations from "../data/locations";
 import generateLocationSlug from '../utils/slug.js';
+
+
 
 export default function LocationPage() {
   const { slug } = useParams();
   const location = locations.find(loc => generateLocationSlug(loc) === slug);
-  
+
   if (!location) 
     return(
         <div>
@@ -21,20 +26,8 @@ export default function LocationPage() {
     );
 
   return (
-    <div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-      <h1>{location.name}</h1>
-      <p>{location.blurb}</p>
-      <p>Hello</p>
-      <p>Hello</p>
-      <p>Hello</p>
-      <p>Hello</p>
-      <p>Hello</p>
-
+    <div className='location-page'>
+        <Location item={location}/>
       {/* Render other location data */}
     </div>
   );
