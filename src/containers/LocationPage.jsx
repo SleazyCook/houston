@@ -14,7 +14,7 @@ const LocationPage = ({ setLat, setLon, setZoom }) => {
     if (location.subcategory && location.category !== 'attraction') {
       return (
         <Link to="/food" className="see-more-link">
-          See more restaurants
+          See more restaurants 
         </Link>
       );
     } else {
@@ -29,9 +29,6 @@ const LocationPage = ({ setLat, setLon, setZoom }) => {
   if (!location) 
     return(
         <div>
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             {console.log('location not found')}
@@ -54,7 +51,7 @@ const LocationPage = ({ setLat, setLon, setZoom }) => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             opacity: 0.7, // Set the opacity of the background image here
-            zIndex: -1, // Make sure the overlay stays behind the content
+            zIndex: -3, // Make sure the overlay stays behind the content
         }}></div>
 
         <div>
