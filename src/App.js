@@ -10,6 +10,7 @@ import Footer from './app/Footer';
 
 // containers
 import Home from './containers/Home'
+import LocationPage from './containers/LocationPage';
 import Restaurants from './containers/Restaurants';
 import Activities from './containers/Activities';
 import About from './containers/About'
@@ -41,6 +42,7 @@ function App() {
                 /> 
               } 
             />
+            <Route path="/location/:slug" element={<LocationPage />} />
             <Route 
               path='/food'
               element={

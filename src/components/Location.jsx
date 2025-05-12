@@ -1,6 +1,9 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import slugify from 'slugify';
 
 import Badges from "./Badges";
+
+import generateLocationSlug from '../utils/slug.js'
 
 const Location = ({item, setLat, setLon, setZoom}) => {
     const navigate = useNavigate();
@@ -57,6 +60,12 @@ const Location = ({item, setLat, setLon, setZoom}) => {
                     {item.description[2]}
                 </li>
             </ul>
+
+            <Link 
+                to={`/location/${generateLocationSlug(item)}`} 
+                className='location__details--details-btn'>
+                    View Details
+                </Link>
 
             {/* View on Map */}
             <button 
