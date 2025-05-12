@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Location from '../components/Location';
 
 import buttonData from '../data/activity-types';
-import activitiesFiltered from '../data/activities-filtered';
+import activitiesFiltered from '../utils/activities-filtered';
 
 const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedCategory, setSelectedCategory] = useState('all');

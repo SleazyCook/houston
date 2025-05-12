@@ -1,4 +1,4 @@
-import locations from "./locations";
+import locations from "../data/locations";
 
 // Utility function to sort items alphabetically by name
 const sortByName = (arr) => [...arr].sort((a, b) => a.name.localeCompare(b.name));

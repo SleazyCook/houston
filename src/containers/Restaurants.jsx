@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Location from "../components/Location";
 
 import buttonData from "../data/restaurant-types";
-import restaurantsFiltered from "../data/restaurants-filtered";
+import restaurantsFiltered from "../utils/restaurants-filtered";
 
 const Restaurants = ({ setLat, setLon, setZoom }) => {
   const [selectedCategory, setSelectedCategory] = useState('food');
