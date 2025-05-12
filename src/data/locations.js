@@ -50,6 +50,7 @@ const locations = [
         name: 'Mensho',
         category: 'food',
         subcategory: ['ramen'],
+        badges: ['michelin rated'],
         coordinates: [29.702776279471518, -95.55277518132357],
         neighborhood: 'Chinatown',
         img: 'https://i.imgur.com/vi8bS5Z.png',
@@ -1235,16 +1236,28 @@ const locations = [
         description: ['Ramen', 'Edamame', 'Miso Garlic']
     },
     {
-        name: "Nobie's",
+        name: "nobie's",
         category: 'food',
         subcategory: ['upscale'],
-        badges: ['open late'],
+        badges: ['michelin rated', 'open late'],
         coordinates: [29.73535627273937, -95.41003810405576],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/NhgssIj.png',
         website: 'https://www.nobieshtx.com',
         blurb: 'Intimate spot serving New American dishes & craft cocktails, with a patio & a vinyl soundtrack.',
         description: ['Cocktails', 'Open Late', 'Romantic']
+    },
+    {
+        name: "Killen's",
+        category: 'food',
+        subcategory: ['upscale', 'sandwiches', 'chicken', 'steak'],
+        badges: ['michelin rated'],
+        coordinates: [29.770632130472293, -95.39762377700288],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/pVgNemZ.png',
+        website: 'https://www.killens.com',
+        blurb: 'Relaxed, brick-lined restaurant with traditional Southern comfort food & happy hours.',
+        description: ['Deviled Eggs', 'Steak', 'Sanwiches']
     },
     // Bars
     {
