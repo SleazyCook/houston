@@ -1234,6 +1234,18 @@ const locations = [
         blurb: 'Restaurant serving traditional Japanese noodle soups plus vegetarian and vegan options in a casual setting.',
         description: ['Ramen', 'Edamame', 'Miso Garlic']
     },
+    {
+        name: "Nobie's",
+        category: 'food',
+        subcategory: ['upscale'],
+        badges: ['openLate'],
+        coordinates: [29.73535627273937, -95.41003810405576],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/NhgssIj.png',
+        website: 'https://www.nobieshtx.com',
+        blurb: 'Intimate spot serving New American dishes & craft cocktails, with a patio & a vinyl soundtrack.',
+        description: ['Cocktails', 'Open Late', 'Romantic']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
