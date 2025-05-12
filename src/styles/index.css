@@ -133,6 +133,27 @@
     color: white !important;
 }
 
+/* Filters */
+.filters {
+
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter img {
+/* see badges below */
+}
+
+.filter span {
+    font-size: 20px;
+    margin-left: 8px;
+    text-transform: capitalize;
+}
+
+/* Location Details Container */
 .location-page {
     display: flex;
     width: 100%;
@@ -260,7 +281,8 @@
     gap: 8px;
 }
 
-.location__badges img {
+.location__badges img,
+.filter img {
     max-height: 35px;
 }
 

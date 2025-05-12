@@ -1,6 +1,74 @@
-import { useState } from "react";
+// import { useState } from "react";
+// import { useNavigate } from "react-router-dom";
+
+// import Filters from "../components/Filters";
+// import Location from "../components/Location";
+
+// import buttonData from "../data/restaurant-types";
+// import restaurantsFiltered from "../utils/restaurants-filtered";
+
+// const Restaurants = ({ setLat, setLon, setZoom }) => {
+//   const [selectedCategory, setSelectedCategory] = useState('food');
+//   const [title, setTitle] = useState('All Restaurants');
+//   const list = restaurantsFiltered;
+
+//   let pageLength = Object.keys(restaurantsFiltered[selectedCategory]).length
+
+//   // Change display function
+//   function changeCategory(e) {
+//     setSelectedCategory(e.target.value);
+//     setTitle(e.target.name);
+//   }
+
+//     return (
+//       <div>
+//         <h1>Food</h1>
+//         <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
+
+//         {/* Category Names */}
+//         {buttonData.map((obj, key) => {
+//           return(
+//             <button 
+//               onClick={changeCategory} 
+//               key={key} 
+//               value={obj.value} 
+//               name={obj.label}>
+//                 {obj.label}
+//             </button>
+//           )
+//         })}
+
+//         {/* Filters Menu */}
+//         <Filters list={list} selectedCategory={selectedCategory}/>
+
+//         {/* Page Length */}
+//         <br /><br />
+//         <b>{title} ({pageLength})</b>
+
+//         {/* Location Component */}
+//         <div className='location__container'>     
+//           {restaurantsFiltered[selectedCategory]?.map((item, key) => {
+//             return (
+//               <Location 
+//                 key={key} 
+//                 item={item} 
+//                 setLat={setLat} 
+//                 setLon={setLon} 
+//                 setZoom={setZoom}/>
+//             );
+//           })}
+//         </div>   
+
+//       </div>
+//     );
+//   };
+  
+//   export default Restaurants;
+
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+import Filters from "../components/Filters";
 import Location from "../components/Location";
 
 import buttonData from "../data/restaurant-types";
@@ -9,50 +77,80 @@ import restaurantsFiltered from "../utils/restaurants-filtered";
 const Restaurants = ({ setLat, setLon, setZoom }) => {
   const [selectedCategory, setSelectedCategory] = useState('food');
   const [title, setTitle] = useState('All Restaurants');
+  const [selectedFilters, setSelectedFilters] = useState({});  // State to track selected filters
 
-  let pageLength = Object.keys(restaurantsFiltered[selectedCategory]).length
+  const list = restaurantsFiltered;
 
-  // Change display function
-  function changeCategory(e) {
+  // Handle category change
+  const changeCategory = (e) => {
     setSelectedCategory(e.target.value);
     setTitle(e.target.name);
-  }
-
-    return (
-      <div>
-        <h1>Food</h1>
-        <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
-
-        {buttonData.map((obj, key) => {
-          return(
-            <button 
-              onClick={changeCategory} 
-              key={key} 
-              value={obj.value} 
-              name={obj.label}>
-                {obj.label}
-            </button>
-          )
-        })}
-
-        <br /><br />
-        <b>{title} ({pageLength})</b>
-
-        <div className='location__container'>     
-          {restaurantsFiltered[selectedCategory]?.map((item, key) => {
-            return (
-              <Location 
-                key={key} 
-                item={item} 
-                setLat={setLat} 
-                setLon={setLon} 
-                setZoom={setZoom}/>
-            );
-          })}
-        </div>   
-
-      </div>
-    );
   };
-  
-  export default Restaurants;
+
+  // Filter restaurants based on selected filters
+  const filterRestaurants = (restaurants) => {
+    return restaurants.filter((place) => {
+      // Check if all selected filters match the badges of the place
+      return Object.keys(selectedFilters).every((badgeName) => {
+        return selectedFilters[badgeName] ? place.badges?.includes(badgeName) : true;
+      });
+    });
+  };
+
+  // Get the list of restaurants in the selected category
+  const categoryRestaurants = restaurantsFiltered[selectedCategory] || [];
+
+  // Apply the filter to the list
+  const filteredRestaurants = filterRestaurants(categoryRestaurants);
+
+  // Page Length
+  let pageLength = filteredRestaurants.length;
+
+  return (
+    <div>
+      <h1>{title}</h1>
+      <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
+
+      {/* Category Names */}
+      {buttonData.map((obj, key) => (
+        <button
+          onClick={changeCategory}
+          key={key}
+          value={obj.value}
+          name={obj.label}
+        >
+          {obj.label}
+        </button>
+      ))}
+
+      {/* Filters Menu */}
+      <Filters
+        list={list}
+        selectedCategory={selectedCategory}
+        onFilterChange={setSelectedFilters} // Pass filter change handler
+      />
+
+      {/* Page Length */}
+      <br />
+      <br />
+      <b>{title} ({pageLength})</b>
+
+      {/* Location Component */}
+      <div className="location__container">
+        {filteredRestaurants.map((item, key) => {
+          return (
+            <Location
+              key={key}
+              item={item}
+              setLat={setLat}
+              setLon={setLon}
+              setZoom={setZoom}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Restaurants;
