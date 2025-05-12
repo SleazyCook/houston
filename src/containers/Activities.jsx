@@ -23,8 +23,16 @@ const Activities = ({ setLat, setLon, setZoom}) => {
   const filterActivities = (activities) => {
     return activities.filter((place) => {
       // Check if all selected filters match the badges of the place
-      return Object.keys(selectedFilters).every((badgeName) => {
-        return selectedFilters[badgeName] ? place.badges?.includes(badgeName) : true;
+      return Object.entries(selectedFilters).every(([badgeName, isChecked]) => {
+        if (!isChecked) return true;
+
+        // If the filter is 'free parking', ensure that 'paid parking' is not present
+        if (badgeName === "free parking") {
+          return !place.badges?.includes("paid parking");
+        }
+
+        // Otherwise, check the place's badges for the selected filter
+        return place.badges?.includes(badgeName);
       });
     });
   };
