@@ -874,7 +874,7 @@ const locations = [
         subcategory: ['upscale'],
         coordinates: [29.767238194517333, -95.40970321005263],
         neighborhood: 'Washington',
-        img: 'https://i.imgur.com/ANec7Sy.png',
+        img: 'https://i.imgur.com/bUKClkp.png',
         website: 'https://www.cni713.com',
         blurb: 'Easygoing eatery offering Indian & Southern fare such as burgers & kebabs in low-key surrounds.',
         description: ['Date night', 'Drinks', 'Indian western fusion']        
@@ -971,14 +971,14 @@ const locations = [
     {
         name: 'Pappas Bar-B-Q',
         category: 'food',
-        subcategory: ['bbq', 'sandwiches'],
+        subcategory: ['bbq', 'sandwiches', 'breakfast'],
         badges: ['driveThru', 'contactless'],
         coordinates: [29.871432138949643, -95.32843650525928],
         neighborhood: 'Little York',
         img: 'https://i.imgur.com/FANOjRk.png',
         website: 'https://pappasbbq.com/home/',
         blurb: 'Long-standing chain dishing up Texas-style smoked meats & sides in a relaxed counter-serve setting.',
-        description: ['BBQ Sandwiches', 'Sausage', 'Pecan Pie']
+        description: ['BBQ Sandwiches', 'Breakfast tacos', 'Pecan Pie']
     },
     {
         name: 'Sichuan Pepper Express',
