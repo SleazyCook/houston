@@ -8,7 +8,7 @@ import generateLocationSlug from '../utils/slug.js';
 
 
 
-export default function LocationPage() {
+const LocationPage = ({setLat, setLon, setZoom}) => {
   const { slug } = useParams();
   const location = locations.find(loc => generateLocationSlug(loc) === slug);
 
@@ -69,7 +69,12 @@ export default function LocationPage() {
         }}></div>
 
         <div>
-            <Location item={location}/>
+            <Location 
+                item={location}
+                setLat={setLat} 
+                setLon={setLon} 
+                setZoom={setZoom}
+                />
             <div className="see-more-container">
                 {renderLink()}
             </div>
@@ -80,3 +85,5 @@ export default function LocationPage() {
     </div>
   );
 }
+
+export default LocationPage;
