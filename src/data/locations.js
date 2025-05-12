@@ -1266,6 +1266,17 @@ const locations = [
         blurb: 'Relaxed, brick-lined restaurant with traditional Southern comfort food & happy hours.',
         description: ['Deviled Eggs', 'Steak', 'Sanwiches']
     },
+    {
+        name: "The Original Ninfa's",
+        category: 'food',
+        subcategory: ['tacos'],
+        coordinates: [29.756943373593632, -95.34251268012594],
+        neighborhood: 'South Central',
+        img: 'https://i.imgur.com/syAJRBM.png',
+        website: 'https://ninfas.com',
+        blurb: 'Longtime casual spot with covered outdoor seating serving fajitas, margaritas & other Mexican fare.',
+        description: ['Fajitas & Margaritas', 'Reservations Required', 'Parking Limited']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',
