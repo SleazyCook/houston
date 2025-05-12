@@ -1,36 +1,5 @@
-// import { useEffect } from "react";
-// import badgeArray from "../data/badges.js"; // Array of { name, img }
-
-// const Filters = ({ list, selectedCategory }) => {
-//   const filteredList = list[selectedCategory] || [];
-
-//   // Optional: log when list updates
-//   useEffect(() => {
-//     console.log('List updated:', filteredList);
-//   }, [selectedCategory, filteredList]);
-
-//   // Create a map of available badges for filtering
-//   const activeBadges = badgeArray.filter(badge =>
-//     filteredList.some(place => place.badges?.includes(badge.name))
-//   );
-
-//   return (
-//     <div className="filters">
-//       <h3>Filters</h3>
-//       {activeBadges.map((badge) => (
-//         <div className="filter" key={badge.name}>
-//           <img src={badge.img} alt={badge.name} />
-//           <span>{badge.name}</span>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Filters;
-
 import { useState, useEffect } from "react";
-import badgeArray from "../data/badges.js"; // Array of { name, img }
+import badges from "../data/badges.js"; // Array of { name, img }
 
 const Filters = ({ list, selectedCategory, onFilterChange }) => {
   const filteredList = list[selectedCategory] || [];
@@ -54,7 +23,7 @@ const Filters = ({ list, selectedCategory, onFilterChange }) => {
   };
 
   // Create a map of available badges for filtering
-  const activeBadges = badgeArray.filter(badge =>
+  const activeBadges = badges.filter(badge =>
     filteredList.some(place => place.badges?.includes(badge.name))
   );
 
