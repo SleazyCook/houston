@@ -133,16 +133,15 @@
     color: white !important;
 }
 
-/* .location-page {
-    background-color: red;
+.location-page {
     display: flex;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     padding-top: 150px;
     padding-bottom: 150px;
-} */
-
+}
 
 .location-page div {
     background-color: white;

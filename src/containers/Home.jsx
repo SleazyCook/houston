@@ -10,9 +10,6 @@ const Home = ({lat, lon, zoom, setZoom}) => {
         <p>Drewford's favorite locations in Houston, Texas</p>
         <p>{totalLocations} locations recorded and counting...</p>
         
-
-
-
         <Leaflet lat={lat} lon={lon} zoom={zoom} setZoom={setZoom}/>
 
       </div>

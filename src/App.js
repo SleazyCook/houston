@@ -44,10 +44,10 @@ function App() {
             />
             <Route 
               path="/location/:slug" 
-              element={<LocationPage />}
-              setLat={setLat} 
-              setLon={setLon} 
-              setZoom={setZoom} />
+              element={<LocationPage 
+                setLat={setLat} 
+                setLon={setLon} 
+                setZoom={setZoom} />}/>
             <Route 
               path='/food'
               element={
