@@ -69,7 +69,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
 
       {/* Location Component */}
       <div className='location__container'>   
-        {activitiesFiltered[selectedCategory]?.map((item, key) => {
+        {filteredActivities.map((item, key) => {
           return(
             <Location 
               key={key} 
