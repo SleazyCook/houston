@@ -3,9 +3,10 @@
 Static website designed to share my favorite places in Houston, Texas.
 hosted @ https://houstonpicks.netlify.app
 
-Using Leaflet & React
+Using React, Leaflet, CSS, & Slugify
 
 ## Restaurants
+
 - BBQ
 - Burgers
 - Breakfast
