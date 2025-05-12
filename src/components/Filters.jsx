@@ -2,47 +2,61 @@
 // import badges from "../data/badges.js"; // Array of { name, img }
 
 // const Filters = ({ list, selectedCategory, onFilterChange }) => {
-//   const filteredList = list[selectedCategory] || [];
+//     const filteredList = list[selectedCategory] || [];
 
-//   // State to track the selected filters
-//   const [selectedFilters, setSelectedFilters] = useState({});
+//     // State to track the selected filters
+//     const [selectedFilters, setSelectedFilters] = useState({});
 
-//   // Sync filter state with parent
-//   useEffect(() => {
-//     onFilterChange(selectedFilters);
-//   }, [selectedFilters, onFilterChange]);
+//     // Sync filter state with parent
+//     useEffect(() => {
+//         onFilterChange(selectedFilters);
+//     }, [selectedFilters, onFilterChange]);
 
-//   // Optional: log when list updates
-//   useEffect(() => {
-//     console.log("List updated:", filteredList);
-//   }, [selectedCategory, filteredList]);
+//     // Optional: log when list updates
+//     useEffect(() => {
+//         console.log("List updated:", filteredList);
+//     }, [selectedCategory, filteredList]);
 
-//   // Handle checkbox change
-//   const handleFilterChange = (badgeName) => {
-//     setSelectedFilters((prev) => {
-//       const updatedFilters = { ...prev, [badgeName]: !prev[badgeName] };
-//       return updatedFilters;
+//     // Handle checkbox change
+//     const handleFilterChange = (badgeName) => {
+//         setSelectedFilters((prev) => {
+//         const updatedFilters = { ...prev, [badgeName]: !prev[badgeName] };
+//         return updatedFilters;
+//         });
+//     };
+
+//     // Determine if there are places with paid parking and places without it
+//     const hasPaidParking = filteredList.some((place) =>
+//         place.badges?.includes("paid parking")
+//     );
+//     const hasFreeParkingOption = filteredList.some(
+//         (place) => !place.badges?.includes("paid parking")
+//     );
+
+//     // Create a map of available badges for filtering
+//     const activeBadges = badges
+//         .filter((badge) => {
+//         // Show "free parking" filter only if there are places with "paid parking" and places without it
+//         if (badge.name === "paid parking") {
+//             return hasPaidParking && hasFreeParkingOption;
+//         }
+//         return filteredList.some((place) => place.badges?.includes(badge.name));
+//         })
+//         .map((badge) => {
+//         // If the badge is "paid parking", we will display "free parking"
+//         if (badge.name === "paid parking") {
+//             return {
+//             name: "free parking",
+//             img: badge.img, // You can replace this with a specific "free parking" image
+//             };
+//         }
+//         return badge;
 //     });
-//   };
 
-//   // Create a map of available badges for filtering
-//   const activeBadges = badges
-//     .filter((badge) => {
-//       if (badge.name === "paid parking") {
-//         // Show "free parking" if any place doesn't have "paid parking"
-//         return filteredList.some((place) => !place.badges?.includes("paid parking"));
-//       }
-//       return filteredList.some((place) => place.badges?.includes(badge.name));
-//     })
-//     .map((badge) => {
-//       if (badge.name === "paid parking") {
-//         return {
-//           name: "free parking",
-//           img: badge.img, // You can replace this with a specific "free parking" image
-//         };
-//       }
-//       return badge;
-//     });
+//     // If no filters are available, render nothing
+//     if (activeBadges.length === 0) {
+//         return null;
+//     }
 
 //   return (
 //     <div className="filters">
@@ -71,28 +85,23 @@ import badges from "../data/badges.js"; // Array of { name, img }
 const Filters = ({ list, selectedCategory, onFilterChange }) => {
   const filteredList = list[selectedCategory] || [];
 
-  // State to track the selected filters
   const [selectedFilters, setSelectedFilters] = useState({});
 
-  // Sync filter state with parent
   useEffect(() => {
     onFilterChange(selectedFilters);
   }, [selectedFilters, onFilterChange]);
 
-  // Optional: log when list updates
   useEffect(() => {
     console.log("List updated:", filteredList);
   }, [selectedCategory, filteredList]);
 
-  // Handle checkbox change
   const handleFilterChange = (badgeName) => {
-    setSelectedFilters((prev) => {
-      const updatedFilters = { ...prev, [badgeName]: !prev[badgeName] };
-      return updatedFilters;
-    });
+    setSelectedFilters((prev) => ({
+      ...prev,
+      [badgeName]: !prev[badgeName],
+    }));
   };
 
-  // Determine if there are places with paid parking and places without it
   const hasPaidParking = filteredList.some((place) =>
     place.badges?.includes("paid parking")
   );
@@ -100,25 +109,38 @@ const Filters = ({ list, selectedCategory, onFilterChange }) => {
     (place) => !place.badges?.includes("paid parking")
   );
 
-  // Create a map of available badges for filtering
   const activeBadges = badges
     .filter((badge) => {
-      // Show "free parking" filter only if there are places with "paid parking" and places without it
+      // Special handling for 'paid parking' => display 'free parking'
       if (badge.name === "paid parking") {
         return hasPaidParking && hasFreeParkingOption;
       }
-      return filteredList.some((place) => place.badges?.includes(badge.name));
+
+      // Badge must exist on at least one place
+      const appearsSomewhere = filteredList.some((place) =>
+        place.badges?.includes(badge.name)
+      );
+
+      // If badge appears on all places, don't include it
+      const appearsEverywhere =
+        appearsSomewhere &&
+        filteredList.every((place) => place.badges?.includes(badge.name));
+
+      return appearsSomewhere && !appearsEverywhere;
     })
     .map((badge) => {
-      // If the badge is "paid parking", we will display "free parking"
       if (badge.name === "paid parking") {
         return {
           name: "free parking",
-          img: badge.img, // You can replace this with a specific "free parking" image
+          img: badge.img,
         };
       }
       return badge;
     });
+
+  if (activeBadges.length === 0) {
+    return null;
+  }
 
   return (
     <div className="filters">
