@@ -398,6 +398,10 @@
         top: -160px;
         left: -8px;
     }
+
+    .location__details--blurb {
+        min-width: 300px;
+    }
     
     .location__badges {
         max-width: 300px;
