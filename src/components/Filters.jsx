@@ -61,7 +61,7 @@ const Filters = ({ list, selectedCategory, onFilterChange }) => {
   }
 
   return (
-    <div className="filters">
+    <div className="category-btn__box">
       {activeBadges.map((badge) => (
         <label className="filter" key={badge.name}>
           <input

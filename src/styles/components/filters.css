@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 1rem;
 } 
 
 .category-btn {
@@ -35,6 +36,7 @@
 .filter {
     display: inline-block;
     margin-right: .3rem;
+    min-width: fit-content;
 }
 
 /* Hide checkbox */
@@ -53,7 +55,6 @@
     color: black;
     font-family: 'Avenir Next Condensed';
     text-transform: capitalize;
-    /* border: 2px solid #333; */
     border-radius: 1rem;
     cursor: pointer;
     transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
@@ -68,7 +69,6 @@
 .filter img {
     max-height: 20px;
 }
-
 
 /* Hide text for image-only labels like "Open Late" */
 .filter .text {
