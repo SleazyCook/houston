@@ -9,6 +9,7 @@ const restaurantsFiltered = {
   burgers: sortByName(locations.filter(place => place.subcategory?.includes('burgers'))),
   breakfast: sortByName(locations.filter(place => place.subcategory?.includes('breakfast'))),
   chicken: sortByName(locations.filter(place => place.subcategory?.includes('chicken'))),
+  crawfish: sortByName(locations.filter(place => place.subcategory?.includes('crawfish'))),
   dessert: sortByName(locations.filter(place => place.subcategory?.includes('dessert'))),
   dumplings: sortByName(locations.filter(place => place.subcategory?.includes('dumplings'))),
   hotdogs: sortByName(locations.filter(place => place.subcategory?.includes('hotdogs'))),

@@ -628,7 +628,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['alcohol available'],
         coordinates: [29.81679853144434, -95.43075744065375],
         neighborhood: 'Ella Oaks',
@@ -640,7 +640,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.78130193379262, -95.38796849551551],
         neighborhood: 'Heights',
@@ -652,7 +652,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['open late', 'alcohol available'],
         coordinates: [29.74424519171531, -95.38841579865903],
         neighborhood: 'Montrose',
@@ -664,7 +664,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.733773605120188, -95.4261022899225],
         neighborhood: 'Richmond Ave',
@@ -676,7 +676,7 @@ const locations = [
     {
         name: '7Spice',
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         coordinates: [29.936995628209772, -95.24866447987408],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/ExpOpZX.jpg',
@@ -817,7 +817,7 @@ const locations = [
     {
         name: 'Seafood Man Shack',
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['outdoor seating'],
         coordinates: [29.81584956949366, -95.32898273227359],
         neighborhood: 'Houston Gardens',
@@ -829,7 +829,7 @@ const locations = [
     {
         name: 'Boil House',
         category: 'food',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['drive thru', 'outdoor seating'],
         coordinates: [29.790529597726433, -95.39167411678872],
         neighborhood: 'Northside',
@@ -1341,7 +1341,7 @@ const locations = [
     {
         name: 'Lost & Found',
         category: 'bar',
-        subcategory: ['seafood'],
+        subcategory: ['seafood', 'crawfish'],
         badges: ['open late', 'outdoor seating', 'alcohol available', 'hookah', 'paid parking'],
         coordinates: [29.75348220171603, -95.38091870436139],
         neighborhood: 'Fourth Ward',
@@ -1353,6 +1353,7 @@ const locations = [
     {
         name: "A'dor",
         category: 'bar',
+        subcategory: ['crawfish'],
         badges: ['open late', 'outdoor seating', 'alcohol available', 'hookah', 'DJ', 'live music', 'paid parking'],
         coordinates: [29.753411079893684, -95.38650062691997],
         neighborhood: 'Fourth Ward',
@@ -1397,6 +1398,7 @@ const locations = [
     {
         name: 'Locker Room',
         category: 'bar',
+        subcategory: ['crawfish'],
         badges: ['open late', 'alcohol available', 'hookah', 'outdoor seating'],
         coordinates: [29.72193649943075, -95.36747176543562],
         neighborhood: 'South Central Houston',

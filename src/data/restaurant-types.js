@@ -21,6 +21,10 @@ const buttonData = [
       value: 'chicken'
     },
     {
+      label: 'Crawfish',
+      value: 'crawfish'
+    },
+    {
       label: 'Dessert',
       value: 'dessert'
     },
