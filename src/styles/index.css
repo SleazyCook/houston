@@ -29,7 +29,6 @@
     background-color: grey;
     background-color: black;
     width: 500px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
 
@@ -49,6 +48,17 @@
 
 .navigation a:hover {
     background-color: #DBDBDB;
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        width: 90%;
+        
+    }
+
+    .navigation a {
+        font-size: 1.1rem;
+    }
 }
 
 /* popup */
