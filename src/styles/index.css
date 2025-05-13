@@ -393,7 +393,7 @@
     }
 
     .location__details--name::after {
-        width: 300px;
+        width: 328px;
         height: 200px;
         top: -160px;
         left: -8px;
@@ -402,6 +402,7 @@
     .location__badges {
         max-width: 300px;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
     }
