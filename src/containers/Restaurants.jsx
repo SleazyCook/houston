@@ -9,6 +9,7 @@ import restaurantsFiltered from "../utils/restaurants-filtered";
 const Restaurants = ({ setLat, setLon, setZoom }) => {
   const [selectedCategory, setSelectedCategory] = useState("food");
   const [title, setTitle] = useState("All Restaurants");
+  const [description, setDescription] = useState("Houston is home to a lot of great food")
   const [selectedFilters, setSelectedFilters] = useState({});
 
   const list = restaurantsFiltered;
@@ -19,8 +20,13 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
   // Handle category change
   const changeCategory = (e) => {
-    setSelectedCategory(e.currentTarget.value);
-    setTitle(e.currentTarget.name);
+    const { value } = e.currentTarget;
+    const selectedObj = buttonData.find((obj) => obj.value === value);
+    if (selectedObj) {
+      setSelectedCategory(e.currentTarget.value);
+      setTitle(e.currentTarget.name);
+      setDescription(selectedObj.description);
+    }
   };
 
   // Filter restaurants based on selected filters
@@ -82,6 +88,9 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
       <br />
       <br />
       <b>{title} ({pageLength})</b>
+      <br />
+      <span>{description}</span>
+      
 
       {/* Location Component */}
       <div className="location__container">

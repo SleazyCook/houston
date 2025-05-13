@@ -1,0 +1,85 @@
+#map { 
+    height: 80svh;
+}
+
+/* popup */
+.popup {
+    position: relative;
+    max-height: 250px;
+    min-height: 150px;
+    min-width: 300px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.popup::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 70%;
+    background-color: #DBDBDB;
+    z-index: 0; /* base layer */
+    border-radius: 1rem;
+  }
+
+.popup img {
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    /* filter: blur(1px); */
+    bottom: 0%;
+    left: 65%;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+.popup__content {
+    position: relative;
+    z-index: 10;
+}
+
+.popup__content span {
+    display: block;
+}
+
+.popup__neighborhood {
+    position: absolute;
+    top: -12%;
+    left: 5%;
+    color: white;
+    font-family: 'Canto';
+    font-size: 18px;
+    z-index: 1;
+}
+
+.popup__name {
+    font-family: 'Canto';
+    font-size: 20px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.popup__blurb {
+    font-family: "Avenir Next Condensed";
+    font-size: 15px;
+}
+
+.popup__content a {
+    display: inline-block;
+    font-family: "Avenir Next Condensed";
+    text-transform: uppercase;
+
+    cursor: pointer;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50px;
+    /* margin-bottom: 20px;
+    all: unset; */
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: blue;
+    color: white !important;
+}

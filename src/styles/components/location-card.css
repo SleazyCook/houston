@@ -1,0 +1,243 @@
+/* Location Card */
+.location__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.location {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    position: relative;    
+    border: 1px solid black;
+}
+
+.location::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    background-color: white;
+}
+
+/* Location Component - Img Side */
+
+.location__img-box {
+    width: 300px;
+    height: 300px; /* Define height to make vertical centering effective */
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+    padding-left: 15px;
+}
+
+.location__img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: contain; /* Make sure the image scales properly within the container */
+}
+
+/* Location Component - Details Side */
+
+.location__details {
+    width: 100%;
+    max-width: 550px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.location__details--neighborhood { 
+    font-size: .94em;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: "Avenir Next Condensed";
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.location__details--name { 
+    /* remove anchor styles */
+    all: unset;
+    display: inline-block;
+    text-decoration: none;
+    /* custom styles */
+    font-family: 'Canto';
+    font-size: 2em;
+    line-height: 1.2em;
+    letter-spacing: -.02em;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.location__details--name::after {
+    content: '';
+    display: block;
+    height: 80px;
+    width: 600px;
+    position: absolute;
+    top: -35px;
+    left: -100px;
+    z-index: -1;
+    background-color: #DBDBDB !important;
+}
+
+.location__details--blurb,
+.location__details--description { 
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: 'Avenir Next Condensed';
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+
+.location__badges {
+    display: flex;
+    gap: 8px;
+}
+
+.location__badges img,
+.filter img {
+    max-height: 35px;
+}
+
+.location__details--description { 
+    margin-bottom: 12px;
+    margin-top: 10px;
+    padding-left: 2.5rem;
+}
+
+.location__details--descriotion-item { }
+
+.location__details--map-btn { 
+    all: unset;
+    display: inline-block; 
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: green;
+    margin-right: .5rem;
+}
+
+.location__details--site-btn { 
+    all: unset;
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+}
+
+.location__details--map-btn,
+.location__details--site-btn {
+    font-family: "Avenir Next Condensed";
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+/* Location Component MOBILE */
+@media (max-width: 600px) {
+    .location-page {
+        /* different padding likely */
+    }
+    
+    .location__container {
+        gap: 0;
+    }
+
+    .location {
+        flex-direction: column;
+        padding-bottom: .5rem;
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    .location:not(:first-of-type) {
+        margin-top: 2rem;
+    }
+
+    .location__img-box {
+        min-width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .location__img {
+        
+    }
+
+    .location__details {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .location__details--name {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .location__details--name::after {
+        width: 300px;
+        height: 200px;
+        top: -160px;
+        left: -8px;
+    }
+    
+    .location__badges {
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .location__details--blurb {
+        min-width: 275px;
+    }
+
+    .location__details--description {
+        padding-left: 1.5rem;
+    }
+
+    .location__btn-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .location__details--map-btn,
+    .location__details--site-btn {
+        font-size: 14px;
+    }
+}
+
+.see-more-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.see-more-container a {
+    color: black;
+    text-decoration: none;
+    font-family: "Avenir Next Condensed";
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+}
