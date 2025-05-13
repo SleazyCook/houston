@@ -51,7 +51,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
   let pageLength = filteredRestaurants.length;
 
   return (
-    <div>
+    <div className='restaurant-listing'>
       <h1>{title}</h1>
       <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
 

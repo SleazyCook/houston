@@ -143,6 +143,13 @@
     color: white !important;
 }
 
+/* Listing Page Backgrounds */
+.restaurant-listing {
+    background-color: #666666;
+    position: relative;
+    z-index: -3;
+}
+
 /* Category Buttons */
 .category-btn__box {
     display: flex;
@@ -220,6 +227,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .location {
@@ -365,6 +373,10 @@
 @media (max-width: 600px) {
     .location-page {
         /* different padding likely */
+    }
+    
+    .location__container {
+        gap: 0;
     }
 
     .location {
