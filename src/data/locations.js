@@ -1949,6 +1949,7 @@ const locations = [
     {
         name: 'H-E-B',
         category: 'market',
+        subcategory: ['crawfish'],
         badges: ['alcohol available'],
         coordinates: [29.923112090034746, -95.19692257308988],
         neighborhood: 'Summerwood',
