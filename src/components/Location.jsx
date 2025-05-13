@@ -58,20 +58,22 @@ const Location = ({item, setLat, setLon, setZoom}) => {
                 </li>
             </ul>
 
-            {/* View on Map */}
-            <button 
-                className='location__details--map-btn'
-                onClick={handleClick}>
-                    View on Map
-            </button>
+            <div className='location__btn-box'>
+                {/* View on Map */}
+                <button 
+                    className='location__details--map-btn'
+                    onClick={handleClick}>
+                        View on Map
+                </button>
 
-            {/* Website */}
-            <a 
-                className='location__details--site-btn'
-                href={item.website}
-                target='_blank'>
-                    View Website
-            </a>
+                {/* Website */}
+                <a 
+                    className='location__details--site-btn'
+                    href={item.website}
+                    target='_blank'>
+                        View Website
+                </a>
+            </div>
 
         </div>
 

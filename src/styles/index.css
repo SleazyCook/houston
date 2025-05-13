@@ -347,6 +347,16 @@
         top: -160px;
         left: -8px;
     }
+
+    .location__btn-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .location__details--map-btn,
+    .location__details--site-btn {
+        font-size: 14px;
+    }
 }
 
 .see-more-container {

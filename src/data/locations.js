@@ -585,7 +585,7 @@ const locations = [
         img: 'https://i.imgur.com/hANqcZO.png',
         website: 'https://www.lyricmarket.com/',
         blurb: "Houston's most exciting and sophisticated food hall",
-        description: ["Order From App", 'Full Bar', 'Range of options']
+        description: ["Order From Web", 'Full Bar', 'Range of options']
     },
     {
         name: 'POST Market',
