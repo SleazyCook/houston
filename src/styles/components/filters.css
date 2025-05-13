@@ -32,23 +32,49 @@
 }
 
 /* Filters */
-.filters {
-
-}
-
 .filter {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    margin-right: .3rem;
 }
 
-.filter img {
-/* see badges below */
+/* Hide checkbox */
+.filter input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .filter span {
-    font-size: 20px;
-    margin-left: 8px;
-    text-transform: capitalize;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+/* Checked state */
+.filter input[type="checkbox"]:checked + span {
+    background-color: white;
+    color: #333;
+}
+
+/* Image styling */
+.filter img {
+    max-height: 20px;
+}
+
+
+/* Hide text for image-only labels like "Open Late" */
+.filter .text {
+    font-size: 0.9em;
+    color: inherit;
+    background-color: inherit;
+    border: none;
 }
 
 /* Mobile */

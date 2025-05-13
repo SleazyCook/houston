@@ -62,19 +62,23 @@ const Filters = ({ list, selectedCategory, onFilterChange }) => {
 
   return (
     <div className="filters">
-      <h3>Filters</h3>
       {activeBadges.map((badge) => (
-        <div className="filter" key={badge.name}>
+        <label className="filter" key={badge.name}>
           <input
             type="checkbox"
             checked={selectedFilters[badge.name] || false}
             onChange={() => handleFilterChange(badge.name)}
           />
-          {/* <img src={badge.img} alt={badge.name} /> */}
-          <span>{badge.name}</span>
-        </div>
+          <span>
+            {badge.img && <img src={badge.img} alt={badge.name} />}
+            {badge.name !== 'open late' && badge.name}
+          </span>
+        </label>
+
       ))}
     </div>
+
+
   );
 };
 
