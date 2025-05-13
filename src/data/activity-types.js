@@ -2,43 +2,53 @@
 const buttonData = [
     {
         label: 'All Activities',
-        value: 'all'
+        value: 'all',
+        img: 'https://i.imgur.com/wCqGUjS.png'
     },
     {
         label: 'Attractions',
-        value: 'attraction'
+        value: 'attraction',
+        img: 'https://i.imgur.com/8ysvujM.png'
     },
     {
-        label: 'Bars & Lounges',
-        value: 'bars'
+        label: 'Bars/Lounges',
+        value: 'bars',
+        img: 'https://i.imgur.com/j9p10u8.png'
     },
     {
         label: 'Books',
-        value: 'books'
+        value: 'books',
+        img: 'https://i.imgur.com/8g9fACG.png'
     },
     {
         label: 'Coffee',
-        value: 'coffee'
+        value: 'coffee',
+        img: 'https://i.imgur.com/slz9P1c.png'
     },
     {
         label: 'Markets',
-        value: 'markets'
+        value: 'markets',
+        img: 'https://i.imgur.com/mDDhpif.png'
     },
     {
-        label: 'Movie Theaters',
-        value: 'movies'
+        label: 'Theaters',
+        value: 'movies',
+        img: 'https://i.imgur.com/MTomK59.png'
     },
     {
         label: 'Music Venues',
-        value: 'music'
+        value: 'music',
+        img: 'https://i.imgur.com/HSqVSQ6.png'
     },
     {
         label: 'Parks',
-        value: 'parks'
+        value: 'parks',
+        img: 'https://i.imgur.com/atLI6wu.png'
     },
     {
         label: 'Photo Opp',
-        value: 'photo'
+        value: 'photo',
+        img: 'https://i.imgur.com/nHaTrIi.png'
     },
 ]
 

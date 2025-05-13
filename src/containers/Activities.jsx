@@ -19,8 +19,8 @@ const Activities = ({ setLat, setLon, setZoom}) => {
 
   // Handle category change
   function changeCategory(e) {
-    setSelectedCategory(e.target.value);
-    setTitle(e.target.name);
+    setSelectedCategory(e.currentTarget.value);
+    setTitle(e.currentTarget.name);
   }
 
   // Filter activities based on selected filters
@@ -56,17 +56,20 @@ const Activities = ({ setLat, setLon, setZoom}) => {
       <p>List of my favorite activities in Houston.</p>
 
       {/* Category Names */}
-      {buttonData.map((obj, key) => {
-        return(
-          <button 
-            onClick={changeCategory} 
-            key={key} 
-            value={obj.value} 
-            name={obj.label}>
-              {obj.label}
+      <div className='category-btn__box'>
+        {buttonData.map((obj, key) => (
+          <button
+            className='category-btn'
+            onClick={changeCategory}
+            key={key}
+            value={obj.value}
+            name={obj.label}
+          >
+            <img src={obj.img} alt={obj.label} />
+            {obj.label}
           </button>
-        )
-      })}
+        ))}
+      </div>
 
       {/* Filters Menu */}
       <Filters
