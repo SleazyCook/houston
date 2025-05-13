@@ -16,8 +16,20 @@ const badges = [
         img: 'https://i.imgur.com/XHMMJ93.png'
     },
     {
+        name: 'outdoor seating',
+        img: 'https://i.imgur.com/Tx8yXqF.png'
+    },
+    {
         name: 'hookah',
         img: 'https://i.imgur.com/fDeryi7.png'
+    },
+    {
+        name: 'live music',
+        img: 'https://i.imgur.com/gh9CWvY.png'
+    },
+    {
+        name: 'DJ',
+        img: 'https://i.imgur.com/OClvUJL.png'
     },
     {
         name: 'cash only',
@@ -26,7 +38,13 @@ const badges = [
     {
         name: 'paid parking',
         img: 'https://i.imgur.com/Ro31zwL.png'
-    }
+    },
+
+
+    // alcohol 
+    // pet friendly
+    // outdoor seating
+    // crawfish
 ]
 
 export default badges;
