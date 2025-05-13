@@ -1741,6 +1741,7 @@ const locations = [
     {
         name: 'HTeaO',
         category: 'coffee',
+        badges: ['drive thru'],
         coordinates: [30.092839580594955, -95.62470622095695],
         neighborhood: 'Tomball',
         img: 'https://i.imgur.com/fVLyiQA.png',
@@ -1768,6 +1769,18 @@ const locations = [
         website: 'https://www.kungfutea.com',
         blurb: 'Bubble tea specialist with a selection of other hot & cold drinks, including coffee & slushes.',
         description: ['Games', 'Tea', 'Boba']
+    },
+    {
+        name: '7th Heaven Coffee & Eatery',
+        category: 'coffee',
+        subcategory: ['sandwiches'],
+        badges: ['drive thru'],
+        coordinates: [29.962428867202714, -95.2484748537011],
+        neighborhood: 'Humble',
+        img: 'https://i.imgur.com/8rVN86o.png',
+        website: 'https://7thheavencoffee.square.site',
+        blurb: 'Casual cafe with a drive-through window offering coffee drinks, tea, and quick eats.',
+        description: ['Final Fantasy inspired', 'Tea', 'Sandwiches']
     },
     // Markets
     {
