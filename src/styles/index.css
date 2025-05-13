@@ -164,7 +164,6 @@
     padding-bottom: 150px;
 }
 
-
 /* Location Card */
 .location__container {
     display: flex;
@@ -175,8 +174,6 @@
 .location {
     display: flex;
     width: 100%;
-/* 
-    border-bottom: 1px solid #8F8F8F; */
     max-width: 900px;
     position: relative;    
 }
@@ -191,7 +188,7 @@
     background-color: white;
 }
 
-    /* Img Side */
+/* Location Component - Img Side */
 
 .location__img-box {
     width: 300px;
@@ -208,11 +205,9 @@
     object-fit: contain; /* Make sure the image scales properly within the container */
 }
 
-
-    /* Details Side */
+/* Location Component - Details Side */
 
 .location__details {
-
     width: 100%;
     max-width: 550px;
     padding-left: 20px;
@@ -254,15 +249,6 @@
     left: -100px;
     z-index: -1;
     background-color: #DBDBDB !important;
-}
-
-@media (max-width: 600px) {
-    .location__details--name::after {
-        width: 300px;
-        height: 200px;
-        top: -160px;
-        left: -8px;
-    }
 }
 
 .location__details--blurb,
@@ -324,7 +310,12 @@
     margin-bottom: 20px;
 }
 
+/* Location Component MOBILE */
 @media (max-width: 600px) {
+    .location-page {
+        /* different padding likely */
+    }
+
     .location {
         flex-direction: column;
         padding-bottom: .5rem;
@@ -337,6 +328,24 @@
     .location__img-box {
         min-width: 100%;
         max-width: 100%;
+        padding: 0;
+    }
+    
+    .location__img {
+        
+    }
+
+    .location__details {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .location__details--name::after {
+        width: 300px;
+        height: 200px;
+        top: -160px;
+        left: -8px;
     }
 }
 
