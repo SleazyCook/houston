@@ -49,7 +49,7 @@ const locations = [
     {
         name: 'Mensho',
         category: 'food',
-        subcategory: ['ramen'],
+        subcategory: ['ramen', 'upscale'],
         badges: ['michelin rated'],
         coordinates: [29.702776279471518, -95.55277518132357],
         neighborhood: 'Chinatown',

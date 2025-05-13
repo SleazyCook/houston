@@ -19,8 +19,8 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
   // Handle category change
   const changeCategory = (e) => {
-    setSelectedCategory(e.target.value);
-    setTitle(e.target.name);
+    setSelectedCategory(e.currentTarget.value);
+    setTitle(e.currentTarget.name);
   };
 
   // Filter restaurants based on selected filters
@@ -56,16 +56,20 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
       <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
 
       {/* Category Names */}
-      {buttonData.map((obj, key) => (
-        <button
-          onClick={changeCategory}
-          key={key}
-          value={obj.value}
-          name={obj.label}
-        >
-          {obj.label}
-        </button>
-      ))}
+      <div className='category-btn__box'>
+        {buttonData.map((obj, key) => (
+          <button
+            className='category-btn'
+            onClick={changeCategory}
+            key={key}
+            value={obj.value}
+            name={obj.label}
+          >
+            <img src={obj.img} alt={obj.label} />
+            {obj.label}
+          </button>
+        ))}
+      </div>
 
       {/* Filters Menu */}
       <Filters

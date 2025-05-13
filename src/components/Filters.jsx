@@ -8,11 +8,8 @@ const Filters = ({ list, selectedCategory, onFilterChange }) => {
 
   useEffect(() => {
     onFilterChange(selectedFilters);
-  }, [selectedFilters, onFilterChange]);
+  }, [selectedCategory, selectedFilters, filteredList, onFilterChange]);
 
-  useEffect(() => {
-    console.log("List updated:", filteredList);
-  }, [selectedCategory, filteredList]);
 
   const handleFilterChange = (badgeName) => {
     setSelectedFilters((prev) => ({
