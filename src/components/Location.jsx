@@ -41,7 +41,8 @@ const Location = ({item, setLat, setLon, setZoom}) => {
             <p className='location__details--blurb'>
                 {item.blurb}
             </p>
-
+            
+            {/* Badges / Filters */}
             {item.badges && 
                 <Badges item={item}/>}
 
