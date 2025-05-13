@@ -1,7 +1,7 @@
 // This file is strictly for the controls n the Activities page
 const buttonData = [
     {
-        label: 'All Activities',
+        label: 'All',
         value: 'all',
         img: 'https://i.imgur.com/wCqGUjS.png'
     },
@@ -11,7 +11,7 @@ const buttonData = [
         img: 'https://i.imgur.com/8ysvujM.png'
     },
     {
-        label: 'Bars/Lounges',
+        label: 'Bars',
         value: 'bars',
         img: 'https://i.imgur.com/j9p10u8.png'
     },
@@ -36,7 +36,7 @@ const buttonData = [
         img: 'https://i.imgur.com/MTomK59.png'
     },
     {
-        label: 'Music Venues',
+        label: 'Music',
         value: 'music',
         img: 'https://i.imgur.com/HSqVSQ6.png'
     },
@@ -46,7 +46,7 @@ const buttonData = [
         img: 'https://i.imgur.com/atLI6wu.png'
     },
     {
-        label: 'Photo Opp',
+        label: 'Photo',
         value: 'photo',
         img: 'https://i.imgur.com/nHaTrIi.png'
     },
