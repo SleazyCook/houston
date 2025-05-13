@@ -1652,6 +1652,17 @@ const locations = [
         blurb: 'A design-focused space for live jazz, Latin nights, DJs, curated art and great company.',
         description: ['Live DJ', 'Events', 'Cover']
     },
+    {
+        name: 'Scout Bar',
+        category: 'bar',
+        badges: ['open late', 'alcohol available', 'live music'],
+        coordinates: [29.543920868577192, -95.10339494749947],
+        neighborhood: 'Webster',
+        img: 'https://i.imgur.com/bY23PCi.png',
+        website: 'https://scoutbar.com',
+        blurb: "Rockin' spot for loud live music & drinks featuring 2 bars & separate room with a DJ & dance floor.",
+        description: ['Rock Bar', 'Stage', 'Events']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
