@@ -16,8 +16,14 @@
     font-display: swap; /* Ensures text is visible while the font loads */
 }
 
-/* Weather Widget */
+/* Header - 'Lacquer'; */
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+/* Weather Widget - 'Rancher'; */
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+/* Footer - 'Berkshire Swash'; */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 :root {
     --primary-color: #3498db;

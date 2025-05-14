@@ -1,7 +1,41 @@
+/* Header */
 .home__header-img {
     margin: 0 auto;
     display: block;
     width: 100%;
     max-width:  1072px;
     margin-top: -60px;
+}
+
+.home__header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.home__header h1 {
+    text-align: center;
+    font-family: 'Lacquer';
+    color: yellow;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.home__header p {
+    font-family: 'Avenir Next Condensed';
+}
+
+/* Widget Box */
+.home__widgets-box {
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem 0;
+}
+
+.temp-element {
+    background-color: grey;
+    border-radius: 1rem;
+    width: 87%;
 }

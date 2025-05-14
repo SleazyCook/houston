@@ -1,0 +1,36 @@
+.footer {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__acknowledgements p {
+    text-align: center;
+    font-family: 'Avenir Next Condensed';
+}
+
+.footer__line {
+    display: block;
+    border-bottom: 1px solid white;
+    width: 300px;
+    text-align: center;
+    margin: .5rem auto;
+}
+
+.footer__signature {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__author {
+    font-family: 'Berkshire Swash';
+}
