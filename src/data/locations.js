@@ -1339,6 +1339,17 @@ const locations = [
     },
     // Bars
     {
+        name: 'Axelrad',
+        category: 'bar',
+        badges: ['paid parking', 'alcohol available', 'live music', 'outdoor seating'],
+        coordinates: [29.734989085866363, -95.37481472963191],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/RKS2yyq.png',
+        website: 'https://www.axelradhouston.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb',
+        blurb: 'Craft beers galore offered in a laid-back outdoor setup with hammocks, food trucks & regular events.',
+        description: ['Concerts', 'Hammocks', 'Food trucks']
+    },
+    {
         name: 'Betelgeuse Betelgeuse',
         category: 'bar',
         subcategory: ['pizza'],
@@ -2182,17 +2193,6 @@ const locations = [
         website: 'https://whiteoakmusichall.com/',
         blurb: 'Performances by popular musical acts staged in an amphitheater with a lawn, plus 2 indoor spaces.',
         description: ['Upstairs room', 'Downstairs room', 'Lawn shows']
-    },
-    {
-        name: 'Axelrad',
-        category: 'music',
-        badges: ['paid parking', 'alcohol available', 'live music', 'outdoor seating'],
-        coordinates: [29.734989085866363, -95.37481472963191],
-        neighborhood: 'Midtown',
-        img: 'https://i.imgur.com/RKS2yyq.png',
-        website: 'https://www.axelradhouston.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb',
-        blurb: 'Craft beers galore offered in a laid-back outdoor setup with hammocks, food trucks & regular events.',
-        description: ['Concerts', 'Hammocks', 'Food trucks']
     },
     {
         name: '713 Music Hall',

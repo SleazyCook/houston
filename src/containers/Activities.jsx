@@ -8,7 +8,8 @@ import activitiesFiltered from '../utils/activities-filtered';
 
 const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [title, setTitle] = useState('All Activities');
+  const [title, setTitle] = useState(buttonData[0].title);
+  const [description, setDescription] = useState(buttonData[0].description);
   const [selectedFilters, setSelectedFilters] = useState({}); 
 
   const list = activitiesFiltered;
@@ -19,8 +20,13 @@ const Activities = ({ setLat, setLon, setZoom}) => {
 
   // Handle category change
   function changeCategory(e) {
-    setSelectedCategory(e.currentTarget.value);
-    setTitle(e.currentTarget.name);
+    const { value } = e.currentTarget;
+    const selectedObj = buttonData.find((obj) => obj.value === value);
+    if (selectedObj) {
+      setSelectedCategory(e.currentTarget.value);
+      setTitle(e.currentTarget.name);
+      setDescription(selectedObj.description);
+    }
   }
 
   // Filter activities based on selected filters
@@ -63,7 +69,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
             onClick={changeCategory}
             key={key}
             value={obj.value}
-            name={obj.label}
+            name={obj.title ? obj.title : obj.label}
           >
             <img src={obj.img} alt={obj.label} />
             {obj.label}
@@ -79,8 +85,12 @@ const Activities = ({ setLat, setLon, setZoom}) => {
       />
 
       {/* Page Length */}
-      <br /><br />
-      <b>{title} ({pageLength})</b>
+      <div className='category__header'>
+        <div className='category__header--title'>
+          {title} ({pageLength})</div>
+        <div className='category__header--description'>
+          {description}</div>
+      </div>
 
       {/* Location Component */}
       <div className='location__container'>   
