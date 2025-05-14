@@ -8,7 +8,7 @@ const Home = ({lat, lon, zoom, setZoom}) => {
   const totalLocations = Object.keys(locations).length;
 
   return (
-    <div>
+    <div className='container home'>
       <img 
         className='home__header-img'
         src='https://i.imgur.com/hrgsIPz.png' />
