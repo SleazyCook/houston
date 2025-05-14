@@ -41,13 +41,6 @@ const buttonData = [
         description: "Houston’s grocery scene is a global pantry, with options for every taste and need. Shop staples and local finds at H-E-B, specialty items at Whole Foods and Trader Joe’s, or explore international flavors at H Mart and Phoenicia. With fresh produce, diverse ingredients, and unique products, Houston’s markets make grocery shopping a culinary adventure."
     },
     {
-        label: 'Theaters',
-        title: 'Movie Theaters',
-        value: 'movies',
-        img: 'https://i.imgur.com/MTomK59.png',
-        description: "Houston’s movie theaters offer cinematic experiences for every kind of film fan. Catch blockbusters at AMC or Regal, enjoy dinner and a show at Alamo Drafthouse, or watch under the stars at Rooftop Cinema Club. With comfy seats, great snacks, and unique vibes, Houston’s theaters make movie night something special."
-    },
-    {
         label: 'Music',
         title: 'Music Venues',
         value: 'music',
@@ -66,6 +59,13 @@ const buttonData = [
         value: 'photo',
         img: 'https://i.imgur.com/nHaTrIi.png',
         description: "Houston’s aesthetic is a photographer’s dream, blending urban energy with natural beauty. Capture stunning skyline views from spots like Eleanor Tinsley Park, or snap the vibrant street art in the Heights and downtown. From serene nature shots in Hermann Park to the colorful murals scattered across the city, Houston offers endless opportunities for creative photography."
+    },
+    {
+        label: 'Theaters',
+        title: 'Movie Theaters',
+        value: 'movies',
+        img: 'https://i.imgur.com/MTomK59.png',
+        description: "Houston’s movie theaters offer cinematic experiences for every kind of film fan. Catch blockbusters at AMC or Regal, enjoy dinner and a show at Alamo Drafthouse, or watch under the stars at Rooftop Cinema Club. With comfy seats, great snacks, and unique vibes, Houston’s theaters make movie night something special."
     },
 ]
 
