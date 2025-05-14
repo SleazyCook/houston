@@ -6,6 +6,7 @@ const Weather = () => {
     const locationKey = '351197'; // Houston
 
     useEffect(() => {
+
         const fetchWeather = async () => {
           try {
             const response = await fetch(
