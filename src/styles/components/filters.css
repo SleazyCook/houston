@@ -60,6 +60,16 @@
     transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
+/* hover */
+.filter:hover span{
+    background-color: #C1C1C1;
+}
+
+.filter:hover img{
+    transform: rotate(-10deg) scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
 /* Checked state */
 .filter input[type="checkbox"]:checked + span {
     background-color: #959595;
