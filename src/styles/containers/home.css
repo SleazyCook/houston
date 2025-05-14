@@ -40,8 +40,8 @@
 
 .temp-element {
     background-color: grey;
-    border-radius: 1rem;
-    width: 87%;
+    border-radius: 0 1rem 1rem 0;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
