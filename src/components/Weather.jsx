@@ -1,0 +1,84 @@
+import { useEffect, useState } from 'react'
+
+const Weather = () => {
+    const [weatherData, setWeatherData] = useState(null);
+    const apiKey = process.env.REACT_APP_ACCUWEATHER_API_KEY;
+    const locationKey = '351197'; // Houston
+
+    useEffect(() => {
+        const fetchWeather = async () => {
+          try {
+            const response = await fetch(
+              `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}`
+            );
+            const data = await response.json();
+            setWeatherData(data[0]);
+          } catch (error) {
+            console.error('Error fetching weather data:', error);
+          }
+        };
+    
+        if (apiKey) {
+          fetchWeather();
+        }
+      }, [apiKey]);
+    
+      const getWeatherIcon = (weatherText) => {
+        const iconMap = {
+          Clear: '☀️',
+          Sunny: '☀️',
+          'Mostly sunny': '☀️',
+          'Partly cloudy': '🌤️',
+          'Partly sunny': '🌤️',
+          'Mostly cloudy': '☁️',
+          Cloudy: '☁️',
+          Overcast: '☁️',
+          Showers: '🌧️',
+          Rain: '🌧️',
+          Drizzle: '🌧️',
+          'Light rain': '🌧️',
+          Thunderstorms: '⛈️',
+          'Stormy weather': '⛈️',
+          Snow: '❄️',
+          'Snow showers': '❄️',
+          Sleet: '🌨️',
+          Hail: '🌨️',
+          Fog: '🌫️',
+          Mist: '🌫️',
+          Smoke: '🌫️',
+          Dust: '🌫️',
+          Windy: '🌬️',
+          'Blowing dust': '🌫️',
+          'Freezing rain': '🌨️',
+          'Ice pellets': '🌨️',
+          'Mixed precipitation': '🌨️',
+        };
+    
+        return iconMap[weatherText] || '❔'; // fallback icon
+    };
+
+    if (!weatherData) {
+        return(
+            <div>Weather loading...</div>
+        )
+    }
+
+    if (weatherData) {
+        return (
+            <>
+                <a 
+                    className='weather-widget'
+                    href={weatherData.Link}
+                    target='_blank'>
+                    {console.log('weather data: ', weatherData)}
+                    <span className='weather-widget__icon'>
+                        {getWeatherIcon(weatherData.WeatherText)}</span>
+                    <span className='weather-widget__temp'>
+                        {weatherData.Temperature.Imperial.Value}°F</span>
+                </a>
+            </>
+        )
+    }
+}
+
+export default Weather;
