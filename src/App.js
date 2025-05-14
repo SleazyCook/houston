@@ -1,32 +1,41 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// 3rd Party
-import ScrollToTop from "react-scroll-to-top";
-
-// app
+// App
 import Navigation from './app/Navigation';
 import Footer from './app/Footer';
 
-// containers
+// Containers
 import Home from './containers/Home'
 import LocationPage from './containers/LocationPage';
 import Restaurants from './containers/Restaurants';
 import Activities from './containers/Activities';
 import About from './containers/About'
 
+// Utilities
+import ScrollToTopButton from './utils/ScrollToTopButton'; // update path as needed
+
+
 function App() {
   const [lat, setLat] = useState(29.7604);
   const [lon, setLon] = useState(-95.3698);
   const [zoom, setZoom] = useState(13);
+  const scrollRef = useRef();
 
   return (
       <Router>
 
         <div className='app-router-wrapper'>
-          <div className='app-router-wrapper__inner'>
+          <div className='app-router-wrapper__inner' ref={scrollRef}>
 
-            <ScrollToTop smooth />
+          {/* <ScrollToTop
+            smooth
+            target={scrollRef} // 👈 key part
+            top={100}          // when to show the button
+            color="#000"
+            style={{ zIndex: 999 }}
+          /> */}
+          <ScrollToTopButton targetRef={scrollRef} />
 
             <Navigation 
               setLat={setLat}  

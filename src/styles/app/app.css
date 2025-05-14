@@ -2,8 +2,10 @@
     padding-top: 60px; Match height of .navigation
 } */
 
-.app-router-wrapper {
+/* .app-router-wrapper {
     background-color: black;
+    background-image: url('https://i.imgur.com/l2PsRYC.jpeg');
+    background-size: cover;
 }
 
 .app-router-wrapper__inner {
@@ -12,7 +14,38 @@
     margin: 0 auto;
     background-color: white;
     min-height: calc(100svh - 60px);
+} */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* prevent page scroll */
 }
+
+.app-router-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url('https://i.imgur.com/l2PsRYC.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden; /* this is key to keep background fixed */
+}
+
+.app-router-wrapper__inner {
+  padding-top: 60px;
+  max-width: 1072px;
+  width: 100%;
+  background-color: white;
+  height: calc(100svh - 60px); /* visible height minus header */
+  overflow-y: auto; /* allow inner scrolling */
+}
+
 
 
 /* Navigation */
