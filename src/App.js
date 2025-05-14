@@ -18,7 +18,7 @@ import About from './containers/About'
 function App() {
   const [lat, setLat] = useState(29.7604);
   const [lon, setLon] = useState(-95.3698);
-  const [zoom, setZoom] = useState(11);
+  const [zoom, setZoom] = useState(13);
 
   return (
       <Router>
