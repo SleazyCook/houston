@@ -8,6 +8,7 @@ import './styles/app/app.css';
 import './styles/app/map.css';
 import './styles/components/filters.css';
 import './styles/components/location-card.css';
+import './styles/containers/listing-page.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

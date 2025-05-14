@@ -58,8 +58,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
   return (
     <div className='restaurant-listing'>
-      <h1>{title}</h1>
-      <p>List of my favorite restaurants, trucks, and stands in Houston.</p>
+      <h2>Houston Eats</h2>
 
       {/* Category Names */}
       <div className='category-btn__box'>
@@ -69,7 +68,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
             onClick={changeCategory}
             key={key}
             value={obj.value}
-            name={obj.label}
+            name={obj.title ? obj.title : obj.label}
           >
             <img src={obj.img} alt={obj.label} />
             {obj.label}
@@ -85,11 +84,12 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
       />
 
       {/* Page Length */}
-      <br />
-      <br />
-      <b>{title} ({pageLength})</b>
-      <br />
-      <span>{description}</span>
+      <div className='category__header'>
+        <div className='category__header--title'>
+          {title} ({pageLength})</div>
+        <div className='category__header--description'>
+          {description}</div>
+      </div>
       
 
       {/* Location Component */}

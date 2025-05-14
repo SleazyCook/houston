@@ -1,0 +1,44 @@
+.category__header {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.category__header--title {
+    font-family: 'Canto';
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: #DBDBDB;
+    width: 520px;
+}
+
+.category__header--description {
+    font-family: 'Avenir Next Condensed';
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #666666;
+    font-size: 1.25rem;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .category__header {
+        max-width: 90%;
+        padding: .25rem;
+        margin-top: 1rem;
+        border: 1px solid red;
+    }
+
+    .category__header--title {
+        max-width: 95%;
+        font-size: 1.75rem;
+    }
+
+    .category__header--description {
+        font-size: 1rem;
+    }
+}
