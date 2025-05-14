@@ -8,8 +8,8 @@ import restaurantsFiltered from "../utils/restaurants-filtered";
 
 const Restaurants = ({ setLat, setLon, setZoom }) => {
   const [selectedCategory, setSelectedCategory] = useState("food");
-  const [title, setTitle] = useState("All Restaurants");
-  const [description, setDescription] = useState("Houston is home to a lot of great food")
+  const [title, setTitle] = useState(buttonData[0].title);
+  const [description, setDescription] = useState(buttonData[0].description)
   const [selectedFilters, setSelectedFilters] = useState({});
 
   const list = restaurantsFiltered;
