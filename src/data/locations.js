@@ -1337,6 +1337,18 @@ const locations = [
         blurb: 'Neighborhood spot for Vietnamese classics including pho and vermicelli, plus beer, cocktails, and bubble tea.',
         description: ['Pho', 'Happy Hour', 'Banh Mi']
     },
+    {
+        name: 'Bamboo House',
+        category: 'food',
+        subcategory: ['ricebowl'],
+        badges: ['contactless payment accepted'],
+        coordinates:[29.94003107975492, -95.27055933669807],
+        neighborhood: 'Humble',
+        img: 'https://i.imgur.com/4OweZ8q.png',
+        website: 'https://bamboohousehumble.com',
+        blurb: 'Informal restaurant featuring roasted duck, plus noodle dishes, shared plates & other Chinese fare.',
+        description: ['Peking Duck', 'Sharable Portions', 'Great takeout']
+    },
     // Bars
     {
         name: 'Axelrad',
