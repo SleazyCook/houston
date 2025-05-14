@@ -72,10 +72,13 @@ const Weather = () => {
                     href={weatherData.Link}
                     target='_blank'>
                     {console.log('weather data: ', weatherData)}
+
                     <span className='weather-widget__icon'>
                         {getWeatherIcon(weatherData.WeatherText)}</span>
                     <span className='weather-widget__temp'>
                         {weatherData.Temperature.Imperial.Value}°F</span>
+                    <span className='weather-widget__city'>
+                      in H-Town</span>
                 </a>
             </>
         )
