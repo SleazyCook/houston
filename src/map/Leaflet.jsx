@@ -128,11 +128,11 @@ const Leaflet = ({lat, lon, zoom, setZoom }) => {
           mapIconUrl = icons.dumplings;
         } else if (location.subcategory?.[0] == 'hotdogs') {
           mapIconUrl = icons.hotdogs;
+        } else if (location.subcategory?.[0] === 'pho') {
+          mapIconUrl = icons.pho;
         } else if (location.subcategory?.[0] == 'pizza') {
           mapIconUrl = icons.pizza;
         } else if (location.subcategory?.[0] == 'ramen') {
-          mapIconUrl = icons.ramen;
-        } else if (location.subcategory?.[0] === 'ramen') {
           mapIconUrl = icons.ramen;
         } else if (location.subcategory?.[0] == 'ricebowl') {
           mapIconUrl = icons.rice;

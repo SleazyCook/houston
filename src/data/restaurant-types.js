@@ -55,6 +55,12 @@ const buttonData = [
       description: 'insert brief description about this category here'
     },
     {
+      label: 'Pho',
+      value: 'pho',
+      img: 'https://i.imgur.com/jYWMhf4.png',
+      description: 'insert brief description about this category here'
+    },
+    {
       label: 'Pizza',
       value: 'pizza',
       img: 'https://i.imgur.com/3ldP3aV.png',

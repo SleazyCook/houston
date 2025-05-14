@@ -1313,6 +1313,30 @@ const locations = [
         blurb: 'Longtime casual spot with covered outdoor seating serving fajitas, margaritas & other Mexican fare.',
         description: ['Fajitas & Margaritas', 'Reservations Required', 'Parking Limited']
     },
+    {
+        name: "Bibo's Bistro",
+        category: 'food',
+        subcategory: ['pho', 'sandwiches'],
+        badges: ['paid parking', 'outdoor seating', 'contactless payments accepted', 'alcohol available'],
+        coordinates: [29.920214406038113, -95.20296607394474],
+        neighborhood: 'Summerwood',
+        img: 'https://i.imgur.com/QmUq918.png',
+        website: 'https://www.bibosbistro.com',
+        blurb: 'Elevated Vietnamese fusion at the Redemption Square offering happy hour, great cocktails, and vegetarian dishes.',
+        description: ['$5 Pho Tuesdays', 'Drunken Pig', 'Banh Mi']
+    },
+    {
+        name: 'Resilience Viet Kitchen & Bar',
+        category: 'food',
+        subcategory: ['pho', 'sandwiches'],
+        badges: ['outdoor seating', 'alcohol available'],
+        coordinates: [29.767893781676012, -95.62471191844388],
+        neighborhood: 'Energy Corridor',
+        img: 'https://i.imgur.com/2YUo65q.png',
+        website: 'https://www.resiliencevietkitchen.com',
+        blurb: 'Neighborhood spot for Vietnamese classics including pho and vermicelli, plus beer, cocktails, and bubble tea.',
+        description: ['Pho', 'Happy Hour', 'Banh Mi']
+    },
     // Bars
     {
         name: 'Betelgeuse Betelgeuse',

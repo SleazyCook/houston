@@ -25,6 +25,7 @@ export const icons = {
     dessert: makeSvgDataUrl(<FaIceCream size={38} color="#cc5500" />),
     dumplings: makeSvgDataUrl(<GiDumplingBao size={38} color="#cc5500" />),
     hotdogs: makeSvgDataUrl(<FaHotdog size={38} color="#cc5500" />),
+    pho: makeSvgDataUrl(<MdRamenDining size={38} color="#cc5500" />),
     pizza: makeSvgDataUrl(<FaPizzaSlice size={38} color="#cc5500" />),
     ramen: makeSvgDataUrl(<MdRamenDining size={38} color="#cc5500" />),
     rice: makeSvgDataUrl(<GiBowlOfRice size={38} color="#cc5500" />),
