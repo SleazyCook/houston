@@ -7,6 +7,8 @@
     flex-wrap: wrap;
     width: 100%;
     margin-top: 1rem;
+    contain: layout paint;
+    
 } 
 
 .category-btn {
@@ -41,9 +43,10 @@
 
 /* Hide checkbox */
 .filter input[type="checkbox"] {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
+    /* position: absolute;
+    opacity: 0; */
+    display: none;
+    /* pointer-events: none; */
 }
 
 .filter span {
@@ -83,5 +86,7 @@
     .category-btn__box {
         flex-wrap: nowrap;
         overflow: scroll;
+        -webkit-overflow-scrolling: touch; /* iOS momentum scroll */
+        scroll-behavior: smooth;
     }
 }
