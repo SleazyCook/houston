@@ -27,14 +27,7 @@ function App() {
 
         <div className='app-router-wrapper'>
           <div className='app-router-wrapper__inner' ref={scrollRef}>
-
-          {/* <ScrollToTop
-            smooth
-            target={scrollRef} // 👈 key part
-            top={100}          // when to show the button
-            color="#000"
-            style={{ zIndex: 999 }}
-          /> */}
+          
           <ScrollToTopButton targetRef={scrollRef} />
 
             <Navigation 

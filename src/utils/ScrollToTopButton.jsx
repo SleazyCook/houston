@@ -24,20 +24,11 @@ export default function ScrollToTopButton({ targetRef }) {
   return visible ? (
     <button
       onClick={scrollToTop}
-      style={{
-        position: 'fixed',
-        right: '20px',
-        bottom: '20px',
-        zIndex: 999,
-        background: '#000',
-        color: '#fff',
-        border: 'none',
-        padding: '10px 15px',
-        borderRadius: '4px',
-        cursor: 'pointer',
-      }}
+      className='scroll-to-top-button'
     >
-      ↑ Top
+      {/* ↑ top */}
+      <img src='https://i.imgur.com/5Vui63v.png' />
+      &nbsp;top
     </button>
   ) : null;
 }

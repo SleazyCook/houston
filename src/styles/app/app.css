@@ -1,52 +1,57 @@
-/* body {
-    padding-top: 60px; Match height of .navigation
-} */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* prevent page scroll */
+}
 
-/* .app-router-wrapper {
+.app-router-wrapper {
+    height: 100vh;
+    width: 100vw;
     background-color: black;
     background-image: url('https://i.imgur.com/l2PsRYC.jpeg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden; /* this is key to keep background fixed */
 }
 
 .app-router-wrapper__inner {
     padding-top: 60px;
     max-width: 1072px;
-    margin: 0 auto;
+    width: 100%;
     background-color: white;
-    min-height: calc(100svh - 60px);
-} */
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* prevent page scroll */
+    height: calc(100svh - 60px); /* visible height minus header */
+    overflow-y: auto; /* allow inner scrolling */
 }
 
-.app-router-wrapper {
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-  background-image: url('https://i.imgur.com/l2PsRYC.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: hidden; /* this is key to keep background fixed */
+/* Scroll To Top */
+.scroll-to-top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    background: #002147;
+    color: #E57200;
+    border: none;
+    font-family: 'Lacquer';
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+    display: flex;
 }
 
-.app-router-wrapper__inner {
-  padding-top: 60px;
-  max-width: 1072px;
-  width: 100%;
-  background-color: white;
-  height: calc(100svh - 60px); /* visible height minus header */
-  overflow-y: auto; /* allow inner scrolling */
+.scroll-to-top-button img {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
-
-
 
 /* Navigation */
 .navigation {
