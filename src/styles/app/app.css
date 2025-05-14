@@ -1,20 +1,33 @@
+/* body {
+    padding-top: 60px; Match height of .navigation
+} */
+
+.app-router-wrapper {
+    background-color: black;
+}
+
+.app-router-wrapper__inner {
+    padding-top: 60px;
+    max-width: 1072px;
+    margin: 0 auto;
+    background-color: white;
+}
+
 /* Navigation */
 .navigation {
     position: fixed !important;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
 
     background-color: black;
-    width: 500px;
+    width: 100%;
+    max-width: 1072px;
     display: flex;
     justify-content: space-around;
 
 }
-
-body {
-    padding-top: 60px; /* Match height of .navigation */
-  }
 
 .navigation a {
     color: white;
@@ -34,8 +47,8 @@ body {
 
 @media (max-width: 600px) {
     .navigation {
-        max-width: 300px;
-        
+        /* max-width: 300px; */
+        width: 100%;
     }
 
     .navigation a {

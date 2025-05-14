@@ -23,56 +23,61 @@ function App() {
   return (
       <Router>
 
-        <ScrollToTop smooth />
+        <div className='app-router-wrapper'>
+          <div className='app-router-wrapper__inner'>
 
-        <Navigation 
-          setLat={setLat}  
-          setLon={setLon} 
-          setZoom={setZoom}/>
-          <Routes>
-            <Route 
-              path="/" 
-              element={
-                <Home 
-                  lat={lat} 
-                  lon={lon} 
-                  zoom={zoom}
-                  setZoom={setZoom}
-                  key={lat}
-                /> 
-              } 
-            />
-            <Route 
-              path="/location/:slug" 
-              element={<LocationPage 
-                setLat={setLat} 
-                setLon={setLon} 
-                setZoom={setZoom} />}/>
-            <Route 
-              path='/food'
-              element={
-                <Restaurants 
-                  setLat={setLat} 
-                  setLon={setLon} 
-                  setZoom={setZoom}
+            <ScrollToTop smooth />
+
+            <Navigation 
+              setLat={setLat}  
+              setLon={setLon} 
+              setZoom={setZoom}/>
+              <Routes>
+                <Route 
+                  path="/" 
+                  element={
+                    <Home 
+                      lat={lat} 
+                      lon={lon} 
+                      zoom={zoom}
+                      setZoom={setZoom}
+                      key={lat}
+                    /> 
+                  } 
                 />
-              } 
-            />
-            <Route 
-              path='/activities'
-              element={
-                <Activities 
-                  setLat={setLat} 
-                  setLon={setLon} 
-                  setZoom={setZoom}
+                <Route 
+                  path="/location/:slug" 
+                  element={<LocationPage 
+                    setLat={setLat} 
+                    setLon={setLon} 
+                    setZoom={setZoom} />}/>
+                <Route 
+                  path='/food'
+                  element={
+                    <Restaurants 
+                      setLat={setLat} 
+                      setLon={setLon} 
+                      setZoom={setZoom}
+                    />
+                  } 
                 />
-              } 
-            />
-            <Route 
-              path="/about" 
-              element={<About />} />
-          </Routes>
-          <Footer />
+                <Route 
+                  path='/activities'
+                  element={
+                    <Activities 
+                      setLat={setLat} 
+                      setLon={setLon} 
+                      setZoom={setZoom}
+                    />
+                  } 
+                />
+                <Route 
+                  path="/about" 
+                  element={<About />} />
+              </Routes>
+              <Footer />
+            </div>
+          </div>
       </Router>
   );
 }

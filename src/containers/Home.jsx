@@ -9,7 +9,9 @@ const Home = ({lat, lon, zoom, setZoom}) => {
 
   return (
     <div>
-      <h1>HOME</h1>
+      <img 
+        className='home__header-img'
+        src='https://i.imgur.com/hrgsIPz.png' />
       <p>Drewford's favorite locations in Houston, Texas</p>
       <p>{totalLocations} locations recorded and counting...</p>
 
