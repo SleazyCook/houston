@@ -7,11 +7,11 @@ const Highlight = ({setLat, setLon, setZoom}) => {
     return saved ? JSON.parse(saved) : null;
   });
 
-    const handleClick = () => {
-    setLat(highlight.coordinates[0]);
-    setLon(highlight.coordinates[1]);
-    setZoom(17);
-    };
+  const handleClick = () => {
+  setLat(highlight.coordinates[0]);
+  setLon(highlight.coordinates[1]);
+  setZoom(17);
+  };
 
   useEffect(() => {
     function pickRandomLocation() {
@@ -23,14 +23,18 @@ const Highlight = ({setLat, setLon, setZoom}) => {
       }
     }
 
-    if (!highlight) {
+    // Only pick a new one if there's none already saved
+    const saved = localStorage.getItem('highlight');
+    if (!saved) {
       pickRandomLocation();
     }
 
+    // Set interval to pick every 30 mins
     const interval = setInterval(pickRandomLocation, 30 * 60 * 1000);
 
     return () => clearInterval(interval);
-  }, [highlight]);
+  }, []); 
+
 
   if (!highlight) {
     return <div>Loading highlight...</div>;

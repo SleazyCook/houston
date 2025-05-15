@@ -3,17 +3,33 @@ import { useEffect, useState } from 'react';
 export default function ScrollToTopButton({ targetRef }) {
   const [visible, setVisible] = useState(false);
 
+  // useEffect(() => {
+  //   const container = targetRef?.current;
+  //   if (!container) return;
+
+  //   const handleScroll = () => {
+  //     setVisible(container.scrollTop > 100);
+  //   };
+
+  //   container.addEventListener('scroll', handleScroll);
+  //   return () => container.removeEventListener('scroll', handleScroll);
+  // }, [targetRef]);
+
   useEffect(() => {
-    const container = targetRef?.current;
-    if (!container) return;
+  const container = targetRef?.current;
+  if (!container) return;
 
-    const handleScroll = () => {
-      setVisible(container.scrollTop > 100);
-    };
+  const handleScroll = () => {
+    const isScrolledDown = container.scrollTop > 100;
+    const isAtBottom = container.scrollTop + container.clientHeight >= container.scrollHeight;
 
-    container.addEventListener('scroll', handleScroll);
-    return () => container.removeEventListener('scroll', handleScroll);
-  }, [targetRef]);
+    setVisible(isScrolledDown && !isAtBottom);
+  };
+
+  container.addEventListener('scroll', handleScroll);
+  return () => container.removeEventListener('scroll', handleScroll);
+}, [targetRef]);
+
 
   const scrollToTop = () => {
     if (targetRef?.current) {
