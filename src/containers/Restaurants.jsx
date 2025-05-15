@@ -59,7 +59,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
   return (
     <div className='restaurant-listing'>
       <h2 className='listing__header listing__header--food'>
-        <span>Houston Eats
+        <span>HouStOn EaTs
           </span></h2>
 
       {/* Category Names */}

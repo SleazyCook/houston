@@ -65,11 +65,13 @@ html, body {
     width: 100%;
     max-width: 1072px;
     display: flex;
-    justify-content: space-around;
+    justify-content: stretch;
+    align-items: stretch;
 
 }
 
 .navigation a {
+    flex: 1;
     color: white;
     text-decoration: none;
     font-size: 2rem;
@@ -77,13 +79,17 @@ html, body {
     line-height: 2.5rem;
     transition: all .3s;
     height: 2.5rem;
-    padding: 0 .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 .5rem; */
     background-color: black;
 }
 
 
 .navigation a:hover {
-    background-color: #DBDBDB;
+    background-color: var(--darkblue);
+    color: var(--orange);
 }
 
 @media (max-width: 600px) {
@@ -94,6 +100,11 @@ html, body {
 
     .navigation a {
         font-size: 1.1rem;
+    }
+
+    .navigation a:hover {
+        background-color: black;
+        color: white;
     }
 }
 
