@@ -24,7 +24,7 @@ html, body {
     max-width: 1072px;
     width: 100%;
     background-color: white;
-    height: calc(100svh - 60px); /* visible height minus header */
+    height: calc(100svh - 40px); /* visible height minus header */
     overflow-y: auto; /* allow inner scrolling */
 }
 

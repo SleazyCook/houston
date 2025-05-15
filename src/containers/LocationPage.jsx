@@ -11,7 +11,7 @@ const LocationPage = ({ setLat, setLon, setZoom }) => {
   const location = locations.find(loc => generateLocationSlug(loc) === slug);
 
   const renderLink = () => {
-    if (location.subcategory && location.category !== 'attraction') {
+    if (location.subcategory == 'food') {
       return (
         <Link to="/food" className="see-more-link">
           See more restaurants 

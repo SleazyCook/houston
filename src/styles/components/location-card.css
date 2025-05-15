@@ -227,20 +227,3 @@
         font-size: 12px;
     }
 }
-
-.see-more-container {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-}
-
-.see-more-container a {
-    color: black;
-    text-decoration: none;
-    font-family: "Avenir Next Condensed";
-    margin-top: 15px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    border: 1px solid black;
-    padding: .5rem 1rem;
-}
