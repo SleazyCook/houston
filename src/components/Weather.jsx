@@ -22,7 +22,7 @@ const Weather = () => {
         if (apiKey) {
           fetchWeather();
         }
-      }, [apiKey]);
+      }, []);
     
       const getWeatherIcon = (weatherText) => {
         const iconMap = {
