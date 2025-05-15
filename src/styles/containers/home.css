@@ -17,6 +17,8 @@
 
     padding-top: 1rem;
     padding-bottom: 1rem;
+    /* background-color: var(--darkblue); */
+
     /* background-image: url('https://i.imgur.com/kQ3zUQc.jpeg');
     background-size: cover; */
 }
@@ -42,6 +44,8 @@
 
 .temp-element {
     background-color: grey;
+    background-color: var(--darkblue);
+    color: var(--orange);
     border-radius: 0 1rem 1rem 0;
     width: 100%;
 }

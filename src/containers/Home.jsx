@@ -21,7 +21,7 @@ const Home = ({lat, lon, zoom, setZoom}) => {
 
       <div className='home__widgets-box'>
         <Weather />
-        <div className='temp-element'>temp</div>
+        <div className='temp-element'>temporary element. eventbrite api call here?</div>
       </div>
 
       <Leaflet lat={lat} lon={lon} zoom={zoom} setZoom={setZoom}/>
