@@ -11,7 +11,7 @@ const buttonData = [
       label: 'BBQ',
       value: 'bbq',
       img: 'https://i.imgur.com/Hd4m9tA.png',
-      description: "Houston’s BBQ scene is a true Texas treasure, offering a mouthwatering array of smoky, tender meats. From slow-cooked brisket to savory ribs, every bite is packed with flavor. Local spots like Franklin BBQ and Hickory Hollow showcase regional techniques, blending wood and spices for that perfect charred finish. Whether you prefer it tangy or with a spicy kick, Houston’s BBQ never disappoints."
+      description: "Houston’s BBQ scene is a true Texas treasure, offering a mouthwatering array of smoky, tender meats. From slow-cooked brisket to savory ribs, every bite is packed with flavor. Local spots like Triple J's Smokehouse and Gatlin's BBQ showcase regional techniques, blending wood and spices for that perfect charred finish. Whether you prefer it tangy or with a spicy kick, Houston’s BBQ never disappoints."
     },
     {
       label: 'Burgers',
@@ -30,7 +30,7 @@ const buttonData = [
       title: 'Fried Chicken & Wings',
       value: 'chicken',
       img: 'https://i.imgur.com/pcpFRIn.png',
-      description: "Houston’s fried chicken and wing scene is a flavorful mix of crispy perfection and bold spices. Whether you’re craving classic Southern fried chicken or tangy buffalo wings, local favorites like Frenchy’s and The Wing Station deliver mouthwatering bites. With crispy coatings, juicy meat, and a variety of sauces, Houston’s chicken spots are sure to satisfy any craving for crispy, savory goodness."
+      description: "Houston’s fried chicken and wing scene is a flavorful mix of crispy perfection and bold spices. Whether you’re craving classic Southern fried chicken or tangy buffalo wings, local favorites like Frenchy’s and The Wing Boss deliver mouthwatering bites. With crispy coatings, juicy meat, and a variety of sauces, Houston’s chicken spots are sure to satisfy any craving for crispy, savory goodness."
     },
     {
       label: 'Crawfish',
@@ -42,7 +42,7 @@ const buttonData = [
       label: 'Dessert',
       value: 'dessert',
       img: 'https://i.imgur.com/hBs26Dr.png',
-      description: "Houston’s dessert scene is a sweet treat for every craving. From decadent chocolate cakes to creamy pies, local spots like The Dessert Gallery and Common Bond Bakery offer indulgent delights. With unique twists on classics and fresh, local ingredients, Houston’s desserts satisfy every sweet tooth, making it a must-visit for dessert lovers."
+      description: "Houston’s dessert scene is a sweet treat for every craving. From decadent chocolate cakes to creamy pies, local spots like House of Pies and Common Bond Bakery offer indulgent delights. With unique twists on classics and fresh, local ingredients, Houston’s desserts satisfy every sweet tooth, making it a must-visit for dessert lovers."
     },
     {
       label: 'Dumplings',
@@ -54,7 +54,7 @@ const buttonData = [
       label: 'Hotdogs',
       value: 'hotdogs',
       img: 'https://i.imgur.com/RopOANW.png',
-      description: "Houston’s hot dog and Korean corn dog scene is a mix of classic and creative flavors. From traditional all-beef dogs at local favorites like The Original Hot Dog Factory to the crispy, cheesy Korean corn dogs at places like Yummy Dog, there's something for every craving. With unique toppings and innovative twists, these bites are a must-try for street food enthusiasts."
+      description: "Houston’s hot dog and Korean corn dog scene is a mix of classic and creative flavors. From traditional all-beef dogs at local favorites like Midwest Coney Connection to the crispy, cheesy Korean corn dogs at places like Two Hands, there's something for every craving. With unique toppings and innovative twists, these bites are a must-try for street food enthusiasts."
     },
     {
       label: 'Pho',

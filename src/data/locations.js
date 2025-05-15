@@ -832,7 +832,7 @@ const locations = [
         subcategory: ['seafood', 'crawfish'],
         badges: ['drive thru', 'outdoor seating'],
         coordinates: [29.790529597726433, -95.39167411678872],
-        neighborhood: 'Northside',
+        neighborhood: 'Heights',
         img: 'https://i.imgur.com/2hKXN1q.png',
         website: 'https://www.theboilhouse.com',
         blurb: 'Open-air counter-serve featuring Cajun crawfish & shrimp boils with corn, plus outside tables.',
@@ -1117,7 +1117,7 @@ const locations = [
     {
         name: 'The Burger Joint',
         category: 'food',
-        subcategory: ['burgers'],
+        subcategory: ['burgers', 'sandwiches'],
         badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.804033915214887, -95.40988938793168],
         neighborhood: 'Heights',
@@ -1398,6 +1398,89 @@ const locations = [
         website: 'https://bungalowdining.com',
         blurb: 'Upscale steakhouse and cocktail bar with a variety of dining areas and a rooftop patio, plus happy hours.',
         description: ['$100+/person', 'Fried Lobster Tail', 'Truffle Pasta']
+    },
+    {
+        name: "Baby Barnaby's",
+        category: 'food',
+        subcategory: ['breakfast'],
+        coordinates: [29.748292986935475, -95.38827045199021],
+        neighborhood: 'Monstrose',
+        img: 'https://i.imgur.com/ljqqBip.png',
+        website: 'https://barnabyscafe.com/babybreakfast.html',
+        blurb: 'Casual, beloved American eatery specializing in breakfast, including pancakes and chicken and waffles.',
+        description: ['Migas', 'Breakfast Tacos', 'Steak & Eggs']
+    },
+    {
+        name: 'Common Bond Bistro & Bakery',
+        category: 'food',
+        subcategory: ['dessert'],
+        badges: ['contactless payments accepted', 'alcohol available'],
+        coordinates: [29.803464186060143, -95.40545136861638],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/jfgsXxd.png',
+        website: 'https://www.commonbondcafe.com',
+        blurb: 'Neighborhood bistro, bakery, brassery, and on-the-go restaurants where the community gathers to bond over exceptional pastries.',
+        description: ['Macarons', 'Croissants', 'Weekend Brunch']
+    },
+    {
+        name: 'Pho Binh',
+        category: 'food',
+        subcategory: ['pho', 'ricebowl'],
+        badges: ['contactless payments accepted', 'alcohol available'],
+        coordinates: [29.78181156056512, -95.39020429631103],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/XQz3Cup.png',
+        website: 'https://www.orderphobinhheights.com',
+        blurb: 'Homemade pho & banh mi, plus rice & noodle dishes, offered in an informal Vietnamese eatery.',
+        description: ['Cocktails', 'Rice plates', 'Banh Mi']
+    },
+    {
+        name: 'Pho Saigon',
+        category: 'food',
+        subcategory: ['pho', 'ricebowl'],
+        badges: ['contactless payments accepted'],
+        coordinates: [29.74513432872236, -95.37761516227405],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/YpuHNcE.png',
+        website: 'https://www.thephosaigon.com',
+        blurb: 'Informal eatery serving a variety of beef noodle soups (pho) & other classic Vietnamese fare.',
+        description: ['Smoothies', 'Rice & Noodles', 'Pho']
+    },
+    {
+        name: 'The Finn',
+        category: 'food',
+        subcategory: ['hall'],
+        badges: ['paid parking', 'contactless payments accepted', 'alcohol available'],
+        coordinates: [29.75871439561315, -95.3637995326293],
+        neighborhood: 'downtown',
+        img: 'https://i.imgur.com/478RJDK.png',
+        website: 'https://www.thefinnhou.com',
+        blurb: 'European-inspired, art deco food hall with casual, diverse dining options, bars & a cocktail lounge.',
+        description: ['Cocktail lounge', 'Trendy', 'Diverse dining options']
+    },
+    {
+        name: 'Pappas Bros. Steakhouse',
+        category: 'food',
+        subcategory: ['upscale', 'steak'],
+        badges: ['michelin rated', 'alcohol available'],
+        coordinates: [29.737239070730556, -95.48167207941405],
+        neighborhood: 'Greater Uptown',
+        img: 'https://i.imgur.com/hVoFHzy.png',
+        website: 'https://pappasbros.com/home/',
+        blurb: 'Premier destination for top-quality, dry-aged steaks, an award-winning wine list, and impeccable service in a classic, upscale setting.',
+        description: ['Lamb chops', 'Filet Mignon', 'Prime New York Strip']
+    },
+    {
+        name: "Brennan's Houston",
+        category: 'food',
+        subcategory: ['upscale', 'steak'],
+        badges: ['contactless payments accepted', 'alcohol available'],
+        coordinates: [29.742998333612533, -95.38144482186182],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/32yPlr0.png',
+        website: 'https://www.brennanshouston.com',
+        blurb: 'New Orleans character & cuisine shine at this decadent eatery serving turtle soup, oysters & more.',
+        description: ['Crawfish Enchilada', 'Grilled Oysters', 'Snapping Turtle Soup']
     },
     // Bars
     {
