@@ -34,7 +34,7 @@ const Location = ({item, setLat, setLon, setZoom}) => {
 
             {/* Name */}
             <a className='location__details--name' href={item.website} target='_blank'>
-                {item.name}
+                <span>{item.name}</span>
             </a>
             
             {/* Blurb */}
