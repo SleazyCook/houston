@@ -128,7 +128,7 @@
     font-family: inherit;
     font-size: inherit;
     color: inherit;
-    background-color: green;
+    background-color: var(--orange);
     margin-right: .5rem;
 }
 
@@ -136,7 +136,7 @@
     all: unset;
     display: inline-block;
     text-decoration: none;
-    background-color: blue;
+    background-color: var(--darkblue);
 }
 
 .location__details--map-btn,
