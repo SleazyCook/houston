@@ -15,8 +15,12 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
   const list = restaurantsFiltered;
 
   useEffect(() => {
-    window.scrollTo({top: 0, left: 0})
-  }, [])
+    const timer = setTimeout(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); // optional smooth
+    }, 100); // Delay by 100ms
+
+    return () => clearTimeout(timer);
+  }, []);
 
   // Handle category change
   const changeCategory = (e) => {
