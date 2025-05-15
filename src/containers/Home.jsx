@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+import Highlight from '../components/Highlight';
 import Weather from '../components/Weather';
 import Leaflet from "../map/Leaflet";
 import locations from "../data/locations";
@@ -21,7 +22,7 @@ const Home = ({lat, lon, zoom, setZoom}) => {
 
       <div className='home__widgets-box'>
         <Weather />
-        <div className='temp-element'>temporary element. eventbrite api call here?</div>
+        <Highlight />
       </div>
 
       <Leaflet lat={lat} lon={lon} zoom={zoom} setZoom={setZoom}/>

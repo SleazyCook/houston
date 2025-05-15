@@ -1,0 +1,107 @@
+/* Widget Box */
+.home__widgets-box {
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem 0;
+}
+
+/* Weather Widget */
+.weather-widget {
+    background-color: lightblue;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 1rem 0; */
+    border-radius: 1rem 0 0 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 
+    0px 1px 3px rgba(0, 0, 0, 0.08);
+    height: 8rem;
+    width: 8rem;
+    color: #002147;
+    font-family: 'Ranchers';
+}
+
+.weather-widget--unavailable {
+    text-align: center;
+}
+
+.weather-widget span {
+    display: block;
+    font-family: 'Ranchers';
+    color: #002147;
+}
+
+.weather-widget__city {
+    font-size: 1rem;
+    font-size: .8rem;
+}
+
+.weather-widget__icon {
+    font-size: 3rem;
+}
+
+.weather-widget__temp {
+    font-size: 1.5rem;
+
+    letter-spacing: .5px;
+
+}
+
+.highlight {
+    background-color: grey;
+    background-color: var(--darkblue);
+    color: var(--orange);
+    border-radius: 0 1rem 1rem 0;
+    width: calc(100% - 1rem);
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+    display: flex;
+}
+
+.highlight__img {
+    border-right: 1px solid var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: .5rem;
+}
+
+.highlight__img  img{
+    max-height: 6rem;
+}
+
+.highlight__details {
+    padding-left: .5rem;
+    padding-top: .25rem;
+}
+
+.highlight__header {
+    font-family: 'Ranchers';
+    letter-spacing: .05rem;
+    border-bottom: 1px solid var(--orange);
+}
+
+.highlight__header span,
+.highlight__description span {
+    font-family: 'Avenir Next Condensed';
+    letter-spacing: 0;
+}
+
+.highlight__description {
+    font-family: 'Canto';
+}
+
+@media (max-width: 600px) {
+    .highlight {
+        padding-left: .25rem;
+    }
+
+    .highlight__img {
+        display: none;
+    }
+}

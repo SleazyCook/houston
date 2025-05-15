@@ -35,21 +35,6 @@
     font-family: 'Avenir Next Condensed';
 }
 
-/* Widget Box */
-.home__widgets-box {
-    display: flex;
-    justify-content: space-around;
-    margin: .5rem 0;
-}
-
-.temp-element {
-    background-color: grey;
-    background-color: var(--darkblue);
-    color: var(--orange);
-    border-radius: 0 1rem 1rem 0;
-    width: 100%;
-}
-
 @media (max-width: 600px) {
     .home__header h1 {
         font-size: 2rem;
