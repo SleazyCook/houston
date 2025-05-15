@@ -22,7 +22,7 @@ const Weather = () => {
                 };
                 localStorage.setItem(CACHE_KEY, JSON.stringify(cacheEntry));
 
-                console.log('Last fetch ran at:', new Date().toLocaleString());
+                console.log('Last fetch for weather data ran at:', new Date().toLocaleString());
 
                 setWeatherData(data[0]);
             } catch (error) {
@@ -102,8 +102,6 @@ const Weather = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                 >
-                    {console.log('weather data: ', weatherData)}
-
                     <span className='weather-widget__icon'>
                         {getWeatherIcon(weatherData.WeatherText)}
                     </span>
