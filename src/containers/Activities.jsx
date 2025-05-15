@@ -58,8 +58,9 @@ const Activities = ({ setLat, setLon, setZoom}) => {
 
   return (
     <div>
-      <h1>Activities</h1>
-      <p>List of my favorite activities in Houston.</p>
+      <h2 className='listing__header listing__header--activities'>
+        <span>Out in H-Town
+          </span></h2>
 
       {/* Category Names */}
       <div className='category-btn__box'>

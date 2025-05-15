@@ -58,7 +58,9 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
   return (
     <div className='restaurant-listing'>
-      <h2>Houston Eats</h2>
+      <h2 className='listing__header listing__header--food'>
+        <span>Houston Eats
+          </span></h2>
 
       {/* Category Names */}
       <div className='category-btn__box'>

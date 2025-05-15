@@ -1,3 +1,29 @@
+.listing__header {
+    background-image: url('https://i.imgur.com/b1slPLQ.jpeg');
+    background-size: cover;
+    height: 8rem;
+    margin-top: -20px;
+    color: yellow;
+    font-family: 'Lacquer';
+    font-size: 3rem;
+    display: flex;  
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+/* .listing__header--food {
+    color: yellow;
+} */
+
+.listing__header--activities {
+    background-image: url('https://i.imgur.com/kQ3zUQc.jpeg');
+}
+
+.listing__header span {
+    margin-left: 2rem;
+}
+
 .category__header {
     width: 900px;
     margin: 0 auto;
@@ -26,6 +52,12 @@
 
 /* MOBILE */
 @media (max-width: 600px) {
+    .listing__header {
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+
     .category__header {
         max-width: 90%;
         padding: .25rem;
