@@ -1,0 +1,18 @@
+.location-details-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--darkblue);
+    padding-top: 2rem;
+    min-height: 75svh;
+}
+
+.see-more-container {
+    background-color: var(--darkblue);
+}
+
+.see-more-container a {
+    background-color: white;
+}
+

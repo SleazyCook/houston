@@ -12,6 +12,7 @@ import './styles/components/location-card.css';
 import './styles/components/widgets.css';
 import './styles/containers/home.css';
 import './styles/containers/listing-page.css';
+import './styles/containers/location-page.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

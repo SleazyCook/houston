@@ -80,6 +80,6 @@
     all: unset; */
     border-radius: 50px;
     text-decoration: none;
-    background-color: blue;
+    background-color: var(--darkblue);
     color: white !important;
 }
