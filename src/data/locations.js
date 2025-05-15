@@ -1375,6 +1375,30 @@ const locations = [
         blurb: 'Casual eatery dishing up wings with a variety of sauces, plus fries, and cocktails.',
         description: ['Honey Zesty Garlic', 'Boudin Rolls', 'Fried Fish']
     },
+    {
+        name: "Gatlin's BBQ",
+        category: 'food',
+        subcategory: ['bbq'],
+        badges: ['black owned', 'alcohol available'],
+        coordinates: [29.820401606873304, -95.4290753018217],
+        neighborhood: 'Oak Forest',
+        img: 'https://i.imgur.com/G4TntbI.png',
+        website: 'https://www.gatlinsbbq.com',
+        blurb: 'Family-owned business with smoked meats, including beef ribs & brisket, from a mobile service.',
+        description: ['EJ Combo', 'Mac & Cheese', 'Spare Ribs Baked Potato']
+    },
+    {
+        name: 'Bungalow',
+        category: 'food',
+        subcategory: ['upscale', 'steak'],
+        badges: ['black owned', 'open late', 'alcohol available'],
+        coordinates: [29.76120075311379, -95.36138143591064],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/UOxUaUr.png',
+        website: 'https://bungalowdining.com',
+        blurb: 'Upscale steakhouse and cocktail bar with a variety of dining areas and a rooftop patio, plus happy hours.',
+        description: ['$100+/person', 'Fried Lobster Tail', 'Truffle Pasta']
+    },
     // Bars
     {
         name: 'Axelrad',
