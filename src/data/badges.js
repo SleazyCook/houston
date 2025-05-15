@@ -4,6 +4,10 @@ const badges = [
         img: 'https://i.imgur.com/SqAtyA5.png'
     },
     {
+        name: 'black owned',
+        img: 'https://i.imgur.com/JtQYrba.png'
+    },
+    {
         name: 'open late',
         img: 'https://i.imgur.com/466PcN4.png'
     },
