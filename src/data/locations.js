@@ -2814,7 +2814,7 @@ const locations = [
         description: ['Home of the Texans', 'Arena Concerts', 'Houston Rodeo']
     },
     {
-        name: 'The Hobby Center for Performing Arts',
+        name: 'The Hobby Center',
         category: 'attraction',
         subcategory: ['comedy'],
         badges: ['paid parking', 'alcohol available', 'live music'],
@@ -2827,7 +2827,7 @@ const locations = [
     },
     // Photo Opp
     {
-        name: 'White Oak Bayou Rails to Trail Bridge',
+        name: 'White Oak Bayou Rails Bridge',
         category: 'photo',
         coordinates: [29.765619728541605, -95.35796023407394],
         neighborhood: 'Downtown',
