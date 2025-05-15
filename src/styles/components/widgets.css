@@ -2,7 +2,7 @@
 .home__widgets-box {
     display: flex;
     justify-content: space-around;
-    margin: .5rem 0;
+    margin: .5rem;
 }
 
 /* Weather Widget */
@@ -59,8 +59,8 @@
     width: calc(100% - 1rem);
     padding-left: .5rem;
     padding-right: .5rem;
-
     display: flex;
+    cursor: pointer;
 }
 
 .highlight__img {
@@ -78,6 +78,8 @@
 .highlight__details {
     padding-left: .5rem;
     padding-top: .25rem;
+    width: 100%;
+    position: relative;
 }
 
 .highlight__header {
@@ -96,12 +98,45 @@
     font-family: 'Canto';
 }
 
+.highlight__map-btn {
+    all: unset;
+    display: inline-block; 
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--orange);
+    font-family: "Avenir Next Condensed";
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 0 1rem;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50px;
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
 @media (max-width: 600px) {
+    .home__widgets-box {
+        margin: .5rem 0;
+    }
+
     .highlight {
         padding-left: .25rem;
     }
 
-    .highlight__img {
+    .highlight__img,
+    .highlight__description  {
         display: none;
+    }
+
+    .highlight__map-btn {
+        line-height: 36px;
+        bottom: 20px;
     }
 }

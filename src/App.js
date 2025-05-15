@@ -40,7 +40,9 @@ function App() {
                   element={
                     <Home 
                       lat={lat} 
+                      setLat={setLat}
                       lon={lon} 
+                      setLon={setLon}
                       zoom={zoom}
                       setZoom={setZoom}
                       key={lat}

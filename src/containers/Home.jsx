@@ -5,7 +5,7 @@ import Weather from '../components/Weather';
 import Leaflet from "../map/Leaflet";
 import locations from "../data/locations";
 
-const Home = ({lat, lon, zoom, setZoom}) => {
+const Home = ({lat, setLat, lon, setLon, zoom, setZoom}) => {
   const totalLocations = Object.keys(locations).length;
 
   return (
@@ -22,7 +22,7 @@ const Home = ({lat, lon, zoom, setZoom}) => {
 
       <div className='home__widgets-box'>
         <Weather />
-        <Highlight />
+        <Highlight setLat={setLat} setLon={setLon} setZoom={setZoom}/>
       </div>
 
       <Leaflet lat={lat} lon={lon} zoom={zoom} setZoom={setZoom}/>

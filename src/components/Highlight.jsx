@@ -1,11 +1,17 @@
 import { useState, useEffect } from 'react';
 import locations from '../data/locations';
 
-const Highlight = () => {
+const Highlight = ({setLat, setLon, setZoom}) => {
   const [highlight, setHighlight] = useState(() => {
     const saved = localStorage.getItem('highlight');
     return saved ? JSON.parse(saved) : null;
   });
+
+    const handleClick = () => {
+    setLat(highlight.coordinates[0]);
+    setLon(highlight.coordinates[1]);
+    setZoom(17);
+    };
 
   useEffect(() => {
     function pickRandomLocation() {
@@ -31,7 +37,7 @@ const Highlight = () => {
   }
 
   return (
-    <div className='highlight'>
+    <div className='highlight' onClick={handleClick}>
         <div className='highlight__img'>
             <img src={highlight.img} alt={`image for ${highlight.name}`} />
         </div>
@@ -42,6 +48,9 @@ const Highlight = () => {
                 <span>Neighborhood:</span> {highlight.neighborhood}</div>
             <div className='highlight__description'>
                 <span>Description:</span> {highlight.blurb}</div>
+            <button className='highlight__map-btn'>
+                View on Map
+            </button>
         </div>
 
     </div>
