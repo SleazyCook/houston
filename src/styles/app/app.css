@@ -73,6 +73,7 @@ html, body {
     color: white;
     text-decoration: none;
     font-size: 2rem;
+    font-family: 'Avenir Next Condensed';
     line-height: 2.5rem;
     transition: all .3s;
     height: 2.5rem;
