@@ -14,7 +14,7 @@ const Home = ({lat, lon, zoom, setZoom}) => {
         src='https://i.imgur.com/hrgsIPz.png' />
 
       <div className='home__header'>
-        <h1>Drew's Houston Spots</h1>
+        <h1>dREW's HOuSToN sPOTS</h1>
         <p>{totalLocations} locations recorded so far...</p>
       </div>
 
