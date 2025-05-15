@@ -60,7 +60,7 @@ const Weather = () => {
 
     if (!weatherData) {
         return(
-            <div>Weather loading...</div>
+            <div className='weather-widget weather-widget--unavailable'>H-Town <br/>Weather unavailable</div>
         )
     }
 
