@@ -1766,7 +1766,7 @@ const locations = [
         img: 'https://i.imgur.com/plw9xXM.png',
         website: 'https://www.jethroshouston.com',
         blurb: 'Casual, neighborhood cocktail lounge serving beer, wine, spirits, and espresso martinis.',
-        description: ['Happy Hour Burgers', 'Full Bar', 'Relaxing Atmospher']
+        description: ['Happy Hour Burgers', 'Full Bar', 'Relaxing Atmosphere']
     },
     {
         name: 'The Art Room HTX',
@@ -1954,6 +1954,7 @@ const locations = [
     {
         name: 'Chicha San Chen',
         category: 'coffee',
+        badges: ['michelin rated'],
         coordinates: [29.705427281762052, -95.55272318332219],
         neighborhood: 'Chinatown',
         img: 'https://i.imgur.com/S9Wr6rg.png',
