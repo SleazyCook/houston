@@ -26,7 +26,7 @@
     align-items: center;
     gap: 0.25em;
     cursor: pointer;
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
     letter-spacing: 0.1em;
 }
 
@@ -58,7 +58,7 @@
     padding: 0.5rem 1rem;
     background-color: #DBDBDB;
     color: black;
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
     text-transform: capitalize;
     border-radius: 1rem;
     cursor: pointer;

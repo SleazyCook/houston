@@ -62,13 +62,13 @@
 }
 
 .popup__blurb {
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", sans-serif;
     font-size: 15px;
 }
 
 .popup__content a {
     display: inline-block;
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", sans-serif;
     text-transform: uppercase;
 
     cursor: pointer;

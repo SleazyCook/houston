@@ -15,7 +15,7 @@
 
 .footer__acknowledgements p {
     text-align: center;
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
 }
 
 .footer__line {
