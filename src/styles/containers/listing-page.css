@@ -42,7 +42,7 @@
 }
 
 .category__header--description {
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
     padding-top: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;

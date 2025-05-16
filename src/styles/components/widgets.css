@@ -90,7 +90,7 @@
 
 .highlight__header span,
 .highlight__description span {
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
     letter-spacing: 0;
 }
 
@@ -107,7 +107,7 @@
     font-size: inherit;
     color: inherit;
     background-color: var(--orange);
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", sans-serif;
     text-transform: uppercase;
     color: white;
     cursor: pointer;

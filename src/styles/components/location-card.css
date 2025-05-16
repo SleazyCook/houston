@@ -61,7 +61,7 @@
     line-height: 1.2em;
     letter-spacing: .05em;
     text-transform: uppercase;
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", sans-serif;
     color: var(--orange);
     margin-top: 10px;
     margin-bottom: 5px;
@@ -106,7 +106,7 @@
 .location__details--description { 
     font-size: 16px;
     line-height: 1.6em;
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
     color: #666666;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -152,7 +152,7 @@
 
 .location__details--map-btn,
 .location__details--site-btn {
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", sans-serif;
     text-transform: uppercase;
     color: white;
     cursor: pointer;

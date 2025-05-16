@@ -32,7 +32,7 @@
 }
 
 .home__header p {
-    font-family: 'Avenir Next Condensed';
+    font-family: 'Avenir Next Condensed', sans-serif;
 }
 
 @media (max-width: 600px) {

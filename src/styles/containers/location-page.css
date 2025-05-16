@@ -19,7 +19,7 @@
 .see-more-container a {
     color: var(--darkblue);
     text-decoration: none;
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
     cursor: pointer;
