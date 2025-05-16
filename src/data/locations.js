@@ -2221,6 +2221,18 @@ const locations = [
         blurb: 'Gourmet veggies, meats & wine, plus an in-house cafe, food events & live music in a vast space.',
         description: ['Fancy H-E-B', 'Cooking classes', 'Premium groceries']
     },
+    {
+        name: 'M-K-T',
+        category: 'market',
+        subcategory: ['hall'],
+        badges: ['contactless payments accepted', 'alcohol available'],
+        coordinates: [29.782477728835328, -95.40796615849794],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/iqolIM0.png',
+        website: 'https://www.themkt.com',
+        blurb: 'Trail-oriented complex with a mix of shops and restaurants, some offering outdoor seating.',
+        description: ['Blue Sushi', 'La La Land Coffee', 'Walking Trails']
+    },
     // Movie Theaters
     {
         name: 'AMC Willowbrook 24',
@@ -2741,7 +2753,19 @@ const locations = [
         img: 'https://i.imgur.com/PtL0PQs.png',
         website: 'https://www.houstondynamofc.com/shell-energy-stadium/',
         blurb: "Shell Energy Stadium is an American multi-purpose stadium located in Houston, Texas, that is home to Houston Dynamo FC, a Major League Soccer club and the Houston Dash of the National Women's Soccer League and was the first soccer specific stadium built in a major metropolitan downtown city.",
-        description: ['Houston Dynamo', 'Houston Dash', 'Diverse Food Options']
+        description: ['Home of the Dynamo', 'Home of the Dash', 'Diverse Food Options']
+    },
+    {
+        name: 'Daikin Park',
+        category: 'attraction',
+        subcategory: ['baseball'],
+        badges: ['paid parking', 'alcohol available'],
+        coordinates: [29.756949099940385, -95.35528934297224],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/pI1A6fu.png',
+        website: 'https://www.mlb.com/astros/ballpark',
+        blurb: "Astros' home ballpark with retractable roof, plenty of concessions options & a train station theme.",
+        description: ['Home of the Astros', 'themed nights', 'hotdogs']
     },
     {
         name: 'Kemah Boardwalk',

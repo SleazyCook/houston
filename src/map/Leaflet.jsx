@@ -23,6 +23,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
 
     const sub = location.subcategory?.[0];
     if (sub === 'soccer') return icons.soccer;
+    if (sub === 'baseball') return icons.baseball;
     if (sub === 'kemah') return icons.kemah;
     if (sub === 'gokart') return icons.gokart;
     if (sub === 'meow') return icons.meow;

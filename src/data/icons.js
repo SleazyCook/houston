@@ -2,14 +2,14 @@
 
 import { renderToStaticMarkup } from 'react-dom/server';
 import { BsJoystick, BsCameraFill } from "react-icons/bs";
-import { FaIceCream, FaCocktail } from 'react-icons/fa';
+import { FaIceCream, FaCocktail} from 'react-icons/fa';
 import { FaBurger, FaHotdog, FaPizzaSlice, FaBook, FaBagShopping, FaMusic } from 'react-icons/fa6';
 import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage } from "react-icons/gi";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 import { IoIosBowtie } from "react-icons/io";
 import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
 import { MdRamenDining, MdTheaterComedy } from "react-icons/md";
-import { PiFilmReelFill, PiCatFill } from "react-icons/pi";
+import { PiFilmReelFill, PiCatFill, PiBaseballHelmetFill  } from "react-icons/pi";
 import { RiTreeFill } from "react-icons/ri";
 import { SiBuymeacoffee } from "react-icons/si";
 
@@ -48,6 +48,7 @@ export const icons = {
 
     // Custom
     soccer: makeSvgDataUrl(<GiSoccerBall size={38} color="#222222"  />),
+    baseball: makeSvgDataUrl(<PiBaseballHelmetFill size={38} color="#222222"  />),
     kemah: makeSvgDataUrl(<LuFerrisWheel size={38} color="#222222"  />),
     gokart: makeSvgDataUrl(<BsJoystick size={38} color="#222222"  />),
     meow: makeSvgDataUrl(<PiCatFill size={38} color="#222222"  />),
