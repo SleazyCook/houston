@@ -8,6 +8,8 @@ import Footer from './app/Footer';
 // Containers
 import Home from './containers/Home'
 import LocationPage from './containers/LocationPage';
+import Neighborhoods from './containers/Neighborhoods';
+import NeighborhoodPage from './containers/NeighborhoodPage';
 import Restaurants from './containers/Restaurants';
 import Activities from './containers/Activities';
 import About from './containers/About'
@@ -15,6 +17,7 @@ import About from './containers/About'
 // Utilities
 import ScrollToTopReroute from './utils/ScrollToTopReroute';
 import ScrollToTopButton from './utils/ScrollToTopButton'; // update path as needed
+
 
 
 function App() {
@@ -77,6 +80,12 @@ function App() {
                     />
                   } 
                 />
+                <Route
+                  path="/neighborhoods"
+                  element={<Neighborhoods />} />
+                <Route 
+                  path="/neighborhoods/:slug" 
+                  element={<NeighborhoodPage />} />
                 <Route 
                   path="/about" 
                   element={<About />} />
