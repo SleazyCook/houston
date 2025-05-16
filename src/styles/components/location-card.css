@@ -205,7 +205,7 @@
     }
 
     .location__details--name::after {
-        width: 340px;
+        width: calc(100% - .6rem);
         height: 365px;
         top: 5px;
         left: 5px;
