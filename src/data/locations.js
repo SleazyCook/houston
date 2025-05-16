@@ -1482,6 +1482,18 @@ const locations = [
         blurb: 'New Orleans character & cuisine shine at this decadent eatery serving turtle soup, oysters & more.',
         description: ['Crawfish Enchilada', 'Grilled Oysters', 'Snapping Turtle Soup']
     },
+    {
+        name: 'Gypsy Poet',
+        category: 'food',
+        subcategory: ['pizza'],
+        badges: ['contactless payments accepted', 'alcohol available'],
+        coordinates: [29.790590582826006, -95.3874896355487],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/yOoyMEf.png',
+        website: 'https://tgp.revelup.online/store/2/category/156/subcategory/157',
+        blurb: 'Live poetry, open-mic sessions & patio dining at a popular hangout for artisanal wood-fired pizza.',
+        description: ['Fancy Backpacker', 'Dream Catcher', "Margherita 'The Queen'"]
+    },
     // Bars
     {
         name: 'Axelrad',
