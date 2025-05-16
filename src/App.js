@@ -13,6 +13,7 @@ import Activities from './containers/Activities';
 import About from './containers/About'
 
 // Utilities
+import ScrollToTopReroute from './utils/ScrollToTopReroute';
 import ScrollToTopButton from './utils/ScrollToTopButton'; // update path as needed
 
 
@@ -24,10 +25,11 @@ function App() {
 
   return (
       <Router>
-
         <div className='app-router-wrapper'>
           <div className='app-router-wrapper__inner' ref={scrollRef}>
-          
+
+
+          <ScrollToTopReroute />
           <ScrollToTopButton targetRef={scrollRef} />
 
             <Navigation 
