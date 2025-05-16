@@ -14,12 +14,6 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
   const list = restaurantsFiltered;
 
-  // useEffect(() => {
-  //   if ('scrollRestoration' in window.history) {
-  //     window.history.scrollRestoration = 'manual';
-  //   }
-  // }, []);
-
   // Handle category change
   const changeCategory = (e) => {
     const { value } = e.currentTarget;

@@ -85,7 +85,11 @@ function App() {
                   element={<Neighborhoods />} />
                 <Route 
                   path="/neighborhoods/:slug" 
-                  element={<NeighborhoodPage />} />
+                  element={
+                    <NeighborhoodPage 
+                      setLat={setLat} 
+                      setLon={setLon} 
+                      setZoom={setZoom}/>} />
                 <Route 
                   path="/about" 
                   element={<About />} />
