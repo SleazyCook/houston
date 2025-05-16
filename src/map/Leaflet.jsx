@@ -113,7 +113,12 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
             <div class='popup__content'>
               <span class='popup__neighborhood'>${location.neighborhood}</span>
               <span class='popup__name'>${location.name}</span>
-              <span class='popup__blurb'>${location.blurb}</span><br>
+              <span className='popup__blurb'>
+                ${location.blurb?.length > 100
+                  ? `${location.blurb.slice(0, 280)}...`
+                  : location.blurb}
+              </span>
+              <br>
               <a href="/location/${generateLocationSlug(location)}">View Details</a>
             </div>
           </div>`);
