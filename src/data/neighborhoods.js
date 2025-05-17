@@ -204,6 +204,10 @@ const neighborhoodBlurbs = [
         blurb: "Spring, Texas offers a delightful mix of historic charm and modern dining. In Old Town Spring, Wunsche Bros. Café & Saloon, established in 1902, serves hearty American fare in a historic setting . Nearby, Adriatic Café Italian Grill offers flavorful Italian dishes in a cozy atmosphere. The community comes together for events like the Memorial Funky Food Truck Mania, celebrating food and fun . Whether you're exploring local eateries or enjoying community festivities, Spring provides a welcoming environment for all."
     },
     {
+        name: 'Sugarland',
+        blurb: "Sugar Land is where global flavors meet Texas hospitality. From the bustling Sugar Land Town Square to vibrant spots along Highway 6, you’ll find everything from fresh sushi with a Latin twist to classic Creole gumbo and hearty Tex-Mex. Whether you’re craving an upscale steakhouse dinner, Southern comfort food, or authentic Filipino dishes, Sugar Land’s diverse dining scene serves up something delicious for every appetite."
+    },
+    {
         name: 'Summerwood',
         blurb: "Summerwood is a vibrant, master-planned community in northeast Houston, offering a blend of diverse dining options and active community life. Residents and visitors can enjoy a variety of restaurants, including Café Rian Cajun Café, known for its Louisiana-inspired dishes, and Bocca Italian Kitchen, offering classic Italian fare. For those craving Asian cuisine, Akashi Asian Bistro & Sushi Bar provides a fusion of Japanese and Chinese flavors in a chic setting. Other local favorites include Bangkok Social, Taste of Paris, and Urban Bird Hot Chicken, each offering unique culinary experiences."
     },
