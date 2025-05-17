@@ -30,7 +30,7 @@ const Neighborhoods = () => {
 
   return (
     <div className="neighborhood-list">
-      <h2>Neighborhoods ({filtered.length}/{neighborhoods.length})</h2>
+      <h2>NeigHBorHoods <span>({filtered.length}/{neighborhoods.length})</span></h2>
       <input
         type="text"
         placeholder="Search neighborhoods..."
@@ -38,11 +38,11 @@ const Neighborhoods = () => {
         onChange={e => setQuery(e.target.value)}
         className="neighborhood-search"
       />
-      <ul>
-        {console.log('filtered:', filtered)}
+
+      <ul className='neighborhoods'>
 
         {filtered.map((name, index) => (
-          <li key={index}>
+          <li className='neighborhood' key={index}>
             <Link to={`/neighborhoods/${slugify(name)}`}>
               {name}
             </Link>

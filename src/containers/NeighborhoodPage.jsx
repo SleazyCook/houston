@@ -45,7 +45,7 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
         <div>
             <h1>{matched.neighborhood}</h1>
             <p>{blurbObj.blurb.length && blurbObj.blurb}</p>
-            <b>Everything logged in this neighborhood: </b>
+
             <div className='location__container'>
                 {allInNeighborhood.map((item, key) => {
                     return (

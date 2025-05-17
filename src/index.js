@@ -13,6 +13,7 @@ import './styles/components/widgets.css';
 import './styles/containers/home.css';
 import './styles/containers/listing-page.css';
 import './styles/containers/location-page.css';
+import './styles/containers/neighborhood.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

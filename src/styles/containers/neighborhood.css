@@ -1,0 +1,93 @@
+/* .neighborhoods {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.neighborhood { 
+    height: 5rem;
+    min-width: 5rem;
+    border: 1px solid red;
+
+} */
+
+.neighborhood-list {
+    background-color: black;
+}
+
+.neighborhood-list h2 {
+    color: yellow;
+    font-family: 'Lacquer';
+    padding-left: 2rem;
+    background-image: url('https://i.imgur.com/CMEvmRx.png');
+    background-size: cover;
+    height: 5rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.neighborhood-list h2 span {
+    color: white;
+    font-family: 'Avenir Next Condensed';
+}
+
+.neighborhood-search {
+  width: calc(100% - 1rem);
+  margin: .5rem;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.neighborhood-search:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 5px rgba(0, 119, 255, 0.5);
+}
+
+.neighborhoods {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem; /* optional spacing between items */
+    padding: .5rem;
+    background-color: black;
+}
+
+.neighborhood {
+    height: 5rem;
+    min-width: 5rem;
+    max-width: 8rem;
+    border: 2px solid var(--orange);
+    flex-grow: 1; /* lets items grow to fill space */
+    flex-basis: 5rem; /* starting width before growing */
+    /* optionally: flex-shrink: 1 (default), or flex: 1 1 5rem */
+}
+
+.neighborhood a {
+    text-decoration: none;
+    font-family: 'Ranchers';
+    letter-spacing: 0.5px;
+    color: var(--orange);
+    background-color: var(--darkblue);
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;       /* center multiline text */
+    white-space: normal;      /* allow wrapping */
+    word-wrap: break-word;    /* break long words if needed */
+}
