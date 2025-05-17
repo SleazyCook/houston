@@ -95,6 +95,10 @@
 
 /* Neighborhood - Single Details Page */
 
+.neighborhood-details-page {
+    min-height: 80svh;
+}
+
 .neighborhood-details__title {
     font-family: 'Canto';
     padding: .5rem;

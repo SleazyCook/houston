@@ -9,6 +9,8 @@
 // Photo Opp
 // Attractions (nrg, toyota, kemah)
 
+import neighborhoodBlurbs from "./neighborhoods";
+
 const locations = [
     // Restaurants
     {
@@ -1869,7 +1871,17 @@ const locations = [
         blurb: 'High-end sports-bar chain with a huge menu of New American fare & an extensive list of draft beers.',
         description: ['Sports Bar', 'Pizzas', 'Appetizers']
     },
-
+    {
+        name: 'Chapman & Kirby',
+        category: 'bar',
+        badges: ['paid parking', 'contactless payments accepted', 'alcohol available'],
+        coordinates: [29.75031619530131, -95.35603401249799],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/K5BPn2L.png',
+        website: 'https://www.chapmanandkirby.com',
+        blurb: 'Sprawling, retro-chic American gastropub & nightlife spot offering creative cocktails & local beer.',
+        description: ['Sunday Brunch', 'Wine', 'Cocktails']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
