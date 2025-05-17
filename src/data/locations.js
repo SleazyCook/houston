@@ -1508,6 +1508,18 @@ const locations = [
         blurb: 'Long-running chain serving spicy fried chicken & comfort sides in a low-key setting.',
         description: ['Fried Okra', 'Jalapenos', 'Great Fried Chicken']
     },
+    {
+        name: "Japaneiro's",
+        category: 'food',
+        subcategory: ['sushi'],
+        badges: ['paid parking', 'NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        coordinates: [29.597236327219413, -95.6215611475929],
+        neighborhood: 'Sugarland',
+        img: 'https://i.imgur.com/P3TDzJW.png',
+        website: 'https://www.japaneiro.com',
+        blurb: 'Inventive Japanese-Latin eats including fusion sushi rolls & margaritas served in a bustling space.',
+        description: ['Angus Tostadas', 'Japacado', 'Tajadas']
+    },
     // Bars
     {
         name: 'Axelrad',
