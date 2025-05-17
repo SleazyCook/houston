@@ -2322,7 +2322,7 @@ const locations = [
         name: 'Star Cinema Grill - HWY 249',
         category: 'movies',
         coordinates: [29.994647477255967, -95.57278076841475],
-        neighborhood: 'Vintage Park',
+        neighborhood: 'Tomball',
         img: 'https://i.imgur.com/MTkFi0H.png',
         website: 'https://starcinemagrill.net',
         blurb: 'Stylish theater chain for new & classic films features cocktails & creative bites served seat-side.',
