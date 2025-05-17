@@ -573,7 +573,7 @@ const locations = [
         category: 'food',
         subcategory: ['ricebowl'],
         coordinates: [29.79111201462518, -95.37286016530489],
-        neighborhood: 'Norhill',
+        neighborhood: 'Northside',
         img: 'https://i.imgur.com/ZIICkRg.jpg',
         website: 'http://www.asiamarketthailaofoods.com',
         blurb: 'Established storefront supplying Asian produce & groceries, also serving a Thai lunch & dinner menu.',
@@ -1496,6 +1496,18 @@ const locations = [
         blurb: 'Live poetry, open-mic sessions & patio dining at a popular hangout for artisanal wood-fired pizza.',
         description: ['Fancy Backpacker', 'Dream Catcher', "Margherita 'The Queen'"]
     },
+    {
+        name: "Gus's World Famous Fried Chicken",
+        category: 'food',
+        subcategory: ['chicken'],
+        badges: ['contactless payments accepted', 'alcohol available'],
+        coordinates: [29.76760581182867, -95.37654662971858],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/VBGM7c8.png',
+        website: 'https://www.gusfriedchicken.com/locations/houston-texas',
+        blurb: 'Long-running chain serving spicy fried chicken & comfort sides in a low-key setting.',
+        description: ['Fried Okra', 'Jalapenos', 'Great Fried Chicken']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -1752,7 +1764,7 @@ const locations = [
         subcategory: ['sandwiches'],
         badges: ['open late', 'outdoor seating', 'alcohol available'],
         coordinates: [29.75432446959847, -95.45728990091776],
-        neighborhood: 'Uptown Park',
+        neighborhood: 'Uptown',
         img: 'https://i.imgur.com/wajbCUB.png',
         website: 'https://www.postinowinecafe.com/locations/postino-uptown-park',
         blurb: 'Hip chain in a modern-chic sapce, specializing in Italian favorites and specialty bruschetta, plus wine.',
@@ -1937,7 +1949,7 @@ const locations = [
         name: 'Lanier Theological Library',
         category: 'books',
         coordinates: [29.977528244026878, -95.54897270621879],
-        neighborhood: 'Prestonwood Forest',
+        neighborhood: 'Willowbrook',
         img: 'https://i.imgur.com/v8Pmeg7.png',
         website: 'https://lanierlibraryandlearningcenter.org',
         blurb: 'Lanier Theological Library is a 17,000 sq. ft non-circulating research library located in northwest Houston, Texas. It was built by Mark Lanier, who has taught Sunday school at Champion Forest Baptist Church for more than 20 years, and is part of his 35-acre estate.',
