@@ -16,7 +16,7 @@ const badges = [
         img: 'https://i.imgur.com/Ro31zwL.png'
     },
     {
-        name: 'contactless payments accepted',
+        name: 'NFC mobile payments',
         img: 'https://i.imgur.com/EM4ZPgf.png'
     },
     {
