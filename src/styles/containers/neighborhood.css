@@ -15,6 +15,7 @@
 
 .neighborhood-list {
     background-color: black;
+    padding-bottom: .5rem;
 }
 
 .neighborhood-list h2 {
