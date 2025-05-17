@@ -42,9 +42,9 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
     if (!matched) return <div>Neighborhood not found.</div>;
 
     return (
-        <div>
-            <h1>{matched.neighborhood}</h1>
-            <p>{blurbObj.blurb.length && blurbObj.blurb}</p>
+        <div className='neighborhood-details-page'>
+            <h2 className='neighborhood-details__title'>{matched.neighborhood}</h2>
+            <p className='neighborhood-details__blurb'>{blurbObj.blurb.length && blurbObj.blurb}</p>
 
             <div className='location__container'>
                 {allInNeighborhood.map((item, key) => {

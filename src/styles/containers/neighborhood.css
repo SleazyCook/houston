@@ -91,3 +91,20 @@
     white-space: normal;      /* allow wrapping */
     word-wrap: break-word;    /* break long words if needed */
 }
+
+
+/* Neighborhood - Single Details Page */
+
+.neighborhood-details__title {
+    font-family: 'Canto';
+    padding: .5rem;
+    color: var(--darkblue);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.neighborhood-details__blurb {
+    font-family: 'Avenir Next Condensed';
+    padding: 1rem;
+}
