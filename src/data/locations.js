@@ -1550,7 +1550,7 @@ const locations = [
         subcategory: ['pizza'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.803051818398682, -95.41075134525713],
-        neighborhood: 'heights',
+        neighborhood: 'Heights',
         img: 'https://i.imgur.com/IyhipGq.png',
         website: 'https://goldtoothtonys.com',
         blurb: 'Casual pizzeria dishing up Detroit-style pies with a variety of toppings, plus wings and Brussels sprouts.',

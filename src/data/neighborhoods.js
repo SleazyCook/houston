@@ -105,7 +105,8 @@ const neighborhoodBlurbs = [
     },
     {
         name: 'Humble',
-        blurb: "Located just north of Houston, Humble offers a delightful mix of dining, entertainment, and outdoor activities. Food enthusiasts can savor a variety of cuisines at local favorites like Humble City Cafe, known for its hearty American fare, and Pappas Seafood House, offering fresh Gulf Coast seafood. For those seeking adventure, the upcoming Score Entertainment complex at Deerbrook Mall promises go-karting, laser tag, bowling, and more, making it a hub for family fun. Nature lovers can explore the serene Mercer Arboretum & Botanic Gardens, while families can enjoy interactive exhibits at the Houston Interactive Aquarium. Whether you're dining out or seeking entertainment, Humble provides a welcoming atmosphere for all."
+        blurb: "Located just north of Houston, Humble offers a delightful mix of dining, entertainment, and outdoor activities. Food enthusiasts can savor a variety of cuisines at local favorites like Humble City Cafe, known for its hearty American fare, and Pappas Seafood House, offering fresh Gulf Coast seafood. For those seeking adventure, the upcoming Score Entertainment complex at Deerbrook Mall promises go-karting, laser tag, bowling, and more, making it a hub for family fun. Nature lovers can explore the serene Mercer Arboretum & Botanic Gardens, while families can enjoy interactive exhibits at the Houston Interactive Aquarium. Whether you're dining out or seeking entertainment, Humble provides a welcoming atmosphere for all.",
+        nearby: ['Atascocita', 'East Aldine', 'Deerbrook', 'Summerwood',]
     },
     {
         name: 'Hyde Park',

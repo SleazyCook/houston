@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import Location from '../components/Location';
 
@@ -26,14 +26,12 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
         .filter(loc => loc.neighborhood === matched.neighborhood)
         .sort((a, b) => a.name.localeCompare(b.name));
 
-    console.log('All locations in this neighborhood:', allInNeighborhood);
-
     // connect blurb data based on neighborhood name
     const blurbObj = neighborhoodBlurbs.find(
         (item) => item.name === matched.neighborhood
     );
     if (blurbObj) {
-        console.log(blurbObj.blurb);
+        // console.log(blurbObj.blurb);
     } else {
         console.log(matched.neighborhood, 'not found in blurbs data page');
     }
@@ -45,9 +43,23 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
         <div className='neighborhood-details-page'>
             <h2 className='neighborhood-details__title'>{matched.neighborhood}</h2>
             <p className='neighborhood-details__blurb'>{blurbObj.blurb.length && blurbObj.blurb}</p>
+            <div>
+                {blurbObj?.nearby?.length && blurbObj.nearby.map((item, key) => {
+                    const slug = item.toLowerCase().replace(/\s+/g, '-');
+                    console.log(slug)
+                    return(
+                        <Link
+                            key={key}
+                            to={`/neighborhoods/${slug}`}>
+                                {item}
+                            </Link>
+                    );
+                })}
+            </div>
 
             <div className='location__container'>
                 {allInNeighborhood.map((item, key) => {
+
                     return (
                         <Location 
                             key={key}
