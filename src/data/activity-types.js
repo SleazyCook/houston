@@ -41,6 +41,12 @@ const buttonData = [
         description: "Houston’s grocery scene is a global pantry, with options for every taste and need. Shop staples and local finds at H-E-B, specialty items at Whole Foods and Trader Joe’s, or explore international flavors at H Mart and Phoenicia. With fresh produce, diverse ingredients, and unique products, Houston’s markets make grocery shopping a culinary adventure."
     },
     {
+        label: 'Museums',
+        value: 'museum',
+        img: 'https://i.imgur.com/lF1stXN.png',
+        description: ''
+    },
+    {
         label: 'Music',
         title: 'Music Venues',
         value: 'music',

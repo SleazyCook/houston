@@ -3010,9 +3010,21 @@ const locations = [
         website: 'https://www.google.com/maps?sca_esv=44cd9e4f38d377fc&output=search&q=sabine+street+bridge&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBki0xbyJIUgVJnlXKXyPv8he7HXOZVM8kHbfynE2Ypquo56n7U2nAL0vrOqeAOfrlYXe1xunnz1eSS41n4gVF3_hz3Q8OLDfM2Z5CpZ7e3i4U4f5fD2HWym3iSkCqAWISV5wqh8ujVhWgTETM8q2vE32tdDEFRoZmcVK8BTi0w_6zRNfZg&entry=mc&ved=1t:200715&ictx=111',
         blurb: 'Bridge with walking path with close up view of downtown facing East.',
         description: ['Bridge', 'Night Photography', 'Romantic']
+    },
+    // Museums
+    {
+        name: 'Museum of Fine Arts',
+        category: 'museum',
+        badges: ['photogenic'],
+        coordinates: [29.725615154099373, -95.39044460816568],
+        neighborhood: 'Museum District',
+        img: 'https://i.imgur.com/vMS2Ym2.png',
+        website: 'https://www.mfah.org',
+        blurb: 'The Museum of Fine Arts, Houston, is an art museum located in the Houston Museum District of Houston, Texas.',
+        description: ['Seasonal Exhibits', 'Free Days', 'Memberships']
     }
 
-    // 
+    // Daiquiris
 
 ]
 

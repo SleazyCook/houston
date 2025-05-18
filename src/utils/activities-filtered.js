@@ -10,6 +10,7 @@ const activitiesFiltered = {
   coffee: sortByName(locations.filter(place => place.category === 'coffee')),
   markets: sortByName(locations.filter(place => place.category === 'market')),
   movies: sortByName(locations.filter(place => place.category === 'movies')),
+  museum: sortByName(locations.filter(place => place.category === 'museum')),
   music: sortByName(locations.filter(place => place.category === 'music')),
   parks: sortByName(locations.filter(place => place.category === 'park')),
   photo: sortByName(locations.filter(place => place.category === 'photo')),

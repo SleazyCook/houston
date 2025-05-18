@@ -8,7 +8,7 @@ import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushi
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 import { IoIosBowtie } from "react-icons/io";
 import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
-import { MdRamenDining, MdTheaterComedy } from "react-icons/md";
+import { MdRamenDining, MdTheaterComedy, MdMuseum } from "react-icons/md";
 import { PiFilmReelFill, PiCatFill, PiBaseballHelmetFill  } from "react-icons/pi";
 import { RiTreeFill } from "react-icons/ri";
 import { SiBuymeacoffee } from "react-icons/si";
@@ -42,6 +42,7 @@ export const icons = {
     coffee: makeSvgDataUrl(<SiBuymeacoffee size={38} color="#A52A2A" />),
     market: makeSvgDataUrl(<FaBagShopping size={38} color="#C19A6B" />),
     movies: makeSvgDataUrl(<PiFilmReelFill size={38} color="#000000" />),
+    museums: makeSvgDataUrl(<MdMuseum size={38} color="#800020" />),
     music: makeSvgDataUrl(<FaMusic size={38} color="#2E8B57" />),
     parks: makeSvgDataUrl(<RiTreeFill size={38} color="green" />),
     photo: makeSvgDataUrl(<BsCameraFill size={38} color="#000000" />),

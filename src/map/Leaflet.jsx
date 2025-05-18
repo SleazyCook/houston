@@ -17,6 +17,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
     if (location.category === 'coffee') return icons.coffee;
     if (location.category === 'market') return icons.market;
     if (location.category === 'movies') return icons.movies;
+    if (location.category == 'museum') return icons.museums;
     if (location.category === 'music') return icons.music;
     if (location.category === 'park') return icons.parks;
     if (location.category === 'photo') return icons.photo;
@@ -92,6 +93,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
       const coffee = L.layerGroup();
       const markets = L.layerGroup();
       const movies = L.layerGroup();
+      const museums = L.layerGroup();
       const music = L.layerGroup();
       const parks = L.layerGroup();
       const photo = L.layerGroup();
@@ -132,6 +134,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
         else if (location.category === 'coffee') coffee.addLayer(marker);
         else if (location.category === 'market') markets.addLayer(marker);
         else if (location.category === 'movies') movies.addLayer(marker);
+        else if (location.category === 'museum') museums.addLayer(marker);
         else if (location.category === 'music') music.addLayer(marker);
         else if (location.category === 'park') parks.addLayer(marker);
         else if (location.category === 'photo') photo.addLayer(marker);
@@ -146,6 +149,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
       coffee.addTo(map);
       markets.addTo(map);
       movies.addTo(map);
+      museums.addTo(map);
       music.addTo(map);
       parks.addTo(map);
       photo.addTo(map);
@@ -172,6 +176,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
       layerControl.addOverlay(coffee, 'Coffee');
       layerControl.addOverlay(markets, 'Markets');
       layerControl.addOverlay(movies, 'Movie Theaters');
+      layerControl.addOverlay(museums, 'Museums');
       layerControl.addOverlay(music, 'Music Venues');
       layerControl.addOverlay(parks, 'Parks');
       layerControl.addOverlay(photo, 'Photo Opp');
