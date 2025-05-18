@@ -1520,6 +1520,42 @@ const locations = [
         blurb: 'Inventive Japanese-Latin eats including fusion sushi rolls & margaritas served in a bustling space.',
         description: ['Angus Tostadas', 'Japacado', 'Tajadas']
     },
+    {
+        name: 'Lago Mariscos',
+        category: 'food',
+        subcategory: ['seafood'],
+        badges: ['alcohol available'],
+        coordinates: [29.59805202203651, -95.6177601861514],
+        neighborhood: 'Sugarland',
+        img: 'https://i.imgur.com/UMMRwQn.png',
+        website: 'https://lagomariscostx.squarespace.com',
+        blurb: "Authentic Mexican food and a large selection of seafood, along with a patio, live music, and a kids' menu.",
+        description: ['Jalapenos Rellenos', 'Oysters', 'Ceviches']
+    },
+    {
+        name: 'Bun Slut',
+        category: 'food',
+        subcategory: ['burgers'],
+        badges: ['open late'],
+        coordinates: [29.744180628468033, -95.3881707188817],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/RZcnqN6.png',
+        website: 'https://www.eatbunslut.com',
+        blurb: 'BunSlut is flipping the juiciest smash burgers, crispy fries, and creamy milkshakes in town—made with all-natural halal beef.',
+        description: ['Open until 4am', 'Sliders', 'Cherry Pepers & Avocado']
+    },
+    {
+        name: "Gold Tooth Tony's",
+        category: 'food',
+        subcategory: ['pizza'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.803051818398682, -95.41075134525713],
+        neighborhood: 'heights',
+        img: 'https://i.imgur.com/IyhipGq.png',
+        website: 'https://goldtoothtonys.com',
+        blurb: 'Casual pizzeria dishing up Detroit-style pies with a variety of toppings, plus wings and Brussels sprouts.',
+        description: ['Mac Balls', 'Fried Brussels Sprouts', 'Garlic Parm Wings']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -2137,7 +2173,7 @@ const locations = [
         category: 'market',
         badges: ['alcohol available'],
         coordinates: [29.734632883016253, -95.59485050486693],
-        neighborhood: 'Westheimer',
+        neighborhood: 'Westside',
         img: 'https://i.imgur.com/KgoJrYo.png',
         website: 'https://phoeniciafoods.com/locations/westheimer-market/',
         blurb: 'Mediterranean market with deli & prepared foods, plus cheeses, baked goods, meats, wine & beer.',
@@ -2160,7 +2196,7 @@ const locations = [
         category: 'market',
         badges: ['alcohol available'],
         coordinates: [29.737573908010656, -95.59568067398935],
-        neighborhood: 'Westheimer',      
+        neighborhood: 'Westside',      
         img: 'https://i.imgur.com/QyyVC3v.png',
         website: 'https://www.99ranch.com/stores/search',
         blurb: 'Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.',
