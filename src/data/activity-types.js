@@ -38,7 +38,7 @@ const buttonData = [
         label: 'Daiquiris',
         value: 'daiquiris',
         img: 'https://i.imgur.com/V4e8wMQ.png',
-        description: ''
+        description: "Houston's to-go daiquiri shops offer a fun and convenient way to enjoy frozen cocktails on the move. Popular spots like Daiquiri Island To Go and Daiquiris 2 Go serve up a wide variety of flavors, from classic margaritas and piña coladas to creative concoctions like 'Liquid Marijuana' and 'Jamaican Me Crazy.' These drive-thru establishments allow you to customize your drinks with toppings like gummies or candy, and many also offer tasty sides such as wings, mozzarella sticks, and shrimp baskets . Whether you're heading to a party or just want to unwind, Houston's to-go daiquiri shops make it easy to enjoy a refreshing cocktail without leaving your car."
     },
     {
         label: 'Markets',
@@ -50,7 +50,7 @@ const buttonData = [
         label: 'Museums',
         value: 'museum',
         img: 'https://i.imgur.com/lF1stXN.png',
-        description: ''
+        description: "Houston's museums offer a rich blend of art, science, history, and culture, making the city a hub for curious minds of all ages. From the world-renowned Museum of Fine Arts and the immersive exhibits at the Houston Museum of Natural Science to the innovative displays at the Contemporary Arts Museum and the family-favorite Children’s Museum, there's something for everyone. Whether you're exploring ancient artifacts, modern masterpieces, or hands-on science experiments, Houston’s Museum District delivers an inspiring and diverse experience in the heart of the city.s"
     },
     {
         label: 'Music',
