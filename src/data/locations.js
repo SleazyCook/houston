@@ -9,6 +9,8 @@
 // Photo Opp
 // Attractions (nrg, toyota, kemah)
 
+import neighborhoodBlurbs from "./neighborhoods";
+
 const locations = [
     // Restaurants
     {
@@ -1554,6 +1556,18 @@ const locations = [
         blurb: 'Casual pizzeria dishing up Detroit-style pies with a variety of toppings, plus wings and Brussels sprouts.',
         description: ['Mac Balls', 'Fried Brussels Sprouts', 'Garlic Parm Wings']
     },
+    {
+        name: 'ChòpnBlọk',
+        category: 'food',
+        subcategory: 'ricebowl',
+        badges: ['black owned'],
+        coordinates: [29.74422459173191, -95.3876818360475],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/5VMBpgn.png',
+        website: 'https://chopnblok.co',
+        blurb: 'Modern take on West African cuisine served in a casual setting.',
+        description: ['Golden Bowl', 'Meat Minnie Pies', 'Also in POST Market']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -2957,6 +2971,26 @@ const locations = [
         website: 'https://www.google.com/search?client=opera-gx&hs=Fno&sca_esv=5c6211a02afc286c&sxsrf=AHTn8zpvW9EBOf8Uht14p2vaqEXfQCFLSQ:1746803461175&q=MKT+-+White+Oak+Bayou+Rails+To+Trails+Bridge&source=lnms&fbs=ABzOT_ByvNd_aIaDo5kB7Bu3gQZnW56Me--q0mBVqLHrHhEw6G4xZFB1KEALaTNfNtnq0rXvIBnNYNPUIf5ymOOWjHB5NY-5Vr64dkNpB_qYTCfuOVhNSogDEL4nMuyaU5XsE8PELbRxGePzyc7ngdUL82daXTL6Z9ym_KNaUQtqskndKR8U7axXY2J_uKnRIy6CmbGoavmBkmic5Yx6otCESUdfi017msLfUsyc7_c92iR9GPYqPfs&sa=X&ved=2ahUKEwii167-1ZaNAxVN48kDHc1sHbUQ0pQJegQIEBAB&biw=1879&bih=903&dpr=1',
         blurb: 'Downtown bridge connecting White Oak Bayou to University of Houston - Downtown',
         description: ['Bridge', 'Skyline', 'Trains']
+    },
+    {
+        name: 'Jensen Dr Bridge',
+        category: 'photo',
+        coordinates: [29.762263900993382, -95.3432496098287],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/qQk0pwv.png',
+        website: 'https://www.google.com/maps/place/21+Jensen+Dr,+Houston,+TX+77020/@29.7622732,-95.3434291,21z/data=!4m14!1m8!3m7!1s0x8640beda9e0bc645:0x8d87786ad1610df3!2s21+Jensen+Dr,+Houston,+TX+77020!3b1!8m2!3d29.7623399!4d-95.3432106!10e5!3m4!1s0x8640beda9e0bc645:0x8d87786ad1610df3!8m2!3d29.7623399!4d-95.3432106?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D',
+        blurb: 'Bridge with walking path with view of downtown facing West.',
+        description: ['Bridge', 'Skyline', 'Facing Sunset']
+    },
+    {
+        name: 'Sabine Steet Bridge',
+        category: 'photo',
+        coordinates: [29.761352254832435, -95.37538291297814],
+        neighborhood: 'Fourth Ward',
+        img: 'https://i.imgur.com/0ahaHqu.png',
+        website: 'https://www.google.com/maps?sca_esv=44cd9e4f38d377fc&output=search&q=sabine+street+bridge&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBki0xbyJIUgVJnlXKXyPv8he7HXOZVM8kHbfynE2Ypquo56n7U2nAL0vrOqeAOfrlYXe1xunnz1eSS41n4gVF3_hz3Q8OLDfM2Z5CpZ7e3i4U4f5fD2HWym3iSkCqAWISV5wqh8ujVhWgTETM8q2vE32tdDEFRoZmcVK8BTi0w_6zRNfZg&entry=mc&ved=1t:200715&ictx=111',
+        blurb: 'Bridge with walking path with close up view of downtown facing East.',
+        description: ['Bridge', 'Night Photography', 'Romantic']
     }
 
     // 
