@@ -9,8 +9,6 @@
 // Photo Opp
 // Attractions (nrg, toyota, kemah)
 
-import neighborhoodBlurbs from "./neighborhoods";
-
 const locations = [
     // Restaurants
     {
@@ -396,7 +394,7 @@ const locations = [
         category: 'food',
         subcategory: ['tacos', 'breakfast'],
         coordinates: [29.879900615131934, -95.33001824192365],
-        neighborhood: 'Greenwood Village',
+        neighborhood: 'East Aldine',
         img: 'https://i.imgur.com/vOWNjpt.png',
         website: 'https://aztecatacohousetx.com',
         blurb: 'Casual eatery specializing in breakfast tacos, carne guisada, and homemade flour tortillas.',
@@ -2554,8 +2552,8 @@ const locations = [
         category: 'park',
         coordinates: [29.717301075222434, -95.3909421495944],
         neighborhood: 'Museum District',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/i7Msrr8.png',
+        website: 'https://hermannpark.org',
         blurb: 'Expansive park featuring a golf course, Japanese garden, a natrual science museum & a kiddie train.',
         description: ['Houston zoo', 'Proximity to museums', 'Japanese garden']
     },
@@ -2564,38 +2562,38 @@ const locations = [
         category: 'park',
         coordinates: [29.720893009262795, -95.38748097934554],
         neighborhood: 'Museum District',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/oSlIHZ4.jpeg',
+        website: 'https://hermannpark.org/visit/mcgovern-centennial-gardens/',
         blurb: 'An 8-acre site featuring themed gardens, a sculpture promenade & a 30-foot mount with city views.',
-        description: []
+        description: ['Rose Garden', 'Friendhsip Pavillion', 'Sculpture Walking Trail']
     },
     {
         name: 'Japanese Garden',
         category: 'park',
         coordinates: [29.719023089618833, -95.3922959042466],
         neighborhood: 'Museum District',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/BWVEc9t.png',
+        website: 'https://hermannpark.org/visit/points-of-interest/',
         blurb: 'Tranquil Japanese garden in Hermann Park featuring plants, ponds & rocks, plus a teahouse.',
-        description: []
+        description: ['Walking trails', 'Ducks', 'Japanese Aesthetic']
     },
     {
         name: 'Gerald D. Hines Waterfall Park',
         category: 'park',
         coordinates: [29.736395850451597, -95.46129776187128],
         neighborhood: 'Westside',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/AJ1hgeo.png',
+        website: 'https://uptown-houston.com/experience/parks/waterwall-park/',
         blurb: 'Park whose centerpiece is a 64-ft.-tall fountain circulating 11,000 gallons per minute.',
-        description: []        
+        description: ['Massive Waterfall', 'Walkable Area', 'Tree Canopies']        
     },
     {
         name: 'West Lake Park',
         category: 'park',
         coordinates: [29.921505793676292, -95.20916263040671],
         neighborhood: 'Summerwood',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/vR51AJw.png',
+        website: 'www.mapquest.com/us/texas/west-lake-park-420089509',
         blurb: 'Unpaved, tree-lined trail with a pond for wildlife viewing and a solid walking bridge.',
         description: ['Great for walking', 'Beatiful lake', 'Bridges over lake']
     },
@@ -2604,18 +2602,18 @@ const locations = [
         category: 'park',
         coordinates: [30.026748418753336, -95.29677063305253],
         neighborhood: 'Humble',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/V5dMRMK.png',
+        website: 'https://www.visithoustontexas.com/listings/jesse-h-jones-park-%26-nature-center/20236/',
         blurb: 'This large tract features play & fishing areas, an educational facility & a network of trails.',
-        description: []
+        description: ['Walking Trails', 'Turtles', 'Birding']
     },
     {
         name: 'Eleanor Tinsley Park',
         category: 'park',
         coordinates: [29.761374885269195, -95.37885567530404],
         neighborhood: 'Fourth Ward',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/kLPAG18.png',
+        website: 'https://downtownhouston.org/go/eleanor-tinsley-park',
         blurb: 'Park popular for its running trails, lush green hills & playing host to multiple annual festivals.',
         description: ['Connects to downtown', 'Beach volleyball', 'View of skyline']
     },
@@ -2644,8 +2642,8 @@ const locations = [
         category: 'park',
         coordinates: [29.764528595602318, -95.45235240872859],
         neighborhood: 'Memorial Park',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/oc1HULk.jpeg',
+        website: 'https://houstonarboretum.org',
         blurb: '155-acre urban green space offering nature trails, exhibits, workshops & events in various habitats.',
         description: ['Gardens', 'Walking Trails', 'Ponds']
     },
@@ -2654,6 +2652,9 @@ const locations = [
         category: 'park',
         coordinates: [29.76200492007245, -95.44252415394965],
         neighborhood: 'Memorial Park',
+        img: 'https://i.imgur.com/rvYHgWs.png',
+        website: 'https://www.trailforks.com/region/memorial-park/',
+        blurb: 'Mountain Bikers are especially fond of trails located in the southwest section of Memorial Park. These trails are color coded with maps at the trailhead signs. The mountain bike trails are affected by weather and are closed if conditions warrant to preserve the trails.',
         description: ['Garden', 'Walking Trails', 'Art installations']
     },
     {
@@ -2671,18 +2672,18 @@ const locations = [
         category: 'park',
         coordinates: [29.767614728267546, -95.43987406688974],
         neighborhood: 'Memorial Park',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/ShywnSR.jpeg',
+        website: 'https://www.memorialparkconservancy.org',
         blurb: 'Expansive city park with lush natural features, popular running trail, golf course & lots of shade.',
-        description: []
+        description: ['Biking Trails', 'Sports Complex', 'Nature Centers']
     },
     {
         name: 'Keith-Wiess Park',
         category: 'park',
         coordinates: [29.89209916399693, -95.34494706745201],
-        neighborhood: 'Greenwood Village',
-        img: '',
-        website: '',
+        neighborhood: 'East Aldine',
+        img: 'https://i.imgur.com/JkuESMT.png',
+        website: 'https://aldinedistrict.org/gallery-page/parks-and-recreation/',
         blurb: 'This expansive park features ball fields & tennis courts, plus trails & picnic areas.',
         description: ['walking trails', 'natural ponds', '1-2 hour walk']
     },
@@ -2691,9 +2692,9 @@ const locations = [
         category: 'park',
         coordinates: [29.737655260492083, -95.70020706442541],
         neighborhood: 'Katy',
-        img: '',
-        website: '',
-        blurb: '',
+        img: 'https://i.imgur.com/DeGD5ik.png',
+        website: 'https://cp4.harriscountytx.gov/Explore/Parks/park/george-bush-park',
+        blurb: 'George Bush Park is a county park in Houston, Texas, United States, located on the far west side of the city. Situated entirely within Barker Reservoir, a large flood control structure, the park covers 7,800 acres, most of which is undeveloped forest used for the storage of floodwater. ',
         description: ['Long walk to boardwalk', 'Large alligators', 'Walking trais']
     },
     {
@@ -2701,7 +2702,7 @@ const locations = [
         category: 'park',
         coordinates: [29.71685018952467, -95.32464507168103],
         neighborhood: 'Gulfgate',
-        img: '',
+        img: 'https://i.imgur.com/MLbGtZP.png',
         website: 'https://orangeshow.com',
         blurb: 'Urban green space with a quirky collection of large mosaic sculptures created by local artists.',
         description: ['Artistic', 'Local culture', 'Quirky']
@@ -2721,7 +2722,7 @@ const locations = [
         category: 'park',
         coordinates: [29.860423185296234, -95.16076925862397],
         neighborhood: 'Summerwood',
-        img: '',
+        img: 'https://i.imgur.com/cSUVNnE.jpeg',
         website: 'https://tpwd.texas.gov',
         blurb: 'State park with wetlands, lake & ponds for fishing & wildlife watching, plus educational exhibits.',
         description: ['Observation tower', 'Wetlands walking trails', 'Lush ponds']
@@ -2730,7 +2731,8 @@ const locations = [
         name: 'Sam Houston Park',
         category: 'park',
         coordinates: [29.760128161149296, -95.37212300100511],
-        img: '',
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/5A1nr6N.jpeg',
         website: 'https://www.houstontx.gov/abouthouston/samhoustonpark.html',
         blurb: 'Historically focused park featuring guided tours of old structures dating back to the 1800s.',
         description: ['Downtown', 'Frequent events', 'Access to Buffalo Bayou']
@@ -2740,8 +2742,8 @@ const locations = [
         category: 'park',
         coordinates: [29.76261811690755, -95.36235930384555],
         neighborhood: 'Downtown',
-        img: '',
-        website: '',
+        img: 'https://i.imgur.com/xc886p9.png',
+        website: 'https://downtownhouston.org/go/market-square-park',
         blurb: 'Historic public space with outdoor movies, walkways, a dog run & an open-air Greek restaurant.',
         description: ['Movies in the park', 'Proximity to bars', 'Proximity to restaurants']
     },
@@ -2760,27 +2762,27 @@ const locations = [
         category: 'park',
         coordinates: [29.75992389270082, -95.34570820433815],
         neighborhood: 'EaDo',
-        img: '',
+        img: 'https://i.imgur.com/giQvIqe.png',
         website: 'https://www.eastenddistrict.com/capital-projects/guadalupe-plaza-park-nears-completion/',
         blurb: 'Public park known for hosting events, including wine festivals.',
-        description: []
+        description: ['Events', 'East of Downtown', 'Walkable']
     },
     {
         name: 'Woodland Park Bird Sanctuary',
         category: 'park',
         coordinates: [29.781623738438856, -95.37042159415712],
         neighborhood: 'Northside',
-        img: '',
-        website: '',
-        blurb: '',
-        description:[]
+        img: 'https://i.imgur.com/imwORpW.png',
+        website: 'https://www.friendsofwoodlandpark.org/birds',
+        blurb: 'Woodland Park, located a few miles from downtown in Woodland Heights, is an excellent park for urban birding.',
+        description:['Birding', 'Walkable', 'Outdoor seating']
     },
     {
         name: 'Levy Park',
         category: 'park',
         coordinates: [29.732625704956543, -95.42328805641604],
         neighborhood: 'Greenway',
-        img: '',
+        img: 'https://i.imgur.com/8WwIAuu.png',
         website: 'https://www.levyparkhouston.org',
         blurb: 'This classic green space features a asoftball field & playground, plus a community garden & dog park.',
         description: ['food trucks', 'short walking trails', 'artistic']
@@ -2800,7 +2802,7 @@ const locations = [
         category: 'park',
         coordinates: [29.743629216217624, -95.37615072468216],
         neighborhood: 'Midtown',
-        img: '',
+        img: 'https://i.imgur.com/tOTkk3u.jpeg',
         website: 'https://midtownhouston.com/project/midtown-park/',
         blurb: 'Urban space & events site with a dog park, a playground, sports courts & a wetland trail.',
         description: ['Ponds', 'Paved walking trails', 'Artistic']
@@ -2810,7 +2812,7 @@ const locations = [
         category: 'park',
         coordinates: [29.73568063718464, -95.36524382995843],
         neighborhood: 'South Side',
-        img: '',
+        img: 'https://i.imgur.com/RihX93k.png',
         website: 'https://epconservancy.org',
         blurb: 'Historic park dedicated to the end of slavery offers a pool, athletic fields & a large playground.',
         description: ['Community center', 'Pool', 'Memorials']
