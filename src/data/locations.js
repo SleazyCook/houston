@@ -1572,7 +1572,7 @@ const locations = [
     {
         name: 'Axelrad',
         category: 'bar',
-        badges: ['paid parking', 'alcohol available', 'live music', 'outdoor seating'],
+        badges: ['paid parking', 'alcohol available', 'live music', 'outdoor seating', 'photogenic'],
         coordinates: [29.734989085866363, -95.37481472963191],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/RKS2yyq.png',
@@ -1731,7 +1731,7 @@ const locations = [
     {
         name: 'Cherry',
         category: 'bar',
-        badges: ['open late', 'alcohol available'],
+        badges: ['open late', 'alcohol available', 'photogenic'],
         coordinates: [29.762068172596784, -95.3611910729658],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/OxYv0nj.png',
@@ -1742,7 +1742,7 @@ const locations = [
     {
         name: 'Notsuoh',
         category: 'bar',
-        badges: ['open late', 'alcohol available'],
+        badges: ['open late', 'alcohol available', 'photogenic'],
         coordinates: [29.761835136484965, -95.3612382178252],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/BJuiv6f.png',
@@ -1786,7 +1786,7 @@ const locations = [
     {
         name: 'Tejas Brewery',
         category: 'bar',
-        badges: ['open late', 'outdoor seating', 'alcohol available'],
+        badges: ['open late', 'outdoor seating', 'alcohol available', 'photogenic'],
         coordinates: [29.772552031946326, -95.37956184665045],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/Kpw0cYz.png',
@@ -2061,7 +2061,7 @@ const locations = [
     {
         name: 'La La Land Kind Coffee',
         category: 'coffee',
-        badges: ['outdoor seating'],
+        badges: ['outdoor seating', 'photogenic'],
         coordinates: [29.78216306202337, -95.40822417541648],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/kOi6K5h.png',
@@ -2320,7 +2320,7 @@ const locations = [
         name: 'M-K-T',
         category: 'market',
         subcategory: ['hall'],
-        badges: ['NFC mobile payments', 'alcohol available'],
+        badges: ['NFC mobile payments', 'alcohol available', 'photogenic'],
         coordinates: [29.782477728835328, -95.40796615849794],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/iqolIM0.png',
@@ -2564,6 +2564,7 @@ const locations = [
     {
         name: 'Hermann Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.717301075222434, -95.3909421495944],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/i7Msrr8.png',
@@ -2574,6 +2575,7 @@ const locations = [
     {
         name: 'McGovern Centennial Gardens',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.720893009262795, -95.38748097934554],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/oSlIHZ4.jpeg',
@@ -2584,6 +2586,7 @@ const locations = [
     {
         name: 'Japanese Garden',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.719023089618833, -95.3922959042466],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/BWVEc9t.png',
@@ -2594,6 +2597,7 @@ const locations = [
     {
         name: 'Gerald D. Hines Waterfall Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.736395850451597, -95.46129776187128],
         neighborhood: 'Westside',
         img: 'https://i.imgur.com/AJ1hgeo.png',
@@ -2624,6 +2628,7 @@ const locations = [
     {
         name: 'Eleanor Tinsley Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.761374885269195, -95.37885567530404],
         neighborhood: 'Fourth Ward',
         img: 'https://i.imgur.com/kLPAG18.png',
@@ -2634,6 +2639,7 @@ const locations = [
     {
         name: 'Buffalo Bayou Park Cistern',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.762086622873017, -95.37651349958786],
         neighborhood: 'Fourth Ward',
         img: 'https://i.imgur.com/KYh8RCH.png',
@@ -2644,6 +2650,7 @@ const locations = [
     {
         name: 'Buffalo Bayou Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.761675749675707, -95.38298771065615],
         neighborhood: 'Fourth Ward',
         img: 'https://i.imgur.com/grW6XMU.png',
@@ -2654,6 +2661,7 @@ const locations = [
     {
         name: 'Houston Arboretum & Nature Center',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.764528595602318, -95.45235240872859],
         neighborhood: 'Memorial Park',
         img: 'https://i.imgur.com/oc1HULk.jpeg',
@@ -2674,6 +2682,7 @@ const locations = [
     {
         name: 'Clay Family Eastern Glades',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.76671697995398, -95.43031888718707],
         neighborhood: 'Memorial Park',
         img: 'https://i.imgur.com/QfzjPHb.png',
@@ -2714,6 +2723,7 @@ const locations = [
     {
         name: 'Smither Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.71685018952467, -95.32464507168103],
         neighborhood: 'Gulfgate',
         img: 'https://i.imgur.com/MLbGtZP.png',
@@ -2744,6 +2754,7 @@ const locations = [
     {
         name: 'Sam Houston Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.760128161149296, -95.37212300100511],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/5A1nr6N.jpeg',
@@ -2754,6 +2765,7 @@ const locations = [
     {
         name: 'Market Square Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.76261811690755, -95.36235930384555],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/xc886p9.png',
@@ -2764,6 +2776,7 @@ const locations = [
     {
         name: 'Discovery Green',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.753051375319636, -95.35957755310606],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/cQkkSbH.jpeg',
@@ -2804,6 +2817,7 @@ const locations = [
     {
         name: 'Bagby Park',
         category: 'park',
+        badges: ['photogenic'],
         coordinates: [29.75183245570911, -95.37602483396185],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/GWn9kgv.png',
@@ -2869,6 +2883,7 @@ const locations = [
     {
         name: 'Kemah Boardwalk',
         category: 'attraction',
+        badges: ['photogenic'],
         subcategory: ['kemah'],
         badges: ['paid parking', 'alcohol available'],
         coordinates: [29.547601137961802, -95.01973613835622],
@@ -2894,7 +2909,7 @@ const locations = [
         name: 'Meow Wolf',
         category: 'attraction',
         subcategory: ['meow'],
-        badges: ['alcohol available'],
+        badges: ['alcohol available', 'photogenic'],
         coordinates: [29.772103990703904, -95.34773256280762],
         neighborhood: 'Greater Fifth Ward',
         img: 'https://i.imgur.com/JpDkbho.png',
@@ -2918,6 +2933,7 @@ const locations = [
         name: 'Houston Zoo',
         category: 'attraction',
         subcategory: ['zoo'],
+        badges: ['photogenic'],
         coordinates: [29.712357766627584, -95.39194493955178],
         neighborhood: 'Museum District',
         img: 'https://i.imgur.com/B6WvSwH.png',
@@ -2965,6 +2981,7 @@ const locations = [
     {
         name: 'White Oak Bayou Rails Bridge',
         category: 'photo',
+        badges: ['photogenic'],
         coordinates: [29.765619728541605, -95.35796023407394],
         neighborhood: 'Downtown',
         img: 'https://i.imgur.com/ALfMgCP.png',
@@ -2975,6 +2992,7 @@ const locations = [
     {
         name: 'Jensen Dr Bridge',
         category: 'photo',
+        badges: ['photogenic'],
         coordinates: [29.762263900993382, -95.3432496098287],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/qQk0pwv.png',
@@ -2985,6 +3003,7 @@ const locations = [
     {
         name: 'Sabine Steet Bridge',
         category: 'photo',
+        badges: ['photogenic'],
         coordinates: [29.761352254832435, -95.37538291297814],
         neighborhood: 'Fourth Ward',
         img: 'https://i.imgur.com/0ahaHqu.png',

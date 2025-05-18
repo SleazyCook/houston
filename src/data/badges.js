@@ -47,6 +47,10 @@ const badges = [
         name: 'cash only',
         img: 'https://i.imgur.com/ppDeNiZ.png'
     },
+    {
+        name: 'photogenic',
+        img: 'https://i.imgur.com/nnX11fF.png'
+    }
     // pet friendly
 ]
 

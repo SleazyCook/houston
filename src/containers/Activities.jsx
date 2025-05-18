@@ -5,6 +5,7 @@ import Location from '../components/Location';
 
 import buttonData from '../data/activity-types';
 import activitiesFiltered from '../utils/activities-filtered';
+import locations from '../data/locations';
 
 const Activities = ({ setLat, setLon, setZoom}) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -56,6 +57,16 @@ const Activities = ({ setLat, setLon, setZoom}) => {
   // Page Length
   let pageLength = filteredActivities.length;
 
+  // Additional Photo Locations by badge
+  const photoLocations = locations
+    .filter(location => location.badges?.includes('photogenic') && location.category !== 'photo')
+    .sort((a, b) => a.name.localeCompare(b.name)); // Alphabetical sorting by name
+  if (selectedCategory === 'photo') {
+    pageLength = filteredActivities.length + photoLocations.length;
+  }
+
+  
+
   return (
     <div>
       <h2 className='listing__header listing__header--activities'>
@@ -95,18 +106,37 @@ const Activities = ({ setLat, setLon, setZoom}) => {
 
       {/* Location Component */}
       <div className='location__container'>   
-        {filteredActivities.map((item, key) => {
-          return(
-            <Location 
-              key={key} 
-              item={item} 
-              setLat={setLat} 
-              setLon={setLon} 
-              setZoom={setZoom}/>
-          );
-        })}
+      {filteredActivities.map((item, key) => (
+        <Location 
+          key={key} 
+          item={item} 
+          setLat={setLat} 
+          setLon={setLon} 
+          setZoom={setZoom}
+        />
+      ))}
+
+      {/* testing additional photo locations */}
+      {selectedCategory === 'photo' && (
+      <>
+        <div className='see-more-photos'>Additional Photo Locations</div>
+
+        {photoLocations.map((item, key) => (
+          <Location 
+            key={key} 
+            item={item} 
+            setLat={setLat} 
+            setLon={setLon} 
+            setZoom={setZoom}
+          />
+        ))}
+      </>
+      )}
       </div>
-    </div>
+
+
+      </div>
+    
   );
 };
 

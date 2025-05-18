@@ -50,6 +50,13 @@
     font-size: 1.25rem;
 }
 
+/* activities only */
+.see-more-photos {
+    color: white;
+    font-family: 'Avenir Next Condensed';
+    font-size: 1.5rem;
+}
+
 /* MOBILE */
 @media (max-width: 600px) {
     .listing__header {
@@ -72,5 +79,10 @@
 
     .category__header--description {
         font-size: 1rem;
+    }
+
+    .see-more-photos {
+        padding-top: 1rem;
+        margin-bottom: -1rem;
     }
 }
