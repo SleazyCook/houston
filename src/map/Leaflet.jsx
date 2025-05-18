@@ -15,6 +15,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
     if (location.category === 'bar') return icons.bar;
     if (location.category === 'books') return icons.books;
     if (location.category === 'coffee') return icons.coffee;
+    if (location.category === 'daiquiris') return icons.daiquiris;
     if (location.category === 'market') return icons.market;
     if (location.category === 'movies') return icons.movies;
     if (location.category == 'museum') return icons.museums;
@@ -91,6 +92,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
       const bars = L.layerGroup();
       const books = L.layerGroup();
       const coffee = L.layerGroup();
+      const daiquiris = L.layerGroup();
       const markets = L.layerGroup();
       const movies = L.layerGroup();
       const museums = L.layerGroup();
@@ -132,6 +134,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
         else if (location.category === 'bar') bars.addLayer(marker);
         else if (location.category === 'books') books.addLayer(marker);
         else if (location.category === 'coffee') coffee.addLayer(marker);
+        else if (location.category === 'daiquiris') daiquiris.addLayer(marker);
         else if (location.category === 'market') markets.addLayer(marker);
         else if (location.category === 'movies') movies.addLayer(marker);
         else if (location.category === 'museum') museums.addLayer(marker);
@@ -147,6 +150,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
       bars.addTo(map);
       books.addTo(map);
       coffee.addTo(map);
+      daiquiris.addTo(map);
       markets.addTo(map);
       movies.addTo(map);
       museums.addTo(map);
@@ -174,6 +178,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
       layerControl.addOverlay(bars, 'Bars & Lounges');
       layerControl.addOverlay(books, 'Books');
       layerControl.addOverlay(coffee, 'Coffee');
+      layerControl.addOverlay(daiquiris, 'Daiquiris');
       layerControl.addOverlay(markets, 'Markets');
       layerControl.addOverlay(movies, 'Movie Theaters');
       layerControl.addOverlay(museums, 'Museums');

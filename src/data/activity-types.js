@@ -35,6 +35,12 @@ const buttonData = [
         description: "Houston’s coffee, boba, and tea scene is a flavorful mix of cozy and trendy. Sip artisan brews at spots like Catalina Coffee, or grab creative boba drinks from The Teahouse and Sharetea. From matcha lattes to Vietnamese iced coffee, Houston’s cafes offer the perfect pick-me-up for every kind of sipper."
     },
     {
+        label: 'Daiquiris',
+        value: 'daiquiris',
+        img: 'https://i.imgur.com/V4e8wMQ.png',
+        description: ''
+    },
+    {
         label: 'Markets',
         value: 'markets',
         img: 'https://i.imgur.com/mDDhpif.png',

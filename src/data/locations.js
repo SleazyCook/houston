@@ -3022,9 +3022,19 @@ const locations = [
         website: 'https://www.mfah.org',
         blurb: 'The Museum of Fine Arts, Houston, is an art museum located in the Houston Museum District of Houston, Texas.',
         description: ['Seasonal Exhibits', 'Free Days', 'Memberships']
-    }
-
+    },
     // Daiquiris
+    {
+        name: 'Daiquiri Hut',
+        category: 'daiquiris',
+        badges: ['alcohol available'],
+        coordinates: [29.847936844813724, -95.3140992410994],
+        neighborhood: 'Houston Gardens',
+        img: 'https://i.imgur.com/kfQTKNx.png',
+        website: 'https://www.yelp.com/biz/daiquiri-hut-houston-6',
+        blurb: 'Frozen daiquiri shop on Tidwell in Houston Gardens area.',
+        description: ['Frozen', 'Flavors', 'Boozey']
+    }
 
 ]
 

@@ -10,7 +10,7 @@ import { IoIosBowtie } from "react-icons/io";
 import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
 import { MdRamenDining, MdTheaterComedy, MdMuseum } from "react-icons/md";
 import { PiFilmReelFill, PiCatFill, PiBaseballHelmetFill  } from "react-icons/pi";
-import { RiTreeFill } from "react-icons/ri";
+import { RiTreeFill, RiDrinks2Fill } from "react-icons/ri";
 import { SiBuymeacoffee } from "react-icons/si";
 
 const makeSvgDataUrl = (icon) =>
@@ -40,6 +40,7 @@ export const icons = {
     bar: makeSvgDataUrl(<FaCocktail size={38} color="#00008B" />),    
     books: makeSvgDataUrl(<FaBook size={38} color="#AA336A" />),
     coffee: makeSvgDataUrl(<SiBuymeacoffee size={38} color="#A52A2A" />),
+    daiquiris: makeSvgDataUrl(<RiDrinks2Fill size={38} color="#AA336A" />),
     market: makeSvgDataUrl(<FaBagShopping size={38} color="#C19A6B" />),
     movies: makeSvgDataUrl(<PiFilmReelFill size={38} color="#000000" />),
     museums: makeSvgDataUrl(<MdMuseum size={38} color="#800020" />),
