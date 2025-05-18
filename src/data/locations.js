@@ -2075,6 +2075,17 @@ const locations = [
         blurb: 'Casual cafe with a drive-through window offering coffee drinks, tea, and quick eats.',
         description: ['Final Fantasy inspired', 'Tea', 'Sandwiches']
     },
+    {
+        name: 'Coral Sword',
+        category: 'coffee',
+        badges: ['NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        coordinates: [29.730795591901607, -95.32749000765905],
+        neighborhood: 'Eastwood',
+        img: 'https://i.imgur.com/RYBISZV.png',
+        website: 'https://www.coralsword.com',
+        blurb: 'Colorful board game cafe serving casual fare plus beer & coffee.',
+        description: ['Play Board Games', 'Cofee & Tea', 'Hot Snacks']
+    },
     // Markets
     {
         name: 'H Mart',
@@ -2573,7 +2584,7 @@ const locations = [
         description: ['Connects to downtown', 'Beach volleyball', 'View of skyline']
     },
     {
-        name: 'Buffalou Bayou Park Cistern',
+        name: 'Buffalo Bayou Park Cistern',
         category: 'park',
         coordinates: [29.762086622873017, -95.37651349958786],
         neighborhood: 'Fourth Ward',
