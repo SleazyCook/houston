@@ -1540,7 +1540,7 @@ const locations = [
         img: 'https://i.imgur.com/RZcnqN6.png',
         website: 'https://www.eatbunslut.com',
         blurb: 'BunSlut is flipping the juiciest smash burgers, crispy fries, and creamy milkshakes in town—made with all-natural halal beef.',
-        description: ['Open until 4am', 'Sliders', 'Cherry Pepers & Avocado']
+        description: ['Open until 4am', 'Sliders', 'Cherry Peppers & Avocado']
     },
     {
         name: "Gold Tooth Tony's",
