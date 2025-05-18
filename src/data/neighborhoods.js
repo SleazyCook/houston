@@ -52,6 +52,10 @@ const neighborhoodBlurbs = [
         blurb: "East Aldine is a vibrant community located in unincorporated Harris County, just north of downtown Houston. This 20-square-mile district is home to a diverse population of approximately 63,000 residents . The area is undergoing significant revitalization, with the East Aldine Town Center serving as a focal point for economic and community development. This multi-phase project includes a new office building, amphitheater, playground with a splash pad, and plans for 100,000 square feet of retail and commercial space."
     },
     {
+        name: 'Eastwood',
+        blurb: "Eastwood, just east of downtown Houston, blends historic charm with a modern, community-driven vibe. Known for its early 20th-century architecture, the neighborhood is also a hidden gem for food lovers—think fresh pastries and breakfast tacos at La Reynera, $1 Taco Tuesdays at Taqueria Monchys, and laid-back nights with live music at Bohemeo’s. With frequent local events, green spaces like Eastwood Park, and easy access to the East End’s cultural spots, Eastwood offers a cozy yet vibrant slice of city life."
+    },
+    {
         name: 'Energy Corridor',
         blurb: "The Energy Corridor is a prominent business district situated on the west side of Houston, Texas, stretching along a 7-mile segment of Interstate 10 (Katy Freeway) from Kirkwood Road to Barker Cypress Road, and extending south along Eldridge Parkway to Briar Forest Drive. This area is renowned for housing the headquarters and regional offices of major energy corporations, including BP, Shell, ConocoPhillips, and Citgo. Beyond its corporate significance, the Energy Corridor offers a blend of residential options, dining establishments, and recreational spaces. The district is bordered by over 26,000 acres of urban parks, such as George Bush Park and Terry Hershey Park, providing ample opportunities for outdoor activities. With its strategic location, the Energy Corridor serves as a hub for professionals and families alike, combining business, leisure, and community living."
     },
