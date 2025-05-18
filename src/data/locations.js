@@ -2631,7 +2631,7 @@ const locations = [
         badges: ['photogenic'],
         coordinates: [29.761374885269195, -95.37885567530404],
         neighborhood: 'Fourth Ward',
-        img: 'https://i.imgur.com/kLPAG18.png',
+        img: 'https://i.imgur.com/eiLgeC7.png',
         website: 'https://downtownhouston.org/go/eleanor-tinsley-park',
         blurb: 'Park popular for its running trails, lush green hills & playing host to multiple annual festivals.',
         description: ['Connects to downtown', 'Beach volleyball', 'View of skyline']
