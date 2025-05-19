@@ -1,107 +1,130 @@
 const neighborhoodBlurbs = [
     {
         name: 'Acres Home',
-        blurb: "Acres Home is a historic neighborhood located in northwest Houston, known for its tight-knit community and rich cultural heritage. The area features local restaurants, parks, and annual events that celebrate its vibrant history. It’s a welcoming place where tradition and growth come together in the heart of the city’s northwest side."
+        blurb: "Acres Home is a historic neighborhood located in northwest Houston, known for its tight-knit community and rich cultural heritage. The area features local restaurants, parks, and annual events that celebrate its vibrant history. It’s a welcoming place where tradition and growth come together in the heart of the city’s northwest side.",
+        nearby: ['Central Northwest', 'Greenspoint', 'Independence Heights', 'Northside', 'Oak Forest']
     },
     {
         name: 'Astrodome Area',
-        blurb: "The Astrodome area sits just south of downtown Houston, known for its iconic stadium and surrounding sports complexes. This bustling district blends entertainment, dining, and event venues with ongoing development. Visitors and locals alike enjoy easy access to concerts, games, and nearby parks in this vibrant part of the city."
+        blurb: "The Astrodome area sits just south of downtown Houston, known for its iconic stadium and surrounding sports complexes. This bustling district blends entertainment, dining, and event venues with ongoing development. Visitors and locals alike enjoy easy access to concerts, games, and nearby parks in this vibrant part of the city.",
+        nearby: ['Museum District', 'Rice Village', 'South Central', 'South Side', 'University Place', 'West University Place']
     },
     {
         name: 'Atascocita',
-        blurb: "Atascocita is a growing suburban community located northeast of Houston, known for its family-friendly atmosphere and scenic lakes. This area offers plenty of parks, golf courses, and shopping centers, making it popular for those seeking a quieter lifestyle close to the city. With strong schools and community events, Atascocita blends small-town charm with convenient Houston access."
+        blurb: "Atascocita is a growing suburban community located northeast of Houston, known for its family-friendly atmosphere and scenic lakes. This area offers plenty of parks, golf courses, and shopping centers, making it popular for those seeking a quieter lifestyle close to the city. With strong schools and community events, Atascocita blends small-town charm with convenient Houston access.",
+        nearby: ['Deerbrook', 'Humble', 'Summerwood']
     },
     {
         name: 'Blalock Market',
-        blurb: "Blalock Market is a bustling retail hub located in the Spring Branch neighborhood of northwest Houston. Situated along the Katy Freeway (I-10) between Loop 610 and Beltway 8, it serves the upscale Memorial and Spring Branch areas. Anchored by 99 Ranch Market, the center offers a diverse mix of dining, shopping, and services, making it a popular destination for both locals and visitors. With high traffic counts and a variety of amenities, Blalock Market is a vibrant part of Houston's retail landscape."
+        blurb: "Blalock Market is a bustling retail hub located in the Spring Branch neighborhood of northwest Houston. Situated along the Katy Freeway (I-10) between Loop 610 and Beltway 8, it serves the upscale Memorial and Spring Branch areas. Anchored by 99 Ranch Market, the center offers a diverse mix of dining, shopping, and services, making it a popular destination for both locals and visitors. With high traffic counts and a variety of amenities, Blalock Market is a vibrant part of Houston's retail landscape.",
+        nearby: ['Central Northwest', 'CityCentre', 'Mid West', 'Northwest Houston', 'Uptown']
     },
-    {
-        name: 'Briar Forest',
-        blurb: "Briar Forest is a well-established neighborhood in west Houston, nestled between Buffalo Bayou to the north and Westheimer Road to the south. This area offers a blend of single-family homes, townhouses, and apartment complexes, catering to a diverse community. Residents enjoy access to green spaces like Terry Hershey Park, known for its scenic trails along the bayou. With proximity to major thoroughfares and the Energy Corridor, Briar Forest provides a balance of suburban tranquility and urban convenience."
-    },
+    // {
+    //     name: 'Briar Forest',
+    //     blurb: "Briar Forest is a well-established neighborhood in west Houston, nestled between Buffalo Bayou to the north and Westheimer Road to the south. This area offers a blend of single-family homes, townhouses, and apartment complexes, catering to a diverse community. Residents enjoy access to green spaces like Terry Hershey Park, known for its scenic trails along the bayou. With proximity to major thoroughfares and the Energy Corridor, Briar Forest provides a balance of suburban tranquility and urban convenience.",
+    //     nearby: []
+    // },
     {
         name: 'Central Northwest',
-        blurb: "Central Northwest Houston includes neighborhoods like Oak Forest and Garden Oaks, located just north of Loop 610 and west of I-45. The area features a mix of classic ranch-style and newer homes. With easy access to downtown and the Galleria, plus parks and good schools nearby, it offers a balanced mix of city convenience and residential charm."
+        blurb: "Central Northwest Houston includes neighborhoods like Oak Forest and Garden Oaks, located just north of Loop 610 and west of I-45. The area features a mix of classic ranch-style and newer homes. With easy access to downtown and the Galleria, plus parks and good schools nearby, it offers a balanced mix of city convenience and residential charm.",
+        nearby: ['Acres Home', 'Blalock Market', 'Independence Heights', 'Jersey Village', 'Oak Forest']
     },
     {
         name: 'Chinatown',
-        blurb: "Houston's Chinatown, also known as Asiatown, is a vibrant neighborhood located in the southwestern part of the city, primarily along Bellaire Boulevard between Fondren and Beltway 8. Established in the 1980s, it has grown into one of the largest and most diverse Asian communities in the United States . The area boasts a rich tapestry of cultures, including Chinese, Vietnamese, Korean, Malaysian, and more, reflected in its array of restaurants, markets, and cultural centers . Visitors can explore bustling shopping centers, savor authentic Asian cuisines, and experience vibrant cultural festivals throughout the year."
+        blurb: "Houston's Chinatown, also known as Asiatown, is a vibrant neighborhood located in the southwestern part of the city, primarily along Bellaire Boulevard between Fondren and Beltway 8. Established in the 1980s, it has grown into one of the largest and most diverse Asian communities in the United States . The area boasts a rich tapestry of cultures, including Chinese, Vietnamese, Korean, Malaysian, and more, reflected in its array of restaurants, markets, and cultural centers . Visitors can explore bustling shopping centers, savor authentic Asian cuisines, and experience vibrant cultural festivals throughout the year.",
+        nearby: ['Galleria', 'Mid West', 'Westside', 'West University Place']
     },
     {
         name: 'Cinco Ranch',
-        blurb: "Cinco Ranch is a master-planned community located approximately 25 miles west of downtown Houston, within Fort Bend and Harris counties. This expansive neighborhood offers a blend of suburban tranquility and modern amenities, making it a sought-after destination for families and professionals alike. Residents enjoy access to top-rated schools, a variety of parks, and recreational facilities, including the Cinco Ranch Golf Club. The community's strategic location provides convenient access to major highways, facilitating easy commutes to Houston's business districts."
+        blurb: "Cinco Ranch is a master-planned community located approximately 25 miles west of downtown Houston, within Fort Bend and Harris counties. This expansive neighborhood offers a blend of suburban tranquility and modern amenities, making it a sought-after destination for families and professionals alike. Residents enjoy access to top-rated schools, a variety of parks, and recreational facilities, including the Cinco Ranch Golf Club. The community's strategic location provides convenient access to major highways, facilitating easy commutes to Houston's business districts.",
+        nearby: ['Energy Corridor', 'Katy', 'Westside']
     },
     {
         name: 'CityCentre',
-        blurb: "CityCentre is a lively mixed-use development located just west of downtown Houston in the Uptown area. Known for its walkable streets, it offers a blend of shopping, dining, entertainment, and residential options. With year-round events and easy access to major highways, CityCentre is a popular spot for both locals and visitors seeking an urban lifestyle."
+        blurb: "CityCentre is a lively mixed-use development located just west of downtown Houston in the Uptown area. Known for its walkable streets, it offers a blend of shopping, dining, entertainment, and residential options. With year-round events and easy access to major highways, CityCentre is a popular spot for both locals and visitors seeking an urban lifestyle.",
+        nearby: ['Blalock Market', 'Chinatown', 'Mid West', 'Uptown', 'Westside']
     },
     {
         name: 'Deerbrook',
-        blurb: "Deerbrook is a suburban area in northeast Houston, centered around Deerbrook Mall in Humble. The mall, established in 1984, serves as a major retail hub with over 130 stores, including anchors like Macy’s, JCPenney, and Dillard’s . The surrounding community offers a mix of residential neighborhoods, such as Deerbrook Estates, which feature mid-sized homes and are known for their family-friendly atmosphere . Residents enjoy convenient access to shopping, dining, and recreational options, including nearby parks like Jesse H. Jones Park & Nature Center . With its blend of suburban charm and urban amenities, Deerbrook provides a balanced lifestyle for its residents."
+        blurb: "Deerbrook is a suburban area in northeast Houston, centered around Deerbrook Mall in Humble. The mall, established in 1984, serves as a major retail hub with over 130 stores, including anchors like Macy’s, JCPenney, and Dillard’s . The surrounding community offers a mix of residential neighborhoods, such as Deerbrook Estates, which feature mid-sized homes and are known for their family-friendly atmosphere . Residents enjoy convenient access to shopping, dining, and recreational options, including nearby parks like Jesse H. Jones Park & Nature Center . With its blend of suburban charm and urban amenities, Deerbrook provides a balanced lifestyle for its residents.",
+        nearby: ['Atascocita', 'East Aldine', 'Humble']
     },
     {
         name: 'Downtown',
-        blurb: "Downtown Houston sits at the heart of the city, just south of the Interstate 45 corridor. It’s a bustling urban core packed with skyscrapers, theaters, and historic landmarks. The area is served by Houston’s METRORail, making it easy to navigate between entertainment, dining, and business districts. With a lively mix of offices, apartments, and cultural venues, Downtown offers a vibrant city experience day and night."
+        blurb: "Downtown Houston sits at the heart of the city, just south of the Interstate 45 corridor. It’s a bustling urban core packed with skyscrapers, theaters, and historic landmarks. The area is served by Houston’s METRORail, making it easy to navigate between entertainment, dining, and business districts. With a lively mix of offices, apartments, and cultural venues, Downtown offers a vibrant city experience day and night.",
+        nearby: ['EaDo', 'Fourth Ward', 'Greater Fifth Ward', 'Hyde Park', 'Midtown', 'Montrose', 'Northside', 'South Side', 'Washington']
     },
     {
         name: 'EaDo',
-        blurb: "EaDo (East Downtown) is a dynamic neighborhood located just east of downtown Houston, Texas. Once home to Houston's original Chinatown, the area has transformed into a vibrant hub known for its cultural diversity and artistic flair. Today, EaDo boasts a thriving arts scene, with numerous murals and galleries adorning its streets. The neighborhood offers a rich tapestry of ethnic shops, restaurants, bars, and music venues, making it a popular destination for both locals and visitors. Its proximity to major business districts, including downtown Houston, the Texas Medical Center, and the Houston Ship Channel, adds to its appeal as a central and accessible location within the city."
+        blurb: "EaDo (East Downtown) is a dynamic neighborhood located just east of downtown Houston, Texas. Once home to Houston's original Chinatown, the area has transformed into a vibrant hub known for its cultural diversity and artistic flair. Today, EaDo boasts a thriving arts scene, with numerous murals and galleries adorning its streets. The neighborhood offers a rich tapestry of ethnic shops, restaurants, bars, and music venues, making it a popular destination for both locals and visitors. Its proximity to major business districts, including downtown Houston, the Texas Medical Center, and the Houston Ship Channel, adds to its appeal as a central and accessible location within the city.",
+        nearby: ['Downtown', 'Eastwood', 'Greater Fifth Ward', 'Midtown', 'Montrose', 'Northside', 'Second Ward', 'South Side']
     },
     {
         name: 'East Aldine',
-        blurb: "East Aldine is a vibrant community located in unincorporated Harris County, just north of downtown Houston. This 20-square-mile district is home to a diverse population of approximately 63,000 residents . The area is undergoing significant revitalization, with the East Aldine Town Center serving as a focal point for economic and community development. This multi-phase project includes a new office building, amphitheater, playground with a splash pad, and plans for 100,000 square feet of retail and commercial space."
+        blurb: "East Aldine is a vibrant community located in unincorporated Harris County, just north of downtown Houston. This 20-square-mile district is home to a diverse population of approximately 63,000 residents . The area is undergoing significant revitalization, with the East Aldine Town Center serving as a focal point for economic and community development. This multi-phase project includes a new office building, amphitheater, playground with a splash pad, and plans for 100,000 square feet of retail and commercial space.",
+        nearby: ['Houston Gardens', 'Humble', 'Little York', 'Northside', 'Pine Village North']
     },
     {
         name: 'Eastwood',
-        blurb: "Eastwood, just east of downtown Houston, blends historic charm with a modern, community-driven vibe. Known for its early 20th-century architecture, the neighborhood is also a hidden gem for food lovers—think fresh pastries and breakfast tacos at La Reynera, $1 Taco Tuesdays at Taqueria Monchys, and laid-back nights with live music at Bohemeo’s. With frequent local events, green spaces like Eastwood Park, and easy access to the East End’s cultural spots, Eastwood offers a cozy yet vibrant slice of city life."
+        blurb: "Eastwood, just east of downtown Houston, blends historic charm with a modern, community-driven vibe. Known for its early 20th-century architecture, the neighborhood is also a hidden gem for food lovers—think fresh pastries and breakfast tacos at La Reynera, $1 Taco Tuesdays at Taqueria Monchys, and laid-back nights with live music at Bohemeo’s. With frequent local events, green spaces like Eastwood Park, and easy access to the East End’s cultural spots, Eastwood offers a cozy yet vibrant slice of city life.",
+        nearby: ['Gulfgate', 'Second Ward', 'South Central', 'South Side']
     },
     {
         name: 'Energy Corridor',
-        blurb: "The Energy Corridor is a prominent business district situated on the west side of Houston, Texas, stretching along a 7-mile segment of Interstate 10 (Katy Freeway) from Kirkwood Road to Barker Cypress Road, and extending south along Eldridge Parkway to Briar Forest Drive. This area is renowned for housing the headquarters and regional offices of major energy corporations, including BP, Shell, ConocoPhillips, and Citgo. Beyond its corporate significance, the Energy Corridor offers a blend of residential options, dining establishments, and recreational spaces. The district is bordered by over 26,000 acres of urban parks, such as George Bush Park and Terry Hershey Park, providing ample opportunities for outdoor activities. With its strategic location, the Energy Corridor serves as a hub for professionals and families alike, combining business, leisure, and community living."
+        blurb: "The Energy Corridor is a prominent business district situated on the west side of Houston, Texas, stretching along a 7-mile segment of Interstate 10 (Katy Freeway) from Kirkwood Road to Barker Cypress Road, and extending south along Eldridge Parkway to Briar Forest Drive. This area is renowned for housing the headquarters and regional offices of major energy corporations, including BP, Shell, ConocoPhillips, and Citgo. Beyond its corporate significance, the Energy Corridor offers a blend of residential options, dining establishments, and recreational spaces. The district is bordered by over 26,000 acres of urban parks, such as George Bush Park and Terry Hershey Park, providing ample opportunities for outdoor activities. With its strategic location, the Energy Corridor serves as a hub for professionals and families alike, combining business, leisure, and community living.",
+        nearby: ['CityCentre', 'Westside']
     },
-    {
-        name: 'Fountain View',
-        blurb: "The Fountain View neighborhood in Houston, Texas, is a well-established community located in the Greater Uptown area. Characterized by its mid-century homes and proximity to major commercial centers, Fountain View offers residents a blend of suburban tranquility and urban convenience. The area features a mix of single-family homes and apartment complexes, providing diverse housing options. Its central location offers easy access to nearby amenities, including shopping centers, dining establishments, and recreational facilities. Fountain View's mature trees and established infrastructure contribute to its appeal as a desirable place to live within Houston."
-    },
+    // {
+    //     name: 'Fountain View',
+    //     blurb: "The Fountain View neighborhood in Houston, Texas, is a well-established community located in the Greater Uptown area. Characterized by its mid-century homes and proximity to major commercial centers, Fountain View offers residents a blend of suburban tranquility and urban convenience. The area features a mix of single-family homes and apartment complexes, providing diverse housing options. Its central location offers easy access to nearby amenities, including shopping centers, dining establishments, and recreational facilities. Fountain View's mature trees and established infrastructure contribute to its appeal as a desirable place to live within Houston."
+    // },
     {
         name: 'Fourth Ward',
-        blurb: "The Fourth Ward, also known as Freedmen’s Town, is a historic neighborhood located just west of downtown Houston. Established in 1866 by formerly enslaved individuals, it became a vibrant center of African American culture and commerce. The community is renowned for its hand-laid brick streets, a testament to the resilience and self-sufficiency of its early residents. Despite facing challenges such as urban development and gentrification, efforts continue to preserve its rich heritage. Today, the Fourth Ward stands as a symbol of Houston's African American history and ongoing cultural significance."
+        blurb: "The Fourth Ward, also known as Freedmen’s Town, is a historic neighborhood located just west of downtown Houston. Established in 1866 by formerly enslaved individuals, it became a vibrant center of African American culture and commerce. The community is renowned for its hand-laid brick streets, a testament to the resilience and self-sufficiency of its early residents. Despite facing challenges such as urban development and gentrification, efforts continue to preserve its rich heritage. Today, the Fourth Ward stands as a symbol of Houston's African American history and ongoing cultural significance.",
+        nearby: ['Downtown', 'Hyde Park', 'Midtown', 'Montrose', 'Washington']
     },
     {
         name: 'Galleria',
-        blurb: "The Galleria area, also known as Uptown Houston, is a vibrant commercial and residential district located west of downtown. Centered around The Galleria mall, Texas' largest shopping center, the area boasts over 400 stores, 50 restaurants, and an indoor ice rink . Beyond retail, the neighborhood features luxury high-rise condos, office towers, and a diverse culinary scene. With its prime location, the Galleria area offers a dynamic blend of work, shopping, and entertainment options."
+        blurb: "The Galleria area, also known as Uptown Houston, is a vibrant commercial and residential district located west of downtown. Centered around The Galleria mall, Texas' largest shopping center, the area boasts over 400 stores, 50 restaurants, and an indoor ice rink . Beyond retail, the neighborhood features luxury high-rise condos, office towers, and a diverse culinary scene. With its prime location, the Galleria area offers a dynamic blend of work, shopping, and entertainment options.",
+        nearby: ['Chinatown', 'Mid West', 'River Oaks', 'Uptown']
     },
     {
         name: 'Greater Fifth Ward',
-        blurb: "The Greater Fifth Ward, located just northeast of downtown Houston, is a historically rich and culturally vibrant neighborhood. Once a thriving center for African American commerce and culture, it has evolved into a diverse community with a significant Hispanic population, comprising 47% of residents, while 42% identify as Black. The area is characterized by its dense suburban feel, with a mix of residential homes and local businesses. Despite facing challenges such as environmental concerns and economic disparities, the Greater Fifth Ward remains a testament to resilience and community spirit. Residents enjoy access to local parks and are within close proximity to downtown Houston's amenities. The neighborhood's rich history and ongoing efforts toward revitalization make it a unique and integral part of Houston's landscape."
+        blurb: "The Greater Fifth Ward, located just northeast of downtown Houston, is a historically rich and culturally vibrant neighborhood. Once a thriving center for African American commerce and culture, it has evolved into a diverse community with a significant Hispanic population, comprising 47% of residents, while 42% identify as Black. The area is characterized by its dense suburban feel, with a mix of residential homes and local businesses. Despite facing challenges such as environmental concerns and economic disparities, the Greater Fifth Ward remains a testament to resilience and community spirit. Residents enjoy access to local parks and are within close proximity to downtown Houston's amenities. The neighborhood's rich history and ongoing efforts toward revitalization make it a unique and integral part of Houston's landscape.",
+        nearby: ['EaDo', 'Downtown', 'Northside', 'Washington']
     },
-    {
-        name: 'Greater Uptown',
-        blurb: "Greater Uptown, often referred to as the Galleria area, is a dynamic district situated just west of downtown Houston. It encompasses a blend of upscale residential neighborhoods, commercial hubs, and cultural attractions. The area is anchored by The Galleria, Texas' largest shopping center, which features over 400 stores, a full-size ice rink, and a diverse array of dining options. Surrounding neighborhoods like Tanglewood, Briargrove, and Afton Oaks offer a mix of mid-century homes and modern developments, providing residents with a suburban feel while maintaining close proximity to urban amenities. With its tree-lined streets, green spaces, and a variety of parks, Greater Uptown offers a balanced lifestyle that combines convenience with comfort. The district is also well-connected by public transportation, including the METRORapid Silver Line, enhancing accessibility for both residents and visitors."
-    },
+    // {
+    //     name: 'Greater Uptown',
+    //     blurb: "Greater Uptown, often referred to as the Galleria area, is a dynamic district situated just west of downtown Houston. It encompasses a blend of upscale residential neighborhoods, commercial hubs, and cultural attractions. The area is anchored by The Galleria, Texas' largest shopping center, which features over 400 stores, a full-size ice rink, and a diverse array of dining options. Surrounding neighborhoods like Tanglewood, Briargrove, and Afton Oaks offer a mix of mid-century homes and modern developments, providing residents with a suburban feel while maintaining close proximity to urban amenities. With its tree-lined streets, green spaces, and a variety of parks, Greater Uptown offers a balanced lifestyle that combines convenience with comfort. The district is also well-connected by public transportation, including the METRORapid Silver Line, enhancing accessibility for both residents and visitors."
+    // },
     {
         name: 'Greenspoint',
-        blurb: "Greater Greenspoint, also known as the North Houston District, is a diverse and evolving neighborhood located in northeastern Houston. Once a bustling commercial hub centered around Greenspoint Mall, the area has experienced significant changes over the years. While the mall has closed, new developments like CityNorth are revitalizing the district, offering a mix of shopping, dining, and entertainment options. The neighborhood boasts a variety of parks, including the 11-acre Thomas R. Wussow Park, providing residents with recreational spaces. With a population of over 84,000, Greater Greenspoint is characterized by its cultural diversity and a median age of 29, making it a vibrant community within Houston."
+        blurb: "Greater Greenspoint, also known as the North Houston District, is a diverse and evolving neighborhood located in northeastern Houston. Once a bustling commercial hub centered around Greenspoint Mall, the area has experienced significant changes over the years. While the mall has closed, new developments like CityNorth are revitalizing the district, offering a mix of shopping, dining, and entertainment options. The neighborhood boasts a variety of parks, including the 11-acre Thomas R. Wussow Park, providing residents with recreational spaces. With a population of over 84,000, Greater Greenspoint is characterized by its cultural diversity and a median age of 29, making it a vibrant community within Houston.",
+        nearby: ['Acres Home', 'Jersey Village', 'Willowbrook']
     },
     {
         name: 'Greenway',
-        blurb: "Greenway/Upper Kirby is a vibrant neighborhood located just southwest of downtown Houston, nestled within the 610 Loop. This area seamlessly blends urban living with suburban charm, offering tree-lined streets, a mix of historic homes, and modern condominiums. Residents enjoy proximity to major employment centers, including the Texas Medical Center, and a plethora of dining, shopping, and entertainment options. The neighborhood boasts well-maintained parks, such as Levy Park, providing green spaces for relaxation and recreation. With its walkability, diverse community, and strong sense of local identity, Greenway/Upper Kirby stands out as one of Houston's most desirable places to live. "
+        blurb: "Greenway/Upper Kirby is a vibrant neighborhood located just southwest of downtown Houston, nestled within the 610 Loop. This area seamlessly blends urban living with suburban charm, offering tree-lined streets, a mix of historic homes, and modern condominiums. Residents enjoy proximity to major employment centers, including the Texas Medical Center, and a plethora of dining, shopping, and entertainment options. The neighborhood boasts well-maintained parks, such as Levy Park, providing green spaces for relaxation and recreation. With its walkability, diverse community, and strong sense of local identity, Greenway/Upper Kirby stands out as one of Houston's most desirable places to live.",
+        nearby: ['Montrose', 'River Oaks', 'Museum District', 'University Place', 'West University Place']
     },
-    {
-        name: 'Greenwood Village',
-        blurb: "Greenwood Village, located in northeastern Houston, offers a mix of local eateries and casual spots that cater to diverse tastes. The area is known for its relaxed atmosphere and neighborhood charm, with several parks and recreational areas nearby for outdoor activities. Residents and visitors can enjoy community events, local markets, and easy access to shopping centers. Its convenient location near major highways makes Greenwood Village a great spot to explore Houston’s wider dining and entertainment options."
-    },
+    // {
+    //     name: 'Greenwood Village',
+    //     blurb: "Greenwood Village, located in northeastern Houston, offers a mix of local eateries and casual spots that cater to diverse tastes. The area is known for its relaxed atmosphere and neighborhood charm, with several parks and recreational areas nearby for outdoor activities. Residents and visitors can enjoy community events, local markets, and easy access to shopping centers. Its convenient location near major highways makes Greenwood Village a great spot to explore Houston’s wider dining and entertainment options."
+    // },
     {
         name: 'Gulfgate',
-        blurb: "Gulfgate, located in Houston's East End, offers a vibrant mix of dining and entertainment options. Doneraki, a family-owned Mexican restaurant, has been serving authentic dishes since 1973 . For Vietnamese cuisine, Son Nam Restaurant is a local favorite, known for its traditional offerings . The area also boasts a variety of eateries catering to diverse tastes."
+        blurb: "Gulfgate, located in Houston's East End, offers a vibrant mix of dining and entertainment options. Doneraki, a family-owned Mexican restaurant, has been serving authentic dishes since 1973 . For Vietnamese cuisine, Son Nam Restaurant is a local favorite, known for its traditional offerings . The area also boasts a variety of eateries catering to diverse tastes.",
+        nearby: ['Eastwood', 'Southeast Houston', 'South Side']
     },
     {
         name: 'Heights',
-        blurb: "The Houston Heights, located just northwest of downtown, is a vibrant neighborhood known for its eclectic dining and lively social scene. Food enthusiasts can indulge in a variety of cuisines, from the inventive dishes at Jūn to the classic flavors at Puebla's Mexican Kitchen. The area also boasts a plethora of bars and entertainment venues, including the laid-back Big Star Bar and the upscale Postino Wine Café. For those seeking cultural experiences, the Heights offers art galleries, boutique shopping, and live music venues like White Oak Music Hall. Whether you're savoring a meal, enjoying a drink, or exploring local art, the Heights provides a dynamic blend of activities for all to enjoy."
+        blurb: "The Houston Heights, located just northwest of downtown, is a vibrant neighborhood known for its eclectic dining and lively social scene. Food enthusiasts can indulge in a variety of cuisines, from the inventive dishes at Jūn to the classic flavors at Puebla's Mexican Kitchen. The area also boasts a plethora of bars and entertainment venues, including the laid-back Big Star Bar and the upscale Postino Wine Café. For those seeking cultural experiences, the Heights offers art galleries, boutique shopping, and live music venues like White Oak Music Hall. Whether you're savoring a meal, enjoying a drink, or exploring local art, the Heights provides a dynamic blend of activities for all to enjoy.",
+        nearby: ['Independence Heights', 'Memorial Park', 'Northwest Houston', 'Northside', 'Oak Forest', 'Washington']
     },
     {
         name: 'Houston Gardens',
-        blurb: "Houston Gardens, situated in the northeastern part of the city, offers a blend of community-driven gardening and local dining experiences. Residents and visitors can engage in urban agriculture through community gardens like Target Hunger's Educational & Community Gardens, which provide opportunities to grow nutritious produce and support local food pantries . Additionally, the area is home to the Houston Botanic Garden, featuring diverse plant collections and walking trails for those seeking a peaceful retreat."
+        blurb: "Houston Gardens, situated in the northeastern part of the city, offers a blend of community-driven gardening and local dining experiences. Residents and visitors can engage in urban agriculture through community gardens like Target Hunger's Educational & Community Gardens, which provide opportunities to grow nutritious produce and support local food pantries . Additionally, the area is home to the Houston Botanic Garden, featuring diverse plant collections and walking trails for those seeking a peaceful retreat.",
+        nearby: ['East Aldine', 'Deerbrook', 'Humble', 'Little York', 'Northside', 'Summerwood']
     },
     {
         name: 'Humble',
@@ -110,56 +133,67 @@ const neighborhoodBlurbs = [
     },
     {
         name: 'Hyde Park',
-        blurb: "Hyde Park, part of the Montrose area, is known for its vibrant dining and nightlife. Enjoy wood-fired pizzas at Hyde Park Kitchen + Bar or inventive dishes at Traveler’s Table. The neighborhood also offers cozy cocktail lounges with live music, perfect for a laid-back evening. Community events like National Night Out add to its welcoming atmosphere."
+        blurb: "Hyde Park, part of the Montrose area, is known for its vibrant dining and nightlife. Enjoy wood-fired pizzas at Hyde Park Kitchen + Bar or inventive dishes at Traveler’s Table. The neighborhood also offers cozy cocktail lounges with live music, perfect for a laid-back evening. Community events like National Night Out add to its welcoming atmosphere.",
+        nearby: ['Downtown', 'Fourth Ward', 'Midtown', 'Montrose', 'River Oaks']
     },
     {
         name: 'Independence Heights',
-        blurb: "Independence Heights, Houston's first African American municipality, boasts a rich cultural heritage and a vibrant community. The neighborhood offers a variety of dining options, including the beloved Esther's Cajun Cafe & Soul Food, known for its hearty Southern dishes. For a taste of local history, Barbecue Inn serves classic BBQ favorites in a nostalgic setting. Gatlin's Fins & Feathers brings a modern twist to Gulf Coast cuisine with dishes like gumbo and fried chicken. Beyond dining, the community celebrates its roots with events such as Juneteenth celebrations at Independence Park, fostering a strong sense of unity and pride."
+        blurb: "Independence Heights, Houston's first African American municipality, boasts a rich cultural heritage and a vibrant community. The neighborhood offers a variety of dining options, including the beloved Esther's Cajun Cafe & Soul Food, known for its hearty Southern dishes. For a taste of local history, Barbecue Inn serves classic BBQ favorites in a nostalgic setting. Gatlin's Fins & Feathers brings a modern twist to Gulf Coast cuisine with dishes like gumbo and fried chicken. Beyond dining, the community celebrates its roots with events such as Juneteenth celebrations at Independence Park, fostering a strong sense of unity and pride.",
+        nearby: ['Acres Home', 'Heights', 'Northside', 'Oak Forest']
     },
     {
         name: 'Jersey Village',
-        blurb: "Jersey Village, located in the northwestern part of Houston, offers a blend of local charm and community spirit. Dining options include Adriatic Café, known for its authentic Italian dishes, and Little Kitchen HTX, offering a diverse menu in a cozy setting. For a casual outing, Senate Avenue Brewing Co. provides craft beers and a relaxed atmosphere. The community hosts events like the annual Jersey Village Restaurant Week, celebrating local eateries and fostering a sense of togetherness."
+        blurb: "Jersey Village, located in the northwestern part of Houston, offers a blend of local charm and community spirit. Dining options include Adriatic Café, known for its authentic Italian dishes, and Little Kitchen HTX, offering a diverse menu in a cozy setting. For a casual outing, Senate Avenue Brewing Co. provides craft beers and a relaxed atmosphere. The community hosts events like the annual Jersey Village Restaurant Week, celebrating local eateries and fostering a sense of togetherness.",
+        nearby: ['Acres Home', 'Willowbrook']
     },
     {
         name: 'Katy',
-        blurb: "Katy, Texas, located just west of Houston, offers a vibrant mix of dining and entertainment options. At Katy Asian Town, you can explore a variety of Asian cuisines, including Malaysian dishes at Phat Eatery. For a fun night out, Home Run Dugout combines baseball simulation with a full-service bar and restaurant. Families can enjoy attractions like Katy Mills Mall, which features shopping, dining, and entertainment options. Additionally, the city hosts events such as Music Under the Stars at LaCenterra, offering live music in a relaxed outdoor setting."
+        blurb: "Katy, Texas, located just west of Houston, offers a vibrant mix of dining and entertainment options. At Katy Asian Town, you can explore a variety of Asian cuisines, including Malaysian dishes at Phat Eatery. For a fun night out, Home Run Dugout combines baseball simulation with a full-service bar and restaurant. Families can enjoy attractions like Katy Mills Mall, which features shopping, dining, and entertainment options. Additionally, the city hosts events such as Music Under the Stars at LaCenterra, offering live music in a relaxed outdoor setting.",
+        nearby: ['Cinco Ranch', 'Energy Corridor', 'Westside']
     },
     {
         name: 'Kemah',
-        blurb: "Just southeast of Houston along Galveston Bay, Kemah is a lively waterfront destination known for its blend of dining and entertainment. The Kemah Boardwalk features restaurants like Landry’s Seafood House and Bubba Gump Shrimp Co., offering fresh seafood with scenic views . Visitors can enjoy amusement rides, arcade games, and seasonal festivals, making it a family-friendly spot year-round . Whether you're seeking a romantic dinner or a fun-filled day with the kids, Kemah offers a memorable coastal experience."
+        blurb: "Just southeast of Houston along Galveston Bay, Kemah is a lively waterfront destination known for its blend of dining and entertainment. The Kemah Boardwalk features restaurants like Landry’s Seafood House and Bubba Gump Shrimp Co., offering fresh seafood with scenic views . Visitors can enjoy amusement rides, arcade games, and seasonal festivals, making it a family-friendly spot year-round . Whether you're seeking a romantic dinner or a fun-filled day with the kids, Kemah offers a memorable coastal experience.",
+        nearby: ['Webster']
     },
-    {
-        name: 'Kingslake Forest',
-        blurb: "Kingslake Forest, located in northeast Houston near North Lake Houston Parkway, offers a welcoming community with a variety of dining options. Residents can enjoy Southern comfort food from local eateries or opt for late-night bites from nearby fast-food chains. The neighborhood fosters community spirit through events like clean-up days at local parks. With its peaceful atmosphere and convenient access to amenities, Kingslake Forest provides a comfortable setting for both relaxation and social engagement."
-    },
+    // {
+    //     name: 'Kingslake Forest',
+    //     blurb: "Kingslake Forest, located in northeast Houston near North Lake Houston Parkway, offers a welcoming community with a variety of dining options. Residents can enjoy Southern comfort food from local eateries or opt for late-night bites from nearby fast-food chains. The neighborhood fosters community spirit through events like clean-up days at local parks. With its peaceful atmosphere and convenient access to amenities, Kingslake Forest provides a comfortable setting for both relaxation and social engagement."
+    // },
     {
         name: 'Little York',
-        blurb: "East Little York, situated just east of I-45 and north of U.S. 59, offers a blend of local flavors and community spirit. For a taste of authentic Mexican cuisine, Doña Tere Mexican Restaurant serves up beloved tamales and pambazos . Barbecue enthusiasts can enjoy classic smoked meats at Pappas Bar-B-Q on Eastex Freeway . The neighborhood also features community centers that host events and activities for residents of all ages "
+        blurb: "East Little York, situated just east of I-45 and north of U.S. 59, offers a blend of local flavors and community spirit. For a taste of authentic Mexican cuisine, Doña Tere Mexican Restaurant serves up beloved tamales and pambazos . Barbecue enthusiasts can enjoy classic smoked meats at Pappas Bar-B-Q on Eastex Freeway . The neighborhood also features community centers that host events and activities for residents of all ages ",
+        nearby: ['East Aldine', 'Houston Gardens', 'Pine Village North', 'Northside']
     },
     {
         name: 'Memorial Park',
-        blurb: "Nestled in the heart of Houston, Memorial Park offers a blend of outdoor recreation and nearby dining options. Visitors can enjoy activities like running on the Seymour Lieberman Trail, golfing at the Memorial Park Golf Course, or exploring the Houston Arboretum & Nature Center. For dining, nearby establishments such as Brenner's on the Bayou and El Tiempo Cantina on Washington Avenue provide a variety of culinary experiences. Whether you're seeking active pursuits or a relaxing meal, Memorial Park and its surroundings cater to diverse interests."
+        blurb: "Nestled in the heart of Houston, Memorial Park offers a blend of outdoor recreation and nearby dining options. Visitors can enjoy activities like running on the Seymour Lieberman Trail, golfing at the Memorial Park Golf Course, or exploring the Houston Arboretum & Nature Center. For dining, nearby establishments such as Brenner's on the Bayou and El Tiempo Cantina on Washington Avenue provide a variety of culinary experiences. Whether you're seeking active pursuits or a relaxing meal, Memorial Park and its surroundings cater to diverse interests.",
+        nearby: ['Heights', 'Northwest Houston', 'River Oaks', 'Uptown', 'Washington']
     },
     {
         name: 'Mid West',
-        blurb: "Mid West Houston, nestled between Westheimer and Richmond, offers a diverse culinary scene and vibrant social spots. Food enthusiasts can savor authentic Persian dishes at Aban Persian Restaurant or indulge in flavorful dumplings at Dumplings & Noodles by Cooking Girl. For a lively evening, Soju Blues provides Korean fare alongside private karaoke rooms, perfect for group gatherings. Additionally, the upcoming Ashford Beer Garden promises a Munich-inspired experience with yard games and live entertainment, enhancing the area's social landscape."
+        blurb: "Mid West Houston, nestled between Westheimer and Richmond, offers a diverse culinary scene and vibrant social spots. Food enthusiasts can savor authentic Persian dishes at Aban Persian Restaurant or indulge in flavorful dumplings at Dumplings & Noodles by Cooking Girl. For a lively evening, Soju Blues provides Korean fare alongside private karaoke rooms, perfect for group gatherings. Additionally, the upcoming Ashford Beer Garden promises a Munich-inspired experience with yard games and live entertainment, enhancing the area's social landscape.",
+        nearby: ['Chinatown', 'Galleria', 'River Oaks', 'Uptown', 'Westside']
     },
     {
         name: 'Midtown',
-        blurb: "Midtown, nestled between Downtown and the Museum District, is a vibrant hub for dining and nightlife. Start your day with wings and waffles at The Breakfast Klub or enjoy Vietnamese crepes at Xeo Yum. Evenings come alive at spots like Lost & Found, offering rooftop cocktails, or Belle Station for sports and live DJs. For a unique experience, Solarium combines pickleball courts with a full-service bar and restaurant, making it a lively destination for both sports and socializing."
+        blurb: "Midtown, nestled between Downtown and the Museum District, is a vibrant hub for dining and nightlife. Start your day with wings and waffles at The Breakfast Klub or enjoy Vietnamese crepes at Xeo Yum. Evenings come alive at spots like Lost & Found, offering rooftop cocktails, or Belle Station for sports and live DJs. For a unique experience, Solarium combines pickleball courts with a full-service bar and restaurant, making it a lively destination for both sports and socializing.",
+        nearby: ['Downtown', 'Fourth Ward', 'Hyde Park', 'Greenway', 'Montrose', 'Museum District', 'South Central']
     },
     {
         name: 'Montrose',
-        blurb: "Montrose, just west of downtown, is a vibrant neighborhood renowned for its eclectic dining and lively nightlife. Food enthusiasts can savor upscale Japanese cuisine at Katami or enjoy global street food at Traveler’s Cart. Evenings come alive at venues like Jethro’s Cocktail Lounge, known for inventive drinks and smash burgers, or The Toasted Coconut, offering tropical cocktails and a laid-back atmosphere. The neighborhood also hosts the Montrose Live market on weekends, featuring local art, food trucks, and vintage finds."
+        blurb: "Montrose, just west of downtown, is a vibrant neighborhood renowned for its eclectic dining and lively nightlife. Food enthusiasts can savor upscale Japanese cuisine at Katami or enjoy global street food at Traveler’s Cart. Evenings come alive at venues like Jethro’s Cocktail Lounge, known for inventive drinks and smash burgers, or The Toasted Coconut, offering tropical cocktails and a laid-back atmosphere. The neighborhood also hosts the Montrose Live market on weekends, featuring local art, food trucks, and vintage finds.",
+        nearby: ['Downtown', 'Fourth Ward', 'Hyde Park', 'Greenway', 'Museum District', 'River Oaks']
     },
     {
         name: 'Museum District',
-        blurb: "Houston's Museum District, nestled just south of downtown, offers a rich tapestry of cultural attractions complemented by diverse dining and social venues. After exploring institutions like the Museum of Fine Arts or the Houston Museum of Natural Science, visitors can indulge in Southern cuisine at Lucille's or savor Italian fare at Café Leonelli within the MFAH's Kinder Building. For a relaxed evening, Poolside at Hotel ZaZa provides specialty cocktails in a chic outdoor setting. Whether you're seeking art, food, or nightlife, the Museum District delivers a well-rounded experience."
+        blurb: "Houston's Museum District, nestled just south of downtown, offers a rich tapestry of cultural attractions complemented by diverse dining and social venues. After exploring institutions like the Museum of Fine Arts or the Houston Museum of Natural Science, visitors can indulge in Southern cuisine at Lucille's or savor Italian fare at Café Leonelli within the MFAH's Kinder Building. For a relaxed evening, Poolside at Hotel ZaZa provides specialty cocktails in a chic outdoor setting. Whether you're seeking art, food, or nightlife, the Museum District delivers a well-rounded experience.",
+        nearby: ['Greenway', 'Midtown', 'Museum District', 'Rice Village', 'South Central', 'South Side', 'University Place']
     },
-    {
-        name: 'Norhill',
-        blurb: "Nestled just northeast of the Heights, Norhill is a charming historic neighborhood known for its bungalow-lined streets and community-centric atmosphere. While primarily residential, its proximity to the Heights offers residents easy access to a variety of dining and social venues. Nearby, you can enjoy wood-fired pizzas at d'Alba or savor Vietnamese cuisine at Moon Rabbit. For a relaxed evening, The Ginger Mule provides a cozy setting with a selection of craft cocktails."
-    },
+    // {
+    //     name: 'Norhill',
+    //     blurb: "Nestled just northeast of the Heights, Norhill is a charming historic neighborhood known for its bungalow-lined streets and community-centric atmosphere. While primarily residential, its proximity to the Heights offers residents easy access to a variety of dining and social venues. Nearby, you can enjoy wood-fired pizzas at d'Alba or savor Vietnamese cuisine at Moon Rabbit. For a relaxed evening, The Ginger Mule provides a cozy setting with a selection of craft cocktails."
+    // },
     {
         name: 'Northside',
         blurb: "Northside, just north of downtown Houston, blends rich culture with a growing food and social scene. Start your day at Cariño Coffee, serving Mexican-inspired lattes like mazapán and café de olla in a cozy setting. For lunch, Cochinita & Co. offers tacos and tamales while supporting anti-trafficking efforts. Evenings come alive at Rabbit’s Got the Gun, a bar with inventive cocktails, or enjoy classic Tex-Mex at the original Taqueria Arandas. Community events, such as family picnics and gatherings at Moody Park, foster a strong neighborhood spirit."
@@ -240,10 +274,10 @@ const neighborhoodBlurbs = [
         name: 'West University Place',
         blurb: "West University Place blends classic charm with a vibrant, family-friendly vibe. Locals gather at Tiny’s No. 5 for brunch in a cozy garden setting, or sip wine under the vines at Simone on Sunset. Little Matt’s, a nationally recognized favorite, delights both kids and adults with arcade games, burgers, and complimentary adult beverages. Nearby, Rice Village offers a walkable mix of eateries like Hamsa for modern Israeli fare and Navy Blue for Gulf Coast seafood. Whether you're craving tacos at El Topo or a sweet treat from Badolina Bakery, West U serves up a warm welcome with every bite."
     },
-    {
-        name: 'Westheimer',
-        blurb: "Westheimer is Houston’s flavor highway—stretching from upscale bites in River Oaks to funky dives in Montrose and global eats in Alief. It’s a nonstop mix of cocktails, culture, and late-night pho, where every block tells a different food story."
-    },
+    // {
+    //     name: 'Westheimer',
+    //     blurb: "Westheimer is Houston’s flavor highway—stretching from upscale bites in River Oaks to funky dives in Montrose and global eats in Alief. It’s a nonstop mix of cocktails, culture, and late-night pho, where every block tells a different food story."
+    // },
     {
         name: 'Westside',
         blurb: "Westside keeps it chill with cozy cafes, neighborhood grills, and international eats tucked into quiet strips. It’s where locals gather for Tex-Mex, sushi, or a good burger—no fuss, just solid spots and easy vibes."

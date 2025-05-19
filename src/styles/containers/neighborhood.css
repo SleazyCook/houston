@@ -65,6 +65,23 @@
     background-color: black;
 }
 
+/* single neighborhood page version */
+.neighborhoods__nearby {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.neighborhoods__nearby--title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+    font-family: 'Avenir Next Condensed';
+}
+
 .neighborhood {
     height: 5rem;
     min-width: 5rem;

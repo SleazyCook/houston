@@ -41,21 +41,28 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
 
     return (
         <div className='neighborhood-details-page'>
+            {/* Title & Blurb */}
             <h2 className='neighborhood-details__title'>{matched.neighborhood}</h2>
             <p className='neighborhood-details__blurb'>{blurbObj.blurb.length && blurbObj.blurb}</p>
-            <div>
-                {blurbObj?.nearby?.length && blurbObj.nearby.map((item, key) => {
-                    const slug = item.toLowerCase().replace(/\s+/g, '-');
-                    console.log(slug)
-                    return(
-                        <Link
-                            key={key}
-                            to={`/neighborhoods/${slug}`}>
+            {/* Nearby */}
+            {blurbObj?.nearby?.length > 0 && (
+                <>
+                    <div className='neighborhoods__nearby--title'>
+                        Nearby Neighborhoods</div>
+                    <ul className='neighborhoods neighborhoods__nearby'>
+                    {blurbObj.nearby.map((item, key) => {
+                        const slug = item.toLowerCase().replace(/\s+/g, '-');
+                        return (
+                        <li className='neighborhood' key={key}>
+                            <Link to={`/neighborhoods/${slug}`}>
                                 {item}
                             </Link>
-                    );
-                })}
-            </div>
+                        </li>
+                        );
+                    })}
+                    </ul>
+                </>
+            )}
 
             <div className='location__container'>
                 {allInNeighborhood.map((item, key) => {
