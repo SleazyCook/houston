@@ -32,7 +32,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Chinatown',
         blurb: "Houston's Chinatown, also known as Asiatown, is a vibrant neighborhood located in the southwestern part of the city, primarily along Bellaire Boulevard between Fondren and Beltway 8. Established in the 1980s, it has grown into one of the largest and most diverse Asian communities in the United States . The area boasts a rich tapestry of cultures, including Chinese, Vietnamese, Korean, Malaysian, and more, reflected in its array of restaurants, markets, and cultural centers . Visitors can explore bustling shopping centers, savor authentic Asian cuisines, and experience vibrant cultural festivals throughout the year.",
-        nearby: ['Galleria', 'Mid West', 'Westside', 'West University Place']
+        nearby: ['Galleria', 'Mid West', 'Sugarland', 'Westside', 'West University Place']
     },
     {
         name: 'Cinco Ranch',
@@ -52,17 +52,17 @@ const neighborhoodBlurbs = [
     {
         name: 'Downtown',
         blurb: "Downtown Houston sits at the heart of the city, just south of the Interstate 45 corridor. It’s a bustling urban core packed with skyscrapers, theaters, and historic landmarks. The area is served by Houston’s METRORail, making it easy to navigate between entertainment, dining, and business districts. With a lively mix of offices, apartments, and cultural venues, Downtown offers a vibrant city experience day and night.",
-        nearby: ['EaDo', 'Fourth Ward', 'Greater Fifth Ward', 'Hyde Park', 'Midtown', 'Montrose', 'Northside', 'South Side', 'Washington']
+        nearby: ['EaDo', 'Fourth Ward', 'Greater Fifth Ward', 'Hyde Park', 'Midtown', 'Montrose', 'Northside', 'South Central', 'South Side', 'Washington']
     },
     {
         name: 'EaDo',
         blurb: "EaDo (East Downtown) is a dynamic neighborhood located just east of downtown Houston, Texas. Once home to Houston's original Chinatown, the area has transformed into a vibrant hub known for its cultural diversity and artistic flair. Today, EaDo boasts a thriving arts scene, with numerous murals and galleries adorning its streets. The neighborhood offers a rich tapestry of ethnic shops, restaurants, bars, and music venues, making it a popular destination for both locals and visitors. Its proximity to major business districts, including downtown Houston, the Texas Medical Center, and the Houston Ship Channel, adds to its appeal as a central and accessible location within the city.",
-        nearby: ['Downtown', 'Eastwood', 'Greater Fifth Ward', 'Midtown', 'Montrose', 'Northside', 'Second Ward', 'South Side']
+        nearby: ['Downtown', 'Eastwood', 'Greater Fifth Ward', 'Midtown', 'Montrose', 'Northside', 'Second Ward', 'South Central', 'South Side']
     },
     {
         name: 'East Aldine',
         blurb: "East Aldine is a vibrant community located in unincorporated Harris County, just north of downtown Houston. This 20-square-mile district is home to a diverse population of approximately 63,000 residents . The area is undergoing significant revitalization, with the East Aldine Town Center serving as a focal point for economic and community development. This multi-phase project includes a new office building, amphitheater, playground with a splash pad, and plans for 100,000 square feet of retail and commercial space.",
-        nearby: ['Houston Gardens', 'Humble', 'Little York', 'Northside', 'Pine Village North']
+        nearby: ['Houston Gardens', 'Humble', 'Little York', 'Northside']
     },
     {
         name: 'Eastwood',
@@ -86,7 +86,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Galleria',
         blurb: "The Galleria area, also known as Uptown Houston, is a vibrant commercial and residential district located west of downtown. Centered around The Galleria mall, Texas' largest shopping center, the area boasts over 400 stores, 50 restaurants, and an indoor ice rink . Beyond retail, the neighborhood features luxury high-rise condos, office towers, and a diverse culinary scene. With its prime location, the Galleria area offers a dynamic blend of work, shopping, and entertainment options.",
-        nearby: ['Chinatown', 'Mid West', 'River Oaks', 'Uptown']
+        nearby: ['Chinatown', 'Mid West', 'River Oaks', 'Uptown', 'West University Place']
     },
     {
         name: 'Greater Fifth Ward',
@@ -129,7 +129,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Humble',
         blurb: "Located just north of Houston, Humble offers a delightful mix of dining, entertainment, and outdoor activities. Food enthusiasts can savor a variety of cuisines at local favorites like Humble City Cafe, known for its hearty American fare, and Pappas Seafood House, offering fresh Gulf Coast seafood. For those seeking adventure, the upcoming Score Entertainment complex at Deerbrook Mall promises go-karting, laser tag, bowling, and more, making it a hub for family fun. Nature lovers can explore the serene Mercer Arboretum & Botanic Gardens, while families can enjoy interactive exhibits at the Houston Interactive Aquarium. Whether you're dining out or seeking entertainment, Humble provides a welcoming atmosphere for all.",
-        nearby: ['Atascocita', 'East Aldine', 'Deerbrook', 'Summerwood',]
+        nearby: ['Atascocita', 'East Aldine', 'Deerbrook', 'Spring', 'Summerwood']
     },
     {
         name: 'Hyde Park',
@@ -163,7 +163,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Little York',
         blurb: "East Little York, situated just east of I-45 and north of U.S. 59, offers a blend of local flavors and community spirit. For a taste of authentic Mexican cuisine, Doña Tere Mexican Restaurant serves up beloved tamales and pambazos . Barbecue enthusiasts can enjoy classic smoked meats at Pappas Bar-B-Q on Eastex Freeway . The neighborhood also features community centers that host events and activities for residents of all ages ",
-        nearby: ['East Aldine', 'Houston Gardens', 'Pine Village North', 'Northside']
+        nearby: ['East Aldine', 'Houston Gardens', 'Northside']
     },
     {
         name: 'Memorial Park',
@@ -178,17 +178,17 @@ const neighborhoodBlurbs = [
     {
         name: 'Midtown',
         blurb: "Midtown, nestled between Downtown and the Museum District, is a vibrant hub for dining and nightlife. Start your day with wings and waffles at The Breakfast Klub or enjoy Vietnamese crepes at Xeo Yum. Evenings come alive at spots like Lost & Found, offering rooftop cocktails, or Belle Station for sports and live DJs. For a unique experience, Solarium combines pickleball courts with a full-service bar and restaurant, making it a lively destination for both sports and socializing.",
-        nearby: ['Downtown', 'Fourth Ward', 'Hyde Park', 'Greenway', 'Montrose', 'Museum District', 'South Central']
+        nearby: ['Downtown', 'Fourth Ward', 'Hyde Park', 'Greenway', 'Montrose', 'Museum District', 'South Central', 'South Side']
     },
     {
         name: 'Montrose',
         blurb: "Montrose, just west of downtown, is a vibrant neighborhood renowned for its eclectic dining and lively nightlife. Food enthusiasts can savor upscale Japanese cuisine at Katami or enjoy global street food at Traveler’s Cart. Evenings come alive at venues like Jethro’s Cocktail Lounge, known for inventive drinks and smash burgers, or The Toasted Coconut, offering tropical cocktails and a laid-back atmosphere. The neighborhood also hosts the Montrose Live market on weekends, featuring local art, food trucks, and vintage finds.",
-        nearby: ['Downtown', 'Fourth Ward', 'Hyde Park', 'Greenway', 'Museum District', 'River Oaks']
+        nearby: ['Downtown', 'Fourth Ward', 'Hyde Park', 'Greenway', 'Museum District', 'River Oaks', 'Washington']
     },
     {
         name: 'Museum District',
         blurb: "Houston's Museum District, nestled just south of downtown, offers a rich tapestry of cultural attractions complemented by diverse dining and social venues. After exploring institutions like the Museum of Fine Arts or the Houston Museum of Natural Science, visitors can indulge in Southern cuisine at Lucille's or savor Italian fare at Café Leonelli within the MFAH's Kinder Building. For a relaxed evening, Poolside at Hotel ZaZa provides specialty cocktails in a chic outdoor setting. Whether you're seeking art, food, or nightlife, the Museum District delivers a well-rounded experience.",
-        nearby: ['Greenway', 'Midtown', 'Rice Village', 'South Central', 'South Side', 'University Place']
+        nearby: ['Greenway', 'Midtown', 'Rice Village', 'South Central', 'South Side', 'University Place', 'West University Place']
     },
     // {
     //     name: 'Norhill',
@@ -196,83 +196,102 @@ const neighborhoodBlurbs = [
     // },
     {
         name: 'Northside',
-        blurb: "Northside, just north of downtown Houston, blends rich culture with a growing food and social scene. Start your day at Cariño Coffee, serving Mexican-inspired lattes like mazapán and café de olla in a cozy setting. For lunch, Cochinita & Co. offers tacos and tamales while supporting anti-trafficking efforts. Evenings come alive at Rabbit’s Got the Gun, a bar with inventive cocktails, or enjoy classic Tex-Mex at the original Taqueria Arandas. Community events, such as family picnics and gatherings at Moody Park, foster a strong neighborhood spirit."
+        blurb: "Northside, just north of downtown Houston, blends rich culture with a growing food and social scene. Start your day at Cariño Coffee, serving Mexican-inspired lattes like mazapán and café de olla in a cozy setting. For lunch, Cochinita & Co. offers tacos and tamales while supporting anti-trafficking efforts. Evenings come alive at Rabbit’s Got the Gun, a bar with inventive cocktails, or enjoy classic Tex-Mex at the original Taqueria Arandas. Community events, such as family picnics and gatherings at Moody Park, foster a strong neighborhood spirit.",
+        nearby: ['Acres Home', 'East Aldine', 'Downtown', 'Heights', 'Little York', 'Washington']
     },
     {
         name: 'Northwest Houston',
-        blurb: "Northwest Houston is a vibrant mix of diverse cultures reflected in its food and social spots. Dive into authentic Mexican street tacos at El Rey Taqueria or savor crispy fried chicken with a twist at Gus’s World Famous Fried Chicken. Catch live music and weekend farmers markets at the historic West Little York Civic Center. With sprawling parks like Bear Creek Pioneers, the area blends lively dining with plenty of outdoor fun, perfect for family outings or casual nights out."
+        blurb: "Northwest Houston is a vibrant mix of diverse cultures reflected in its food and social spots. Dive into authentic Mexican street tacos at El Rey Taqueria or savor crispy fried chicken with a twist at Gus’s World Famous Fried Chicken. Catch live music and weekend farmers markets at the historic West Little York Civic Center. With sprawling parks like Bear Creek Pioneers, the area blends lively dining with plenty of outdoor fun, perfect for family outings or casual nights out.",
+        nearby: ['Blalock Market', 'Heights', 'Memorial Park', 'Oak Forest', 'Uptown']
     },
     {
         name: 'Oak Forest',
-        blurb: "Oak Forest, affectionately known as 'GOOF,' is a vibrant neighborhood in northwest Houston that blends suburban charm with a lively social scene. The area boasts a diverse culinary landscape, from the cozy ambiance of d'Alba's wood-fired pizzas to the coastal flavors at Millie's Kitchen & Cocktails . For a taste of authentic Thai and Lao cuisine, Sao Lao Thai Café offers dishes like their signature boat noodles in a BYOB setting . Social gatherings are a staple here, with events such as the annual Le Tour de Oak Forest bike ride and the Pride Sunday Funday at Wakefield Crowbar . Whether you're enjoying a meal at a local bistro or participating in community festivities, Oak Forest offers a welcoming atmosphere for all."
+        blurb: "Oak Forest, affectionately known as 'GOOF,' is a vibrant neighborhood in northwest Houston that blends suburban charm with a lively social scene. The area boasts a diverse culinary landscape, from the cozy ambiance of d'Alba's wood-fired pizzas to the coastal flavors at Millie's Kitchen & Cocktails . For a taste of authentic Thai and Lao cuisine, Sao Lao Thai Café offers dishes like their signature boat noodles in a BYOB setting . Social gatherings are a staple here, with events such as the annual Le Tour de Oak Forest bike ride and the Pride Sunday Funday at Wakefield Crowbar . Whether you're enjoying a meal at a local bistro or participating in community festivities, Oak Forest offers a welcoming atmosphere for all.",
+        nearby: ['Acres Home', 'Central Northwest', 'Heights', 'Independence Heights', 'Northwest Houston']
     },
-    {
-        name: 'Pine Village North',
-        blurb: "Pine Village Forest is a tranquil neighborhood in northwest Houston, offering a blend of suburban charm and easy access to urban amenities. While the area is primarily residential, its proximity to nearby dining and recreational options makes it an appealing choice for families and professionals alike. Residents can enjoy local eateries, parks, and community events that foster a strong sense of belonging. Whether you're seeking a peaceful retreat or a vibrant community, Pine Village Forest provides a welcoming environment with the convenience of city living just a short drive away."    
-    },
+    // {
+    //     name: 'Pine Village North',
+    //     blurb: "Pine Village Forest is a tranquil neighborhood in northwest Houston, offering a blend of suburban charm and easy access to urban amenities. While the area is primarily residential, its proximity to nearby dining and recreational options makes it an appealing choice for families and professionals alike. Residents can enjoy local eateries, parks, and community events that foster a strong sense of belonging. Whether you're seeking a peaceful retreat or a vibrant community, Pine Village Forest provides a welcoming environment with the convenience of city living just a short drive away.",
+    //     nearby: ['East Aldine', 'Houston Gardens', 'Humble', 'Little York', 'Northside']    
+    // },
     {
         name: 'Rice Village',
-        blurb: "Rice Village is a vibrant neighborhood in Houston, offering a dynamic blend of dining, shopping, and cultural experiences. The area boasts a diverse culinary scene, with establishments like Milton's, an 'American trattoria' known for its inventive Italian dishes , and Navy Blue, a modern American seafood concept by chef Aaron Bludorn . For those seeking Mediterranean flavors, Hamsa offers vibrant Israeli cuisine . Beyond its eateries, Rice Village hosts events such as the Farmers Market on the first and third Sundays of each month, featuring local produce and artisanal goods . With its eclectic mix of activities and establishments, Rice Village stands out as a must-visit destination in Houston."
+        blurb: "Rice Village is a vibrant neighborhood in Houston, offering a dynamic blend of dining, shopping, and cultural experiences. The area boasts a diverse culinary scene, with establishments like Milton's, an 'American trattoria' known for its inventive Italian dishes , and Navy Blue, a modern American seafood concept by chef Aaron Bludorn . For those seeking Mediterranean flavors, Hamsa offers vibrant Israeli cuisine . Beyond its eateries, Rice Village hosts events such as the Farmers Market on the first and third Sundays of each month, featuring local produce and artisanal goods . With its eclectic mix of activities and establishments, Rice Village stands out as a must-visit destination in Houston.",
+        nearby: ['Museum District', 'University Place', 'West University Place']
     },
-    {
-        name: 'Richmond Ave',
-        blurb: "Richmond Avenue in Houston offers a dynamic blend of dining, nightlife, and cultural experiences. The area is home to a diverse array of restaurants and bars, catering to a variety of tastes and preferences. Whether you're seeking a casual bite, a lively night out, or a cultural outing, Richmond Avenue has something to offer."
-    },
+    // {
+    //     name: 'Richmond Ave',
+    //     blurb: "Richmond Avenue in Houston offers a dynamic blend of dining, nightlife, and cultural experiences. The area is home to a diverse array of restaurants and bars, catering to a variety of tastes and preferences. Whether you're seeking a casual bite, a lively night out, or a cultural outing, Richmond Avenue has something to offer."
+    // },
     {
         name: 'River Oaks',
-        blurb: "River Oaks is Houston’s epitome of elegance, where upscale dining and cultural experiences converge. Indulge in refined cuisine at establishments like Leo’s River Oaks, known for its sophisticated ambiance and delectable offerings . For a taste of Italy, Zanti Cucina Italiana offers authentic dishes in a stylish setting . The neighborhood also hosts exclusive events such as the Spring Garden Celebration, featuring live music and floral displays . Whether you're savoring gourmet meals or enjoying cultural festivities, River Oaks provides a luxurious backdrop for an unforgettable experience."
+        blurb: "River Oaks is Houston’s epitome of elegance, where upscale dining and cultural experiences converge. Indulge in refined cuisine at establishments like Leo’s River Oaks, known for its sophisticated ambiance and delectable offerings . For a taste of Italy, Zanti Cucina Italiana offers authentic dishes in a stylish setting . The neighborhood also hosts exclusive events such as the Spring Garden Celebration, featuring live music and floral displays . Whether you're savoring gourmet meals or enjoying cultural festivities, River Oaks provides a luxurious backdrop for an unforgettable experience.",
+        nearby: ['Greenway', 'Montrose', 'Memorial Park', 'Uptown', 'Washington', 'Westside']
     },
     {
         name: 'Second Ward',
-        blurb: "The Second Ward, also known as Segundo Barrio, is a vibrant and culturally rich neighborhood in Houston's East End. This area is renowned for its diverse culinary offerings, reflecting its Mexican-American heritage. Notable establishments include El Tiempo Cantina, known for its Tex-Mex classics, and Moon Tower Inn, offering gourmet hot dogs and a selection of craft beers . For a taste of South American cuisine, Andes Café serves dishes like lomo saltado and hornado, blending flavors from Venezuela, Colombia, and Peru"
+        blurb: "The Second Ward, also known as Segundo Barrio, is a vibrant and culturally rich neighborhood in Houston's East End. This area is renowned for its diverse culinary offerings, reflecting its Mexican-American heritage. Notable establishments include El Tiempo Cantina, known for its Tex-Mex classics, and Moon Tower Inn, offering gourmet hot dogs and a selection of craft beers . For a taste of South American cuisine, Andes Café serves dishes like lomo saltado and hornado, blending flavors from Venezuela, Colombia, and Peru",
+        nearby: ['EaDo', 'Eastwood']
     },
     {
         name: 'South Central',
-        blurb: "South Central Houston offers a rich culinary scene with local favorites like Tequila 45 and The Neighborhood Scoop, serving up flavorful dishes and sweet treats. The South Houston Community Center hosts events that bring neighbors together, making this area a lively spot for food and community gatherings."
+        blurb: "South Central Houston offers a rich culinary scene with local favorites like Tequila 45 and The Neighborhood Scoop, serving up flavorful dishes and sweet treats. The South Houston Community Center hosts events that bring neighbors together, making this area a lively spot for food and community gatherings.",
+        nearby: ['EaDo', 'Downtown', 'Midtown', 'Museum District', 'South Side']
     },
     {
         name: 'South Side',
-        blurb: "The South Side of Houston, encompassing neighborhoods like Sunnyside, is a vibrant tapestry of culture, cuisine, and community spirit. This area boasts a rich culinary scene, with establishments such as Frenchy's Chicken offering beloved Creole dishes, and local favorites like Betty's Kitchen MS and TP Seafood serving up hearty meals that reflect the neighborhood's diverse palate ."
+        blurb: "The South Side of Houston, encompassing neighborhoods like Sunnyside, is a vibrant tapestry of culture, cuisine, and community spirit. This area boasts a rich culinary scene, with establishments such as Frenchy's Chicken offering beloved Creole dishes, and local favorites like Betty's Kitchen MS and TP Seafood serving up hearty meals that reflect the neighborhood's diverse palate.",
+        nearby: ['Eastwood', 'Gulfgate', 'Midtown', 'Museum District', 'South Central', 'Southeast Houston']
     },
     {
         name: 'Southeast Houston',
-        blurb: "Southeast Houston is a vibrant area where diverse cuisines and community events come together. Local favorites like Frenchy's Chicken offer beloved Creole dishes, while The Don'Key in Pasadena serves up hearty meals reflecting the neighborhood's diverse palate. For those seeking a sweet treat, House of Pies on Fuqua Street is a beloved institution offering all-day breakfast and a variety of pies."
+        blurb: "Southeast Houston is a vibrant area where diverse cuisines and community events come together. Local favorites like Frenchy's Chicken offer beloved Creole dishes, while The Don'Key in Pasadena serves up hearty meals reflecting the neighborhood's diverse palate. For those seeking a sweet treat, House of Pies on Fuqua Street is a beloved institution offering all-day breakfast and a variety of pies.",
+        nearby: ['Gulfgate', 'South Side']
     },
     {
         name: 'Spring',
-        blurb: "Spring, Texas offers a delightful mix of historic charm and modern dining. In Old Town Spring, Wunsche Bros. Café & Saloon, established in 1902, serves hearty American fare in a historic setting . Nearby, Adriatic Café Italian Grill offers flavorful Italian dishes in a cozy atmosphere. The community comes together for events like the Memorial Funky Food Truck Mania, celebrating food and fun . Whether you're exploring local eateries or enjoying community festivities, Spring provides a welcoming environment for all."
+        blurb: "Spring, Texas offers a delightful mix of historic charm and modern dining. In Old Town Spring, Wunsche Bros. Café & Saloon, established in 1902, serves hearty American fare in a historic setting . Nearby, Adriatic Café Italian Grill offers flavorful Italian dishes in a cozy atmosphere. The community comes together for events like the Memorial Funky Food Truck Mania, celebrating food and fun . Whether you're exploring local eateries or enjoying community festivities, Spring provides a welcoming environment for all.",
+        nearby: ['Humble', 'Tomball', 'Willowbrook']
     },
     {
         name: 'Sugarland',
-        blurb: "Sugar Land is where global flavors meet Texas hospitality. From the bustling Sugar Land Town Square to vibrant spots along Highway 6, you’ll find everything from fresh sushi with a Latin twist to classic Creole gumbo and hearty Tex-Mex. Whether you’re craving an upscale steakhouse dinner, Southern comfort food, or authentic Filipino dishes, Sugar Land’s diverse dining scene serves up something delicious for every appetite."
+        blurb: "Sugar Land is where global flavors meet Texas hospitality. From the bustling Sugar Land Town Square to vibrant spots along Highway 6, you’ll find everything from fresh sushi with a Latin twist to classic Creole gumbo and hearty Tex-Mex. Whether you’re craving an upscale steakhouse dinner, Southern comfort food, or authentic Filipino dishes, Sugar Land’s diverse dining scene serves up something delicious for every appetite.",
+        nearby: ['Chinatown']
     },
     {
         name: 'Summerwood',
-        blurb: "Summerwood is a vibrant, master-planned community in northeast Houston, offering a blend of diverse dining options and active community life. Residents and visitors can enjoy a variety of restaurants, including Café Rian Cajun Café, known for its Louisiana-inspired dishes, and Bocca Italian Kitchen, offering classic Italian fare. For those craving Asian cuisine, Akashi Asian Bistro & Sushi Bar provides a fusion of Japanese and Chinese flavors in a chic setting. Other local favorites include Bangkok Social, Taste of Paris, and Urban Bird Hot Chicken, each offering unique culinary experiences."
+        blurb: "Summerwood is a vibrant, master-planned community in northeast Houston, offering a blend of diverse dining options and active community life. Residents and visitors can enjoy a variety of restaurants, including Café Rian Cajun Café, known for its Louisiana-inspired dishes, and Bocca Italian Kitchen, offering classic Italian fare. For those craving Asian cuisine, Akashi Asian Bistro & Sushi Bar provides a fusion of Japanese and Chinese flavors in a chic setting. Other local favorites include Bangkok Social, Taste of Paris, and Urban Bird Hot Chicken, each offering unique culinary experiences.",
+        nearby: ['Atascocita', 'Houston Gardens', 'Humble']
     },
     {
         name: 'Tomball',
-        blurb: "Tomball blends small-town charm with big Texas flavor. You’ll find cozy cafes, family-owned barbecue joints, and a lively historic downtown full of events and local shops. On weekends, the farmers market and live music bring the community together. It’s a welcoming spot for great eats and easygoing fun."
+        blurb: "Tomball blends small-town charm with big Texas flavor. You’ll find cozy cafes, family-owned barbecue joints, and a lively historic downtown full of events and local shops. On weekends, the farmers market and live music bring the community together. It’s a welcoming spot for great eats and easygoing fun.",
+        nearby: ['Spring', 'Willowbrook']
     },
     {
         name: 'University Place',
-        blurb: "University Place offers a vibrant mix of culture and cuisine. With Rice Village at its heart, the neighborhood boasts an array of eateries—from contemporary French at Eau Tour to Israeli flavors at Hamsa and classic Italian at Roma Ristorante. Its walkable streets, proximity to Rice University, and lively cafes create a welcoming atmosphere for both locals and visitors."
+        blurb: "University Place offers a vibrant mix of culture and cuisine. With Rice Village at its heart, the neighborhood boasts an array of eateries—from contemporary French at Eau Tour to Israeli flavors at Hamsa and classic Italian at Roma Ristorante. Its walkable streets, proximity to Rice University, and lively cafes create a welcoming atmosphere for both locals and visitors.",
+        nearby: ['Greenway', 'Museum District', 'Rice Village', 'West University Place']
     },
     {
         name: 'Uptown',
-        blurb: "Uptown Houston is where luxury meets lively. By day, it's a shopper's paradise with The Galleria's 375+ stores. By night, the scene shifts to chic dining and vibrant lounges. Savor Italian elegance at Amalfi Ristorante, indulge in Cuban flair at Emilia's Havana, or experience the fusion of French and Japanese at CIEL. For a unique twist, Musaafer offers upscale Indian cuisine that's both artful and aromatic. Whether you're sipping cocktails at Segreto Lounge or enjoying live music at Rockhouse Southern Kitchen, Uptown serves up sophistication with a side of fun."
+        blurb: "Uptown Houston is where luxury meets lively. By day, it's a shopper's paradise with The Galleria's 375+ stores. By night, the scene shifts to chic dining and vibrant lounges. Savor Italian elegance at Amalfi Ristorante, indulge in Cuban flair at Emilia's Havana, or experience the fusion of French and Japanese at CIEL. For a unique twist, Musaafer offers upscale Indian cuisine that's both artful and aromatic. Whether you're sipping cocktails at Segreto Lounge or enjoying live music at Rockhouse Southern Kitchen, Uptown serves up sophistication with a side of fun.",
+        nearby: ['Galleria', 'River Oaks', 'Memorial Park', 'Mid West']
     },
     {
         name: 'Washington',
-        blurb: "Washington Ave keeps the party close and the plates full. This lively strip is packed with craft cocktails, taco joints, rooftop bars, and late-night bites. From boozy brunches to dance floors after dark, it's where Houston goes to let loose and live loud."
+        blurb: "Washington Ave keeps the party close and the plates full. This lively strip is packed with craft cocktails, taco joints, rooftop bars, and late-night bites. From boozy brunches to dance floors after dark, it's where Houston goes to let loose and live loud.",
+        nearby: ['Downtown', 'Fourth Ward', 'Heights', 'Montrose', 'Memorial Park', 'Northside']
     },
     {
         name: 'Webster',
-        blurb: "Webster brings big flavor with a side of space. Just down the road from NASA, this hub mixes casual eats, lively sports bars, and hidden gems serving up global bites. It’s laid-back, friendly, and perfect for fueling up before a Rockets launch—or a night out."
+        blurb: "Webster brings big flavor with a side of space. Just down the road from NASA, this hub mixes casual eats, lively sports bars, and hidden gems serving up global bites. It’s laid-back, friendly, and perfect for fueling up before a Rockets launch—or a night out.",
+        nearby: ['Kemah']
     },
     {
         name: 'West University Place',
-        blurb: "West University Place blends classic charm with a vibrant, family-friendly vibe. Locals gather at Tiny’s No. 5 for brunch in a cozy garden setting, or sip wine under the vines at Simone on Sunset. Little Matt’s, a nationally recognized favorite, delights both kids and adults with arcade games, burgers, and complimentary adult beverages. Nearby, Rice Village offers a walkable mix of eateries like Hamsa for modern Israeli fare and Navy Blue for Gulf Coast seafood. Whether you're craving tacos at El Topo or a sweet treat from Badolina Bakery, West U serves up a warm welcome with every bite."
+        blurb: "West University Place blends classic charm with a vibrant, family-friendly vibe. Locals gather at Tiny’s No. 5 for brunch in a cozy garden setting, or sip wine under the vines at Simone on Sunset. Little Matt’s, a nationally recognized favorite, delights both kids and adults with arcade games, burgers, and complimentary adult beverages. Nearby, Rice Village offers a walkable mix of eateries like Hamsa for modern Israeli fare and Navy Blue for Gulf Coast seafood. Whether you're craving tacos at El Topo or a sweet treat from Badolina Bakery, West U serves up a warm welcome with every bite.",
+        nearby: ['Astrodome Area', 'Galleria', 'Greenway', 'Museum District', 'Rice Village', 'University Place']
     },
     // {
     //     name: 'Westheimer',
@@ -280,11 +299,13 @@ const neighborhoodBlurbs = [
     // },
     {
         name: 'Westside',
-        blurb: "Westside keeps it chill with cozy cafes, neighborhood grills, and international eats tucked into quiet strips. It’s where locals gather for Tex-Mex, sushi, or a good burger—no fuss, just solid spots and easy vibes."
+        blurb: "Westside keeps it chill with cozy cafes, neighborhood grills, and international eats tucked into quiet strips. It’s where locals gather for Tex-Mex, sushi, or a good burger—no fuss, just solid spots and easy vibes.",
+        nearby: ['CityCentre', 'Chinatown', 'Energy Corridor', 'Katy']
     },
     {
         name: 'Willowbrook',
-        blurb: "Willowbrook is a vibrant neighborhood in northwest Houston, offering a diverse culinary scene that caters to various tastes. Whether you're in the mood for Southern comfort food, international flavors, or a casual dining experience, Willowbrook has something to satisfy every palate."
+        blurb: "Willowbrook is a vibrant neighborhood in northwest Houston, offering a diverse culinary scene that caters to various tastes. Whether you're in the mood for Southern comfort food, international flavors, or a casual dining experience, Willowbrook has something to satisfy every palate.",
+        nearby: ['Greenspoint', 'Jersey Village', 'Spring', 'Tomball']
     }
 ]
 
