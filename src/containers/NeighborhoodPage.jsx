@@ -39,10 +39,15 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
     // Issue loading neighborhood from Neighborhoods page
     if (!matched) return <div>Neighborhood not found.</div>;
 
+    console.log(allInNeighborhood.length)
+
     return (
         <div className='neighborhood-details-page'>
             {/* Title & Blurb */}
-            <h2 className='neighborhood-details__title'>{matched.neighborhood}</h2>
+            <h2 className='neighborhood-details__title'>
+                {matched.neighborhood}&nbsp;
+                {allInNeighborhood.length && <span>({allInNeighborhood.length})</span>}
+            </h2>
             <p className='neighborhood-details__blurb'>{blurbObj.blurb.length && blurbObj.blurb}</p>
             {/* Nearby */}
             {blurbObj?.nearby?.length > 0 && (

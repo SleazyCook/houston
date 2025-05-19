@@ -130,6 +130,12 @@
     background-color: var(--orange);
 }
 
+.neighborhood-details__title span {
+    color: white;
+    font-family: 'Avenir Next Condensed';
+    font-size: 1.25rem;
+}
+
 .neighborhood-details__blurb {
     font-family: 'Avenir Next Condensed';
     padding: 1rem;
