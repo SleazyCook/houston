@@ -188,7 +188,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Museum District',
         blurb: "Houston's Museum District, nestled just south of downtown, offers a rich tapestry of cultural attractions complemented by diverse dining and social venues. After exploring institutions like the Museum of Fine Arts or the Houston Museum of Natural Science, visitors can indulge in Southern cuisine at Lucille's or savor Italian fare at Café Leonelli within the MFAH's Kinder Building. For a relaxed evening, Poolside at Hotel ZaZa provides specialty cocktails in a chic outdoor setting. Whether you're seeking art, food, or nightlife, the Museum District delivers a well-rounded experience.",
-        nearby: ['Greenway', 'Midtown', 'Museum District', 'Rice Village', 'South Central', 'South Side', 'University Place']
+        nearby: ['Greenway', 'Midtown', 'Rice Village', 'South Central', 'South Side', 'University Place']
     },
     // {
     //     name: 'Norhill',
