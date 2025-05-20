@@ -1568,6 +1568,18 @@ const locations = [
         blurb: 'Modern take on West African cuisine served in a casual setting.',
         description: ['Golden Bowl', 'Meat Minnie Pies', 'Also in POST Market']
     },
+    {
+        name: 'Trendy Dumpling',
+        category: 'food',
+        subcategory: ['dumplings', 'ricebowl', 'ramen'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.728544213335404, -95.43208947280887],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/vDJlxxM.jpeg',
+        website: 'Soup & steamed dumplings, noodles, & traditional Sichuan dishes served in modern & vibrant space.',
+        blurb: 'Soup & steamed dumplings, noodles, & traditional Sichuan dishes served in modern & vibrant space.',
+        description: ['Beijing Duck', 'Crispy Bottom Bao', 'Hand Pulled Noodles']
+    },
     // Bars
     {
         name: 'Axelrad',
