@@ -2,7 +2,7 @@ import { events, schedules, music, sports, creators } from '../data/resources.js
 
 import { FaTiktok, FaYoutube, FaInstagram, FaFacebook, FaSnapchat, FaPinterest, FaTwitter  } from 'react-icons/fa';
 
-const About = () => {
+const Resources = () => {
 
   const iconMap = {
     tiktok: FaTiktok,
@@ -114,4 +114,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Resources;

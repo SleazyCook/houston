@@ -12,7 +12,7 @@ import Neighborhoods from './containers/Neighborhoods';
 import NeighborhoodPage from './containers/NeighborhoodPage';
 import Restaurants from './containers/Restaurants';
 import Activities from './containers/Activities';
-import About from './containers/About'
+import Resources from './containers/Resources'
 
 // Utilities
 import ScrollToTopReroute from './utils/ScrollToTopReroute';
@@ -91,8 +91,8 @@ function App() {
                       setLon={setLon} 
                       setZoom={setZoom}/>} />
                 <Route 
-                  path="/about" 
-                  element={<About />} />
+                  path="/resources" 
+                  element={<Resources />} />
               </Routes>
               <Footer />
             </div>
