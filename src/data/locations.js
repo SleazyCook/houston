@@ -3023,6 +3023,66 @@ const locations = [
         blurb: 'The Museum of Fine Arts, Houston, is an art museum located in the Houston Museum District of Houston, Texas.',
         description: ['Seasonal Exhibits', 'Free Days', 'Memberships']
     },
+    {
+        name: 'Buffalo Soldiers National Museum',
+        category: 'museum',
+        coordinates: [29.73602561109945, -95.37810848467402],
+        neighborhood: 'Midtown',
+        img: '',
+        website: 'https://buffalosoldiersmuseum.org',
+        blurb: 'Research center dedicated to African-American soldiers with exhibits, workshops & reenactments.',
+        description: ['Free Parking']
+    },
+    {
+        name: 'The Menil Collection',
+        category: 'museum',
+        neighborhood: 'Montrose',
+        coordinates: [29.73716335081552, -95.39730798115231],
+        img: '',
+        website: 'https://www.menil.org',
+        blurb: 'Nearly 19,000 pieces of art & artifacts from the Paleolithic era to the present in a historic space.',
+        description: []
+    },
+    {
+        name: 'Houston Museum of African American Culture',
+        category: 'museum',
+        coordinates: [29.729603048703595, -95.38244010213161],
+        neighborhood: 'Museum District',
+        img: '',
+        website: 'https://hmaac.org',
+        blurb: 'African-American culture museum with art exhibits, film screenings & educational programs.',
+        description: []
+    },
+    {
+        name: 'Houston Museum of Natural Science',
+        category: 'museum',
+        coordinates: [29.72209709585154, -95.38964460234973],
+        neighborhood: 'Museum District',
+        img: '',
+        website: 'https://www.hmns.org',
+        blurb: 'Museum with dinosaur hall & other permanent exhibits, planetarium, IMAX theater & butterfly house.',
+        description: []
+    },
+    {
+        name: 'Contempory Arts Museum Houston',
+        cateogry: 'museum',
+        coordinates: [29.72636443216775, -95.39155574191462],
+        neighborhood: 'Museum District',
+        img: '',
+        website: 'https://www.google.com/url?url=http%3A%2F%2Fwww.camh.org%2F&sa=t&rct=j&source=maps&usg=AOvVaw1_kpZuT2Z-B6AS6lhD7jQI&ved=1i%3A0%2Ct%3A3443%2Ce%3A95%2Cp%3AuossaMzKD7u3wN4Pzae5cQ%3A1488',
+        blurb: 'Long-standing museum with revolving exhibitions of modern art, as well as programs & talks.',
+        description: []
+    },
+    {
+        name: 'Holocaust Museum Houston',
+        category: 'museum',
+        coordinates: [29.72521235463323, -95.38566367307256],
+        neighborhood: 'Museum District',
+        img: '',
+        website: 'https://hmh.org',
+        blurb: 'This somber museum documents the Holocaust through exhibits of artifacts, photographs & film.',
+        description: []
+    },
     // Daiquiris
     {
         name: 'Daiquiri Hut',
