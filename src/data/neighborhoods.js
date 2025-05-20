@@ -40,6 +40,11 @@ const neighborhoodBlurbs = [
         nearby: ['Blalock Market', 'Chinatown', 'Energy Corridor', 'Mid West', 'Westside']
     },
     {
+        name: 'Cypress',
+        blurb: 'Cypress, Texas, boasts a vibrant and evolving social and culinary scene that reflects its rapid growth and diverse community. The area has become a hotspot for food enthusiasts, offering a range of dining experiences from upscale eateries to unique local gems.',
+        nearby: ['Jersey Village']
+    },
+    {
         name: 'Deerbrook',
         blurb: "Deerbrook is a suburban area in northeast Houston, centered around Deerbrook Mall in Humble. The mall, established in 1984, serves as a major retail hub with over 130 stores, including anchors like Macy’s, JCPenney, and Dillard’s . The surrounding community offers a mix of residential neighborhoods, such as Deerbrook Estates, which feature mid-sized homes and are known for their family-friendly atmosphere . Residents enjoy convenient access to shopping, dining, and recreational options, including nearby parks like Jesse H. Jones Park & Nature Center . With its blend of suburban charm and urban amenities, Deerbrook provides a balanced lifestyle for its residents.",
         nearby: ['Atascocita', 'East Aldine', 'Houston Gardens', 'Humble']
@@ -127,7 +132,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Jersey Village',
         blurb: "Jersey Village, located in the northwestern part of Houston, offers a blend of local charm and community spirit. Dining options include Adriatic Café, known for its authentic Italian dishes, and Little Kitchen HTX, offering a diverse menu in a cozy setting. For a casual outing, Senate Avenue Brewing Co. provides craft beers and a relaxed atmosphere. The community hosts events like the annual Jersey Village Restaurant Week, celebrating local eateries and fostering a sense of togetherness.",
-        nearby: ['Acres Home', 'Central Northwest', 'Greenspoint', 'Willowbrook']
+        nearby: ['Acres Home', 'Cypress', 'Central Northwest', 'Greenspoint', 'Willowbrook']
     },
     {
         name: 'Katy',

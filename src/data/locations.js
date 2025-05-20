@@ -1580,6 +1580,18 @@ const locations = [
         blurb: 'Soup & steamed dumplings, noodles, & traditional Sichuan dishes served in modern & vibrant space.',
         description: ['Beijing Duck', 'Crispy Bottom Bao', 'Hand Pulled Noodles']
     },
+    {
+        name: 'Nan Xiang Express',
+        category: 'food',
+        subcategory: ['dumplings', 'ricebowl'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.918406697322904, -95.6136917762065],
+        neighborhood: 'Cypress',
+        img: 'https://i.imgur.com/YRHouXa.png',
+        website: 'https://nanxiangexpress.com',
+        blurb: 'Nan Xiang is synonymous with soup dumplings. Our daily menu offers authentic Shanghai-style comfort food from Crispy Bottom Buns to Organic Soy Milk.',
+        description: ['Soup Dumplings', 'Dim Sum', 'Noodles']
+    },
     // Bars
     {
         name: 'Axelrad',
