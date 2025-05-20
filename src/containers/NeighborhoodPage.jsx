@@ -39,7 +39,7 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
     // Issue loading neighborhood from Neighborhoods page
     if (!matched) return <div>Neighborhood not found.</div>;
 
-    console.log(allInNeighborhood.length)
+    // console.log(allInNeighborhood.length)
 
     return (
         <div className='neighborhood-details-page'>
