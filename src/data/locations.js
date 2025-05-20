@@ -3044,7 +3044,7 @@ const locations = [
         description: []
     },
     {
-        name: 'Houston Museum of African American Culture',
+        name: 'Museum of African American Culture',
         category: 'museum',
         coordinates: [29.729603048703595, -95.38244010213161],
         neighborhood: 'Museum District',
@@ -3054,7 +3054,7 @@ const locations = [
         description: []
     },
     {
-        name: 'Houston Museum of Natural Science',
+        name: 'Museum of Natural Science',
         category: 'museum',
         coordinates: [29.72209709585154, -95.38964460234973],
         neighborhood: 'Museum District',
@@ -3064,8 +3064,8 @@ const locations = [
         description: []
     },
     {
-        name: 'Contempory Arts Museum Houston',
-        cateogry: 'museum',
+        name: 'Contempory Arts Museum',
+        category: 'museum',
         coordinates: [29.72636443216775, -95.39155574191462],
         neighborhood: 'Museum District',
         img: '',
@@ -3074,7 +3074,7 @@ const locations = [
         description: []
     },
     {
-        name: 'Holocaust Museum Houston',
+        name: 'Holocaust Museum',
         category: 'museum',
         coordinates: [29.72521235463323, -95.38566367307256],
         neighborhood: 'Museum District',
