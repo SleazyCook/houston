@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import Badges from "./Badges";
 
@@ -11,6 +11,14 @@ const Location = ({item, setLat, setLon, setZoom}) => {
         setZoom(17);
         navigate('/'); // go to map page after setting location
       };
+
+    // Link to neighborhood
+    const slugify = (text) =>
+        text
+            .toLowerCase()
+            .trim()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
 
     return (
       <div className='location'>
@@ -28,9 +36,9 @@ const Location = ({item, setLat, setLon, setZoom}) => {
 
         <div className='location__details'>
             {/* Neighborhood */}
-            <p className='location__details--neighborhood'>
+            <Link to={`/neighborhoods/${slugify(item.neighborhood)}`} className='location__details--neighborhood'>
                 {item.neighborhood}
-            </p>
+            </Link>
 
             {/* Name */}
             <a className='location__details--name' href={item.website} target='_blank'>
