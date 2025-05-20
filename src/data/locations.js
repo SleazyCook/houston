@@ -2572,6 +2572,17 @@ const locations = [
         blurb: 'Huge emporium for rare vinyl albums & used DVDs, records & CDs hosts local music performances too.',
         description: ['Record store', 'Small concerts', 'Prints & DVDs']
     },
+    {
+        name: 'The Secret Group',
+        category: 'music',
+        badges: ['paid parking', 'NFC mobile payments', 'alcohol available', 'live music'],
+        coordinates: [29.7490562478942, -95.35702886299184],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/ErZM6Bk.png',
+        website: 'https://www.thesecretgrouphtx.com',
+        blurb: 'Dark, quirky nightspot offering a bar area, rooftop patio & back showroom for music & comedy nights.',
+        description: ['Rooftop Patio', 'Comedy', 'Music']
+    },
     // Parks
     {
         name: 'Hermann Park',
