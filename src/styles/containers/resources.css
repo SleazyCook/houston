@@ -1,0 +1,115 @@
+.resources {
+    background-color: var(--orange);
+    background-color: black;
+}
+
+.resources h1 {
+    background-color: black;
+    background-image: url('https://i.imgur.com/ErmWtc9.jpeg');
+    background-size: cover;
+    height: 8rem;
+    color: yellow;
+    font-family: 'Lacquer';
+    font-size: 3rem;
+    display: flex;  
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 2rem;
+}
+
+.resources__subheader {
+    text-align: center;
+    color: white;
+    font-family: 'Avenir Next Condensed';
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.resources__slider {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+    gap: 1rem; /* spacing between items */
+    scroll-snap-type: x mandatory; /* optional: snapping */
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.resources__slider::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.resources__slider-item {
+    background-color: var(--darkblue);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: .25px;
+    border-radius: 1rem;
+    max-width: 220px;
+}
+
+.resources__slider-item img {
+    height: 220px;
+    border-radius: 1rem;
+}
+
+.resources__slider-item span {
+    font-family: 'Ranchers';
+    font-size: 1.25rem;
+    margin-top: .5rem;
+    display: inline-block;
+}
+
+/* Creators */
+
+.creator {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .25rem;
+    padding: 1rem;
+    width: 220px;
+    background-color: var(--darkblue);
+    border-radius: 1rem;
+}
+
+.creator__img {
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.creator__name,
+.creator__handle {
+    color: white;
+}
+
+.creator__name {
+    font-family: 'Ranchers';
+    letter-spacing: .25px;
+    font-size: 1.25rem;
+}
+
+.creator__handle {
+    font-family: 'Annie Use Your Telescope', cursive;
+    letter-spacing: .25px;
+    font-size: 1.15rem;
+}
+
+.creator__socials {
+    display: flex;
+    gap: .5rem;
+}
+
+.creator__socials--link {
+
+}
+
+.creator__socials--link svg {
+    color: var(--orange);
+    font-size: 1.75rem;
+}
