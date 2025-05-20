@@ -1,4 +1,4 @@
-import { events, music, sports, creators } from '../data/resources.js'
+import { events, schedules, music, sports, creators } from '../data/resources.js'
 
 import { FaTiktok, FaYoutube, FaInstagram, FaFacebook, FaSnapchat, FaPinterest, FaTwitter  } from 'react-icons/fa';
 
@@ -33,12 +33,12 @@ const About = () => {
         })}
       </div>
 
-      {/* Concert Tickets */}
+      {/* Local Schedules */}
       <div className='resources__subheader'>
-        Ticket Apps
+        Events by Org
       </div>
       <div className='resources__slider'>
-        {music.map((item, index) => {
+        {schedules.map((item, index) => {
           return(
             <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
               <img src={item.img} alt={`${item.title} logo`} />
@@ -54,6 +54,21 @@ const About = () => {
       </div>
       <div className='resources__slider'>
         {sports.map((item, index) => {
+          return(
+            <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
+              <img src={item.img} alt={`${item.title} logo`} />
+              <span>{item.title}</span>
+            </a>
+          )
+        })}
+      </div>      
+      
+      {/* Concert Tickets */}
+      <div className='resources__subheader'>
+        Ticket Apps
+      </div>
+      <div className='resources__slider'>
+        {music.map((item, index) => {
           return(
             <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
               <img src={item.img} alt={`${item.title} logo`} />

@@ -50,6 +50,7 @@
     letter-spacing: .25px;
     border-radius: 1rem;
     max-width: 220px;
+    min-width: 220px;
 }
 
 .resources__slider-item img {
@@ -112,4 +113,27 @@
 .creator__socials--link svg {
     color: var(--orange);
     font-size: 1.75rem;
+}
+
+@media (max-width: 600px) {
+    .resources__subheader {
+        font-size: 1.5rem;
+    }
+
+    .resources__slider-item {
+        min-width: 130px;
+        max-height: 180px;
+    }
+
+    .resources__slider-item img {
+        height: 120px;
+        border-radius: 1rem;
+    }
+
+    .resources__slider-item span {
+        font-family: 'Ranchers';
+        font-size: 1rem;
+        letter-spacing: .5px;
+    }
+
 }

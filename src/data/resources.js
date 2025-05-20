@@ -2,10 +2,19 @@ export const events = [
     {title: 'Visit Houston', url: 'https://www.visithoustontexas.com', img: 'https://i.imgur.com/dfpKhKR.png'},
     {title: 'City Cast', url:  'https://houston.citycast.fm', img: 'https://i.imgur.com/Woj5nSY.png'},
     {title: 'Do 713', url: 'https://do713.com', img: 'https://i.imgur.com/ai6NIqC.png'},
-    {title: 'POST Events', url: 'https://www.posthtx.com/event', img: 'https://i.imgur.com/gL3H34H.png'},
+    {title: 'Culture Map', url: 'https://houston.culturemap.com/events/', img: 'https://i.imgur.com/HTzldVF.png'},
     {title: 'Meetup', url: 'https://www.meetup.com/find/us--tx--houston/', img: 'https://i.imgur.com/zGHM8Sg.png'},
     {title: 'Eventbrite', url: 'https://www.eventbrite.com/d/tx--houston/events/', img: 'https://i.imgur.com/kyGsgjf.png'},
     {title: 'AllEvents', url: 'https://allevents.in/houston', img: 'https://i.imgur.com/FTqRS4x.png'}
+]
+
+export const schedules = [
+    {title: 'Performing Arts', url: 'https://performingartshouston.org', img: 'https://i.imgur.com/OCgvdlK.png'},
+    {title: 'Downtown +', url: 'https://downtownhouston.org/calendar', img: 'https://i.imgur.com/P9ptuic.png'},
+    {title: 'POST Events', url: 'https://www.posthtx.com/event', img: 'https://i.imgur.com/gL3H34H.png'},
+    {title: 'G. R. Brown', url: 'https://www.grbhouston.com/attendees/events-calendar/', img: 'https://i.imgur.com/1BJiG1v.png'},
+    {title: 'Houston Zoo', url: 'https://www.houstonzoo.org/plan-your-visit/calendar/', img: 'https://i.imgur.com/G1I7Sgu.png'},
+    {title: 'MFA Houston', url: 'https://www.mfah.org/calendar', img: 'https://i.imgur.com/WybC8rn.png'}
 ]
 
 export const music = [
@@ -25,19 +34,19 @@ export const sports = [
 ]
 
 export const creators = [
-    // {
-    //     name: 'Shawn Singh', 
-    //     handle: '@shawnthefoodsheep', 
-    //     img: 'https://i.imgur.com/irEpt1v.png',
-    //     links: {
-    //         youtube: 'https://www.youtube.com/channel/UCjNSnDIV9CKG5P-Vb9oltgQ', 
-    //         tiktok: 'https://www.tiktok.com/@shawnthefoodsheep', 
-    //         instagram: 'https://www.instagram.com/shawnthefoodsheep/',
-    //         facebook: 'https://www.facebook.com/shawnthefoodsheep',
-    //         snapchat: 'https://www.snapchat.com/add/thefoodsheep?share_id=MkFFNTkx&locale=en_US',
-    //         pinterest: 'https://pin.it/6Laqf81',
-    //     }
-    // },
+    {
+        name: 'Shawn Singh', 
+        handle: '@shawnthefoodsheep', 
+        img: 'https://i.imgur.com/irEpt1v.png',
+        links: {
+            youtube: 'https://www.youtube.com/channel/UCjNSnDIV9CKG5P-Vb9oltgQ', 
+            tiktok: 'https://www.tiktok.com/@shawnthefoodsheep', 
+            instagram: 'https://www.instagram.com/shawnthefoodsheep/',
+            facebook: 'https://www.facebook.com/shawnthefoodsheep',
+            snapchat: 'https://www.snapchat.com/add/thefoodsheep?share_id=MkFFNTkx&locale=en_US',
+            pinterest: 'https://pin.it/6Laqf81',
+        }
+    },
     {
         name: 'Mark Waits',
         handle: '@markdallaswaits',
