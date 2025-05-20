@@ -58,15 +58,22 @@ export const creators = [
         }
     },
     {
-        name: 'EricEatsHtx',
-        handle: '@ericeats',
-        img: 'https://i.imgur.com/81Tffun.png',
+        name: 'Jasmeentriedit',
+        handle: '@jasmeentriedit',
+        img: 'https://i.imgur.com/VAJDi3F.png',
         links: {
-            youtube: 'https://www.youtube.com/@Ericeatshtx',
-            tiktok: 'https://www.tiktok.com/@ericeats',
-            instagram: 'https://www.instagram.com/ericeatshtx',
-            facebook: 'https://www.facebook.com/people/EricEats/100088811126960/?mibextid=LQQJ4d',
-            twitter: 'https://x.com/EricEatsHTX'
+            tiktok: 'https://www.tiktok.com/@jasmeentriedit',
+            instagram: 'https://instagram.com/jasmeentriedit?igshid=MzRlODBiNWFlZA=='
+        }
+    },
+
+        {
+        name: 'Hungry_inhouston',
+        handle: '@hungry_inhouston',
+        img: 'https://i.imgur.com/AK2jXan.png',
+        links: {
+            youtube: 'www.youtube.com/@hungry_inhouston?si=y5Zj1TomdORxcK0S',
+            tiktok: 'https://www.tiktok.com/@hungry_inhouston'
         }
     },
     {
@@ -82,21 +89,39 @@ export const creators = [
         },
     },
     {
-        name: 'Hungry_inhouston',
-        handle: '@hungry_inhouston',
-        img: 'https://i.imgur.com/AK2jXan.png',
+        name: 'Allie',
+        handle: '@prettygirleatshouston',
+        img: 'https://i.imgur.com/8RRHdnH.png',
         links: {
-            youtube: 'www.youtube.com/@hungry_inhouston?si=y5Zj1TomdORxcK0S',
-            tiktok: 'https://www.tiktok.com/@hungry_inhouston'
+            youtube: 'https://youtube.com/channel/UCbGl2kIazNKe9BhwTOj716w',
+            tiktok: 'https://www.tiktok.com/@prettygirleatshouston',
+            insagram: 'https://instagram.com/prettygirleatshouston',
+            facebook: 'https://www.facebook.com/Prettygirleatshouston/',
+            snapchat: 'https://t.snapchat.com/kn888qS0'
         }
     },
     {
-        name: 'Jasmeentriedit',
-        handle: '@jasmeentriedit',
-        img: 'https://i.imgur.com/VAJDi3F.png',
+        name: 'EricEatsHtx',
+        handle: '@ericeats',
+        img: 'https://i.imgur.com/81Tffun.png',
         links: {
-            tiktok: 'https://www.tiktok.com/@jasmeentriedit',
-            instagram: 'https://instagram.com/jasmeentriedit?igshid=MzRlODBiNWFlZA=='
-        }
+        youtube: 'https://www.youtube.com/@Ericeatshtx',
+        tiktok: 'https://www.tiktok.com/@ericeats',
+        instagram: 'https://www.instagram.com/ericeatshtx',
+        facebook: 'https://www.facebook.com/people/EricEats/100088811126960/?mibextid=LQQJ4d',
+        twitter: 'https://x.com/EricEatsHTX'
     }
+    },
+    {
+        name: 'Diamond Monae',
+        handle: '@diamonddmonaee4',
+        img: 'https://i.imgur.com/UuDOfkw.png',
+        links: {
+            youtube: 'https://youtu.be/ZKRY_rE6eb4?si=aAhdFbnxiopEfU0M',
+            tiktok: 'https://www.tiktok.com/t/ZTRfx6M7G/',
+            instagram: 'https://www.instagram.com/diamonddmonaee?igsh=MWc3bnI1Z2V1ZWN4ag%3D%3D&utm_source=qr',
+            snapchat: 'https://snapchat.com/t/La15fQOS'
+        }
+    },
+
 ]
