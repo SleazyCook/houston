@@ -3063,60 +3063,62 @@ const locations = [
         category: 'museum',
         coordinates: [29.73602561109945, -95.37810848467402],
         neighborhood: 'Midtown',
-        img: '',
+        img: 'https://i.imgur.com/1ec8GL4.png',
         website: 'https://buffalosoldiersmuseum.org',
         blurb: 'Research center dedicated to African-American soldiers with exhibits, workshops & reenactments.',
-        description: ['Free Parking']
+        description: ['Free Parking', 'Juneteenth Celebration', 'Vounteer Opportunities'],
     },
     {
         name: 'The Menil Collection',
         category: 'museum',
         neighborhood: 'Montrose',
         coordinates: [29.73716335081552, -95.39730798115231],
-        img: '',
+        img: 'https://i.imgur.com/yioxtrV.png',
         website: 'https://www.menil.org',
         blurb: 'Nearly 19,000 pieces of art & artifacts from the Paleolithic era to the present in a historic space.',
-        description: []
+        description: ['Outdoor sculptures', 'Events', 'Party in the Park']
     },
     {
         name: 'Museum of African American Culture',
         category: 'museum',
         coordinates: [29.729603048703595, -95.38244010213161],
         neighborhood: 'Museum District',
-        img: '',
+        img: 'https://i.imgur.com/Vh4qO5t.png',
         website: 'https://hmaac.org',
         blurb: 'African-American culture museum with art exhibits, film screenings & educational programs.',
-        description: []
+        description: ['Films', 'Virtual Visits', 'Affordable Memberships']
     },
     {
         name: 'Museum of Natural Science',
         category: 'museum',
+        badges: ['photogenic'],
         coordinates: [29.72209709585154, -95.38964460234973],
         neighborhood: 'Museum District',
-        img: '',
+        img: 'https://i.imgur.com/rOgiZrK.png',
         website: 'https://www.hmns.org',
         blurb: 'Museum with dinosaur hall & other permanent exhibits, planetarium, IMAX theater & butterfly house.',
-        description: []
+        description: ['Locatin in Hermann Park', 'Food available inside', 'Butterfly Exhibit']
+
     },
     {
         name: 'Contempory Arts Museum',
         category: 'museum',
         coordinates: [29.72636443216775, -95.39155574191462],
         neighborhood: 'Museum District',
-        img: '',
+        img: 'https://i.imgur.com/2NBKQEd.png',
         website: 'https://www.google.com/url?url=http%3A%2F%2Fwww.camh.org%2F&sa=t&rct=j&source=maps&usg=AOvVaw1_kpZuT2Z-B6AS6lhD7jQI&ved=1i%3A0%2Ct%3A3443%2Ce%3A95%2Cp%3AuossaMzKD7u3wN4Pzae5cQ%3A1488',
         blurb: 'Long-standing museum with revolving exhibitions of modern art, as well as programs & talks.',
-        description: []
+        description: ['Closed Mon, Tues', 'Free Parking', 'Various Exhibits']
     },
     {
         name: 'Holocaust Museum',
         category: 'museum',
         coordinates: [29.72521235463323, -95.38566367307256],
         neighborhood: 'Museum District',
-        img: '',
+        img: 'https://i.imgur.com/Nh5wxoF.png',
         website: 'https://hmh.org',
         blurb: 'This somber museum documents the Holocaust through exhibits of artifacts, photographs & film.',
-        description: []
+        description: ['Events', 'Tours', 'Community Programs']
     },
     // Daiquiris
     {
