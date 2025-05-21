@@ -200,6 +200,11 @@ const neighborhoodBlurbs = [
         nearby: ['Galleria', 'Greenway', 'Hyde Park', 'Memorial Park', 'Montrose', 'Mid West', 'Uptown', 'Washington', 'Westside']
     },
     {
+        name: 'Rosenberg',
+        blurb: "Just southwest of Houston, Rosenberg mixes small-town charm with big-time flavor—think smoky BBQ joints, family taquerias, and old-school diners. It’s also home to pro-level action thanks to LOVB volleyball, bringing serious spikes and energy to this quiet corner of Fort Bend County.",
+        nearby: ['Sugarland']
+    },
+    {
         name: 'Second Ward',
         blurb: "The Second Ward, also known as Segundo Barrio, is a vibrant and culturally rich neighborhood in Houston's East End. This area is renowned for its diverse culinary offerings, reflecting its Mexican-American heritage. Notable establishments include El Tiempo Cantina, known for its Tex-Mex classics, and Moon Tower Inn, offering gourmet hot dogs and a selection of craft beers . For a taste of South American cuisine, Andes Café serves dishes like lomo saltado and hornado, blending flavors from Venezuela, Colombia, and Peru",
         nearby: ['EaDo', 'Eastwood']
@@ -227,7 +232,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Sugarland',
         blurb: "Sugar Land is where global flavors meet Texas hospitality. From the bustling Sugar Land Town Square to vibrant spots along Highway 6, you’ll find everything from fresh sushi with a Latin twist to classic Creole gumbo and hearty Tex-Mex. Whether you’re craving an upscale steakhouse dinner, Southern comfort food, or authentic Filipino dishes, Sugar Land’s diverse dining scene serves up something delicious for every appetite.",
-        nearby: ['Chinatown']
+        nearby: ['Chinatown', 'Rosenberg']
     },
     {
         name: 'Summerwood',

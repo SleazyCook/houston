@@ -2,7 +2,7 @@
 
 import { renderToStaticMarkup } from 'react-dom/server';
 import { BsJoystick, BsCameraFill } from "react-icons/bs";
-import { FaIceCream, FaCocktail} from 'react-icons/fa';
+import { FaIceCream, FaCocktail, FaVolleyballBall } from 'react-icons/fa';
 import { FaBurger, FaHotdog, FaPizzaSlice, FaBook, FaBagShopping, FaMusic } from 'react-icons/fa6';
 import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage } from "react-icons/gi";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
@@ -55,6 +55,7 @@ export const icons = {
     gokart: makeSvgDataUrl(<BsJoystick size={38} color="#222222"  />),
     meow: makeSvgDataUrl(<PiCatFill size={38} color="#222222"  />),
     basketball: makeSvgDataUrl(<GiBasketballBall size={38} color="#222222"  />),
+    volleyball: makeSvgDataUrl(<FaVolleyballBall size={38} color="#222222"  />),
     zoo: makeSvgDataUrl(<GiTigerHead size={38} color="#222222"  />),
     comedy: makeSvgDataUrl(<MdTheaterComedy size={38} color="#222222"  />),
     football: makeSvgDataUrl(<GiAmericanFootballBall size={38} color="#222222"  />),

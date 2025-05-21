@@ -3047,6 +3047,17 @@ const locations = [
         blurb: 'Modern spot with 2 theaters, a 3-story grand lobby with French styling & views of the city skyline.',
         description: ['downtown', 'proximity to Buffalo Bayou park', 'promiximity to bars']
     },
+    {
+        name: 'Fort Bend County Epicenter',
+        category: 'attraction',
+        subcategory: ['volleyball'],
+        coordinates: [29.529567473389704, -95.81565532813188],
+        neighborhood: 'Rosenberg',
+        img: 'https://i.imgur.com/SKazz0N.png',
+        website: 'https://thefortbendepicenter.com',
+        blurb: 'The Fort Bend Epicenter is a 230,000 square foot multi-purpose arena and event space in the Houston suburb of Rosenberg, Texas. It is the home venue of LOVB Houston in LOVB Pro.',
+        description: ['LOBV Volleyball', 'Concerts', 'Events']
+    },
     // Photo Opp
     {
         name: 'White Oak Bayou Rails Bridge',

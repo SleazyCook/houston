@@ -30,6 +30,7 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
     if (sub === 'gokart') return icons.gokart;
     if (sub === 'meow') return icons.meow;
     if (sub === 'basketball') return icons.basketball;
+    if (sub === 'volleyball') return icons.volleyball;
     if (sub === 'zoo') return icons.zoo;
     if (sub === 'comedy') return icons.comedy;
     if (sub === 'football') return icons.football;
