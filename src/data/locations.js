@@ -1592,6 +1592,41 @@ const locations = [
         blurb: 'Nan Xiang is synonymous with soup dumplings. Our daily menu offers authentic Shanghai-style comfort food from Crispy Bottom Buns to Organic Soy Milk.',
         description: ['Soup Dumplings', 'Dim Sum', 'Noodles']
     },
+    {
+        name: 'Ramen Moto',
+        category: 'food',
+        subcategory: ['ramen', 'ricebowl'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.73889035081645, -95.41531677376838],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/zMNWSpy.png',
+        website: 'https://www.ramenmototx.com',
+        blurb: "Ramen Moto is a cozy Japanese izakaya in Houston's Upper Kirby neighborhood, renowned for its 20-hour simmered broths, house-made noodles, and a diverse menu of ramen and small plates, perfect for late-night dining.",
+        description: ['Burnt Garlic Ramen', 'Lava Toast', 'Free parking']
+    },
+    {
+        name: 'Quan Ba Ky',
+        category: 'food',
+        subcategory: ['seafood', 'crawfish'],
+        coordinates: [29.70492898957481, -95.5829393783336],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/jdeTqfE.png',
+        website: 'https://www.yelp.com/biz/quan-ba-ky-houston',
+        blurb: 'Casual Vietnamese restaurant serving garlic noodles, lobster, pho, and other familiar dishes.',
+        description: ['Vietnamese Crawfish', 'Garlic Shrimp', 'Crab legs']
+    },
+    {
+        name: 'Lucy Ethiopian',
+        category: 'food',
+        subcategory: ['ricebowl'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.713400060222245, -95.50424693622573],
+        neighborhood: 'Galleria',
+        img: 'https://i.imgur.com/JCaoXib.png',
+        website: 'https://lucyhouston.com',
+        blurb: 'Family-run eatery prepares Ethiopian dishes in a red-hued, art-filled space with a cozy lounge area.',
+        description: ['Family style', 'Kitfo', 'Meat & Veggies Combo']
+    },
     // Bars
     {
         name: 'Axelrad',
