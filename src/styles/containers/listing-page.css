@@ -37,7 +37,8 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    background-color: #DBDBDB;
+    background-color: var(--darkblue);
+    color: white;
     width: 520px;
 }
 
