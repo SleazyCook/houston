@@ -27,6 +27,7 @@ export const music = [
 
 export const sports = [
     {title: 'Dash', url: 'https://www.houstondynamofc.com/houstondash', img: 'https://i.imgur.com/rSFOceC.png'},
+    {title: 'LOVB Houston', url: 'https://www.lovb.com/teams/lovb-houston-volleyball', img: 'https://i.imgur.com/rZF0nCd.png'},
     {title: 'Astros', url: 'https://www.mlb.com/astros/', img: 'https://i.imgur.com/9j3HfVB.png'},
     {title: 'Rockets', url: 'https://www.nba.com/rockets/', img: 'https://i.imgur.com/0zT6xMN.png'},
     {title: 'Dynamo', url: 'https://www.houstondynamofc.com/', img: 'https://i.imgur.com/YfS8vmd.png'},
