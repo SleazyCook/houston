@@ -87,7 +87,7 @@ const Resources = () => {
           return (
             <div className='creator' key={index}>
               {/* Image */}
-              <img src={item.img} alt={item.name} className='creator__img'/>
+              <img src={item.img} alt={`${item.name}'s profile photo`} className='creator__img'/>
 
               {/* Name */}
               <div className='creator__name'>{item.name}</div>
