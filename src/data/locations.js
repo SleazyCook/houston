@@ -1639,6 +1639,18 @@ const locations = [
         blurb: 'Bagels and other breakfast fare plus sandwiches in an easygoing cafe with a dog-friendly patio.',
         description: ['Bagels', 'Coffee', 'Dog-friendly']
     },
+    {
+        name: 'Narwhal Jousting Club',
+        category: 'food',
+        subcategory: ['burgers', 'chicken', 'hotdogs'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.76878211492947, -95.41076234150462],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/AzQmlau.png',
+        website: 'https://www.narwhaljoustingclub.com',
+        blurb: 'Counter-serve sandwich shop serving fried chicken, tacos, hot dogs, and other quick bites in a casual setting.',
+        description: ['Prosperity Burger', 'MC Hotdog', 'The Caucasity Chicken Salad']
+    },
     // Bars
     {
         name: 'Axelrad',
