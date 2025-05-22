@@ -1627,6 +1627,18 @@ const locations = [
         blurb: 'Family-run eatery prepares Ethiopian dishes in a red-hued, art-filled space with a cozy lounge area.',
         description: ['Family style', 'Kitfo', 'Meat & Veggies Combo']
     },
+    {
+        name: 'Brooklyn Cafe',
+        category: 'coffee',
+        subcategory: ['breakfast'],
+        badges: ['NFC mobile payments'],
+        coordinates: [30.1678675936134, -95.50326137083863],
+        neighborhood: 'The Woodlands',
+        img: 'https://i.imgur.com/13SmIaK.png',
+        website: 'https://www.thebrooklyncafe.com',
+        blurb: 'Bagels and other breakfast fare plus sandwiches in an easygoing cafe with a dog-friendly patio.',
+        description: ['Bagels', 'Coffee', 'Dog-friendly']
+    },
     // Bars
     {
         name: 'Axelrad',
