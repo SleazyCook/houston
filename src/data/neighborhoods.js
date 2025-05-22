@@ -227,7 +227,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Spring',
         blurb: "Spring, Texas offers a delightful mix of historic charm and modern dining. In Old Town Spring, Wunsche Bros. Café & Saloon, established in 1902, serves hearty American fare in a historic setting . Nearby, Adriatic Café Italian Grill offers flavorful Italian dishes in a cozy atmosphere. The community comes together for events like the Memorial Funky Food Truck Mania, celebrating food and fun . Whether you're exploring local eateries or enjoying community festivities, Spring provides a welcoming environment for all.",
-        nearby: ['Humble', 'Tomball', 'Willowbrook']
+        nearby: ['Humble', 'The Woodlands', 'Tomball', 'Willowbrook']
     },
     {
         name: 'Sugarland',
@@ -238,6 +238,11 @@ const neighborhoodBlurbs = [
         name: 'Summerwood',
         blurb: "Summerwood is a vibrant, master-planned community in northeast Houston, offering a blend of diverse dining options and active community life. Residents and visitors can enjoy a variety of restaurants, including Café Rian Cajun Café, known for its Louisiana-inspired dishes, and Bocca Italian Kitchen, offering classic Italian fare. For those craving Asian cuisine, Akashi Asian Bistro & Sushi Bar provides a fusion of Japanese and Chinese flavors in a chic setting. Other local favorites include Bangkok Social, Taste of Paris, and Urban Bird Hot Chicken, each offering unique culinary experiences.",
         nearby: ['Atascocita', 'Houston Gardens', 'Humble']
+    },
+    {
+        name: 'The Woodlands',
+        blurb: "The Woodlands blends upscale eats and lively socials around Market Street and the scenic Waterway. From cocktails at Como Social Club to chef-driven bites at Amrina, it’s a polished but playful spot to dine, drink, and mingle.",
+        nearby: ['Spring']
     },
     {
         name: 'Tomball',
