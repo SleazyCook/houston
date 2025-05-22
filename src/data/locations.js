@@ -2013,6 +2013,18 @@ const locations = [
         blurb: 'Sprawling, retro-chic American gastropub & nightlife spot offering creative cocktails & local beer.',
         description: ['Sunday Brunch', 'Wine', 'Cocktails']
     },
+    {
+        name: "Rabbit's Got the Gun",
+        category: 'bar',
+        subcategory: ['crawfish'],
+        badgess: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.776389024727287, -95.36012911444952],
+        neighborhood: 'Northside',
+        img: 'https://i.imgur.com/sPNH1iL.png',
+        website: 'https://www.instagram.com/rabbitsgotthegunhtx/?hl=en',
+        blurb: 'Compact spot with a lively ambiance offering beer & fancy mixed drinks, plus an on-site taco truck.',
+        description: ['Drinks', 'Deals', 'Crawfish']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",

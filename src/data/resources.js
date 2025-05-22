@@ -59,6 +59,15 @@ export const creators = [
         }
     },
     {
+        name: 'Daniel',
+        handle: '@danielfromtinktonk',
+        img: 'https://i.imgur.com/nY6Mpu6.png',
+        links: {
+            youtube: 'https://www.youtube.com/@danielfromyoutube',
+            tiktok: 'https://tiktok.com/@danielfromtinktonk'
+        }
+    },
+    {
         name: 'Jasmeentriedit',
         handle: '@jasmeentriedit',
         img: 'https://i.imgur.com/VAJDi3F.png',
