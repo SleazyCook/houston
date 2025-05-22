@@ -4,7 +4,11 @@ const Footer = () => {
 
         <div className='footer__acknowledgements'>
           <p>
-            This site is a personal project designed to promote Drew's favorite places in Houston, TX
+            This site is a personal project designed to promote Drew's favorite places in Houston, TX.
+            <br />
+            Homepage artwork by&nbsp;
+              <a href='https://www.etsy.com/shop/JimKoehnArtSpace' target='_blank'>
+                Jim Koehn</a>
           </p>
           <span className='footer__line'></span>
           <p>
