@@ -11,14 +11,17 @@ Using React, Leaflet, CSS, & Slugify
 - Burgers
 - Breakfast
 - Chicken
+- Crawfish
 - Dessert
 - Dumplings
 - Hotdogs
+- Pho
 - Pizza
 - Ramen
 - Rice Bowl
 - Sandwiches
 - Seafood
+- Steakhouses
 - Sushi
 - Tacos
 - Upscale
@@ -30,7 +33,9 @@ Using React, Leaflet, CSS, & Slugify
 - Bars & Lounges
 - Bookstores & Libraries
 - Coffee, Tea, & Boba
+- Daiquiri Shops
 - Markets
+- Museums
 - Movie Theaters
 - Music Venues
 - Parks
