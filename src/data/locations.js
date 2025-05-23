@@ -182,7 +182,7 @@ const locations = [
         name: 'Cheba Hut',
         category: 'food',
         subcategory: ['sandwiches'],
-        badges: ['open late', 'NFC mobile payments'],
+        badges: ['open late', 'NFC mobile payments', 'alcohol available'],
         coordinates: [29.77234244004, -95.37822662667772],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/ThKWsLq.png',
@@ -1628,18 +1628,6 @@ const locations = [
         description: ['Family style', 'Kitfo', 'Meat & Veggies Combo']
     },
     {
-        name: 'Brooklyn Cafe',
-        category: 'coffee',
-        subcategory: ['breakfast'],
-        badges: ['NFC mobile payments'],
-        coordinates: [30.1678675936134, -95.50326137083863],
-        neighborhood: 'The Woodlands',
-        img: 'https://i.imgur.com/13SmIaK.png',
-        website: 'https://www.thebrooklyncafe.com',
-        blurb: 'Bagels and other breakfast fare plus sandwiches in an easygoing cafe with a dog-friendly patio.',
-        description: ['Bagels', 'Coffee', 'Dog-friendly']
-    },
-    {
         name: 'Narwhal Jousting Club',
         category: 'food',
         subcategory: ['burgers', 'chicken', 'hotdogs'],
@@ -2239,6 +2227,18 @@ const locations = [
         website: 'https://www.coralsword.com',
         blurb: 'Colorful board game cafe serving casual fare plus beer & coffee.',
         description: ['Play Board Games', 'Cofee & Tea', 'Hot Snacks']
+    },
+    {
+        name: 'Brooklyn Cafe',
+        category: 'coffee',
+        subcategory: ['breakfast'],
+        badges: ['NFC mobile payments'],
+        coordinates: [30.1678675936134, -95.50326137083863],
+        neighborhood: 'The Woodlands',
+        img: 'https://i.imgur.com/13SmIaK.png',
+        website: 'https://www.thebrooklyncafe.com',
+        blurb: 'Bagels and other breakfast fare plus sandwiches in an easygoing cafe with a dog-friendly patio.',
+        description: ['Bagels', 'Coffee', 'Dog-friendly']
     },
     // Markets
     {
