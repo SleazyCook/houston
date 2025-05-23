@@ -9,6 +9,7 @@ import './styles/app/footer.css';
 import './styles/app/map.css';
 import './styles/components/filters.css';
 import './styles/components/location-card.css';
+import './styles/components/search.css';
 import './styles/components/widgets.css';
 import './styles/containers/home.css';
 import './styles/containers/listing-page.css';

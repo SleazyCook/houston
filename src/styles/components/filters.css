@@ -1,37 +1,6 @@
 /* Category Btns & Filters */
 /* ----------------------- */
 
-/* Search */
-.listing__search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.listing__search-bar input {
-    font-size: 1.25rem;
-    border: none;
-    padding: .7rem 1rem;
-    border-radius: 100px;
-    width: 90%;
-    transition: all .2s;
-    margin: 1rem auto;
-    background-color: #ffd7b5;
-    box-sizing: border-box;
-    caret-color: var(--darkblue);
-}
-
-.listing__search-bar input::placeholder {
-    color: var(--darkblue);
-}
-
-.listing__search-bar input:focus {
-    outline: none; 
-    border: none;
-    width: calc(95% - 1rem);
-    background-color: #ffe7d3;
-}
-
 /* Category Buttons */
 .category-btn__box {
     display: flex;
