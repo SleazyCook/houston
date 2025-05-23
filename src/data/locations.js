@@ -1182,7 +1182,7 @@ const locations = [
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/FBrR44x.jpeg',
         website: 'https://marmoitalian.com',
-        blurb: 'Italian chophouse concept from Atlas Restaurant Group',
+        blurb: 'Italian chophouse concept from Atlas Restaurant Group.',
         description: ['Happy Hour', 'Cocktails', 'Delicious']
     },
     {
@@ -1649,7 +1649,7 @@ const locations = [
         img: 'https://i.imgur.com/AzQmlau.png',
         website: 'https://www.narwhaljoustingclub.com',
         blurb: 'Counter-serve sandwich shop serving fried chicken, tacos, hot dogs, and other quick bites in a casual setting.',
-        description: ['Prosperity Burger', 'MC Hotdog', 'The Caucasity Chicken Salad']
+        description: ['Prosperity Burger', 'MC Hotdog', 'Limited Hours of Operation']
     },
     // Bars
     {
@@ -2048,6 +2048,17 @@ const locations = [
         website: 'https://www.instagram.com/rabbitsgotthegunhtx/?hl=en',
         blurb: 'Compact spot with a lively ambiance offering beer & fancy mixed drinks, plus an on-site taco truck.',
         description: ['Drinks', 'Deals', 'Crawfish']
+    },
+    {
+        name: 'Clarkwood',
+        category: 'bar',
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.759952946483985, -95.39922771086621],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/Qh5wGbV.png',
+        website: 'https://www.clarkwoodhtx.com',
+        blurb: 'Elegant cocktail bar for wines and classic libations in a historic theater.',
+        description: ['Elegant bar', 'Espresso Martini', 'Old Fashioned']
     },
     // Bookstores & Libraries
     {
