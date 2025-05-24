@@ -2059,6 +2059,17 @@ const locations = [
         blurb: 'Refined homestyle fare & cocktails in a laid-back restaurant that has warm decor & vinyl records.',
         description: ['Brunch', 'Happy Hour', 'Wine & Spirits']
     },
+    {
+        name: 'The Davenport',
+        category: 'bar',
+        badges: ['NFC mobile payments', 'alcohol available', 'DJ'],
+        coordinates: [29.73403676798527, -95.41130191573744],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/yV6Em4d.png',
+        website: 'https://www.thedavenportlounge.com',
+        blurb: 'Stylish lounge features 30+ specialty martinis, cocktails & regular DJ nights in a modern interior.',
+        description: ['Martinis', 'Cocktails', 'Classics']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
