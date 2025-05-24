@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { BsJoystick, BsCameraFill } from "react-icons/bs";
 import { FaIceCream, FaCocktail, FaVolleyballBall } from 'react-icons/fa';
 import { FaBurger, FaHotdog, FaPizzaSlice, FaBook, FaBagShopping, FaMusic } from 'react-icons/fa6';
-import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage } from "react-icons/gi";
+import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage, GiMountedKnight, GiHorseHead } from "react-icons/gi";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 import { IoIosBowtie } from "react-icons/io";
 import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
@@ -59,7 +59,8 @@ export const icons = {
     zoo: makeSvgDataUrl(<GiTigerHead size={38} color="#222222"  />),
     comedy: makeSvgDataUrl(<MdTheaterComedy size={38} color="#222222"  />),
     football: makeSvgDataUrl(<GiAmericanFootballBall size={38} color="#222222"  />),
-    
+    faire: makeSvgDataUrl(<GiMountedKnight size={38} color="#222222"  />),
+    rodeo: makeSvgDataUrl(<GiHorseHead size={38} color="#222222"  />),
 };
 
 export default icons;

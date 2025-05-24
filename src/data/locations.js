@@ -1639,6 +1639,18 @@ const locations = [
         blurb: 'Counter-serve sandwich shop serving fried chicken, tacos, hot dogs, and other quick bites in a casual setting.',
         description: ['Prosperity Burger', 'MC Hotdog', 'Limited Hours of Operation']
     },
+    {
+        name: 'La Calle Tacos',
+        category: 'food',
+        subcategory: ['tacos'],
+        badges: ['paid parking', 'NFC mobile payments', 'alcohol available'],
+        coordinates: [29.751880331090483, -95.37635323659572],
+        neighborhood: 'Midtown',
+        img: 'https://i.imgur.com/9eV9nWP.png',
+        website: 'https://lacalletacos.com/',
+        blurb: 'Casual taqueria serving Mexican street eats such as tacos and tortas, plus margaritas.',
+        description: ['Located in Bagby Park', 'Margaritas', 'Mexican food']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -3136,6 +3148,30 @@ const locations = [
         website: 'https://thefortbendepicenter.com',
         blurb: 'The Fort Bend Epicenter is a 230,000 square foot multi-purpose arena and event space in the Houston suburb of Rosenberg, Texas. It is the home venue of LOVB Houston in LOVB Pro.',
         description: ['LOBV Volleyball', 'Concerts', 'Events']
+    },
+    {
+        name: 'Texas Renaissance Faire',
+        category: 'attraction',
+        subcategory: ['faire'],
+        badges: ['paid parking', 'alcohol available'],
+        coordinates: [30.255270127662044, -95.83879707491013],
+        neighborhood: 'Todd Mission',
+        img: 'https://i.imgur.com/VMlrtJn.png',
+        website: 'https://www.texrenfest.com',
+        blurb: "The Texas Renaissance Festival is a magical place for family fun and entertainment. Try your skills at the archery, axe throwing or Jacob's ladder.",
+        description: ['Mead', 'Shows', 'Campgrounds']
+    },
+    {
+        name: 'Houston Livestock Show & Rodeo',
+        category: 'attraction',
+        subcategory: ['rodeo'],
+        badges: ['paid parking', 'alcohol available'],
+        coordinates: [29.6836988786707, -95.40936936833688],
+        neighborhood: 'Astrodome Area',
+        img: 'https://i.imgur.com/2plC7Cq.png',
+        website: 'https://www.rodeohouston.com',
+        blurb: "The Houston Livestock Show and Rodeo™ promotes agriculture by hosting an annual, family-friendly experience that educates and entertains the public, supports Texas youth, showcases Western heritage and provides year-round educational support within the community.",
+        description: ['Cookout', 'Carnival', 'Concerts']
     },
     // Photo Opp
     {

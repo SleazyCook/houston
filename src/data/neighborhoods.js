@@ -242,7 +242,12 @@ const neighborhoodBlurbs = [
     {
         name: 'The Woodlands',
         blurb: "The Woodlands blends upscale eats and lively socials around Market Street and the scenic Waterway. From cocktails at Como Social Club to chef-driven bites at Amrina, it’s a polished but playful spot to dine, drink, and mingle.",
-        nearby: ['Spring']
+        nearby: ['Spring', 'Todd Mission']
+    },
+    {
+        name: 'Todd Mission',
+        blurb: "Todd Mission, a quaint town northwest of Houston, is best known as the home of the Texas Renaissance Festival—the largest event of its kind in the U.S., drawing over 500,000 visitors each fall . Beyond the festival's immersive medieval experience, the town boasts a vibrant social scene with eclectic eateries and lively bars, making it a hotspot for both food enthusiasts and social butterflies.",
+        nearby: ['The Woodlands', 'Tomball']
     },
     {
         name: 'Tomball',

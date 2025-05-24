@@ -34,6 +34,8 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
     if (sub === 'zoo') return icons.zoo;
     if (sub === 'comedy') return icons.comedy;
     if (sub === 'football') return icons.football;
+    if (sub === 'faire') return icons.faire;
+    if (sub === 'rodeo') return icons.rodeo;
     if (sub === 'bbq') return icons.bbq;
     if (sub === 'burgers') return icons.burgers;
     if (sub === 'breakfast') return icons.breakfast;
