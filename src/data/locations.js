@@ -2048,6 +2048,17 @@ const locations = [
         blurb: 'Elegant cocktail bar for wines and classic libations in a historic theater.',
         description: ['Elegant bar', 'Espresso Martini', 'Old Fashioned']
     },
+    {
+        name: "93' Til",
+        category: 'bar',
+        badges: ['NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        coordinates: [29.73572893007341, -95.39948453521131],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/hFvVbA2.png',
+        website: 'https://93-til.com',
+        blurb: 'Refined homestyle fare & cocktails in a laid-back restaurant that has warm decor & vinyl records.',
+        description: ['Brunch', 'Happy Hour', 'Wine & Spirits']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
@@ -3233,9 +3244,31 @@ const locations = [
         img: 'https://i.imgur.com/kfQTKNx.png',
         website: 'https://www.yelp.com/biz/daiquiri-hut-houston-6',
         blurb: 'Frozen daiquiri shop on Tidwell in Houston Gardens area.',
-        description: ['Frozen', 'Flavors', 'Boozey']
+        description: ['Frozen Daiquiris', 'Many Flavors', 'Boozey Drinks']
+    },
+    {
+        name: 'Creole Kitchen & Daiquiris',
+        category: 'daiquiris',
+        subcategory: ['chicken'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.700552878412847, -95.37651239280801],
+        neighborhood: 'Astrodome Area',
+        img: 'https://i.imgur.com/uVPNadQ.png',
+        website: 'https://www.creole-kitchen.com',
+        blurb: 'Casual restaurant and drive-thru serving elevated Creole comfort food for dine-in and take-out.',
+        description: ['Fired Chicken', 'Boudin Eggrolls', 'Meat Pies']
+    },
+    {
+        name: 'Orleans Daiquiri to Geaux',
+        category: 'daiquiris',
+        badges: ['NFC mobile payments', 'alcohol available', 'hookah'],
+        coordinates: [29.87217686511884, -95.29997547656028],
+        neighborhood: 'Houston Gardens',
+        img: 'https://i.imgur.com/0RMh12U.png',
+        website: 'https://www.instagram.com/nodaiquiritogeaux/?hl=en',
+        blurb: 'Daiquiri shop with southern food plates.',
+        description: ['Strong drinks', 'Good food', 'Hookah']
     }
-
 ]
 
 export default locations;
