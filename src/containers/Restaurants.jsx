@@ -155,7 +155,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
               &times;
             </button>
 
-            <h3>Search Results ({searchedRestaurants.length})</h3>
+            <h3 className='search-results-found'>Search Results ({searchedRestaurants.length})</h3>
             <div className="location__container">
               {searchedRestaurants.length > 0 ? (
                 searchedRestaurants.map((item, key) => (
@@ -168,7 +168,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
                   />
                 ))
               ) : (
-                <p>No results found.</p>
+                <p className='no-results-found'>No results found.</p>
               )}
             </div>
           </div>

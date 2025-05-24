@@ -14,6 +14,7 @@
     transition: all .2s;
     margin: 1rem auto;
     background-color: #ffd7b5;
+    background-color: #F09A40;
     box-sizing: border-box;
     caret-color: var(--darkblue);
 }
@@ -53,6 +54,7 @@
   max-height: 80vh;
   overflow-y: auto;
   position: relative;
+  background-color: var(--darkblue);
 }
 
 .modal-close {
@@ -64,7 +66,17 @@
   font-size: 2rem;
   line-height: 1;
   cursor: pointer;
-  color: #333;
+  color: white;
+}
+
+.search-results-found {
+    color: white;
+}
+
+.no-results-found {
+    background-color: white;
+    padding: 6rem 4rem;
+    border-radius: 50%;
 }
 
 @media (max-width: 600px) {

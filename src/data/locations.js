@@ -2972,6 +2972,16 @@ const locations = [
         blurb: '30-acre urban gathering spot offering open lawns, trails & sculptures surrounded by shady oak trees.',
         description: ['Walkable Area', 'Drawing & Photography Centers', 'Large Trees']
     },
+    {
+        name: 'Sheldon Resevoir Public Access',
+        category: 'park',
+        coordinates: [29.882707076937123, -95.1859448947124],
+        neighborhood: 'Summerwood',
+        img: 'https://i.imgur.com/FV1lcid.png',
+        website: 'https://tpwd.texas.gov/state-parks/sheldon-lake',
+        blurb: 'Small access point by Sheldon Resevoir mostly used for fishing and passing time.',
+        description: ['Quiet', 'Fishing', 'Roadside picnic']
+    },
     // Attractions
     {
         name: 'Shell Stadium',
