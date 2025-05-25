@@ -77,9 +77,9 @@ organized by category in src/data/locations
 - icon imported from react icons into src/data/icons
 - subcategory icons are updated on leaflet icon
 - new categories require more work on leaflet to create a layerGroup
-- icon should be visible on leaflet map upon refresh
+- icon should be visible on leaflet map at coordinates upon refresh
 
-3. categories
+3. categories & subcategories
 
  - food uses subcategory for list view, everything else uses category
  - create logic for category, subcategory in src/utils/restaurants-filtered and src/utils/activities-filtered
@@ -87,3 +87,16 @@ organized by category in src/data/locations
  - buttons and results should populate immediately
 
 4. badges 
+
+ - badges list stored in src/data/badges
+ - new badges require new entry into src/data/badges
+ - badges are to follow custom order from src/data/badges
+ - badges are used for filters on src/components/filters
+
+5. img
+
+ - png images, uploaded and stored on Imgur bucket
+
+### List View Page logic
+
+### Leaflet Logic
