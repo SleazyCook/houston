@@ -1,5 +1,5 @@
 .footer {
-    height: 9rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,12 @@
 .footer__acknowledgements p {
     text-align: center;
     font-family: 'Avenir Next Condensed', sans-serif;
+}
+
+.footer__art-credit {
+    display: block;
+    margin-bottom: .25rem;
+        font-family: 'Avenir Next Condensed', sans-serif;
 }
 
 .footer__line {
