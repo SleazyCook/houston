@@ -2,7 +2,6 @@ import { useRef } from 'react';
 
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-
 function CategoryButtons({ buttonData, changeCategory }) {
   const scrollRef = useRef(null);
 
