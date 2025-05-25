@@ -16,7 +16,7 @@ const locations = [
     {
         name: 'Wannabao',
         category: 'food',
-        subcategory: ['dumplings'],
+        subcategory: ['dumplings', 'soup'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [29.747720290049234, -95.38028603278978],
         neighborhood: 'Midtown',
@@ -28,7 +28,7 @@ const locations = [
     {
         name: 'Taste of Korea',
         category: 'food',
-        subcategory: ['ricebowl'],
+        subcategory: ['ricebowl', 'soup'],
         badges: ['NFC mobile payments', 'vegetarian options'],
         coordinates: [29.997460350283827, -95.19376149496405],
         neighborhood: 'Atascocita',
@@ -40,7 +40,7 @@ const locations = [
     {
         name: 'Xiaolong Dumpling',
         category: 'food',
-        subcategory: ['dumplings'],
+        subcategory: ['dumplings', 'soup'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.751968194944496, -95.385205425497],
         neighborhood: 'Fourth Ward',
@@ -52,7 +52,7 @@ const locations = [
     {
         name: 'Mensho',
         category: 'food',
-        subcategory: ['ramen', 'upscale'],
+        subcategory: ['ramen', 'upscale', 'soup'],
         badges: ['michelin rated', 'NFC mobile payments', 'vegetarian options'],
         coordinates: [29.702776279471518, -95.55277518132357],
         neighborhood: 'Chinatown',
@@ -64,7 +64,7 @@ const locations = [
     {
         name: 'Blue Sushi',
         category: 'food',
-        subcategory: ['sushi'],
+        subcategory: ['sushi', 'soup'],
         badges: ['outdoor seating', 'NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [29.782854094917795, -95.40735213529982],
         neighborhood: 'Heights',
@@ -76,7 +76,7 @@ const locations = [
     {
         name: 'The Taco Stand',
         category: 'food',
-        subcategory: ['tacos', 'breakfast'],
+        subcategory: ['tacos', 'breakfast', 'salads'],
         badges: ['drive thru', 'open late', 'NFC mobile payments', 'vegetarian options'],
         coordinates: [29.804581677923732, -95.40996772397978],
         neighborhood: 'Heights',
@@ -100,7 +100,7 @@ const locations = [
     {
         name: 'The Rice Box',
         category: 'food',
-        subcategory: ['ricebowl'],
+        subcategory: ['ricebowl', 'soup'],
         badges: ['open late', 'NFC mobile payments'],
         coordinates: [29.80367761668916, -95.40176409739686],
         neighborhood: 'Heights',
@@ -112,7 +112,7 @@ const locations = [
     {
         name: 'The Rice Box',
         category: 'food',
-        subcategory: ['ricebowl'],
+        subcategory: ['ricebowl', 'soup'],
         badges: ['open late', 'NFC mobile payments', 'outdoor seating', 'vegetarian options'],
         coordinates: [29.71659805044453, -95.41461404468372],
         neighborhood: 'Rice Village',
@@ -124,7 +124,7 @@ const locations = [
     {
         name: "The Monk's - Humble",
         category: 'food',
-        subcategory: ['ricebowl'],
+        subcategory: ['ricebowl', 'soup'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [30.003620305655076, -95.27773996608327],
         neighborhood: 'Deerbrook',
@@ -148,13 +148,13 @@ const locations = [
     {
         name: "Nielson's Delicatessen",
         category: 'food',
-        subcategory: ['sandwiches'],
+        subcategory: ['sandwiches', 'soup'],
         badges: ['NFC mobile payments'],
         coordinates: [29.733001745772487, -95.45125833534226],
         neighborhood: 'River Oaks',
         img: 'https://i.imgur.com/2j3MCnc.png',
         website: 'https://www.nielsensdelicatessen.com/',
-        description: ['historic', 'fresh sandwiches', 'quality deli meat']
+        description: ['historic', 'daily soups', 'quality deli meat']
     },
     {
         name: "Portillo's",
@@ -231,7 +231,7 @@ const locations = [
     {
         name: 'Iekei',
         category: 'food',
-        subcategory: ['sushi', 'ramen'],
+        subcategory: ['sushi', 'ramen', 'soup'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [29.935672247210096, -95.25000159496145],
         neighborhood: 'Humble',
@@ -278,7 +278,7 @@ const locations = [
     {
         name: 'La Guadalupana',
         category: 'food',
-        subcategory: ['tacos', 'breakfast'],
+        subcategory: ['tacos', 'breakfast', 'burritos'],
         badges: ['NFC mobile payments', 'vegetarian options'],
         coordinates: [29.75397083325556, -95.38335480760226],
         neighborhood: 'Montrose',
@@ -338,7 +338,7 @@ const locations = [
     {
         name: 'Tacodeli',
         category: 'food',
-        subcategory: ['tacos', 'breakfast'],
+        subcategory: ['tacos', 'breakfast', 'salads'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [29.76797814164908, -95.37732067077975],
         neighborhood: 'Washington',
@@ -374,7 +374,7 @@ const locations = [
     {
         name: 'Iza Robata',
         category: 'food',
-        subcategory: ['sushi', 'ramen'],
+        subcategory: ['sushi', 'ramen', 'soup'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [30.05598142350976, -95.57291198620665],
         neighborhood: 'Spring',
@@ -469,7 +469,7 @@ const locations = [
     {
         name: 'Fogo de Chão',
         category: 'food',
-        subcategory: ['upscale', 'steak'],
+        subcategory: ['upscale', 'steak', 'soup', 'salads'],
         badges: ['alcohol available'],
         coordinates: [29.738151249900074, -95.51179108918673],
         neighborhood: 'Mid West',
@@ -481,7 +481,7 @@ const locations = [
     {
         name: 'Chama Gaúcha',
         category: 'food',
-        subcategory: ['upscale', 'steak'],
+        subcategory: ['upscale', 'steak', 'soup', 'salads'],
         badges: ['alcohol available'],
         coordinates: [29.737575389908308, -95.48292126437322],
         neighborhood: 'Mid West',
@@ -553,7 +553,7 @@ const locations = [
     {
         name: 'Snooze, an A.M. Eatery',
         category: 'food',
-        subcategory: ['breakfast'],
+        subcategory: ['breakfast', 'burritos', 'sandwiches'],
         badges: ['alcohol available'],
         coordinates: [29.801592997027548, -95.41029116058527],
         neighborhood: 'Heights',
@@ -565,7 +565,7 @@ const locations = [
     {
         name: 'Snooze, an A.M. Eatery',
         category: 'food',
-        subcategory: ['breakfast'],
+        subcategory: ['breakfast', 'burritos', 'sandwiches'],
         badges: ['alcohol available'],
         coordinates: [29.744047828435875, -95.39075036458118],
         neighborhood: 'Montrose',
@@ -636,7 +636,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood', 'crawfish'],
+        subcategory: ['seafood', 'crawfish', 'soup'],
         badges: ['alcohol available'],
         coordinates: [29.81679853144434, -95.43075744065375],
         neighborhood: 'Oak Forest',
@@ -648,7 +648,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood', 'crawfish'],
+        subcategory: ['seafood', 'crawfish', 'soup'],
         badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.78130193379262, -95.38796849551551],
         neighborhood: 'Heights',
@@ -660,7 +660,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood', 'crawfish'],
+        subcategory: ['seafood', 'crawfish', 'soup'],
         badges: ['open late', 'alcohol available'],
         coordinates: [29.74424519171531, -95.38841579865903],
         neighborhood: 'Montrose',
@@ -672,7 +672,7 @@ const locations = [
     {
         name: "BB's Tex-Orleans",
         category: 'food',
-        subcategory: ['seafood', 'crawfish'],
+        subcategory: ['seafood', 'crawfish', 'soup'],
         badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.733773605120188, -95.4261022899225],
         neighborhood: 'Greenway',
@@ -684,7 +684,7 @@ const locations = [
     {
         name: '7Spice',
         category: 'food',
-        subcategory: ['seafood', 'crawfish'],
+        subcategory: ['seafood', 'crawfish', 'soup'],
         coordinates: [29.936995628209772, -95.24866447987408],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/ExpOpZX.jpg',
@@ -706,7 +706,7 @@ const locations = [
     {
         name: "Morton's The Steakhouse",
         category: 'food',
-        subcategory: ['upscale', 'steak'],
+        subcategory: ['upscale', 'steak', 'soup', 'salads'],
         badges: ['alcohol available'],
         coordinates: [29.756924901573548, -95.36427486690646],
         neighborhood: 'Downtown',
@@ -718,7 +718,7 @@ const locations = [
     {
         name: "Morton's The Steakhouse",
         category: 'food',
-        subcategory: ['upscale', 'steak'],
+        subcategory: ['upscale', 'steak', 'soup', 'salads'],
         badges: ['alcohol available'],
         coordinates: [29.742058565423644, -95.46245468028471],
         neighborhood: 'Galleria',
@@ -741,7 +741,7 @@ const locations = [
     {
         name: 'House of Pies',
         category: 'food',
-        subcategory: ['dessert'],
+        subcategory: ['dessert', 'breakfast', 'soup', 'salads'],
         badges: ['open late'],
         coordinates: [29.737118864189952, -95.41921689703939],
         neighborhood: 'Greenway',
@@ -849,7 +849,7 @@ const locations = [
     {
         name: 'Cantina Barba',
         category: 'food',
-        subcategory: ['tacos'],
+        subcategory: ['tacos', 'burritos'],
         badges: ['open late', 'outdoor seating', 'alcohol available'],
         coordinates: [29.790805407102635, -95.37342269156582],
         neighborhood: 'Northside',
@@ -921,7 +921,7 @@ const locations = [
     {
         name: 'Kami Ramen & Sushi',
         category: 'food',
-        subcategory: ['ramen', 'sushi'],
+        subcategory: ['ramen', 'sushi', 'soup'],
         badges: ['alcohol available'],
         coordinates: [30.003902312520257, -95.27018922268779],
         neighborhood: 'Deerbrook',
@@ -1025,7 +1025,7 @@ const locations = [
     {
         name: 'Sichuan Pepper Express',
         category: 'food',
-        subcategory: ['ricebowl'],
+        subcategory: ['ricebowl', 'soup'],
         coordinates: [29.868824247412608, -95.32745028567592],
         neighborhood: 'Little York',
         img: 'https://i.imgur.com/o5dq5N1.png',
@@ -1036,7 +1036,7 @@ const locations = [
     {
         name: 'Taco Real',
         category: 'food',
-        subcategory: ['tacos', 'breakfast'],
+        subcategory: ['tacos', 'breakfast', 'burritos'],
         coordinates: [29.9032297520123, -95.31061365838374],
         neighborhood: 'Houston Gardens',
         img: 'https://i.imgur.com/wgp6t5t.png',
@@ -1047,7 +1047,7 @@ const locations = [
     {
         name: 'District 7',
         category: 'food',
-        subcategory: ['burgers', 'outdoor seating', 'alcohol available'],
+        subcategory: ['burgers', 'outdoor seating', 'alcohol available', 'salads'],
         coordinates: [29.752103485592464, -95.37487153428916],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/vm8lMvI.png',
@@ -1058,7 +1058,8 @@ const locations = [
     {
         name: "Lankford's Grocery & Market",
         category: 'food',
-        subcategory: ['burgers', 'outdoor seating', 'alcohol available'],
+        subcategory: ['burgers', 'salads'],
+        badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.75001334070072, -95.38387329126209],
         neighborhood: 'Midtown',
         img: 'https://i.imgur.com/3CNPbOI.png',
@@ -1069,7 +1070,7 @@ const locations = [
     {
         name: 'Fat Bao',
         category: 'food',
-        subcategory: ['sandwiches'],
+        subcategory: ['sandwiches', 'breakfast', 'tacos', 'salads'],
         badges: ['alcohol available'],
         coordinates: [29.735109780616774, -95.41800455744735],
         neighborhood: 'Greenway',
@@ -1137,7 +1138,7 @@ const locations = [
     {
         name: 'Rodeo Goat',
         category: 'food',
-        subcategory: ['burgers'],
+        subcategory: ['burgers', 'salads'],
         badges: ['paid parking', 'outdoor seating', 'alcohol available'],
         coordinates: [29.749983355864877, -95.35621545128976],
         neighborhood: 'EaDo',
@@ -1182,7 +1183,7 @@ const locations = [
     {
         name: 'Marmo',
         category: 'food',
-        subcategory: ['upscale'],
+        subcategory: ['upscale', 'salads', 'pasta'],
         badges: ['alcohol available'],
         coordinates: [29.744837337864322, -95.39033391153052],
         neighborhood: 'Montrose',
@@ -1194,7 +1195,7 @@ const locations = [
     {
         name: 'Toro Toro',
         category: 'food',
-        subcategory: ['upscale'],
+        subcategory: ['upscale', 'salads'],
         badges: ['alcohol available'],
         coordinates: [29.754135330781605, -95.36270750186235],
         neighborhood: 'Downtown',
@@ -1206,7 +1207,7 @@ const locations = [
     {
         name: 'Spindletop',
         category: 'food',
-        subcategory: ['upscale'],
+        subcategory: ['upscale', 'soup', 'salads', 'pasta'],
         badges: ['alcohol available', 'photogenic'],
         coordinates: [29.757210181311688, -95.36954758353014],
         neighborhood: 'Downtown',
@@ -1278,7 +1279,7 @@ const locations = [
     {
         name: 'JINYA Ramen Bar',
         category: 'food',
-        subcategory: ['ramen'],
+        subcategory: ['ramen', 'soup'],
         badges: ['alcohol available'],
         coordinates: [29.803223903801737, -95.40544469527859],
         neighborhood: 'Heights',
@@ -1314,7 +1315,7 @@ const locations = [
     {
         name: "The Original Ninfa's",
         category: 'food',
-        subcategory: ['tacos'],
+        subcategory: ['tacos', 'salads'],
         badges: ['outdoor seating', 'alcohol available'],
         coordinates: [29.756943373593632, -95.34251268012594],
         neighborhood: 'EaDo',
@@ -1350,8 +1351,8 @@ const locations = [
     {
         name: 'Bamboo House',
         category: 'food',
-        subcategory: ['ricebowl'],
-        badges: ['NFC mobile payments'],
+        subcategory: ['ricebowl', 'soup'],
+        badges: ['NFC mobile payments', 'vegetarian options'],
         coordinates:[29.94003107975492, -95.27055933669807],
         neighborhood: 'Humble',
         img: 'https://i.imgur.com/4OweZ8q.png',
@@ -1433,7 +1434,7 @@ const locations = [
     {
         name: 'Pho Binh',
         category: 'food',
-        subcategory: ['pho', 'ricebowl'],
+        subcategory: ['pho', 'ricebowl', 'soup'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.78181156056512, -95.39020429631103],
         neighborhood: 'Heights',
@@ -1445,7 +1446,7 @@ const locations = [
     {
         name: 'Pho Saigon',
         category: 'food',
-        subcategory: ['pho', 'ricebowl'],
+        subcategory: ['pho', 'ricebowl', 'soup'],
         badges: ['NFC mobile payments'],
         coordinates: [29.74513432872236, -95.37761516227405],
         neighborhood: 'Midtown',
@@ -1577,7 +1578,7 @@ const locations = [
     {
         name: 'Trendy Dumpling',
         category: 'food',
-        subcategory: ['dumplings', 'ricebowl', 'ramen'],
+        subcategory: ['dumplings', 'ricebowl', 'ramen', 'soup'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.728544213335404, -95.43208947280887],
         neighborhood: 'Greenway',
@@ -1601,7 +1602,7 @@ const locations = [
     {
         name: 'Ramen Moto',
         category: 'food',
-        subcategory: ['ramen', 'ricebowl'],
+        subcategory: ['ramen', 'ricebowl', 'soup'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.73889035081645, -95.41531677376838],
         neighborhood: 'Greenway',
@@ -1613,7 +1614,7 @@ const locations = [
     {
         name: 'Quan Ba Ky',
         category: 'food',
-        subcategory: ['seafood', 'crawfish'],
+        subcategory: ['seafood', 'crawfish', 'soup'],
         coordinates: [29.70492898957481, -95.5829393783336],
         neighborhood: 'Chinatown',
         img: 'https://i.imgur.com/jdeTqfE.png',
@@ -1672,7 +1673,7 @@ const locations = [
     {
         name: "Doña Leti’s",
         category: 'food',
-        subcategory: ['tacos'],
+        subcategory: ['tacos', 'burritos'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.77847451694044, -95.42986816878614],
         neighborhood: 'Memorial Park',
@@ -1708,7 +1709,7 @@ const locations = [
     {
         name: 'Tacos Frontera',
         category: 'food',
-        subcategory: ['tacos'],
+        subcategory: ['tacos', 'burritos'],
         badges: ['alcohol available'],
         coordinates: [29.78684670551906, -95.75126095239929],
         neighborhood: 'Katy',
@@ -1728,6 +1729,18 @@ const locations = [
         website: 'https://www.burgerbodega.com',
         blurb: 'Burgers and other comfort foods in a trendy space with a convenience-store theme and patio seating.',
         description: ['Chopped Cheese', 'Screwed Fries', 'Mango Lassi Shake']
+    },
+    {
+        name: "Cabo Bob's Burritos",
+        category: 'food',
+        subcategory: ['burritos', 'tacos', 'salads'],
+        badges: ['NFC mobile payments', 'drive thru', 'vegetarian options', 'alcohol available'],
+        coordinates: [29.967527992522502, -95.5342163289566],
+        neighborhood: 'Willowbrook',
+        img: 'https://i.imgur.com/SaRnhvz.png',
+        website: 'https://cabobobs.com',
+        blurb: 'Casual chain serving Mexican eats such as burritos, tacos, nachos, and salads, plus breakfast.',
+        description: ['Quesadillas', 'Nachos', 'Bowls']
     },
     // Bars
     {

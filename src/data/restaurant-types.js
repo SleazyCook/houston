@@ -26,6 +26,12 @@ const buttonData = [
       description: "Houston’s burger scene is as bold and diverse as the city itself. From classic cheeseburgers to gourmet creations with unique toppings, local spots like The Burger Joint and Lankford Grocery serve up some of the best bites in town. Whether you crave a juicy patty stacked high with fresh ingredients or a creative twist on the classic, Houston’s burgers are always satisfying."
     },
     {
+      label: 'Burritos',
+      value: 'burritos',
+      img: 'https://i.imgur.com/vJRLz2q.png',
+      description: "Houston's burrito scene blends Tex-Mex tradition with bold, global influences—think brisket-stuffed wraps, kimchi additions, and breakfast burritos that pack a punch. From food trucks to taquerías, the city serves burritos that are hearty, inventive, and unmistakably Houston."
+    },
+    {
       label: 'Breakfast',
       value: 'breakfast',
       img: 'https://i.imgur.com/uRCxldb.png',
@@ -63,6 +69,12 @@ const buttonData = [
       description: "Houston’s hot dog and Korean corn dog scene is a mix of classic and creative flavors. From traditional all-beef dogs at local favorites like Midwest Coney Connection to the crispy, cheesy Korean corn dogs at places like Two Hands, there's something for every craving. With unique toppings and innovative twists, these bites are a must-try for street food enthusiasts."
     },
     {
+      label: 'Pasta',
+      value: 'pasta',
+      img: 'https://i.imgur.com/NQnVVrW.png',
+      description: ""
+    },
+    {
       label: 'Pho',
       value: 'pho',
       img: 'https://i.imgur.com/jYWMhf4.png',
@@ -88,6 +100,12 @@ const buttonData = [
       description: "Houston’s rice and noodle dishes are a vibrant blend of flavors, from the savory stir-fries of Indian Chinese to the fresh pho noodles of Vietnam. Local spots like Bombay Sweets and Pho 24 offer an array of delicious options—whether it's fragrant fried rice, spicy schezwan noodles, or delicate vermicelli. These dishes are a perfect mix of bold spices, fresh ingredients, and satisfying textures."
     },
     {
+      label: 'Salads',
+      value: 'salads',
+      img: 'https://i.imgur.com/888rMoY.png',
+      description: "Houston’s salad offerings are far from boring, featuring fresh Gulf seafood, smoked meats, and international dressings that reflect the city’s diverse flavors. Whether at a health-focused café or upscale bistro, salads here balance crunch, color, and creativity."
+    },
+    {
       label: 'Sandwiches',
       value: 'sandwiches',
       img: 'https://i.imgur.com/OiGaE5C.png',
@@ -98,6 +116,12 @@ const buttonData = [
       value: 'seafood',
       img: 'https://i.imgur.com/69ms5xi.png',
       description: "Houston’s seafood scene is a feast for the senses, offering everything from crispy fried shrimp to flavorful boiled crawfish. Local favorites like The Boiling Crab and Pappadeaux’s serve up fresh catches with bold seasonings and mouthwatering sauces. Whether you’re in the mood for fried catfish, spicy crab legs, or grilled oysters, Houston’s seafood spots deliver savory, ocean-fresh goodness."
+    },
+    {
+      label: 'Soup',
+      value: 'soup',
+      img: 'https://i.imgur.com/ymyN9gF.png',
+      description: ""
     },
     {
       label: 'Steakhouses',
