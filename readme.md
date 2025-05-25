@@ -52,6 +52,8 @@ Using React, Leaflet, CSS, & Slugify
 ### Adding a location
 1. locations object
 
+organized by category in src/data/locations
+
 | key | value type |
 | ------ | ----- |
 | name | string |
@@ -68,3 +70,20 @@ Using React, Leaflet, CSS, & Slugify
 * subcategory[0] defines map icon
 * badges should follow badge order on src/data/badges
 * description should include recs or important details
+
+2. map icons
+
+- determined by locations.subcategory[0]
+- icon imported from react icons into src/data/icons
+- subcategory icons are updated on leaflet icon
+- new categories require more work on leaflet to create a layerGroup
+- icon should be visible on leaflet map upon refresh
+
+3. categories
+
+ - food uses subcategory for list view, everything else uses category
+ - create logic for category, subcategory in src/utils/restaurants-filtered and src/utils/activities-filtered
+ - create buttons for category, subcategory with src/data/restaurant-types and src/data/activity-types  
+ - buttons and results should populate immediately
+
+4. badges 
