@@ -168,7 +168,9 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
                   />
                 ))
               ) : (
-                <p className='no-results-found'>No results found.</p>
+                <p className='no-results-found'>
+                  <img src='https://i.imgur.com/N9iaEmW.png' alt='No Results'/>
+                </p>
               )}
             </div>
           </div>

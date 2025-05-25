@@ -75,8 +75,16 @@
 
 .no-results-found {
     background-color: white;
-    padding: 6rem 4rem;
+    width: 275px;
+    height: 275px;
     border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-results-found img {
+    width: 200px;
 }
 
 @media (max-width: 600px) {
