@@ -1,9 +1,13 @@
-# My Houston Picks
+# Drew's Houston Spots
+
+## Overview
 
 Static website designed to share my favorite places in Houston, Texas.
 hosted @ https://houstonpicks.netlify.app
 
 Using React, Leaflet, CSS, & Slugify
+
+Homepage artwork by Jim Koehn
 
 ## Content
 
@@ -69,10 +73,12 @@ organized by category in src/data/locations
 | blurb | string |
 | description | array of strings |
 
+* all restaurants are category 'food' and use subcategory for icon and filtering
 * subcategory[0] defines map icon
 * badges sourced from google maps/about + hours of operation
 * badges should follow badge order on src/data/badges
 * coordinates sourced from right-click on google maps location
+* img should be wide, not too large a file
 * description should include recs or important details
 
 2. map icons
