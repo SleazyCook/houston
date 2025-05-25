@@ -10,9 +10,10 @@ import Home from './containers/Home'
 import LocationPage from './containers/LocationPage';
 import Neighborhoods from './containers/Neighborhoods';
 import NeighborhoodPage from './containers/NeighborhoodPage';
+import NotFound from './containers/NotFound';
 import Restaurants from './containers/Restaurants';
 import Activities from './containers/Activities';
-import Resources from './containers/Resources'
+import Resources from './containers/Resources';
 
 // Utilities
 import ScrollToTopReroute from './utils/ScrollToTopReroute';
@@ -93,6 +94,7 @@ function App() {
                 <Route 
                   path="/resources" 
                   element={<Resources />} />
+                  <Route path="*" element={<NotFound />} />
               </Routes>
               <Footer />
             </div>

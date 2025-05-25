@@ -116,11 +116,6 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
           title: location.name || 'Location',
         }).addTo(map);
 
-        if (location.subcategory?.includes('rodeo')) {
-  console.log(`Blurb length: ${location.blurb?.length}`, location.blurb);
-}
-
-
         // Popup
         marker.bindPopup(`
           <div class='popup'>
