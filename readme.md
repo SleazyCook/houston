@@ -3,7 +3,8 @@
 ## Overview
 
 Static website designed to share my favorite places in Houston, Texas.
-hosted @ https://houstonpicks.netlify.app
+
+Hosted @ https://houstonpicks.netlify.app
 
 Using React, Leaflet, CSS, & Slugify
 
