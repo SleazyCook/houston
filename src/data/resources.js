@@ -99,6 +99,14 @@ export const creators = [
         },
     },
     {
+        name: 'Melly Mack',
+        handle: '@thymetravelerswife2',
+        img: 'https://i.imgur.com/cw40yEw.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@thymetravelerswife2'
+        }
+    },
+    {
         name: 'Allie',
         handle: '@prettygirleatshouston',
         img: 'https://i.imgur.com/8RRHdnH.png',

@@ -1711,6 +1711,18 @@ const locations = [
         blurb: "Houston's first Tijuana-style tacos.",
         description: ['Tacos', 'Quesadillas', 'Tortas']
     },
+    {
+        name: 'Burger Bodega',
+        category: 'food',
+        subcategory: ['burgers'],
+        badges: ['open late', 'NFC mobile payments', 'alcohol available'],
+        coordinates: [29.770657527521593, -95.40715118568359],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/FjEU1lw.png',
+        website: 'https://www.burgerbodega.com',
+        blurb: 'Burgers and other comfort foods in a trendy space with a convenience-store theme and patio seating.',
+        description: ['Chopped Cheese', 'Screwed Fries', 'Mango Lassi Shake']
+    },
     // Bars
     {
         name: 'Axelrad',
