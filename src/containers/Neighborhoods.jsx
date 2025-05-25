@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import locations from '../data/locations';
+import neighborhoodBlurbs from '../data/neighborhoods';
 
 const slugify = (text) =>
   text
@@ -40,14 +41,18 @@ const Neighborhoods = () => {
       />
 
       <ul className='neighborhoods'>
+         {filtered.map((name, index) => {
+          const match = neighborhoodBlurbs.find(b => b.name === name);
+          const Icon = match?.icon;
 
-        {filtered.map((name, index) => (
-          <li className='neighborhood' key={index}>
-            <Link to={`/neighborhoods/${slugify(name)}`}>
-              {name}
-            </Link>
-          </li>
-        ))}
+          return (
+            <li className='neighborhood' key={index}>
+              <Link to={`/neighborhoods/${slugify(name)}`}>
+                {name} {Icon && <Icon className="inline-icon" />}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

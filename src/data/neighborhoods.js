@@ -1,58 +1,73 @@
+import { FaTree, FaShoppingBasket, FaCity, FaBuilding, FaMusic, FaLandmark } from 'react-icons/fa';
+import { MdStadium, MdFamilyRestroom, MdWarehouse, MdOutlineTempleBuddhist } from 'react-icons/md';
+import { HiOfficeBuilding } from 'react-icons/hi';
+import { GiChineseTemple, GiPineTree, GiDeerHead, GiVillage } from 'react-icons/gi';
+
 const neighborhoodBlurbs = [
     {
         name: 'Acres Home',
         blurb: "Acres Home is a historic neighborhood located in northwest Houston, known for its tight-knit community and rich cultural heritage. The area features local restaurants, parks, and annual events that celebrate its vibrant history. It’s a welcoming place where tradition and growth come together in the heart of the city’s northwest side.",
-        nearby: ['Central Northwest', 'Greenspoint', 'Independence Heights', 'Jersey Village', 'Northside', 'Oak Forest']
+        nearby: ['Central Northwest', 'Greenspoint', 'Independence Heights', 'Jersey Village', 'Northside', 'Oak Forest'],
+        icon: FaTree
     },
     {
         name: 'Astrodome Area',
         blurb: "The Astrodome area sits just south of downtown Houston, known for its iconic stadium and surrounding sports complexes. This bustling district blends entertainment, dining, and event venues with ongoing development. Visitors and locals alike enjoy easy access to concerts, games, and nearby parks in this vibrant part of the city.",
-        nearby: ['Museum District', 'South Central', 'South Side', 'University Place', 'West University Place']
+        nearby: ['Museum District', 'South Central', 'South Side', 'University Place', 'West University Place'],
+        icon: MdStadium
     },
     {
         name: 'Atascocita',
         blurb: "Atascocita is a growing suburban community located northeast of Houston, known for its family-friendly atmosphere and scenic lakes. This area offers plenty of parks, golf courses, and shopping centers, making it popular for those seeking a quieter lifestyle close to the city. With strong schools and community events, Atascocita blends small-town charm with convenient Houston access.",
-        nearby: ['Deerbrook', 'Humble', 'Summerwood']
+        nearby: ['Deerbrook', 'Humble', 'Summerwood'],
     },
     {
         name: 'Blalock Market',
         blurb: "Blalock Market is a bustling retail hub located in the Spring Branch neighborhood of northwest Houston. Situated along the Katy Freeway (I-10) between Loop 610 and Beltway 8, it serves the upscale Memorial and Spring Branch areas. Anchored by 99 Ranch Market, the center offers a diverse mix of dining, shopping, and services, making it a popular destination for both locals and visitors. With high traffic counts and a variety of amenities, Blalock Market is a vibrant part of Houston's retail landscape.",
-        nearby: ['Central Northwest', 'CityCentre', 'Mid West', 'Northwest Houston', 'Uptown']
+        nearby: ['Central Northwest', 'CityCentre', 'Mid West', 'Northwest Houston', 'Uptown'],
+        icon: FaShoppingBasket
     },
     {
         name: 'Central Northwest',
         blurb: "Central Northwest Houston includes neighborhoods like Oak Forest and Garden Oaks, located just north of Loop 610 and west of I-45. The area features a mix of classic ranch-style and newer homes. With easy access to downtown and the Galleria, plus parks and good schools nearby, it offers a balanced mix of city convenience and residential charm.",
-        nearby: ['Acres Home', 'Blalock Market', 'Independence Heights', 'Jersey Village', 'Oak Forest']
+        nearby: ['Acres Home', 'Blalock Market', 'Independence Heights', 'Jersey Village', 'Oak Forest'],
+        icon: HiOfficeBuilding
     },
     {
         name: 'Chinatown',
         blurb: "Houston's Chinatown, also known as Asiatown, is a vibrant neighborhood located in the southwestern part of the city, primarily along Bellaire Boulevard between Fondren and Beltway 8. Established in the 1980s, it has grown into one of the largest and most diverse Asian communities in the United States . The area boasts a rich tapestry of cultures, including Chinese, Vietnamese, Korean, Malaysian, and more, reflected in its array of restaurants, markets, and cultural centers . Visitors can explore bustling shopping centers, savor authentic Asian cuisines, and experience vibrant cultural festivals throughout the year.",
-        nearby: ['CityCentre', 'Galleria', 'Mid West', 'Sugarland', 'Westside', 'West University Place']
+        nearby: ['CityCentre', 'Galleria', 'Mid West', 'Sugarland', 'Westside', 'West University Place'],
+        icon: MdOutlineTempleBuddhist
     },
     {
         name: 'Cinco Ranch',
         blurb: "Cinco Ranch is a master-planned community located approximately 25 miles west of downtown Houston, within Fort Bend and Harris counties. This expansive neighborhood offers a blend of suburban tranquility and modern amenities, making it a sought-after destination for families and professionals alike. Residents enjoy access to top-rated schools, a variety of parks, and recreational facilities, including the Cinco Ranch Golf Club. The community's strategic location provides convenient access to major highways, facilitating easy commutes to Houston's business districts.",
-        nearby: ['Energy Corridor', 'Katy', 'Westside']
+        nearby: ['Energy Corridor', 'Katy', 'Westside'],
+        icon: MdFamilyRestroom
     },
     {
         name: 'CityCentre',
         blurb: "CityCentre is a lively mixed-use development located just west of downtown Houston in the Uptown area. Known for its walkable streets, it offers a blend of shopping, dining, entertainment, and residential options. With year-round events and easy access to major highways, CityCentre is a popular spot for both locals and visitors seeking an urban lifestyle.",
-        nearby: ['Blalock Market', 'Chinatown', 'Energy Corridor', 'Mid West', 'Westside']
+        nearby: ['Blalock Market', 'Chinatown', 'Energy Corridor', 'Mid West', 'Westside'],
+        icon: FaCity
     },
     {
         name: 'Cypress',
         blurb: 'Cypress, Texas, boasts a vibrant and evolving social and culinary scene that reflects its rapid growth and diverse community. The area has become a hotspot for food enthusiasts, offering a range of dining experiences from upscale eateries to unique local gems.',
-        nearby: ['Jersey Village']
+        nearby: ['Jersey Village'],
+        icon: GiPineTree
     },
     {
         name: 'Deerbrook',
         blurb: "Deerbrook is a suburban area in northeast Houston, centered around Deerbrook Mall in Humble. The mall, established in 1984, serves as a major retail hub with over 130 stores, including anchors like Macy’s, JCPenney, and Dillard’s . The surrounding community offers a mix of residential neighborhoods, such as Deerbrook Estates, which feature mid-sized homes and are known for their family-friendly atmosphere . Residents enjoy convenient access to shopping, dining, and recreational options, including nearby parks like Jesse H. Jones Park & Nature Center . With its blend of suburban charm and urban amenities, Deerbrook provides a balanced lifestyle for its residents.",
-        nearby: ['Atascocita', 'East Aldine', 'Houston Gardens', 'Humble']
+        nearby: ['Atascocita', 'East Aldine', 'Houston Gardens', 'Humble'],
+        icon: GiDeerHead
     },
     {
         name: 'Downtown',
         blurb: "Downtown Houston sits at the heart of the city, just south of the Interstate 45 corridor. It’s a bustling urban core packed with skyscrapers, theaters, and historic landmarks. The area is served by Houston’s METRORail, making it easy to navigate between entertainment, dining, and business districts. With a lively mix of offices, apartments, and cultural venues, Downtown offers a vibrant city experience day and night.",
-        nearby: ['EaDo', 'Fourth Ward', 'Greater Fifth Ward', 'Hyde Park', 'Midtown', 'Montrose', 'Northside', 'South Central', 'Washington']
+        nearby: ['EaDo', 'Fourth Ward', 'Greater Fifth Ward', 'Hyde Park', 'Midtown', 'Montrose', 'Northside', 'South Central', 'Washington'],
+        icon: FaBuilding
     },
     {
         name: 'EaDo',

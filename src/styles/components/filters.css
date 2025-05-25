@@ -157,6 +157,10 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+    .category-slider-wrapper {
+        margin: 0;
+    }
+
     .scroll-btn {
         display: none;
     }
