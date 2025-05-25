@@ -2,11 +2,49 @@
 /* ----------------------- */
 
 /* Category Buttons */
+.category-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  /* gap: 1rem; */
+  padding: 0 2rem;
+  scroll-behavior: smooth;
+}
+
+.scroll-btn {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* hide scrollbar */
+}
+
 .category-btn__box {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     width: 100%;
-    contain: layout paint;
+    contain: layout paint; */
 } 
 
 .category-btn__box:nth-of-type(3) {
@@ -95,6 +133,14 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+    .scroll-btn {
+        display: none;
+    }
+
+    .scroll-container {
+        padding: 0;
+    }
+
     .category-btn__box {
         flex-wrap: nowrap;
         overflow: scroll;

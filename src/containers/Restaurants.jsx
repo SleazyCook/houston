@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import CategoryButtons from '../components/CategoryButtons';
 import Filters from "../components/Filters";
 import Location from "../components/Location";
 
@@ -88,21 +89,9 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
       {/* Show main content only when modal is closed */}
       {!modalOpen && (
         <>
-          {/* Category Buttons */}
-          <div className='category-btn__box'>
-            {buttonData.map((obj, key) => (
-              <button
-                className='category-btn'
-                onClick={changeCategory}
-                key={key}
-                value={obj.value}
-                name={obj.title ? obj.title : obj.label}
-              >
-                <img src={obj.img} alt={obj.label} />
-                {obj.label}
-              </button>
-            ))}
-          </div>
+          <CategoryButtons 
+            buttonData={buttonData} 
+            changeCategory={changeCategory}/>
 
           {/* Filters */}
           <Filters
