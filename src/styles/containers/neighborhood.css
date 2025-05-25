@@ -106,12 +106,18 @@
     gap: 5px;
     height: 100%;
     width: 100%;
-    padding: 0;
+
     margin: 0;
     box-sizing: border-box;
     text-align: center;       /* center multiline text */
     white-space: normal;      /* allow wrapping */
     word-wrap: break-word;    /* break long words if needed */
+    padding: 0 .1rem;
+}
+
+.neighborhood a svg {
+    color: white;
+    font-size: 1.1rem;
 }
 
 
