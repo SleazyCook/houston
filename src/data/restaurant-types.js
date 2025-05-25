@@ -72,7 +72,7 @@ const buttonData = [
       label: 'Pasta',
       value: 'pasta',
       img: 'https://i.imgur.com/NQnVVrW.png',
-      description: ""
+      description: "Houston pasta dishes fuse Southern comfort with international flair—think Cajun cream sauces, smoky brisket ragùs, and handmade noodles in unexpected pairings. Whether at cozy Italian spots or fusion kitchens, the city’s pasta scene is indulgent, playful, and full of personality."
     },
     {
       label: 'Pho',
@@ -121,7 +121,7 @@ const buttonData = [
       label: 'Soup',
       value: 'soup',
       img: 'https://i.imgur.com/ymyN9gF.png',
-      description: ""
+      description: "Soups in Houston range from classic gumbo and pho to bold, broth-based fusions inspired by the city’s multicultural roots. With every bowl, you’ll find depth, spice, and the kind of warmth that reflects Houston’s culinary soul."
     },
     {
       label: 'Steakhouses',
