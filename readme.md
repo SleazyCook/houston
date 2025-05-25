@@ -111,3 +111,5 @@ javascript array of objects, organized by category in src/data/locations
 ### List View Page logic
 
 ### Leaflet Logic
+
+### Adding a resource
