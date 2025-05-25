@@ -1231,7 +1231,7 @@ const locations = [
         img: 'https://i.imgur.com/4e4itNW.png',
         website: 'https://www.lucilleshouston.com',
         blurb: 'Modern takes on Southern classics by a classically trained chef served in a cozy, vintage house.',
-        description: ['Fried Green Tomatoes', 'Full bar', 'Fried Fish']
+        description: ['Fried Green Tomatoes', 'Soul Food', 'Fried Fish']
     },
     {
         name: 'Onion Creek',
@@ -1650,6 +1650,42 @@ const locations = [
         website: 'https://lacalletacos.com/',
         blurb: 'Casual taqueria serving Mexican street eats such as tacos and tortas, plus margaritas.',
         description: ['Located in Bagby Park', 'Margaritas', 'Mexican food']
+    },
+    {
+        name: "D & L's Cajun Kitchen",
+        category: 'food',
+        subcategory: ['chicken', 'seafood'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.89031157943366, -95.30136093105763],
+        neighborhood: 'Houston Gardens',
+        img: 'https://i.imgur.com/0SMCYno.png',
+        website: 'https://www.facebook.com/DLsCajunKitchen/',
+        blurb: 'Casual restaurant dishing up soul food, including turkey wings, oxtails, and smothered pork chops.',
+        description: ['Fried Catfish', 'Smothered Pork Chops', 'Turkey Necks']
+    },
+    {
+        name: "Doña Leti’s",
+        category: 'food',
+        subcategory: ['tacos'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.77847451694044, -95.42986816878614],
+        neighborhood: 'Memorial Park',
+        img: 'https://i.imgur.com/cql0Ijc.jpeg',
+        website: 'https://www.frutasdonaleti.com',
+        blurb: 'Casual Mexican eatery dishing up standards and specialties, plus cocktails, and happy-hour specials.',
+        description: ['Happy hour', 'Chorizo Queso', 'Full bar']
+    },
+    {
+        name: 'Trill Burgers',
+        category: 'food',
+        subcategory: ['burgers'],
+        badges: ['Open Late', 'NFC mobile payments'],
+        coordinates: [29.733928348834223, -95.40997044185593],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/6Mfp84J.png',
+        website: 'https://www.trill-burgers.com',
+        blurb: "Co-founded by rap legend Bun B, Trill Burgers is a Houston-based smashburger spot known for its award-winning burgers, Trill Sauce, and pop-up roots, now serving fans at its Montrose location with a drive-thru. Named “Best Burger in America” by Good Morning America and a hit at major festivals, Trill Burgers blends food, culture, and community.",
+        description: ['Burgers', 'Chicken Tenders', 'Fries']
     },
     // Bars
     {
