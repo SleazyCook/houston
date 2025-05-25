@@ -87,6 +87,12 @@ const buttonData = [
       description: "Houston’s pizza scene is a delicious mix of styles, from Neapolitan to New York-style. Local favorites like Pizaro’s and The Original Italian Pie serve up mouthwatering pies with crispy crusts, fresh toppings, and rich sauces. Whether you prefer a classic Margherita or a creative topping combination, Houston's pizzerias have something to satisfy every pizza lover."
     },
     {
+      label: 'Poke',
+      value: 'poke',
+      img: 'https://i.imgur.com/lhmZlvQ.png',
+      description: "Houston’s poke bowl scene blends Gulf Coast freshness with bold Asian-inspired flavors, offering everything from classic ahi tuna to spicy crawfish and Korean BBQ toppings. With vibrant veggies, creative sauces, and customizable bases, these bowls are a fresh, fast favorite across the city."
+    },
+    {
       label: 'Ramen',
       value: 'ramen',
       img: 'https://i.imgur.com/gHZfdBT.png',

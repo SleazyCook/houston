@@ -9,7 +9,7 @@ import { HiMiniBuildingLibrary } from "react-icons/hi2";
 import { IoIosBowtie } from "react-icons/io";
 import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
 import { MdRamenDining, MdTheaterComedy, MdMuseum } from "react-icons/md";
-import { PiFilmReelFill, PiCatFill, PiBaseballHelmetFill  } from "react-icons/pi";
+import { PiFilmReelFill, PiCatFill, PiBaseballHelmetFill, PiBowlFoodFill } from "react-icons/pi";
 import { RiTreeFill, RiDrinks2Fill } from "react-icons/ri";
 import { SiBuymeacoffee } from "react-icons/si";
 
@@ -26,6 +26,7 @@ export const icons = {
     dessert: makeSvgDataUrl(<FaIceCream size={38} color="#cc5500" />),
     dumplings: makeSvgDataUrl(<GiDumplingBao size={38} color="#cc5500" />),
     hotdogs: makeSvgDataUrl(<FaHotdog size={38} color="#cc5500" />),
+    poke: makeSvgDataUrl(<PiBowlFoodFill size={38} color="#cc5500" />),
     pho: makeSvgDataUrl(<MdRamenDining size={38} color="#cc5500" />),
     pizza: makeSvgDataUrl(<FaPizzaSlice size={38} color="#cc5500" />),
     ramen: makeSvgDataUrl(<MdRamenDining size={38} color="#cc5500" />),

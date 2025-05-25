@@ -15,6 +15,7 @@ const restaurantsFiltered = {
   dessert: sortByName(locations.filter(place => place.subcategory?.includes('dessert'))),
   dumplings: sortByName(locations.filter(place => place.subcategory?.includes('dumplings'))),
   hotdogs: sortByName(locations.filter(place => place.subcategory?.includes('hotdogs'))),
+  poke: sortByName(locations.filter(place => place.subcategory ?.includes('poke'))),
   pasta: sortByName(locations.filter(place => place.subcategory ?.includes('pasta'))),
   pizza: sortByName(locations.filter(place => place.subcategory ?.includes('pizza'))),
   pho: sortByName(locations.filter(place => place.subcategory ?.includes('pho'))),

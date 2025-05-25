@@ -1742,6 +1742,18 @@ const locations = [
         blurb: 'Casual chain serving Mexican eats such as burritos, tacos, nachos, and salads, plus breakfast.',
         description: ['Quesadillas', 'Nachos', 'Bowls']
     },
+    {
+        name: 'Seaside Poke',
+        category: 'food',
+        subcategory: ['poke'],
+        badges: ['paid parking', 'NFC mobile payments', 'vegetarian options'],
+        coordinates: [29.750070269208205, -95.3561589532907],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/hG24soA.png',
+        website: 'https://www.seasidepoke.com',
+        blurb: 'Bright, modern counter serve offering poke bowls customizable with various fish, veggies & sauces.',
+        description: ['Spicy Tuna', 'Truffle Yellowtail', 'Tuna Aioli']
+    },
     // Bars
     {
         name: 'Axelrad',
