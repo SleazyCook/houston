@@ -70,7 +70,9 @@ organized by category in src/data/locations
 | description | array of strings |
 
 * subcategory[0] defines map icon
+* badges sourced from google maps/about + hours of operation
 * badges should follow badge order on src/data/badges
+* coordinates sourced from right-click on google maps location
 * description should include recs or important details
 
 2. map icons
