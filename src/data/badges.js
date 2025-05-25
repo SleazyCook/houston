@@ -28,6 +28,10 @@ const badges = [
         img: 'https://i.imgur.com/Tx8yXqF.png'
     },
     {
+        name: 'vegetarian options',
+        img: 'https://i.imgur.com/hhQvDVQ.png'
+    },
+    {
         name: 'alcohol available',
         img: 'https://i.imgur.com/WU6PYKZ.png'
     },
