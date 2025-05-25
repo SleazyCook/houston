@@ -1699,6 +1699,18 @@ const locations = [
         blurb: 'The best breakfast place in Houston, Texas. We offer a delicious variety of breakfast, Pastries, Beverages and Lunch.',
         description: ['Bagels', 'Sandwiches', 'Salads']
     },
+    {
+        name: 'Tacos Frontera',
+        category: 'food',
+        subcategory: ['tacos'],
+        badges: ['alcohol available'],
+        coordinates: [29.78684670551906, -95.75126095239929],
+        neighborhood: 'Katy',
+        img: 'https://i.imgur.com/PSPTdoU.png',
+        website: 'https://www.instagram.com/tacos.frontera/?hl=en',
+        blurb: "Houston's first Tijuana-style tacos.",
+        description: ['Tacos', 'Quesadillas', 'Tortas']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -2089,7 +2101,7 @@ const locations = [
         name: "Rabbit's Got the Gun",
         category: 'bar',
         subcategory: ['crawfish'],
-        badgess: ['NFC mobile payments', 'alcohol available'],
+        badgess: ['open late', 'NFC mobile payments', 'alcohol available'],
         coordinates: [29.776389024727287, -95.36012911444952],
         neighborhood: 'Northside',
         img: 'https://i.imgur.com/sPNH1iL.png',
@@ -2100,7 +2112,7 @@ const locations = [
     {
         name: 'Clarkwood',
         category: 'bar',
-        badges: ['NFC mobile payments', 'alcohol available'],
+        badges: ['open late', 'NFC mobile payments', 'alcohol available'],
         coordinates: [29.759952946483985, -95.39922771086621],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/Qh5wGbV.png',
@@ -2122,7 +2134,7 @@ const locations = [
     {
         name: 'The Davenport',
         category: 'bar',
-        badges: ['NFC mobile payments', 'alcohol available', 'DJ'],
+        badges: ['open late', 'NFC mobile payments', 'alcohol available', 'DJ'],
         coordinates: [29.73403676798527, -95.41130191573744],
         neighborhood: 'Greenway',
         img: 'https://i.imgur.com/yV6Em4d.png',
@@ -2133,7 +2145,7 @@ const locations = [
     {
         name: 'Trash Panda',
         category: 'bar',
-        badges: ['NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        badges: ['open late', 'NFC mobile payments', 'outdoor seating', 'alcohol available'],
         coordinates: [29.79839642467369, -95.36305367556504],
         neighborhood: 'Northside',
         img: 'https://i.imgur.com/lRl7gNI.png',
@@ -2151,6 +2163,18 @@ const locations = [
         website: 'https://aperitivohouston.com',
         blurb: 'Aperitivo is a stylish rooftop bar featuring a 5,000-square-foot indoor/outdoor patio. Offering a modern and inviting ambiance, Aperitivo is ideal happy hours, cocktail receptions, after-parties, and intimate gatherings.',
         description: ['Rooftop bar', 'Wine by the bottle', 'Difficult parking']
+    },
+    {
+        name: 'Prospect Park',
+        category: 'bar',
+        subcategory: ['seafood'],
+        badges: ['black owned', 'open late', 'NFC mobile payments', 'outdoor seating', 'alcohol available', 'live music'],
+        coordinates: [29.7327169652465, -95.48464669727326],
+        neighborhood: 'Mid West',
+        img: 'https://i.imgur.com/fndo4t9.png',
+        website: 'https://prospectparkrestaurants.com',
+        blurb: 'Chill sports bar serving traditional American bar fare & brunch with drink specials, TVs & a patio.',
+        description: ['Happy hour', 'Platters', 'Drinks']
     },
     // Bookstores & Libraries
     {
@@ -2355,6 +2379,17 @@ const locations = [
         website: 'https://www.85cbakerycafe.com',
         blurb: 'Bakery/cafe chain with roots in Taiwan, offering coffee & tea plus international desserts & breads.',
         description: ['Potato Croquette', 'Cheese Dog', 'Bacon & Cheese']
+    },
+    {
+        name: 'BlendIn Coffee Club',
+        category: 'coffee',
+        badges: ['NFC mobile payments'],
+        coordinates: [29.760063881616148, -95.39922217883777],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/or8HviN.png',
+        website: 'https://blendincoffeeclub.com',
+        blurb: 'Casual coffee shop offering specialty coffee drinks and a selection of baked goods, including vegan options.',
+        description: ['Laptop friendly', 'Diverse drink menu', 'Wholesale coffee']
     },
     // Markets
     {
