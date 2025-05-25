@@ -2082,6 +2082,28 @@ const locations = [
         blurb: 'Stylish lounge features 30+ specialty martinis, cocktails & regular DJ nights in a modern interior.',
         description: ['Martinis', 'Cocktails', 'Classics']
     },
+    {
+        name: 'Trash Panda',
+        category: 'bar',
+        badges: ['NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        coordinates: [29.79839642467369, -95.36305367556504],
+        neighborhood: 'Northside',
+        img: 'https://i.imgur.com/lRl7gNI.png',
+        website: 'https://www.trashpandahtx.com',
+        blurb: 'Casual cocktail bar fixing up inventive drinks alongside pizza, tacos, and brunch.',
+        description: ['$1 Wing Mondays', '$1 Taco Tuesdays', 'Cocktails']
+    },
+    {
+        name: 'Aperitivo',
+        category: 'bar',
+        badges: ['alcohol available'],
+        coordinates: [29.762349009142678, -95.34029796808532],
+        neighborhood: 'Greater Fifth Ward',
+        img: 'https://i.imgur.com/9znpoKm.png',
+        website: 'https://aperitivohouston.com',
+        blurb: 'Aperitivo is a stylish rooftop bar featuring a 5,000-square-foot indoor/outdoor patio. Offering a modern and inviting ambiance, Aperitivo is ideal happy hours, cocktail receptions, after-parties, and intimate gatherings.',
+        description: ['Rooftop bar', 'Wine by the bottle', 'Difficult parking']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
