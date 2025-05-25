@@ -4,7 +4,7 @@
 
 Static website designed to share my favorite places in Houston, Texas.
 
-Hosted @ https://houstonpicks.netlify.app
+Hosted @ https://houston.drewford.dev
 
 Using React, Leaflet, CSS, & Slugify
 
@@ -59,7 +59,7 @@ Homepage artwork by Jim Koehn
 ### Adding a location
 1. locations object
 
-organized by category in src/data/locations
+javascript array of objects, organized by category in src/data/locations
 
 | key | value type |
 | ------ | ----- |
