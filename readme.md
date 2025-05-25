@@ -46,3 +46,24 @@ Using React, Leaflet, CSS, & Slugify
 - Music Venues
 - Parks
 - Photo Opps
+
+## Logic
+
+### Adding a location
+1. locations object
+
+| key | value type |
+| name | string |
+| category | string| 
+| subcategory | array of strings|
+| badges | array of strings |
+| coordinates | array of 2 numbers (x, y) |
+| neighborhood | string |
+| img | string |
+| website | string |
+| blurb | string |
+| description | array of strings |
+
+* subcategory[0] defines map icon
+* badges should follow badge order on src/data/badges
+* description should include recs or important details
