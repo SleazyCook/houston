@@ -53,6 +53,7 @@ Using React, Leaflet, CSS, & Slugify
 1. locations object
 
 | key | value type |
+| ------ | ----- |
 | name | string |
 | category | string| 
 | subcategory | array of strings|
