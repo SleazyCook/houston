@@ -2,6 +2,7 @@
 import { useParams, Link } from 'react-router-dom';
 
 import Location from '../components/Location.jsx';
+import NotFound from './NotFound.jsx';
 
 import locations from "../data/locations";
 import generateLocationSlug from '../utils/slug.js';
@@ -28,12 +29,7 @@ const LocationPage = ({ setLat, setLon, setZoom }) => {
 
   if (!location) 
     return(
-        <div>
-            <br />
-            <br />
-            {console.log('location not found')}
-            Location Not Found
-            </div>
+      <NotFound />
     );
 
   return (
