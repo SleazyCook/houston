@@ -34,36 +34,15 @@ const LocationPage = ({ setLat, setLon, setZoom }) => {
 
   return (
     <div className="location-details-page">
-        {/* Dynamic Background Image */}
-        {/* <div
-            className="background-overlay"
-            style={{
-            position: 'absolute', // Position overlay over content
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundImage: `url(${location.img})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            opacity: 0.7, // Set the opacity of the background image here
-            zIndex: -3, // Make sure the overlay stays behind the content
-        }}></div> */}
-
-
-            <Location 
-                item={location}
-                setLat={setLat} 
-                setLon={setLon} 
-                setZoom={setZoom}
-                />
-            <div className="see-more-container">
-                {renderLink()}
-            </div>
-  
-
-        
-      {/* Render other location data */}
+      <Location 
+          item={location}
+          setLat={setLat} 
+          setLon={setLon} 
+          setZoom={setZoom}
+          />
+      <div className="see-more-container">
+          {renderLink()}
+      </div>
     </div>
   );
 }
