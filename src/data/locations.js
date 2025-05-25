@@ -1687,6 +1687,18 @@ const locations = [
         blurb: "Co-founded by rap legend Bun B, Trill Burgers is a Houston-based smashburger spot known for its award-winning burgers, Trill Sauce, and pop-up roots, now serving fans at its Montrose location with a drive-thru. Named “Best Burger in America” by Good Morning America and a hit at major festivals, Trill Burgers blends food, culture, and community.",
         description: ['Burgers', 'Chicken Tenders', 'Fries']
     },
+    {
+        name: 'EaDough',
+        category: 'food',
+        subcategory: ['bakery', 'breakfast'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.742907444557222, -95.34776879277544],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/zH9syVL.png',
+        website: 'https://eadough.com',
+        blurb: 'The best breakfast place in Houston, Texas. We offer a delicious variety of breakfast, Pastries, Beverages and Lunch.',
+        description: ['Bagels', 'Sandwiches', 'Salads']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -3240,7 +3252,7 @@ const locations = [
         neighborhood: 'Astrodome Area',
         img: 'https://i.imgur.com/2plC7Cq.png',
         website: 'https://www.rodeohouston.com',
-        blurb: "The Houston Livestock Show and Rodeo™ promotes agriculture by hosting an annual, family-friendly experience that educates and entertains the public, supports Texas youth, showcases Western heritage and provides year-round educational support within the community.",
+        blurb: "The Houston Livestock Show and Rodeo promotes agriculture by hosting an annual, family-friendly experience that educates and entertains the public, supports Texas youth, showcases Western heritage and provides year-round educational support within the community.",
         description: ['Cookout', 'Carnival', 'Concerts']
     },
     // Photo Opp

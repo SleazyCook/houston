@@ -36,6 +36,8 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
     if (sub === 'football') return icons.football;
     if (sub === 'faire') return icons.faire;
     if (sub === 'rodeo') return icons.rodeo;
+    // Restaurants
+    if (sub === 'bakery') return icons.bakery;
     if (sub === 'bbq') return icons.bbq;
     if (sub === 'burgers') return icons.burgers;
     if (sub === 'breakfast') return icons.breakfast;
@@ -114,6 +116,11 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
           title: location.name || 'Location',
         }).addTo(map);
 
+        if (location.subcategory?.includes('rodeo')) {
+  console.log(`Blurb length: ${location.blurb?.length}`, location.blurb);
+}
+
+
         // Popup
         marker.bindPopup(`
           <div class='popup'>
@@ -122,8 +129,8 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
               <span class='popup__neighborhood'>${location.neighborhood}</span>
               <span class='popup__name'>${location.name}</span>
               <span className='popup__blurb'>
-                ${location.blurb?.length > 100
-                  ? `${location.blurb.slice(0, 280)}...`
+                ${location.blurb?.length > 173
+                  ? `${location.blurb.slice(0, 170)}...`
                   : location.blurb}
               </span>
               <br>
