@@ -1,9 +1,11 @@
 // containers/NotFound.js
 function NotFound() {
   return (
-    <div style={{ padding: "2rem", textAlign: "center" }}>
-      <h1>404 - Page Not Found</h1>
-      <p>The page you're looking for doesn't exist.</p>
+    <div className='not-found'>
+        <div className='not-found--container'>
+            <h1>Error</h1>
+            <img src='https://i.imgur.com/eOeoeq0.png' alt='image of an astronaut beside a flag that reads Page Not Found'/>
+        </div>
     </div>
   );
 }

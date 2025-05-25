@@ -15,6 +15,7 @@ import './styles/containers/home.css';
 import './styles/containers/listing-page.css';
 import './styles/containers/location-page.css';
 import './styles/containers/neighborhood.css';
+import './styles/containers/not-found.css';
 import './styles/containers/resources.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

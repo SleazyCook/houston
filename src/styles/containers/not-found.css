@@ -1,0 +1,44 @@
+.not-found {
+    height: calc(100svh - 185px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkblue);
+}
+
+.not-found--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    border: 10px solid var(--orange);
+}
+
+.not-found h1 {
+    font-family: 'Lacquer';
+    font-size: 4rem;
+}
+
+.not-found img {
+    height: 300px;
+}
+
+
+@media (max-width: 600px) {
+    .not-found--container {
+        height: 300px;
+        width: 300px
+    }
+
+    .not-found h1 {
+        font-size: 3rem;
+    }
+
+    .not-found img {
+        height: 200px;
+    }
+}

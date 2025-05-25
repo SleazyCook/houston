@@ -81,6 +81,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    border: 10px solid var(--orange);
 }
 
 .no-results-found img {
