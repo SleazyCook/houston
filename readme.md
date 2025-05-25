@@ -5,7 +5,9 @@ hosted @ https://houstonpicks.netlify.app
 
 Using React, Leaflet, CSS, & Slugify
 
-## Restaurants
+## Content
+
+### Restaurants
 
 - Bakeries
 - BBQ
@@ -33,7 +35,7 @@ Using React, Leaflet, CSS, & Slugify
 - Upscale
 - Food Halls
 
-## Activities
+### Activities
 
 - Attractions
 - Bars & Lounges
