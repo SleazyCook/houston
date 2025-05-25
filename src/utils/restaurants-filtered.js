@@ -5,6 +5,7 @@ const sortByName = (arr) => [...arr].sort((a, b) => a.name.localeCompare(b.name)
 const restaurantsFiltered = {
   // food: sortByName(locations.filter(place => place.category?.includes('food'))),
   food: sortByName(locations.filter(place => place.subcategory && place.category !== 'attraction')),
+  bakery: sortByName(locations.filter(place => place.subcategory?.includes('bakery'))),
   bbq: sortByName(locations.filter(place => place.subcategory?.includes('bbq'))),
   burgers: sortByName(locations.filter(place => place.subcategory?.includes('burgers'))),
   breakfast: sortByName(locations.filter(place => place.subcategory?.includes('breakfast'))),

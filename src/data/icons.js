@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { BsJoystick, BsCameraFill } from "react-icons/bs";
 import { FaIceCream, FaCocktail, FaVolleyballBall } from 'react-icons/fa';
 import { FaBurger, FaHotdog, FaPizzaSlice, FaBook, FaBagShopping, FaMusic } from 'react-icons/fa6';
-import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage, GiMountedKnight, GiHorseHead } from "react-icons/gi";
+import { GiDonut, GiChickenOven, GiDumplingBao, GiBowlOfRice, GiSadCrab, GiSushis, GiTacos, GiSoccerBall, GiBasketballBall, GiTigerHead, GiAmericanFootballBall, GiSausage, GiMountedKnight, GiHorseHead, GiSlicedBread } from "react-icons/gi";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 import { IoIosBowtie } from "react-icons/io";
 import { LuSandwich, LuFerrisWheel } from "react-icons/lu";
@@ -18,6 +18,7 @@ const makeSvgDataUrl = (icon) =>
 
 export const icons = {
     // Restaurants
+    bakery: makeSvgDataUrl(<GiSlicedBread size={38} color="#cc5500" />),
     bbq: makeSvgDataUrl(<GiSausage size={38} color="#cc5500" />),
     burgers: makeSvgDataUrl(<FaBurger size={38} color="#cc5500" />),
     breakfast: makeSvgDataUrl(<GiDonut size={38} color="#cc5500" />),

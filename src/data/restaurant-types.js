@@ -8,6 +8,12 @@ const buttonData = [
       description: "Houston’s culinary scene is a vibrant blend of flavors from around the world. From sizzling Tex-Mex to authentic Vietnamese pho, you’ll find something to satisfy every craving. Local chefs embrace diverse cultures and unique ingredients, creating dishes that are both innovative and comforting. Whether you're in the mood for fine dining or casual bites, Houston's restaurants never disappoint with their variety and bold tastes."
     },
     {
+      label: 'Bakeries',
+      value: 'bakery',
+      img: 'https://i.imgur.com/VODXZX1.png',
+      description: "Houston’s bakeries are a sweet reflection of the city’s cultural diversity and culinary creativity. From flaky French croissants to fluffy tres leches cakes and kolaches packed with Texas flair, each treat tells a story. Local bakers blend traditional techniques with bold flavors, offering everything from artisan sourdough to mochi donuts. Whether you’re after a cozy neighborhood café or a standout pastry shop, Houston serves up baked goods that are as memorable as they are delicious."
+    },
+    {
       label: 'BBQ',
       value: 'bbq',
       img: 'https://i.imgur.com/Hd4m9tA.png',

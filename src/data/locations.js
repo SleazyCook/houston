@@ -2323,7 +2323,7 @@ const locations = [
     {
         name: 'Brooklyn Cafe',
         category: 'coffee',
-        subcategory: ['breakfast'],
+        subcategory: ['breakfast', 'bakery'],
         badges: ['NFC mobile payments'],
         coordinates: [30.1678675936134, -95.50326137083863],
         neighborhood: 'The Woodlands',
@@ -2331,6 +2331,18 @@ const locations = [
         website: 'https://www.thebrooklyncafe.com',
         blurb: 'Bagels and other breakfast fare plus sandwiches in an easygoing cafe with a dog-friendly patio.',
         description: ['Bagels', 'Coffee', 'Dog-friendly']
+    },
+    {
+        name: '85°C Bakery Cafe',
+        category: 'coffee',
+        subcategory: ['bakery', 'breakfast'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.78576631289384, -95.52225190971035],
+        neighborhood: 'Blalock Market',
+        img: 'https://i.imgur.com/K14RN5P.png',
+        website: 'https://www.85cbakerycafe.com',
+        blurb: 'Bakery/cafe chain with roots in Taiwan, offering coffee & tea plus international desserts & breads.',
+        description: ['Potato Croquette', 'Cheese Dog', 'Bacon & Cheese']
     },
     // Markets
     {
