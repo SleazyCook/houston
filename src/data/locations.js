@@ -1754,6 +1754,42 @@ const locations = [
         blurb: 'Bright, modern counter serve offering poke bowls customizable with various fish, veggies & sauces.',
         description: ['Spicy Tuna', 'Truffle Yellowtail', 'Tuna Aioli']
     },
+    {
+        name: 'Pokeworks',
+        category: 'food',
+        subcategory: ['poke', 'burritos'],
+        badges: ['NFC mobile payments', 'vegetarian options'],
+        coordinates: [29.77462490899634, -95.39817087004096],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/C47kr3D.png',
+        website: 'https://pokeworks.com',
+        blurb: 'Casual restaurant chain specializing in customizable Hawaiian poke bowls, burritos, and salads.',
+        description: ['Spam Masubi', 'Poke Burritos', 'Spicyu Edamame']
+    },
+    {
+        name: 'Poke Chef 2',
+        category: 'food',
+        subcategory: ['poke'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.936115082198054, -95.25019694109886],
+        neighborhood: 'Humble',
+        img: 'https://i.imgur.com/uFw7GG9.jpeg',
+        website: 'https://www.pokechef.com',
+        blurb: 'We specialize in crafting the most delicious handcrafted poke bowls in the Texas.',
+        description: ['Signature Bowl', 'Skinny Girl', 'Fat Boy']
+    },
+    {
+        name: 'Poke Chef',
+        category: 'food',
+        subcategory: ['poke'],
+        badges: ['NFC mobile payments'],
+        coordinates: [30.168923501868445, -95.45747439894737],
+        neighborhood: 'The Woodlands',
+        img: 'https://i.imgur.com/cgwaCwP.jpeg',
+        website: 'https://www.pokechef.com',
+        blurb: 'Casual Hawaiian restaurant specializing in create-your-own poke bowls with vegan options.',
+        description: ['Signature Bowl', 'Skinny Girl', 'Fat Boy']
+    },
     // Bars
     {
         name: 'Axelrad',
