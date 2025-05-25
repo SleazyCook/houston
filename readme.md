@@ -7,20 +7,26 @@ Using React, Leaflet, CSS, & Slugify
 
 ## Restaurants
 
+- Bakeries
 - BBQ
 - Burgers
+- Burritos
 - Breakfast
 - Chicken
 - Crawfish
 - Dessert
 - Dumplings
 - Hotdogs
+- Pasta
 - Pho
 - Pizza
+- Poke
 - Ramen
 - Rice Bowl
+- Salads
 - Sandwiches
 - Seafood
+- Soup
 - Steakhouses
 - Sushi
 - Tacos
