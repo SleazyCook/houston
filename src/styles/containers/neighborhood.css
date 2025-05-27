@@ -148,3 +148,18 @@
     font-family: 'Avenir Next Condensed';
     padding: 1rem;
 }
+
+@media (min-width: 601px) {
+    .neighborhood a,
+    .neighborhood a svg {
+        transition: all .3s;
+    }
+
+    .neighborhood a:hover {
+        background-color: #1A3A5D;
+    }
+
+    .neighborhood a:hover svg {
+        color: yellow;
+    }
+}
