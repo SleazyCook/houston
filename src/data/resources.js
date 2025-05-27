@@ -138,6 +138,14 @@ export const creators = [
     }
     },
     {
+        name: 'EyezofChaz',
+        handle: '@eyezofchaz',
+        img: 'https://i.imgur.com/wWBnvKv.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@eyezofchaz'
+        }
+    },
+    {
         name: 'Diamond Monae',
         handle: '@diamonddmonaee4',
         img: 'https://i.imgur.com/UuDOfkw.png',
