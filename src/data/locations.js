@@ -1233,7 +1233,7 @@ const locations = [
         name: 'Onion Creek',
         category: 'food',
         subcategory: ['burgers', 'breakfast', 'tacos', 'salads', 'hotdogs'],
-        badges: ['black owned', 'outdoor seating', 'vegetarian options', 'alcohol available'],
+        badges: ['outdoor seating', 'vegetarian options', 'alcohol available'],
         coordinates: [29.781753679987595, -95.39102295778669],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/l7I5cqS.png',
