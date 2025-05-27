@@ -1,6 +1,8 @@
-import { events, schedules, music, sports, creators } from '../data/resources.js'
+import { events, schedules, community, music, sports, creators } from '../data/resources.js'
 
 import { FaTiktok, FaYoutube, FaInstagram, FaFacebook, FaSnapchat, FaPinterest, FaTwitter  } from 'react-icons/fa';
+
+import ResourceSlider from '../components/ResourceSlider.jsx';
 
 const Resources = () => {
 
@@ -19,64 +21,9 @@ const Resources = () => {
       <h1>Resources</h1>
       
       {/* Events */}
-      <div className='resources__subheader'>
-        Events in Town
-      </div>
-      <div className='resources__slider'>
-        {events.map((item, index) => {
-          return(
-            <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
-              <img src={item.img} alt={`${item.title} logo`} />
-              <span>{item.title}</span>
-            </a>
-          )
-        })}
-      </div>
+      <ResourceSlider title='Events in Town' items={events} />
+      <ResourceSlider title='Events by Org' items={schedules} />
 
-      {/* Local Schedules */}
-      <div className='resources__subheader'>
-        Events by Org
-      </div>
-      <div className='resources__slider'>
-        {schedules.map((item, index) => {
-          return(
-            <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
-              <img src={item.img} alt={`${item.title} logo`} />
-              <span>{item.title}</span>
-            </a>
-          )
-        })}
-      </div>
-
-      {/* Professional Sports */}
-      <div className='resources__subheader'>
-        Professional Sports
-      </div>
-      <div className='resources__slider'>
-        {sports.map((item, index) => {
-          return(
-            <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
-              <img src={item.img} alt={`${item.title} logo`} />
-              <span>{item.title}</span>
-            </a>
-          )
-        })}
-      </div>      
-      
-      {/* Concert Tickets */}
-      <div className='resources__subheader'>
-        Ticket Apps
-      </div>
-      <div className='resources__slider'>
-        {music.map((item, index) => {
-          return(
-            <a href={item.url} target='_blank' className='resources__slider-item' key={index}>
-              <img src={item.img} alt={`${item.title} logo`} />
-              <span>{item.title}</span>
-            </a>
-          )
-        })}
-      </div>
 
       {/* Creators */}
         <div className='resources__subheader'>
@@ -110,6 +57,13 @@ const Resources = () => {
           );
         })}
       </div>
+
+      <ResourceSlider title='Community' items={community} />
+      <ResourceSlider title='Professional Sports' items={sports} />  
+      <ResourceSlider title='Ticket Apps' items={music} />
+
+
+
     </div>
   );
 };

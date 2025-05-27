@@ -17,6 +17,13 @@ export const schedules = [
     {title: 'MFA Houston', url: 'https://www.mfah.org/calendar', img: 'https://i.imgur.com/WybC8rn.png'}
 ]
 
+export const community = [
+    {title: 'Black Owned', url: 'https://www.blackbookhouston.com', img: 'https://i.imgur.com/ynPgN09.png'},
+    {title: 'Volunteer', url: 'https://volunteerhouston.org', img: 'https://i.imgur.com/3MI9AGM.png'},
+    {title: 'Ion District', url: '/Users/andrewcook/Library/Application Support/Dropbox-Capture/Thumbnails/Screenshot by Dropbox Capture.png', img: 'https://i.imgur.com/M6HCiGa.png'},
+    {title: 'Michelin Guide', url: 'https://guide.michelin.com/us/en/texas/houston_2986624/restaurants?sort=distance', img: 'https://i.imgur.com/IaYIBOa.png'},
+]
+
 export const music = [
     {title: 'Live Nation', url: 'https://specialevents.livenation.com/venues/houston', img: 'https://i.imgur.com/wF0iVa6.png'},
     {title: 'Stub Hub', url: 'https://www.stubhub.com/houston-tickets/geography/694/', img: 'https://i.imgur.com/f8bLO5y.png'},
