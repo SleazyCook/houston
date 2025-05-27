@@ -66,7 +66,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
 
   const categoryActivities = activitiesFiltered[selectedCategory] || [];
   const filteredActivities = filterActivities(categoryActivities);
-  const searchedActivities = searchActivities(filteredActivities);
+  const searchedActivities = searchActivities(locations);
 
   let pageLength = searchedActivities.length;
 
@@ -89,7 +89,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
         <div className="listing__search-bar">
           <input
             type="text"
-            placeholder="Search Activities"
+            placeholder="Search All"
             value={searchTerm}
             onChange={(e) => {
               setSearchTerm(e.target.value);

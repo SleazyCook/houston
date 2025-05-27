@@ -4,6 +4,7 @@ import CategoryButtons from '../components/CategoryButtons';
 import Filters from "../components/Filters";
 import Location from "../components/Location";
 
+import locations from "../data/locations";
 import buttonData from "../data/restaurant-types";
 import restaurantsFiltered from "../utils/restaurants-filtered";
 
@@ -39,9 +40,9 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
     });
   };
 
-  const searchRestaurants = (restaurants) => {
+  const searchRestaurants = (locations) => {
     const term = searchTerm.toLowerCase();
-    return restaurants.filter((place) => {
+    return locations.filter((place) => {
       const name = String(place.name || "").toLowerCase();
       const blurb = String(place.blurb || "").toLowerCase();
       const description = Array.isArray(place.description)
@@ -58,7 +59,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
   const categoryRestaurants = restaurantsFiltered[selectedCategory] || [];
   const filteredRestaurants = filterRestaurants(categoryRestaurants);
-  const searchedRestaurants = searchRestaurants(filteredRestaurants);
+  const searchedRestaurants = searchRestaurants(locations);
 
   let pageLength = searchedRestaurants.length;
 
@@ -130,7 +131,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
             <div className="listing__search-bar" style={{ marginBottom: "1rem" }}>
               <input
                 type="text"
-                placeholder="Search Eats"
+                placeholder="Search All"
                 value={searchTerm}
                 autoFocus
                 onChange={(e) => setSearchTerm(e.target.value)}
