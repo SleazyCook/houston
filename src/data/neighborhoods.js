@@ -5,7 +5,7 @@ import { FaBridgeWater, FaHatCowboy } from "react-icons/fa6";
 import { LuFerrisWheel } from "react-icons/lu";
 import { MdStadium, MdOutlineTempleBuddhist, MdFamilyRestroom, MdWarehouse, MdLocationCity, MdPeople, MdDirectionsCar, MdExplore, MdGridView, MdApartment, MdSchool, MdHomeWork, MdStreetview } from 'react-icons/md';
 import { HiOfficeBuilding } from 'react-icons/hi';
-import { GiPineTree, GiDeerHead, GiVillage, GiFamilyHouse, GiBrickWall, GiGardeningShears, GiTreehouse, GiOak, GiGraduateCap, GiRailRoad, GiFactory, GiFlowerPot, GiCrystalBars, GiSunflower, GiForestCamp, GiRoyalLove, GiWell, GiSpaceShuttle, GiDiamondRing } from 'react-icons/gi';
+import { GiPineTree, GiDeerHead, GiKnifeFork, GiVillage, GiFamilyHouse, GiBrickWall, GiGardeningShears, GiTreehouse, GiOak, GiGraduateCap, GiRailRoad, GiFactory, GiFlowerPot, GiCrystalBars, GiSunflower, GiForestCamp, GiRoyalLove, GiWell, GiSpaceShuttle, GiDiamondRing } from 'react-icons/gi';
 
 
 const neighborhoodBlurbs = [
@@ -42,7 +42,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Chinatown',
         blurb: "Houston's Chinatown, also known as Asiatown, is a vibrant neighborhood located in the southwestern part of the city, primarily along Bellaire Boulevard between Fondren and Beltway 8. Established in the 1980s, it has grown into one of the largest and most diverse Asian communities in the United States . The area boasts a rich tapestry of cultures, including Chinese, Vietnamese, Korean, Malaysian, and more, reflected in its array of restaurants, markets, and cultural centers . Visitors can explore bustling shopping centers, savor authentic Asian cuisines, and experience vibrant cultural festivals throughout the year.",
-        nearby: ['CityCentre', 'Galleria', 'Mid West', 'Sugarland', 'Westside', 'West University Place'],
+        nearby: ['CityCentre', 'Galleria', 'Mid West', 'Westside', 'West University Place'],
         icon: MdOutlineTempleBuddhist
     },
     {
@@ -252,7 +252,7 @@ const neighborhoodBlurbs = [
     {
         name: 'Rosenberg',
         blurb: "Just southwest of Houston, Rosenberg mixes small-town charm with big-time flavor—think smoky BBQ joints, family taquerias, and old-school diners. It’s also home to pro-level action thanks to LOVB volleyball, bringing serious spikes and energy to this quiet corner of Fort Bend County.",
-        nearby: ['Sugarland'],
+        nearby: ['Sugar Land'],
         icon: GiRailRoad
     },
     {
@@ -286,9 +286,15 @@ const neighborhoodBlurbs = [
         icon: GiFlowerPot
     },
     {
-        name: 'Sugarland',
+        name: 'Stafford',
+        blurb: "Stafford may be small, but its food scene punches way above its weight. Tucked between major highways, this unassuming suburb serves up standout Viet-Cajun crawfish, Nigerian jollof rice, smoky Texas BBQ, and hidden gems like Himalayan momo joints. It’s a lowkey melting pot with high-reward eats.",
+        nearby: ['Chinatown', 'Sugar Land' ],
+        icon: GiKnifeFork
+    },
+    {
+        name: 'Sugar Land',
         blurb: "Sugar Land is where global flavors meet Texas hospitality. From the bustling Sugar Land Town Square to vibrant spots along Highway 6, you’ll find everything from fresh sushi with a Latin twist to classic Creole gumbo and hearty Tex-Mex. Whether you’re craving an upscale steakhouse dinner, Southern comfort food, or authentic Filipino dishes, Sugar Land’s diverse dining scene serves up something delicious for every appetite.",
-        nearby: ['Chinatown', 'Rosenberg'],
+        nearby: ['Rosenberg', 'Stafford'],
         icon: GiCrystalBars
     },
     {

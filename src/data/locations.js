@@ -374,7 +374,7 @@ const locations = [
     {
         name: 'Iza Robata',
         category: 'food',
-        subcategory: ['sushi', 'ramen', 'soup'],
+        subcategory: ['sushi', 'ramen', 'soup', 'poke'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [30.05598142350976, -95.57291198620665],
         neighborhood: 'Spring',
@@ -1521,7 +1521,7 @@ const locations = [
         subcategory: ['sushi'],
         badges: ['paid parking', 'NFC mobile payments', 'outdoor seating', 'alcohol available'],
         coordinates: [29.597236327219413, -95.6215611475929],
-        neighborhood: 'Sugarland',
+        neighborhood: 'Sugar Land',
         img: 'https://i.imgur.com/P3TDzJW.png',
         website: 'https://www.japaneiro.com',
         blurb: 'Inventive Japanese-Latin eats including fusion sushi rolls & margaritas served in a bustling space.',
@@ -1533,7 +1533,7 @@ const locations = [
         subcategory: ['seafood', 'soup', 'salads'],
         badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
         coordinates: [29.59805202203651, -95.6177601861514],
-        neighborhood: 'Sugarland',
+        neighborhood: 'Sugar Land',
         img: 'https://i.imgur.com/UMMRwQn.png',
         website: 'https://lagomariscostx.squarespace.com',
         blurb: "Authentic Mexican food and a large selection of seafood, along with a patio, live music, and a kids' menu.",
@@ -1789,6 +1789,42 @@ const locations = [
         website: 'https://www.pokechef.com',
         blurb: 'Casual Hawaiian restaurant specializing in create-your-own poke bowls with vegan options.',
         description: ['Signature Bowl', 'Skinny Girl', 'Fat Boy']
+    },
+    {
+        name: 'Taqueria Abasolo',
+        category: 'food',
+        subcategory: ['tacos'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.77782510920346, -95.35742602522896],
+        neighborhood: 'Northside',
+        img: 'https://i.imgur.com/FYbuaYo.png',
+        website: 'https://www.yelp.com/biz/taqueria-abasolo-houston',
+        blurb: 'Family-owned restaurant dishing up authentic Mexican eats such as breakfast tacos, enchiladas, and chilaquiles.',
+        description: ['Fajita tacos', 'California burrito', 'Carne Asada']
+    },
+    {
+        name: 'B&B Butchers & Restaurant',
+        category: 'food',
+        subcategory: ['upscale', 'steak', 'sandwiches', 'salads', 'breakfast', 'burgers', 'soup', 'pasta', 'seafood'],
+        badges: ['NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        coordinates: [29.767973961851343, -95.3764358489442],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/AtinUW4.png',
+        website: 'https://www.bbbutchers.com',
+        blurb: 'A vintage bakery has been converted into an upscale steakhouse with an attached butcher shop & deli.',
+        description: ['Reuben', 'Filet Mignon', 'Wasabi Crusted Tuna']
+    },
+    {
+        name: 'Tornado Burger',
+        category: 'food',
+        subcategory: ['burgers'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.611432876791756, -95.56417582123774],
+        neighborhood: 'Stafford',
+        img: 'https://i.imgur.com/WqGl30h.png',
+        website: 'http://tornadoburger.com',
+        blurb: 'Mainstay for vast sandwich selection, including hamburgers, cheesesteaks & gyros amid casual decor.',
+        description: ['Spicy Burgers', 'Loaded Fries', 'Steak Philly']
     },
     // Bars
     {
@@ -2254,6 +2290,18 @@ const locations = [
         website: 'https://prospectparkrestaurants.com',
         blurb: 'Chill sports bar serving traditional American bar fare & brunch with drink specials, TVs & a patio.',
         description: ['Happy hour', 'Platters', 'Drinks']
+    },
+        {
+        name: 'The Library',
+        category: 'bar',
+        subcategory: ['salads'],
+        badges: ['open late', 'NFC mobile payments', 'alcohol available'],
+        coordinates: [29.80334110269605, -95.49749811048325],
+        neighborhood: 'Northwest Houston',
+        img: 'https://i.imgur.com/BlyesfY.png',
+        website: 'https://www.thelibraryhtx.com',
+        blurb: 'The Library is a neighborhood wine bar located in Spring Branch. In our casual and cozy atmosphere, our guests can enjoy one of our many wines by the glass or choose something special from our bottle list, which features over 1,200 unique wines.',
+        description: ['Library themed', 'Lots of wine', 'Cheese boards']
     },
     // Bookstores & Libraries
     {
