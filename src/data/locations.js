@@ -1102,17 +1102,6 @@ const locations = [
         description: ['Sandwiches', 'Chicken Salad', 'Philly Cheese']
     },
     {
-        name: "Jeff's Bagel Run",
-        category: 'food',
-        subcategory: ['breakfast'],
-        coordinates: [29.70534774550307, -95.43868953381072],
-        neighborhood: 'West University Place',
-        img: 'https://i.imgur.com/T6IvG3Q.png',
-        website: 'https://jeffsbagelrun.com/locations/west-u/',
-        blurb: "Jeff’s Bagel Run, founded by Jeff and Danielle Perera in Central Florida, brings authentic New York-style, hand-rolled, boiled bagels to the community—born from a home kitchen, fueled by local love, and now a thriving bakery with a heartwarming story.",
-        description: ['Jalapeno Cheddar', 'Asiago Everything', 'Cacio E Pepe']
-    },
-    {
         name: 'Gaspachos Mexican Bites',
         category: 'food',
         subcategory: ['tacos'],
@@ -2529,6 +2518,17 @@ const locations = [
         website: 'https://www.tomntomsbellaire.com',
         blurb: 'Chain cafe offering a selection of coffees, teas, and small plates in a cozy space.',
         description: ['Smoothies', 'Pizza Toast', 'Egg Sandos']
+    },
+    {
+        name: "Jeff's Bagel Run",
+        category: 'coffee',
+        subcategory: ['breakfast'],
+        coordinates: [29.70534774550307, -95.43868953381072],
+        neighborhood: 'West University Place',
+        img: 'https://i.imgur.com/T6IvG3Q.png',
+        website: 'https://jeffsbagelrun.com/locations/west-u/',
+        blurb: "Jeff’s Bagel Run, founded by Jeff and Danielle Perera in Central Florida, brings authentic New York-style, hand-rolled, boiled bagels to the community—born from a home kitchen, fueled by local love, and now a thriving bakery with a heartwarming story.",
+        description: ['Jalapeno Cheddar', 'Asiago Everything', 'Cacio E Pepe']
     },
     // Markets
     {
