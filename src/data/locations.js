@@ -2518,6 +2518,18 @@ const locations = [
         blurb: 'Casual coffee shop offering specialty coffee drinks and a selection of baked goods, including vegan options.',
         description: ['Laptop friendly', 'Diverse drink menu', 'Wholesale coffee']
     },
+    {
+        name: 'Tom N Toms Coffee',
+        category: 'coffee',
+        subcategory: ['breakfast', 'pizza', 'hotdogs'],
+        badges: ['NFC mobile payments'],
+        coordinates:[29.70446334086218, -95.54927030546189],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/6tEHFGb.png',
+        website: 'https://www.tomntomsbellaire.com',
+        blurb: 'Chain cafe offering a selection of coffees, teas, and small plates in a cozy space.',
+        description: ['Smoothies', 'Pizza Toast', 'Egg Sandos']
+    },
     // Markets
     {
         name: 'H Mart',
