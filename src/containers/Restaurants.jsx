@@ -60,8 +60,9 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
   const categoryRestaurants = restaurantsFiltered[selectedCategory] || [];
   const filteredRestaurants = filterRestaurants(categoryRestaurants);
   const searchedRestaurants = searchRestaurants(locations);
+  const pageRestaurants = modalOpen ? searchedRestaurants : filteredRestaurants;
 
-  let pageLength = searchedRestaurants.length;
+  let pageLength = pageRestaurants.length;
 
   return (
     <div className='restaurant-listing'>
@@ -74,7 +75,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
         <div className="listing__search-bar">
           <input
             type="text"
-            placeholder="Search Eats"
+            placeholder="Search All"
             value={searchTerm}
             onChange={(e) => {
               setSearchTerm(e.target.value);
@@ -109,7 +110,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
           {/* Locations */}
           <div className="location__container">
-            {searchedRestaurants.map((item, key) => (
+            {pageRestaurants.map((item, key) => (
               <Location
                 key={key}
                 item={item}
@@ -124,7 +125,7 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
 
       {/* Modal for search results */}
       {modalOpen && (
-        <div className="modal-overlay" /* Removed onClick close handler here */>
+        <div className="modal-overlay">
           <div className="modal-content" onClick={e => e.stopPropagation()}>
 
             {/* Search bar inside modal */}
@@ -145,10 +146,10 @@ const Restaurants = ({ setLat, setLon, setZoom }) => {
               &times;
             </button>
 
-            <h3 className='search-results-found'>Search Results ({searchedRestaurants.length})</h3>
+            <h3 className='search-results-found'>Search Results ({pageLength})</h3>
             <div className="location__container">
-              {searchedRestaurants.length > 0 ? (
-                searchedRestaurants.map((item, key) => (
+              {pageRestaurants.length > 0 ? (
+                pageRestaurants.map((item, key) => (
                   <Location
                     key={key}
                     item={item}

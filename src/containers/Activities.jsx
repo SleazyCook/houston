@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
 import CategoryButtons from '../components/CategoryButtons';
 import Filters from '../components/Filters';
@@ -8,32 +8,30 @@ import buttonData from '../data/activity-types';
 import activitiesFiltered from '../utils/activities-filtered';
 import locations from '../data/locations';
 
-const Activities = ({ setLat, setLon, setZoom}) => {
+const Activities = ({ setLat, setLon, setZoom }) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [title, setTitle] = useState(buttonData[0].title);
   const [description, setDescription] = useState(buttonData[0].description);
-  const [selectedFilters, setSelectedFilters] = useState({}); 
+  const [selectedFilters, setSelectedFilters] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
 
   const list = activitiesFiltered;
 
   useEffect(() => {
-    window.scrollTo({top: 0, left: 0})
-  }, [])
+    window.scrollTo({ top: 0, left: 0 });
+  }, []);
 
-  // Handle category change
-  function changeCategory(e) {
+  const changeCategory = (e) => {
     const { value } = e.currentTarget;
     const selectedObj = buttonData.find((obj) => obj.value === value);
     if (selectedObj) {
-      setSelectedCategory(e.currentTarget.value);
+      setSelectedCategory(value);
       setTitle(e.currentTarget.name);
       setDescription(selectedObj.description);
     }
-  }
+  };
 
-  // Filter activities based on selected filters
   const filterActivities = (activities) => {
     return activities.filter((place) => {
       return Object.entries(selectedFilters).every(([badgeName, isChecked]) => {
@@ -46,7 +44,6 @@ const Activities = ({ setLat, setLon, setZoom}) => {
     });
   };
 
-  // Search activities based on input
   const searchActivities = (activities) => {
     const term = searchTerm.toLowerCase();
     return activities.filter((place) => {
@@ -67,15 +64,15 @@ const Activities = ({ setLat, setLon, setZoom}) => {
   const categoryActivities = activitiesFiltered[selectedCategory] || [];
   const filteredActivities = filterActivities(categoryActivities);
   const searchedActivities = searchActivities(locations);
-
-  let pageLength = searchedActivities.length;
-
   const photoLocations = locations
     .filter(location => location.badges?.includes('photogenic') && location.category !== 'photo')
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  if (selectedCategory === 'photo') {
-    pageLength = searchedActivities.length + photoLocations.length;
+  const pageActivities = modalOpen ? searchedActivities : filteredActivities;
+
+  let pageLength = pageActivities.length;
+  if (!modalOpen && selectedCategory === 'photo') {
+    pageLength += photoLocations.length;
   }
 
   return (
@@ -84,7 +81,6 @@ const Activities = ({ setLat, setLon, setZoom}) => {
         <span>Out in H-Town</span>
       </h2>
 
-      {/* Show search bar only when modal is closed */}
       {!modalOpen && (
         <div className="listing__search-bar">
           <input
@@ -101,12 +97,12 @@ const Activities = ({ setLat, setLon, setZoom}) => {
         </div>
       )}
 
-      {/* Show main content only when modal is closed */}
       {!modalOpen && (
         <>
           <CategoryButtons 
             buttonData={buttonData} 
-            changeCategory={changeCategory}/>
+            changeCategory={changeCategory}
+          />
 
           <Filters
             list={list}
@@ -124,7 +120,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
           </div>
 
           <div className='location__container'>   
-            {searchedActivities.map((item, key) => (
+            {pageActivities.map((item, key) => (
               <Location 
                 key={key} 
                 item={item} 
@@ -152,7 +148,6 @@ const Activities = ({ setLat, setLon, setZoom}) => {
         </>
       )}
 
-      {/* Modal for search results */}
       {modalOpen && (
         <div className="modal-overlay">
           <div className="modal-content" onClick={e => e.stopPropagation()}>
@@ -160,7 +155,7 @@ const Activities = ({ setLat, setLon, setZoom}) => {
             <div className="listing__search-bar" style={{ marginBottom: "1rem" }}>
               <input
                 type="text"
-                placeholder="Search Activities"
+                placeholder="Search All"
                 value={searchTerm}
                 autoFocus
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -174,10 +169,10 @@ const Activities = ({ setLat, setLon, setZoom}) => {
               &times;
             </button>
 
-            <h3 className='search-results-found'>Search Results ({searchedActivities.length})</h3>
+            <h3 className='search-results-found'>Search Results ({pageActivities.length})</h3>
             <div className="location__container">
-              {searchedActivities.length > 0 ? (
-                searchedActivities.map((item, key) => (
+              {pageActivities.length > 0 ? (
+                pageActivities.map((item, key) => (
                   <Location
                     key={key}
                     item={item}
