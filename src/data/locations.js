@@ -1782,7 +1782,7 @@ const locations = [
     {
         name: 'Taqueria Abasolo',
         category: 'food',
-        subcategory: ['tacos'],
+        subcategory: ['tacos', 'breakfast'],
         badges: ['NFC mobile payments', 'alcohol available'],
         coordinates: [29.77782510920346, -95.35742602522896],
         neighborhood: 'Northside',
