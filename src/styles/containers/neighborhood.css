@@ -150,13 +150,18 @@
 }
 
 @media (min-width: 601px) {
+    .neighborhood,
     .neighborhood a,
     .neighborhood a svg {
         transition: all .3s;
     }
 
+    .neighborhood:hover {
+        border: 2px solid yellow;
+    }
+
     .neighborhood a:hover {
-        background-color: #1A3A5D;
+        background-color: #001A3A;
     }
 
     .neighborhood a:hover svg {
