@@ -165,7 +165,7 @@ const neighborhoodBlurbs = [
     },
     {
         name: 'Houston Gardens',
-        blurb: "Houston Gardens, situated in the northeastern part of the city, offers a blend of community-driven gardening and local dining experiences. Residents and visitors can engage in urban agriculture through community gardens like Target Hunger's Educational & Community Gardens, which provide opportunities to grow nutritious produce and support local food pantries . Additionally, the area is home to the Houston Botanic Garden, featuring diverse plant collections and walking trails for those seeking a peaceful retreat.",
+        blurb: "The culture in Houston Gardens follows along Homestead road, weekend car shows double as block parties, with candy-painted slabs lined up beside tricked-out trucks. Food trucks serve everything from smoked brisket to elote, while daiquiri stands keep the vibe cool and buzzing. It’s loud, laid-back, and all about showing out, eating good, and kicking it with the community.",
         nearby: ['East Aldine', 'Deerbrook', 'Humble', 'Little York', 'Northside', 'Summerwood'],
         icon: GiGardeningShears,
         img: 'https://i.imgur.com/MZa3suj.png'
