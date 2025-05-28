@@ -2543,6 +2543,17 @@ const locations = [
         blurb: "Jeff’s Bagel Run, founded by Jeff and Danielle Perera in Central Florida, brings authentic New York-style, hand-rolled, boiled bagels to the community—born from a home kitchen, fueled by local love, and now a thriving bakery with a heartwarming story.",
         description: ['Jalapeno Cheddar', 'Asiago Everything', 'Cacio E Pepe']
     },
+    {
+        name: 'The Coffee House',
+        category: 'coffee',
+        badges: ['NFC mobile payments', 'outdoor seating'],
+        coordinates: [29.769282495387895, -95.40888740795157],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/BZ14U42.png',
+        website: 'https://www.thecoffeehousehtx.com',
+        blurb: 'Industrial-style redbrick establishment offering specialty coffees & pastries amid a relaxed vibe.',
+        description: ['Coffee', 'Plenty of seating', 'Great for remote work']
+    },
     // Markets
     {
         name: 'H Mart',
@@ -3428,10 +3439,10 @@ const locations = [
         img: 'https://i.imgur.com/VMlrtJn.png',
         website: 'https://www.texrenfest.com',
         blurb: "The Texas Renaissance Festival is a magical place for family fun and entertainment. Try your skills at the archery, axe throwing or Jacob's ladder.",
-        description: ['Mead', 'Shows', 'Campgrounds']
+        description: ['Oct, November', 'Food & Shows', 'Campgrounds']
     },
     {
-        name: 'Houston Livestock Show & Rodeo',
+        name: 'Houston Rodeo',
         category: 'attraction',
         subcategory: ['rodeo'],
         badges: ['paid parking', 'alcohol available', 'photogenic'],
@@ -3440,7 +3451,7 @@ const locations = [
         img: 'https://i.imgur.com/2plC7Cq.png',
         website: 'https://www.rodeohouston.com',
         blurb: "The Houston Livestock Show and Rodeo promotes agriculture by hosting an annual, family-friendly experience that educates and entertains the public, supports Texas youth, showcases Western heritage and provides year-round educational support within the community.",
-        description: ['Cookout', 'Carnival', 'Concerts']
+        description: ['March Only', 'Cookout & Carnival', 'Livestock Show & Concerts']
     },
     // Photo Opp
     {
