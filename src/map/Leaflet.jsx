@@ -94,6 +94,9 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
         attribution: '&copy; <a href="https://www.stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.stamen.com/">Stamen Design</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
+      // add Stamen Watercolor to map.
+      L.tileLayer.provider('Stadia.StamenWatercolor').addTo(map);
+
 
       // Create Layer Group
       const restaurants = L.layerGroup();
