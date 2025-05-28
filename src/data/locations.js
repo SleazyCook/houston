@@ -9,6 +9,7 @@
 // Photo Opp
 // Attractions (nrg, toyota, kemah)
 
+import badges from "./badges";
 import neighborhoodBlurbs from "./neighborhoods";
 
 const locations = [
@@ -1233,7 +1234,7 @@ const locations = [
         name: 'Onion Creek',
         category: 'food',
         subcategory: ['burgers', 'breakfast', 'tacos', 'salads', 'hotdogs'],
-        badges: ['outdoor seating', 'vegetarian options', 'alcohol available'],
+        badges: [ 'outdoor seating', 'vegetarian options', 'alcohol available'],
         coordinates: [29.781753679987595, -95.39102295778669],
         neighborhood: 'Heights',
         img: 'https://i.imgur.com/l7I5cqS.png',
@@ -2291,6 +2292,18 @@ const locations = [
         website: 'https://www.thelibraryhtx.com',
         blurb: 'The Library is a neighborhood wine bar located in Spring Branch. In our casual and cozy atmosphere, our guests can enjoy one of our many wines by the glass or choose something special from our bottle list, which features over 1,200 unique wines.',
         description: ['Library themed', 'Lots of wine', 'Cheese boards']
+    },
+    {
+        name: 'The Flat',
+        category: 'bar',
+        subcategory: ['pizza'],
+        badges: ['open late', 'outdoor seating', 'alcohol available', 'DJ'],
+        coordinates: [29.75155536231054, -95.39869225451687],
+        neighborhood: 'Hyde Park',
+        img: 'https://i.imgur.com/wcBHQSc.png',
+        website: 'https://www.theflathouston.com',
+        blurb: 'Funky, no-frills nightspot with celebrated DJs, a chill lounge area & bar fare in a converted house.',
+        description: ['Live Music', 'Drinks', 'Pizza']
     },
     // Bookstores & Libraries
     {
