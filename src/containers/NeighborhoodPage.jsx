@@ -38,19 +38,33 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
   return (
     <div className='neighborhood-details-page'>
       {/* Title & Blurb */}
-      <h2 className='neighborhood-details__title'>
-        {matched.neighborhood}&nbsp;
-        {allInNeighborhood.length > 0 && (
-          <span>({allInNeighborhood.length})</span>
-        )}
-      </h2>
-      <p className='neighborhood-details__blurb'>
-        {blurbObj?.blurb?.length && blurbObj.blurb}
-      </p>
+      <div 
+        className='neighborhood-details--bg'
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(${blurbObj.img})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <div className='neighborhood-details--header'>
+          <h2 className='neighborhood-details__title'>
+            {matched.neighborhood}&nbsp;
+            {allInNeighborhood.length > 0 && (
+              <span>{allInNeighborhood.length}</span>
+            )}
+          </h2>
+
+        </div>
+
+        <p className='neighborhood-details__blurb'>
+          {blurbObj?.blurb?.length && blurbObj.blurb}
+        </p>
+
 
       {/* Nearby */}
       {blurbObj?.nearby?.length > 0 && (
-        <>
+        <div className='nearby-container'>
           <div className='neighborhoods__nearby--title'>
             Nearby Neighborhoods
           </div>
@@ -71,8 +85,10 @@ const NeighborhoodPage = ({ setLat, setLon, setZoom }) => {
               );
             })}
           </ul>
-        </>
+        </div>
       )}
+
+            </div>
 
       <div className='location__container'>
         {allInNeighborhood.map((item, key) => {

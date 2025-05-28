@@ -128,26 +128,64 @@
     min-height: 80svh;
 }
 
+.neighborhood-details--bg {
+    min-height: 15rem;
+}
+
+.neighborhood-details--header {
+    line-height: 4rem;
+    margin-left: 1.5rem;
+}
+
 .neighborhood-details__title {
-    font-family: 'Lacquer';
+    font-family: 'Oswald';
     padding: .5rem;
     color: yellow;
-    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 2rem;
-    background-color: var(--orange);
+    font-size: 3rem;
 }
 
 .neighborhood-details__title span {
     color: white;
-    font-family: 'Avenir Next Condensed';
-    font-size: 1.25rem;
+    font-family: 'Oswald';
+    font-size: 2rem;
+    line-height: 4rem;
 }
 
 .neighborhood-details__blurb {
     font-family: 'Avenir Next Condensed';
     padding: 1rem;
+    background-color: white;
+    opacity: .8;
+    margin: 0 1.5rem;
+    border-radius: 10px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.nearby-container {
+    background-color: inherit;
+}
+
+.neighborhoods__nearby--title {
+    font-family: 'Oswald';
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    display: block;
+    max-width: 21rem;
+    padding: 0 .5rem;
+    margin: 1rem auto;
+    margin-left: 1.5rem;
+}
+
+
+.neighborhoods__nearby {
+    background-color: none;
+    background-color: inherit;
 }
 
 @media (min-width: 601px) {
@@ -167,5 +205,31 @@
 
     .neighborhood a:hover svg {
         color: yellow;
+    }
+
+    /* single page */
+
+    .neighborhood-details--header {
+        margin-left: 5rem;
+        font-size: 3rem;
+    }
+
+    .neighborhood-details__title {
+        font-size: 4rem;
+    }
+
+    .neighborhood-details__title span{
+        font-size: 2.5rem;
+    }
+    .neighborhood-details__blurb {
+        margin: 0 5rem;
+    }
+
+    .nearby-container {
+        margin: 0 5rem;
+    }
+
+    .neighborhoods__nearby--title {
+        margin: 1rem auto;
     }
 }
