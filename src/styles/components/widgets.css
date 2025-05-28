@@ -122,7 +122,7 @@
     padding: 0 1rem;
     text-align: center;
     line-height: 24px;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-top: 1rem;
     position: absolute;
     bottom: 10px;
@@ -147,5 +147,13 @@
     .highlight__map-btn {
         line-height: 36px;
         bottom: 20px;
+    }
+}
+
+@media (min-width: 601px) {
+    .highlight__map-btn:hover {
+        /* box-shadow: 0 0 8px rgb(242, 255, 0); */
+        transform: translateY(-2px);
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
     }
 }

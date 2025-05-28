@@ -6,7 +6,9 @@
     gap: 20px;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: var(--darkblue);
+    /* background-color: var(--darkblue); */
+    background-color: black;
+
 }
 
 .location {
@@ -16,6 +18,11 @@
     position: relative;    
     /* border: 1px solid black; */
     background-color: white;
+    transition: all .3s;
+
+
+    color: white;
+    border-radius: 3px;
 }
 
 .location::after {
@@ -26,6 +33,7 @@
     position: absolute;
     z-index: -2;
     background-color: white;
+    border-radius: 3px;
 }
 
 /* Location Component - Img Side */
@@ -45,6 +53,7 @@
     object-fit: contain; /* Make sure the image scales properly within the container */
     position: relative;
     z-index: 4;
+    transition: all .3s;
 }
 
 /* Location Component - Details Side */
@@ -102,6 +111,7 @@
     z-index: 1;
     background-color: #DBDBDB;
     background-color: var(--darkblue);
+    transition: all .3s;
 }
 
 .location__details--blurb,
@@ -237,5 +247,19 @@
     .location__details--map-btn,
     .location__details--site-btn {
         font-size: 10px;
+    }
+}
+
+@media (min-width: 601px) {
+    .location:hover {
+        transform: translateY(-3px);
+    }
+
+    .location:hover .location__details--name::after {
+        transform: translateX(+10px);        
+    }
+
+    .location:hover .location__img {
+        transform: scale(.95);
     }
 }
