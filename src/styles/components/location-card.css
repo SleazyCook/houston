@@ -253,9 +253,9 @@
 }
 
 @media (min-width: 601px) {
-    .location:hover {
+    /* .location:hover {
         transform: translateY(-3px);
-    }
+    } */
 
     .location:hover .location__details--name::after {
         transform: translateX(+10px);        
