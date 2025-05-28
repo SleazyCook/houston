@@ -18,7 +18,7 @@ const makeSvgDataUrl = (icon) =>
 
 export const icons = {
     // Restaurants
-    bakery: makeSvgDataUrl(<GiSlicedBread size={38} color="#cc5500" />),
+    bakery: makeSvgDataUrl(<GiSlicedBread size={38} color="#cc5500" style={{ stroke: 'black', strokeWidth: '2px' }}/>),
     bbq: makeSvgDataUrl(<GiSausage size={38} color="#cc5500" />),
     burgers: makeSvgDataUrl(<FaBurger size={38} color="#cc5500" />),
     breakfast: makeSvgDataUrl(<GiDonut size={38} color="#cc5500" />),
