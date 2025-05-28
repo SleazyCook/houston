@@ -37,11 +37,13 @@
     display: block;
     font-family: 'Ranchers';
     color: #002147;
+    color: white;
 }
 
-.weather-widget__city {
+#weather-widget__city {
     font-size: 1rem;
     font-size: .8rem;
+    color: var(--orange);
 }
 
 .weather-widget__icon {
@@ -130,6 +132,7 @@
 @media (max-width: 600px) {
     .home__widgets-box {
         margin: .5rem 0;
+        margin: .5rem
     }
 
     .highlight {

@@ -108,7 +108,7 @@ const Weather = () => {
                     <span className='weather-widget__temp'>
                         {weatherData.Temperature.Imperial.Value}°F
                     </span>
-                    <span className='weather-widget__city'>in H-Town</span>
+                    <span id='weather-widget__city'>in H-Town</span>
                 </a>
             </>
         );
