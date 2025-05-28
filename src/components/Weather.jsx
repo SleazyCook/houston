@@ -77,6 +77,7 @@ const Weather = () => {
             Smoke: '🌫️',
             Dust: '🌫️',
             Windy: '🌬️',
+            'Thunderstorm': '⛈️', 
             'Blowing dust': '🌫️',
             'Freezing rain': '🌨️',
             'Ice pellets': '🌨️',
