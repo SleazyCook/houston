@@ -2,26 +2,30 @@
 .home__widgets-box {
     display: flex;
     justify-content: space-around;
-    margin: .5rem;
+    margin: 1rem;
+    /* border-top: 1px solid white; */
+    box-shadow: 2px 2px 10px var(--orange);
+    border-radius: 5px;
 }
 
 /* Weather Widget */
 .weather-widget {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* padding: 1rem 0; */
-    border-radius: 5px 0 0 5px;
+    /* border-radius: 5px 0 0 5px; */
     cursor: pointer;
     text-decoration: none;
     color: black;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 
-    0px 1px 3px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 
+    0px 1px 3px rgba(0, 0, 0, 0.08); */
     height: 8rem;
     width: 8rem;
     color: #002147;
+    color: white;
     font-family: 'Ranchers';
 }
 
@@ -52,8 +56,8 @@
 }
 
 .highlight {
-    background-color: grey;
-    background-color: var(--darkblue);
+    /* background-color: grey; */
+    /* background-color: var(--darkblue); */
     color: var(--orange);
     border-radius: 0 5px 5px 0;
     width: calc(100% - 1rem);
@@ -61,10 +65,11 @@
     padding-right: .5rem;
     display: flex;
     cursor: pointer;
+    color: white;
 }
 
 .highlight__img {
-    border-right: 1px solid var(--orange);
+    /* border-right: 1px solid var(--orange); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +77,7 @@
 }
 
 .highlight__img  img{
-    max-height: 6rem;
+    height: 8rem;
 }
 
 .highlight__details {
@@ -92,6 +97,7 @@
 .highlight__description span {
     font-family: 'Avenir Next Condensed', sans-serif;
     letter-spacing: 0;
+    color: var(--orange);
 }
 
 .highlight__description {
