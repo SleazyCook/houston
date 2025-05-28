@@ -56,7 +56,7 @@ const Weather = () => {
             Clear: '☀️',
             Sunny: '☀️',
             'Mostly sunny': '☀️',
-            'Mostly clear': '☀️',
+            'Mostly clear': '🌙',
             'Partly cloudy': '🌤️',
             'Partly sunny': '🌤️',
             'Mostly cloudy': '☁️',
