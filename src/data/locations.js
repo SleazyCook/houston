@@ -1816,6 +1816,18 @@ const locations = [
         blurb: 'Mainstay for vast sandwich selection, including hamburgers, cheesesteaks & gyros amid casual decor.',
         description: ['Spicy Burgers', 'Loaded Fries', 'Steak Philly']
     },
+    {
+        name: 'Birria Queen',
+        category: 'food',
+        subcategory: ['tacos'],
+        badges: ['NFC mobile payments', 'Vegetarian options'],
+        coordinates: [29.730915406692098, -95.37640031478013],
+        neighborhood: 'Museum District',
+        img: 'https://i.imgur.com/4hTpGpT.png',
+        website: 'https://www.thebirriaqueen.com',
+        blurb: 'Food truck dishing up crunchy beef and vegan birria tacos, plus ramen, and grilled cheese.',
+        description: ['Tacos', 'Ramen', 'Churro by the Pound']
+    },
     // Bars
     {
         name: 'Axelrad',
