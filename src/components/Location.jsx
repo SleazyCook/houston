@@ -72,7 +72,7 @@ const Location = ({item, setLat, setLon, setZoom}) => {
                 <button 
                     className='location__details--map-btn'
                     onClick={handleClick}>
-                        View on Map
+                        <span>View on Map</span>
                 </button>
 
                 {/* Website */}
@@ -80,7 +80,7 @@ const Location = ({item, setLat, setLon, setZoom}) => {
                     className='location__details--site-btn'
                     href={item.website}
                     target='_blank'>
-                        View Website
+                        <span>View Website</span>
                 </a>
             </div>
 
