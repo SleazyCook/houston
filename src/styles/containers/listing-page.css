@@ -12,6 +12,11 @@
     margin-bottom: 0;
 }
 
+.restaurant-listing,
+.activity-listing {
+    min-height: calc(100svh - 12.5rem);
+}
+
 .listing__header--food {
     
 }
