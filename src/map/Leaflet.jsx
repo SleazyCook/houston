@@ -89,14 +89,13 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
 
       const initialScale = getScaleForZoom(zoom);
 
-      L.tileLayer(`https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=YOUR_API_KEY`, {
-        minZoom: 1,
-        maxZoom: 16,
-        attribution: '&copy; <a href="https://www.stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://www.stamen.com/">Stamen Design</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      L.tileLayer('https://tile.jawg.io/jawg-streets/{z}/{x}/{y}{r}.png?access-token=ScS5NFRBzDSrPBfMGtCkQqSmDR6U3G4n7jL7H0llqfGG0hdaELXcklA8eQqLyyGU', {
+
       }).addTo(map);
+        
 
       // add Stamen Watercolor to map.
-      L.tileLayer.provider('Stadia.StamenWatercolor').addTo(map);
+     
 
 
       // Create Layer Group
