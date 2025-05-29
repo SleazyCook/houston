@@ -89,15 +89,10 @@ const Leaflet = ({ lat, lon, zoom, setZoom }) => {
 
       const initialScale = getScaleForZoom(zoom);
 
+      // Map Style Jawg.Streets
       L.tileLayer('https://tile.jawg.io/jawg-streets/{z}/{x}/{y}{r}.png?access-token=ScS5NFRBzDSrPBfMGtCkQqSmDR6U3G4n7jL7H0llqfGG0hdaELXcklA8eQqLyyGU', {
-
       }).addTo(map);
-        
-
-      // add Stamen Watercolor to map.
-     
-
-
+      
       // Create Layer Group
       const restaurants = L.layerGroup();
       const bars = L.layerGroup();
