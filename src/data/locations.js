@@ -1130,7 +1130,7 @@ const locations = [
         category: 'food',
         subcategory: ['burgers', 'salads'],
         badges: ['paid parking', 'outdoor seating', 'alcohol available'],
-        coordinates: [29.749983355864877, -95.35621545128976],
+        coordinates: [29.74980036784446, -95.3564042704112],
         neighborhood: 'EaDo',
         img: 'https://i.imgur.com/KSGarKU.png',
         website: 'https://www.rodeogoat.com/houston/',

@@ -106,6 +106,14 @@ export const creators = [
         },
     },
     {
+        name: 'Where to Next?',
+        handle: '@wheretogonext___',
+        img: 'https://i.imgur.com/RL9RuOX.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@wheretogonext___'
+        }
+    },
+    {
         name: 'Melly Mack',
         handle: '@thymetravelerswife2',
         img: 'https://i.imgur.com/cw40yEw.png',
