@@ -1828,6 +1828,18 @@ const locations = [
         blurb: 'Food truck dishing up crunchy beef and vegan birria tacos, plus ramen, and grilled cheese.',
         description: ['Tacos', 'Ramen', 'Churro by the Pound']
     },
+    {
+        name: 'milk + sugar',
+        category: 'food',
+        subcategory: ['dessert'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.74292224092003, -95.40688892103273],
+        neighborhood: 'Hyde Park',
+        img: 'https://i.imgur.com/bf1s8XZ.png',
+        website: 'https://www.milkandsugarcreamery.com',
+        blurb: 'Laid-back spot for handcrafted ice cream in creative flavors housed in a restored historic building.',
+        description: ['Yum Cha', 'Ube', 'City that Never Sleeps']
+    },
     // Bars
     {
         name: 'Axelrad',
