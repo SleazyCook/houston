@@ -2590,6 +2590,18 @@ const locations = [
         blurb: 'Industrial-style redbrick establishment offering specialty coffees & pastries amid a relaxed vibe.',
         description: ['Coffee', 'Plenty of seating', 'Great for remote work']
     },
+    {
+        name: 'Doshi House',
+        category: 'coffee',
+        subcategory: ['sandwiches', 'breakfast', 'tacos'],
+        badges: ['NFC mobile payments', 'vegetarian options'],
+        coordinates: [29.73259941186283, -95.3662694924411],
+        neighborhood: 'South Central',
+        img: 'https://i.imgur.com/BiO4D2b.png',
+        website: 'https://www.doshihouse.com',
+        blurb: 'Homey spot focusing on global vegetarian & vegan soups, sandwiches & mains, plus coffees & teas.',
+        description: ['Pastries', 'Tea', 'Smoothies']
+    },
     // Markets
     {
         name: 'H Mart',
