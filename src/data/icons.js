@@ -12,6 +12,7 @@ import { MdRamenDining, MdTheaterComedy, MdMuseum } from "react-icons/md";
 import { PiFilmReelFill, PiCatFill, PiBaseballHelmetFill, PiBowlFoodFill } from "react-icons/pi";
 import { RiTreeFill, RiDrinks2Fill } from "react-icons/ri";
 import { SiBuymeacoffee } from "react-icons/si";
+import { TbGolfFilled } from "react-icons/tb";
 
 const makeSvgDataUrl = (icon) =>
     `data:image/svg+xml,${encodeURIComponent(renderToStaticMarkup(icon))}`;
@@ -63,6 +64,7 @@ export const icons = {
     football: makeSvgDataUrl(<GiAmericanFootballBall size={38} color="#222222"  />),
     faire: makeSvgDataUrl(<GiMountedKnight size={38} color="#222222"  />),
     rodeo: makeSvgDataUrl(<GiHorseHead size={38} color="#222222"  />),
+    golf: makeSvgDataUrl(<TbGolfFilled size={38} color="#222222"  />),
 };
 
 export default icons;

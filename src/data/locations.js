@@ -2329,6 +2329,18 @@ const locations = [
         blurb: 'Funky, no-frills nightspot with celebrated DJs, a chill lounge area & bar fare in a converted house.',
         description: ['Live Music', 'Drinks', 'Pizza']
     },
+    {
+        name: 'Platypus Brewing',
+        category: 'bar',
+        subcategory: ['steak'],
+        badges: ['NFC mobile payments', 'outdoor seating' , 'alcohol available'],
+        coordinates: [29.768406917178908, -95.37736164116566],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/DA7keco.png',
+        website: 'https://www.platypusbrewing.com',
+        blurb: 'Brewery taproom serving craft beer & Australian-inspired comfort food in cozy digs with a patio.',
+        description: ["Fish 'n Chips", 'Wedenesday Steak Night $22.95', 'Happy Hour M-F 3-6pm']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
@@ -3476,6 +3488,18 @@ const locations = [
         website: 'https://www.rodeohouston.com',
         blurb: "The Houston Livestock Show and Rodeo promotes agriculture by hosting an annual, family-friendly experience that educates and entertains the public, supports Texas youth, showcases Western heritage and provides year-round educational support within the community.",
         description: ['March Only', 'Cookout & Carnival', 'Livestock Show & Concerts']
+    },
+    {
+        name: 'Puttery',
+        category: 'attraction',
+        subcategory: ['golf'],
+        badges: ['alcohol available'],
+        coordinates: [29.76797232796585, -95.37673048898021],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/5CBxBnX.png',
+        website: 'https://www.puttery.com/locations/houston/',
+        blurb: 'Trendy venue featuring a modern take on mini-golf, with auto-scoring technology, plus cocktails.',
+        description: ['Full bar', 'Fun themes', 'Food']
     },
     // Photo Opp
     {
