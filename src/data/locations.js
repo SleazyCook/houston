@@ -3621,6 +3621,17 @@ const locations = [
         blurb: 'This somber museum documents the Holocaust through exhibits of artifacts, photographs & film.',
         description: ['Events', 'Tours', 'Community Programs']
     },
+    {
+        name: 'Space Center Houston',
+        category: 'museum',
+        subcategory: ['space'],
+        coordinates: [29.551968239892716, -95.09838780790388],
+        neighborhood: 'Webster',
+        img: 'https://i.imgur.com/PvhGiuy.png',
+        website: 'https://spacecenter.org',
+        blurb: 'Educational center highlighting all eras of U.S. space travel via exhibits, tours & attractions.',
+        description: ['Cafe', 'Restaurant', 'Rocketships']
+    },
     // Daiquiris
     {
         name: 'Daiquiri Hut',
