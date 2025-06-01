@@ -155,6 +155,7 @@ const locations = [
         neighborhood: 'River Oaks',
         img: 'https://i.imgur.com/2j3MCnc.png',
         website: 'https://www.nielsensdelicatessen.com/',
+        blurb: 'Breakfast & lunch spot doling out old-school deli fare including sandwiches & popular potato salad.',
         description: ['historic', 'daily soups', 'quality deli meat']
     },
     {
@@ -1839,6 +1840,18 @@ const locations = [
         website: 'https://www.milkandsugarcreamery.com',
         blurb: 'Laid-back spot for handcrafted ice cream in creative flavors housed in a restored historic building.',
         description: ['Yum Cha', 'Ube', 'City that Never Sleeps']
+    },
+    {
+        name: "Kenny & Ziggy's NY Deli",
+        category: 'food',
+        subcategory: ['sandwiches', 'hotdogs', 'salads', 'burgers', 'dessert'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.748259914154513, -95.45976396382343],
+        neighborhood: 'Westside',
+        img: 'https://i.imgur.com/Bko0CXd.png',
+        website: 'https://www.kennyandziggys.com',
+        blurb: 'Famous deli serving huge pastrami sandwiches & other classics in an old-school setting.',
+        description: ['Bagels', 'Chicken Shawarma', 'Pies & Shakes']
     },
     // Bars
     {
