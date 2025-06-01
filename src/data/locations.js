@@ -1853,6 +1853,17 @@ const locations = [
         blurb: 'Famous deli serving huge pastrami sandwiches & other classics in an old-school setting.',
         description: ['Bagels', 'Chicken Shawarma', 'Pies & Shakes']
     },
+    {
+        name: 'The Red Chickz',
+        category: 'food',
+        subcategory: ['chicken', 'salads', 'tacos', 'sandwiches'],
+        coordinates: [29.9928026042872, -95.75046575857047],
+        neighborhood: 'Cypress',
+        img: 'https://i.imgur.com/6SEXCyu.jpeg',
+        website: 'https://theredchickz.com',
+        blurb: 'Casual restaurant dishing up Nashville hot chicken sandwiches, tenders, and other eats with comeback sauce.',
+        description: ['$2 Tender Tuesdays', 'Hot Chicken', 'Comeback Sauce']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -2353,6 +2364,17 @@ const locations = [
         website: 'https://www.platypusbrewing.com',
         blurb: 'Brewery taproom serving craft beer & Australian-inspired comfort food in cozy digs with a patio.',
         description: ["Fish 'n Chips", 'Wedenesday Steak Night $22.95', 'Happy Hour M-F 3-6pm']
+    },
+    {
+        name: 'Zen Lounge',
+        category: 'bar',
+        badges: ['paid parking', 'outdoor seating', 'alcohol available', 'hookah'],
+        coordinates: [29.770822567612857, -95.41553272831742],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/uxc8KI9.png',
+        website: 'https://www.instagram.com/thezenloungehtx/',
+        blurb: 'The perfect escape - great bites, strong cocktails, inside and outside patio seating. 420 friendly. ',
+        description: ['Happy hour', 'Cocktails', 'Wings']
     },
     // Bookstores & Libraries
     {
