@@ -1864,6 +1864,18 @@ const locations = [
         blurb: 'Casual restaurant dishing up Nashville hot chicken sandwiches, tenders, and other eats with comeback sauce.',
         description: ['$2 Tender Tuesdays', 'Hot Chicken', 'Comeback Sauce']
     },
+    {
+        name: 'burger-chan',
+        category: 'food',
+        subcategory: ['burgers', 'hotdogs'],
+        badges: ['NFC mobile payments', 'outdoor seating', 'alcohol available'],
+        coordinates: [29.737594198471, -95.46921303967943],
+        neighborhood: 'Uptown',
+        img: 'https://i.imgur.com/ZkKhxQL.jpeg',
+        website: 'https://burgerchanhtx.com',
+        blurb: "A highly-acclaimed burger restaurant in Houston serving highly customizable burgers that can be as simple or as complex as you'd like.",
+        description: ['Customizable burgers', 'Falafael', 'Closes early']
+    },
     // Bars
     {
         name: 'Axelrad',
