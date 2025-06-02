@@ -1887,6 +1887,18 @@ const locations = [
         blurb: '88 Dumpling House serves both American and authentic Chinese dishes, as well as a selection of Southeast Asian specialties. Our menu features a variety of handcrafted dumplings made with the freshest ingredients and traditional cooking methods.',
         description: ['Soup Dumplings', 'Pan-Fried Buns', 'Wontons']
     },
+    {
+        name: 'Nobu Houston',
+        category: 'food',
+        subcategory: ['sushi', 'dessert'],
+        badges: ['NFC mobile payments', 'vegetarian options', 'alcohol available'],
+        coordinates: [29.73944796431526, -95.46553914495829],
+        neighborhood: 'Galleria',
+        img: 'https://i.imgur.com/6xzEMRN.png',
+        website: 'https://www.noburestaurants.com/houston/home',
+        blurb: "Iron Chef Nobu Matsuhisa's hot & cold Japanese delicacies served in spacious & posh surroundings.",
+        description: ['$65 Buffet', 'Sake', 'Sushi']
+    },
     // Bars
     {
         name: 'Axelrad',
