@@ -1876,6 +1876,17 @@ const locations = [
         blurb: "A highly-acclaimed burger restaurant in Houston serving highly customizable burgers that can be as simple or as complex as you'd like.",
         description: ['Customizable burgers', 'Falafael', 'Closes early']
     },
+    {
+        name: '88 DUMPLING HOUSE',
+        category: 'food',
+        subcategory: ['dumplings', 'soup'],
+        coordinates: [29.692825649439687, -95.41423719051352],
+        neighborhood: 'Astrodome Area',
+        img: 'https://i.imgur.com/ch4BDAy.jpeg',
+        website: 'https://88dumplinghouse.com',
+        blurb: '88 Dumpling House serves both American and authentic Chinese dishes, as well as a selection of Southeast Asian specialties. Our menu features a variety of handcrafted dumplings made with the freshest ingredients and traditional cooking methods.',
+        description: ['Soup Dumplings', 'Pan-Fried Buns', 'Wontons']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -3593,6 +3604,17 @@ const locations = [
         website: 'https://www.google.com/maps?sca_esv=44cd9e4f38d377fc&output=search&q=sabine+street+bridge&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBki0xbyJIUgVJnlXKXyPv8he7HXOZVM8kHbfynE2Ypquo56n7U2nAL0vrOqeAOfrlYXe1xunnz1eSS41n4gVF3_hz3Q8OLDfM2Z5CpZ7e3i4U4f5fD2HWym3iSkCqAWISV5wqh8ujVhWgTETM8q2vE32tdDEFRoZmcVK8BTi0w_6zRNfZg&entry=mc&ved=1t:200715&ictx=111',
         blurb: 'Bridge with walking path with close up view of downtown facing East.',
         description: ['Bridge', 'Night Photography', 'Romantic']
+    },
+    {
+        name: 'Sanman Studios',
+        category: 'photo',
+        badges: ['photogenic'],
+        coordinates: [29.7687404812231, -95.35635277490425],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/UCAM2se.png',
+        website: 'https://www.sanman.company/studio',
+        blurb: 'Appointment-only photography and video studio with a selection of props and easy-to-use lighting.',
+        description: ['Suite options', 'By the hour', 'Lighting provided']
     },
     // Museums
     {
