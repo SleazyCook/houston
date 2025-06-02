@@ -114,6 +114,14 @@ export const creators = [
         }
     },
     {
+        name: 'FOODIEWHOT3HTx',
+        handle: '@foodiehtx5',
+        img: 'https://i.imgur.com/BUn2lGJ.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@foodiehtx5'
+        }
+    },
+    {
         name: 'Melly Mack',
         handle: '@thymetravelerswife2',
         img: 'https://i.imgur.com/cw40yEw.png',

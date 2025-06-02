@@ -2411,6 +2411,17 @@ const locations = [
         blurb: 'The perfect escape - great bites, strong cocktails, inside and outside patio seating. 420 friendly. ',
         description: ['Happy hour', 'Cocktails', 'Wings']
     },
+    {
+        name: 'Roots',
+        category: 'bar',
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.741695974260452, -95.3500770864142],
+        neighborhood: 'EaDo',
+        img: 'https://i.imgur.com/nMFOPwy.png',
+        website: 'https://www.rootswinesbar.com',
+        blurb: 'Easygoing hangout with a patio & a contemporary vibe offering creative cuisine & self-serve wine.',
+        description: ['Automated Wine Bar', 'Small Bites', 'Vinyl Listening Rooms']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
