@@ -1502,6 +1502,7 @@ const locations = [
         coordinates: [29.76760581182867, -95.37654662971858],
         neighborhood: 'Washington',
         img: 'https://i.imgur.com/VBGM7c8.png',
+        img: 'https://i.imgur.com/tkoDnG0.png',
         website: 'https://www.gusfriedchicken.com/locations/houston-texas',
         blurb: 'Long-running chain serving spicy fried chicken & comfort sides in a low-key setting.',
         description: ['Fried Okra', 'Jalapenos', 'Great Fried Chicken']
