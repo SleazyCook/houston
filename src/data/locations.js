@@ -3607,6 +3607,29 @@ const locations = [
         blurb: 'Trendy venue featuring a modern take on mini-golf, with auto-scoring technology, plus cocktails.',
         description: ['Full bar', 'Fun themes', 'Food']
     },
+    {
+        name: 'Jones Hall',
+        category: 'attraction',
+        subcategory: ['comedy'],
+        badges: ['alcohol available'],
+        coordinates: [29.76086967801885, -95.36499374068993],
+        neighborhood: 'Downtown',
+        img: 'https://i.imgur.com/rjLRnUE.png',
+        website: 'https://houstonsymphony.org',
+        blurb: 'Grand, historic performing arts facility specializing in symphonies & other musical events.',
+        description: ['Concerts', 'Upscale', 'Downtown located']
+    },
+    {
+        name: 'Miller Outdoor Theatre',
+        category: 'attraction',
+        subcategory: ['comedy'],
+        coordinates: [29.7191320417625, -95.3887510071658],
+        neighborhood: 'Museum District',
+        img: 'https://i.imgur.com/2ykX8jK.png',
+        website: 'https://www.milleroutdoortheatre.com',
+        blurb: 'Outdoor spot featuring an 8-month season of free live shows including dance, music & theater.',
+        description: ['Live performances', 'Lawn seating', 'Free events']
+    },
     // Photo Opp
     {
         name: 'White Oak Bayou Rails Bridge',
