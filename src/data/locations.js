@@ -1924,6 +1924,18 @@ const locations = [
         blurb: 'New England–style eatery serving lobster rolls, seafood sandwiches, chowder, and whoopie pies in a casual setting.',
         description: ['Chowder', 'Lobster Rolls', 'Whoopie Pies']
     },
+    {
+        name: 'Sushi Miyagi',
+        category: 'food',
+        subcategory: ['sushi', 'soup'],
+        badges: ['NFC mobile payments', 'vegetarian options'],
+        coordinates: [29.704877178262258, -95.56718028418902],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/rvBjey6.png',
+        website: 'https://www.yelp.com/biz/sushi-miyagi-houston',
+        blurb: 'Cozy eatery featuring sushi & classic Japanese cuisine in unpretentious environs with Asian decor.',
+        description: ['Soba Noodles', 'Sushi', 'Combos']
+    },
     // Bars
     {
         name: 'Axelrad',
