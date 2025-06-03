@@ -1900,6 +1900,17 @@ const locations = [
         blurb: "Iron Chef Nobu Matsuhisa's hot & cold Japanese delicacies served in spacious & posh surroundings.",
         description: ['$65 Buffet', 'Sake', 'Sushi']
     },
+    {
+        name: 'Hudson House',
+        category: 'food',
+        subcategory: ['upscale', 'seafood', 'salads'],
+        badges: ['paid parking', 'alcohol available'],
+        coordinates: [29.75345156819565, -95.40745527565623],
+        img: 'https://i.imgur.com/Y3zcpvU.png',
+        website: 'https://www.hudsonhousehp.com/Houston/',
+        blurb: 'American restaurant in the River Oaks Shopping Center offering lobster rolls, oysters, and other seafood with cocktails.',
+        description: ['Weekend Brunch', 'Lobster Roll', 'Key Lime Pie']
+    },
     // Bars
     {
         name: 'Axelrad',
