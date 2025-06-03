@@ -1906,6 +1906,7 @@ const locations = [
         subcategory: ['upscale', 'seafood', 'salads'],
         badges: ['paid parking', 'alcohol available'],
         coordinates: [29.75345156819565, -95.40745527565623],
+        neighborhood: 'River Oaks',
         img: 'https://i.imgur.com/Y3zcpvU.png',
         website: 'https://www.hudsonhousehp.com/Houston/',
         blurb: 'American restaurant in the River Oaks Shopping Center offering lobster rolls, oysters, and other seafood with cocktails.',
