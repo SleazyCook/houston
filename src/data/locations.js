@@ -2878,6 +2878,18 @@ const locations = [
         blurb: 'Trail-oriented complex with a mix of shops and restaurants, some offering outdoor seating.',
         description: ['Blue Sushi', 'La La Land Coffee', 'Walking Trails']
     },
+    {
+        name: 'Sunny Flea Market',
+        category: 'market',
+        subcategory: ['hall'],
+        badges: ['paid parking'],
+        coordinates: [29.886206377424145, -95.3956386957484],
+        neighborhood: 'Airline',
+        img: 'https://i.imgur.com/3cG2BVh.png',
+        website: 'https://www.instagram.com/sunnyfleamarket/',
+        blurb: 'Weekend flea market offering a variety of goods and street food.',
+        description: ['$2 Parking', 'Street Food', 'Weekends Only']
+    },
     // Movie Theaters
     {
         name: 'AMC Willowbrook 24',

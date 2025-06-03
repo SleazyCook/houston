@@ -1,7 +1,7 @@
 
 
 import { FaTree, FaShoppingBasket, FaCity, FaBuilding, FaMusic, FaLandmark, FaShoppingBag, FaLightbulb, FaHandsHelping, FaBriefcase, FaRoad, FaHardHat, FaRoute, FaCocktail, FaRainbow, FaBeer, FaUniversity, FaShoppingCart } from 'react-icons/fa';
-import { FaBridgeWater, FaHatCowboy } from "react-icons/fa6";
+import { FaBridgeWater, FaHatCowboy, FaStore } from "react-icons/fa6";
 import { LuFerrisWheel } from "react-icons/lu";
 import { MdStadium, MdOutlineTempleBuddhist, MdFamilyRestroom, MdWarehouse, MdLocationCity, MdPeople, MdDirectionsCar, MdExplore, MdGridView, MdApartment, MdSchool, MdHomeWork, MdStreetview } from 'react-icons/md';
 import { HiOfficeBuilding } from 'react-icons/hi';
@@ -15,6 +15,13 @@ const neighborhoodBlurbs = [
         nearby: ['Central Northwest', 'Greenspoint', 'Independence Heights', 'Jersey Village', 'Northside', 'Oak Forest'],
         icon: FaTree,
         img: 'https://i.imgur.com/bjzXRJ2.png'
+    },
+    {
+        name: 'Airline',
+        blurb: "Airline is a diverse and bustling neighborhood located just north of central Houston, known for its vibrant markets and cultural mix. One of its most iconic spots is the Houston Farmers Market, offering a rich selection of local produce and international goods. The area is a hub for authentic food, small businesses, and a strong sense of local pride. Airline is where tradition, entrepreneurship, and community come together.",
+        nearby: ['Northside', 'Independence Heights', 'Greater Heights', 'Acres Home', 'Northline'],
+        icon: FaStore,
+        img: 'https://i.imgur.com/gczEaJs.png' 
     },
     {
         name: 'Astrodome Area',
