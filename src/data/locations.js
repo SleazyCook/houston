@@ -1912,6 +1912,18 @@ const locations = [
         blurb: 'American restaurant in the River Oaks Shopping Center offering lobster rolls, oysters, and other seafood with cocktails.',
         description: ['Weekend Brunch', 'Lobster Roll', 'Key Lime Pie']
     },
+    {
+        name: 'Maine-ly Sandwiches',
+        category: 'food',
+        subcategory: ['seafood', 'sandwiches', 'soup'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.78562964964358, -95.4656246146352],
+        neighborhood: 'Northwest Houston',
+        img: 'https://i.imgur.com/YHSKRdm.png',
+        website: 'https://mainelysandwiches.com',
+        blurb: 'New England–style eatery serving lobster rolls, seafood sandwiches, chowder, and whoopie pies in a casual setting.',
+        description: ['Chowder', 'Lobster Rolls', 'Whoopie Pies']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -2435,6 +2447,18 @@ const locations = [
         blurb: 'Easygoing hangout with a patio & a contemporary vibe offering creative cuisine & self-serve wine.',
         description: ['Automated Wine Bar', 'Small Bites', 'Vinyl Listening Rooms']
     },
+    {
+        name: 'City Cellers',
+        category: 'bar',
+        subcategory: ['sandwiches', 'soup', 'salads'],
+        badges: ['alcohol available'],
+        coordinates: [29.761957013339586, -95.34096665582909],
+        neighborhood: 'Greater Fifth Ward',
+        img: 'https://i.imgur.com/vQul9as.png',
+        website: 'https://citycellarshtx.com',
+        blurb: "Experience a decadent array of Southern-inspired and global cuisine in a stunning showcase of Houston's culinary and design excellence.",
+        description: ['Great View of Skyline', 'Elote Creamed Corn', 'Umami Burger']
+    },
     // Bookstores & Libraries
     {
         name: "Becker's Books",
@@ -2687,7 +2711,7 @@ const locations = [
     {
         name: 'Doshi House',
         category: 'coffee',
-        subcategory: ['sandwiches', 'breakfast', 'tacos'],
+        subcategory: ['sandwiches', 'breakfast', 'tacos', 'soup'],
         badges: ['NFC mobile payments', 'vegetarian options'],
         coordinates: [29.73259941186283, -95.3662694924411],
         neighborhood: 'South Central',
