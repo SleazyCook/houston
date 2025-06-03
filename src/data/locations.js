@@ -1936,6 +1936,18 @@ const locations = [
         blurb: 'Cozy eatery featuring sushi & classic Japanese cuisine in unpretentious environs with Asian decor.',
         description: ['Soba Noodles', 'Sushi', 'Combos']
     },
+    {
+        name: 'Hobbit Cafe',
+        category: 'food',
+        subcategory: ['sandwiches', 'burgers', 'soup', 'salads'],
+        badges: ['NFC mobile payments', 'outdoor seating' ,'vegetarian options'],
+        coordinates: [29.73365247547704, -95.41468893974502],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/pnYjKuX.png',
+        website: 'https://hobbitcafehtx.com',
+        blurb: 'Locally-loved eatery for sandwiches, burgers & vegetarian grub under a giant oak tree since 1972.',
+        description: ['Fajita Nachos', 'Stuffed Jalapenos', 'Boudin Burger']
+    },
     // Bars
     {
         name: 'Axelrad',
