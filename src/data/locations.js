@@ -1948,7 +1948,17 @@ const locations = [
         blurb: 'Locally-loved eatery for sandwiches, burgers & vegetarian grub under a giant oak tree since 1972.',
         description: ['Fajita Nachos', 'Stuffed Jalapenos', 'Boudin Burger']
     },
-
+    {
+        name: 'Seoulside Wings & Rice',
+        category: 'food',
+        subcategory: ['chicken', 'ricebowl'],
+        coordinates: [29.737595800185332, -95.4695061366912],
+        neighborhood: 'Uptown',
+        img: 'https://i.imgur.com/MRjaKDU.png',
+        website: 'https://www.seoulsidewings.com',
+        blurb: 'Houston gem offering crispy, house battered, Korean Style Wings, Rice Bowls, and Specialty Fries',
+        description: ['Seoul Bowl', 'K Sauce WIngs', 'Starberry Lemonade']
+    },
     // Bars
     {
         name: 'Axelrad',
