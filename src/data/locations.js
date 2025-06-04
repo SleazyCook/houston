@@ -1948,6 +1948,7 @@ const locations = [
         blurb: 'Locally-loved eatery for sandwiches, burgers & vegetarian grub under a giant oak tree since 1972.',
         description: ['Fajita Nachos', 'Stuffed Jalapenos', 'Boudin Burger']
     },
+
     // Bars
     {
         name: 'Axelrad',
@@ -2744,6 +2745,29 @@ const locations = [
         blurb: 'Homey spot focusing on global vegetarian & vegan soups, sandwiches & mains, plus coffees & teas.',
         description: ['Pastries', 'Tea', 'Smoothies']
     },
+    {
+        name: 'Kolache Shoppe',
+        category: 'coffee',
+        subcategory: ['bakery', 'breakfast'],
+        badges: ['NFC mobile payments', 'drive thru'],
+        coordinates: [29.790311070967398, -95.39803149309529],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/pgcWQ6f.png',
+        website: 'https://kolacheshoppe.com',
+        blurb: 'Counter-serve pastry shop offering kolaches with both sweet & savory fillings plus cinnamon rolls.',
+        description: ['Chai Latte', 'Ham & Swiss Kolache', 'Weekly Specials']
+    },
+    {
+        name: 'RoadRunners',
+        category: 'coffee',
+        badges: ['NFC mobile payments', 'drive thru'],
+        coordinates: [29.916246915748598, -95.62999454911026],
+        neighborhood: 'Cypress',
+        img: 'https://i.imgur.com/CAkz6W4.png',
+        website: 'https://www.roadrunnersfast.com',
+        blurb: "The World's Fastest Beverage Drive-Thru. Coffee in less than 60 seconds.",
+        description: ['Milkshakes', 'Coffee', 'Energy Drinks']
+    },
     // Markets
     {
         name: 'H Mart',
@@ -2949,6 +2973,26 @@ const locations = [
         website: 'https://www.instagram.com/sunnyfleamarket/',
         blurb: 'Weekend flea market offering a variety of goods and street food.',
         description: ['$2 Parking', 'Street Food', 'Weekends Only']
+    },
+    {
+        name: 'Ironworks',
+        category: 'market',
+        coordinates: [29.74476521973961, -95.33926501078673],
+        neighborhood: 'Eastwood',
+        img: 'https://i.imgur.com/LBClbah.png',
+        website: 'https://ironworks.glide.page/dl/245b4e',
+        blurb: "This is where businesses and neighbors grow together. Whether you're grabbing a cup of coffee, getting a haircut, attending a class, or meeting your next business partner, here, you can do it all. ",
+        description: ['Food & Drink', 'Retail', 'Office & Studio']
+    },
+    {
+        name: 'Houston Farmers Market',
+        category: 'market',
+        coordinates: [29.8102928618855, -95.38041838117448],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/RlKxF01.png',
+        website: 'https://thehoustonfarmersmarket.com',
+        blurb: "Farmers' market featuring a large selection of produce, including medicinal herbs, and spices.",
+        description: ['Fresh produce', 'Plant nursery', 'Food & Drink']
     },
     // Movie Theaters
     {
