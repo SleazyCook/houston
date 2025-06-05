@@ -1959,6 +1959,18 @@ const locations = [
         blurb: 'Houston gem offering crispy, house battered, Korean Style Wings, Rice Bowls, and Specialty Fries',
         description: ['Seoul Bowl', 'K Sauce WIngs', 'Starberry Lemonade']
     },
+    {
+        name: "Honeychild's Sweet Creams",
+        category: 'food',
+        subcategory: ['dessert'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.783084584294574, -95.4088695564218],
+        neighborhood: 'Heights',
+        img: 'https://i.imgur.com/imGmSbb.png',
+        website: 'https://www.honeychildssweetcreams.com',
+        blurb: 'Homemade frozen custards in seasonal flavors using locally sourced ingredients.',
+        description: ['Cookies', 'Ice Cream', 'Blue Corn Cones']
+    },
     // Bars
     {
         name: 'Axelrad',
