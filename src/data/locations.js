@@ -1971,6 +1971,18 @@ const locations = [
         blurb: 'Homemade frozen custards in seasonal flavors using locally sourced ingredients.',
         description: ['Cookies', 'Ice Cream', 'Blue Corn Cones']
     },
+    {
+        name: 'Tiny Boxwoods',
+        category: 'food',
+        subcategory: ['sandwiches', 'salads'],
+        badges: ['NFC mobile payments', 'alcohol available', 'vegetarian options'],
+        coordinates: [29.73843174689435, -95.43512274636153],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/MQxJoDI.png',
+        website: 'https://tinyboxwoods.com',
+        blurb: 'Upscale garden cafe with an open, airy vibe serving light fare & famed chocolate chip cookies.',
+        description: ['Cheese Board', 'Bread Service', 'Sourdough Grilled Cheese']
+    },
     // Bars
     {
         name: 'Axelrad',

@@ -106,6 +106,14 @@ export const creators = [
         },
     },
     {
+        name: 'Houston Hotspots',
+        handle: '@houstonhotspots',
+        img: 'https://i.imgur.com/TwNHGZW.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@houstonhotspots'
+        }
+    },
+    {
         name: 'Where to Next?',
         handle: '@wheretogonext___',
         img: 'https://i.imgur.com/RL9RuOX.png',
