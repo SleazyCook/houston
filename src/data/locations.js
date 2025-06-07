@@ -1983,6 +1983,18 @@ const locations = [
         blurb: 'Upscale garden cafe with an open, airy vibe serving light fare & famed chocolate chip cookies.',
         description: ['Cheese Board', 'Bread Service', 'Sourdough Grilled Cheese']
     },
+    {
+        name: 'Loves Dumpling House',
+        category: 'food',
+        subcategory: ['dumplings'],
+        badges: ['NFC mobile payments', 'vegetarian options'],
+        coordinates: [29.741977848293004, -95.75228704780734],
+        neighborhood: 'Cinco Ranch',
+        img: 'https://i.imgur.com/lQz5Ho1.png',
+        website: 'https://www.lovesdumplinghouse.com',
+        blurb: "We hope that when you visit, you feel like you’re part of our family. At Love’s Dumpling House, every dish is crafted to bring a little warmth, comfort, and happiness to your day.",
+        description: ['Soup Dumplings', 'Wontons', 'Pan-Fried Dumplings']
+    },
     // Bars
     {
         name: 'Axelrad',
