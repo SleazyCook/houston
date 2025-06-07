@@ -122,7 +122,7 @@ export const creators = [
         }
     },
     {
-        name: 'FOODIEWHOT3HTx',
+        name: 'FOODIEWHOR3HTx',
         handle: '@foodiehtx5',
         img: 'https://i.imgur.com/BUn2lGJ.png',
         links: {
