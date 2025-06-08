@@ -1283,7 +1283,7 @@ const locations = [
         name: "nobie's",
         category: 'food',
         subcategory: ['upscale'],
-        badges: ['michelin rated', 'open late', 'alcohol available'],
+        badges: ['michelin rated', 'open late', 'vegetarian options', 'alcohol available'],
         coordinates: [29.73535627273937, -95.41003810405576],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/NhgssIj.png',
