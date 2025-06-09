@@ -2635,6 +2635,17 @@ const locations = [
         blurb: 'Public library featuring resources for learning such as a music studio.',
         description: ['Library', 'Music Studio', 'Computer Equipment']
     },
+    {
+        name: 'Hearsay',
+        category: 'bar',
+        badges: ['alcohol available'],
+        coordinates: [29.732463633934497, -95.42238722635899],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/2zPxSNS.png',
+        website: 'https://hearsaygastrolounge.com/reservations-hearsay/#levy-park',
+        blurb: 'Chic destination for brunch, dinner, and small plates in an antique-filled space with a pet-friendly patio.',
+        description: ['Cocktails', 'Dog Friendly', 'Located in Levy Park']
+    },
     // Coffee Shops
     {
         name: 'Campesino Coffee House',
