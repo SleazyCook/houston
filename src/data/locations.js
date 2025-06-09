@@ -3075,6 +3075,16 @@ const locations = [
         blurb: "Farmers' market featuring a large selection of produce, including medicinal herbs, and spices.",
         description: ['Fresh produce', 'Plant nursery', 'Food & Drink']
     },
+    {
+        name: 'Whole Foods',
+        category: 'market',
+        coordinates: [29.739403104663417, -95.41815918307897],
+        neighborhood: 'Greenway',
+        img: 'https://i.imgur.com/kqD33UD.png',
+        website: 'https://www.wholefoodsmarket.com/stores/kirby?utm_source=google&utm_medium=organic&utm_campaign=listings',
+        blurb: 'Eco-minded chain with natural & organic grocery items, housewares & other products (most sell wine).',
+        description: ['Fresh pizza', 'Tin fish', 'Wine']
+    },
     // Movie Theaters
     {
         name: 'AMC Willowbrook 24',
