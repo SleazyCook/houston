@@ -1211,7 +1211,7 @@ const locations = [
         name: 'The Sunrise House',
         category: 'food',
         subcategory: ['breakfast', 'salads'],
-        badges: ['vegetarian options', 'alcohol available'],
+        badges: ['paid parking', 'vegetarian options', 'alcohol available'],
         coordinates: [29.738935860322403, -95.40586450262902],
         neighborhood: 'Montrose',
         img: 'https://i.imgur.com/H0fKMWt.png',
@@ -1994,6 +1994,30 @@ const locations = [
         website: 'https://www.lovesdumplinghouse.com',
         blurb: "We hope that when you visit, you feel like you’re part of our family. At Love’s Dumpling House, every dish is crafted to bring a little warmth, comfort, and happiness to your day.",
         description: ['Soup Dumplings', 'Wontons', 'Pan-Fried Dumplings']
+    },
+    {
+        name: 'Vinoteca Poscol',
+        category: 'food',
+        subcategory: ['upscale', 'pasta', 'salads'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.74470376976128, -95.38921432996437],
+        neighborhood: 'Montrose',
+        img: 'https://i.imgur.com/6fjbUAQ.png',
+        website: 'https://www.poscolhouston.com',
+        blurb: 'Italian wines & small plates, including house-cured salumi, presented in an intimate atmosphere.',
+        description: ['cafe', 'wine', 'small plates']
+    },
+        {
+        name: "Perry's Steakhouse",
+        category: 'food',
+        subcategory: ['upscale', 'steak', 'salads', 'soup'],
+        badges: ['NFC mobile payments', 'outdoor seating', 'vegetarian options', 'alcohol available'],
+        coordinates: [29.752617169010016, -95.40815345397641],
+        neighborhood: 'Hyde Park',
+        img: 'https://i.imgur.com/fq7U2Ss.png',
+        website: 'https://perryssteakhouse.com/locations/tx/houston/river-oaks/',
+        blurb: 'Upscale steakhouse & grill serving a menu including chops, seafood, wine & cocktails.',
+        description: ['Famous Pork Chop Specials', 'Diverse Menu', 'Steak']
     },
     // Bars
     {
