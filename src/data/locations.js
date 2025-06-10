@@ -1289,7 +1289,7 @@ const locations = [
         img: 'https://i.imgur.com/NhgssIj.png',
         website: 'https://www.nobieshtx.com',
         blurb: 'Intimate spot serving New American dishes & craft cocktails, with a patio & a vinyl soundtrack.',
-        description: ['Cocktails', 'Open Late', 'Romantic']
+        description: ['Small Plates', 'Delicious Pies', 'Romantic']
     },
     {
         name: "Killen's",
@@ -2018,6 +2018,18 @@ const locations = [
         website: 'https://perryssteakhouse.com/locations/tx/houston/river-oaks/',
         blurb: 'Upscale steakhouse & grill serving a menu including chops, seafood, wine & cocktails.',
         description: ['Famous Pork Chop Specials', 'Diverse Menu', 'Steak']
+    },
+    {
+        name: 'Tumble 22',
+        category: 'food',
+        subcategory: ['chicken'],
+        badges: ['alcohol available'],
+        coordinates: [29.767929129949536, -95.37261205901254],
+        neighborhood: 'Washington',
+        img: 'https://i.imgur.com/AYtw8kG.png',
+        website: 'https://tumble22.com/houston-avenue/',
+        blurb: 'All-natural chicken raised in Texas is served at this casual joint with cold beer and cocktails.',
+        description: ['Pepper flavored heat', 'Fried Chicken', 'Salted Caramel Shake']
     },
     // Bars
     {
