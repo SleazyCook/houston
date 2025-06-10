@@ -2031,6 +2031,18 @@ const locations = [
         blurb: 'All-natural chicken raised in Texas is served at this casual joint with cold beer and cocktails.',
         description: ['Pepper flavored heat', 'Fried Chicken', 'Salted Caramel Shake']
     },
+    {
+        name: 'Popfancy Dessert Bar',
+        category: 'food',
+        subcategory: ['dessert'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.704480743948015, -95.54950290064457],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/H2T7aRZ.png',
+        website: 'https://www.popfancypops.com',
+        blurb: 'Dessert spot with anime and pop-culture themes serving imaginative frozen treats and drinks.',
+        description: ['Special Popsicles', 'Ice Cream Swirls', 'Hot Mochi Waffle Pops']
+    },
     // Bars
     {
         name: 'Axelrad',
