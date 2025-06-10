@@ -1282,7 +1282,7 @@ const locations = [
     {
         name: "nobie's",
         category: 'food',
-        subcategory: ['upscale'],
+        subcategory: ['upscale', 'dessert'],
         badges: ['michelin rated', 'open late', 'vegetarian options', 'alcohol available'],
         coordinates: [29.73535627273937, -95.41003810405576],
         neighborhood: 'Montrose',
@@ -2042,6 +2042,18 @@ const locations = [
         website: 'https://www.popfancypops.com',
         blurb: 'Dessert spot with anime and pop-culture themes serving imaginative frozen treats and drinks.',
         description: ['Special Popsicles', 'Ice Cream Swirls', 'Hot Mochi Waffle Pops']
+    },
+    {
+        name: 'Red Circle',
+        category: 'food',
+        subcategory: ['dessert'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.70562194424755, -95.54617168362007],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/MinkMxA.png',
+        website: 'https://www.redcirclefranchising.com',
+        blurb: 'Laid-back parlor serving creatively topped ice cream cones & sandwiches, plus heart-shaped churros.',
+        description: ['Elmo Crunch', 'Ice Cream Filled Macaron', 'Home of the Original Churro Daddy']
     },
     // Bars
     {
