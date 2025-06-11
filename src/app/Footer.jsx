@@ -19,10 +19,10 @@ const Footer = () => {
 
         <span className='footer__line'></span>
 
-                    <span className='footer__art-credit'>
+                    {/* <span className='footer__art-credit'>
             Homepage artwork by&nbsp;
               <a href='https://www.etsy.com/shop/JimKoehnArtSpace' target='_blank'>
-                Jim Koehn</a></span>
+                Jim Koehn</a></span> */}
 
 
         <a 

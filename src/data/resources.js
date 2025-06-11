@@ -106,6 +106,15 @@ export const creators = [
         },
     },
     {
+        name: 'yourfavfoodie',
+        handle: '@goodeatswithry',
+        img: 'https://i.imgur.com/HBOJ90E.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@goodeatswithry_/',
+            instagram: 'https://www.instagram.com/goodeatswithry_/'
+        }
+    },
+    {
         name: 'Houston Hotspots',
         handle: '@houstonhotspots',
         img: 'https://i.imgur.com/TwNHGZW.png',
