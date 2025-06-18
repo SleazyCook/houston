@@ -7,7 +7,7 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_uz9ou2v', 'template_fqcn51m', form.current, '0MfovJdS9LXoR7xLU')
+    emailjs.sendForm('service_rt6gxg6', 'template_fqcn51m', form.current, '0MfovJdS9LXoR7xLU')
       .then((result) => {
           alert('Message sent successfully!');
           form.current.reset();
@@ -23,12 +23,17 @@ const ContactForm = () => {
 
       <div className='sender-info'>
         <label>Name</label>
-        <input type="text" name="user_name" required />
+        <input type="text" name="name" required />
       </div>
 
       <div className='sender-info'>
         <label>Email</label>
-        <input type="email" name="user_email" required />
+        <input type="email" name="email" required />
+      </div>
+
+      <div className='sender-info'>
+        <label>Subject</label>
+        <input type="text" name="subject" required />
       </div>
 
       <div className='message-block'>
