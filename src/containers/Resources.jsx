@@ -3,6 +3,7 @@ import { events, schedules, community, music, sports, creators } from '../data/r
 import { FaTiktok, FaYoutube, FaInstagram, FaFacebook, FaSnapchat, FaPinterest, FaTwitter  } from 'react-icons/fa';
 
 import ResourceSlider from '../components/ResourceSlider.jsx';
+import ContactForm from '../components/ContactForm.jsx';
 
 const Resources = () => {
 
@@ -61,6 +62,8 @@ const Resources = () => {
       <ResourceSlider title='Community' items={community} />
       <ResourceSlider title='Professional Sports' items={sports} />  
       <ResourceSlider title='Ticket Apps' items={music} />
+
+      <ContactForm />
 
 
 

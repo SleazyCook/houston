@@ -7,6 +7,7 @@ import './styles/index.css';
 import './styles/app/app.css';
 import './styles/app/footer.css';
 import './styles/app/map.css';
+import './styles/components/contact-form.css';
 import './styles/components/filters.css';
 import './styles/components/location-card.css';
 import './styles/components/search.css';

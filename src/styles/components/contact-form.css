@@ -1,0 +1,88 @@
+/* .contact-form {
+    border: 1px solid red;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: white;
+}
+
+.contact-form h3 {
+    all: unset;
+    font-family: 'Avenir Next Condensed';
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-weight: normal;
+    display: block;
+}
+
+.contact-form label {
+    font-family: 'Avenir Next Condensed';
+} */
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.contact-form h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+
+.sender-info,
+.message-block {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sender-info label,
+.message-block label {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.sender-info input,
+.message-block textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+}
+
+.sender-info input:focus,
+.message-block textarea:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.message-block textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
