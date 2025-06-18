@@ -19,6 +19,8 @@ export const schedules = [
 
 export const community = [
     {title: 'Black Owned', url: 'https://www.blackbookhouston.com', img: 'https://i.imgur.com/ynPgN09.png'},
+    {title: 'BLD PWR', url: 'https://www.bldpwr.com', img: 'https://i.imgur.com/ZPBTmYx.png'},
+    {title: 'LOUD Muzik', url: 'https://loudmuzik.com', img: 'https://i.imgur.com/kiAkQv6.png'},
     {title: 'Volunteer', url: 'https://volunteerhouston.org', img: 'https://i.imgur.com/3MI9AGM.png'},
     {title: 'Ion District', url: '/Users/andrewcook/Library/Application Support/Dropbox-Capture/Thumbnails/Screenshot by Dropbox Capture.png', img: 'https://i.imgur.com/M6HCiGa.png'},
     {title: 'Michelin Guide', url: 'https://guide.michelin.com/us/en/texas/houston_2986624/restaurants?sort=distance', img: 'https://i.imgur.com/IaYIBOa.png'},
