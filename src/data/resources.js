@@ -12,6 +12,7 @@ export const schedules = [
     {title: 'Performing Arts', url: 'https://performingartshouston.org', img: 'https://i.imgur.com/OCgvdlK.png'},
     {title: 'Downtown +', url: 'https://downtownhouston.org/calendar', img: 'https://i.imgur.com/P9ptuic.png'},
     {title: 'POST Events', url: 'https://www.posthtx.com/event', img: 'https://i.imgur.com/gL3H34H.png'},
+    {title: 'Ion District', url: '/Users/andrewcook/Library/Application Support/Dropbox-Capture/Thumbnails/Screenshot by Dropbox Capture.png', img: 'https://i.imgur.com/M6HCiGa.png'},
     {title: 'G. R. Brown', url: 'https://www.grbhouston.com/attendees/events-calendar/', img: 'https://i.imgur.com/1BJiG1v.png'},
     {title: 'Houston Zoo', url: 'https://www.houstonzoo.org/plan-your-visit/calendar/', img: 'https://i.imgur.com/G1I7Sgu.png'},
     {title: 'MFA Houston', url: 'https://www.mfah.org/calendar', img: 'https://i.imgur.com/WybC8rn.png'}
@@ -22,7 +23,6 @@ export const community = [
     {title: 'BLD PWR', url: 'https://www.bldpwr.com', img: 'https://i.imgur.com/ZPBTmYx.png'},
     {title: 'LOUD Muzik', url: 'https://loudmuzik.com', img: 'https://i.imgur.com/kiAkQv6.png'},
     {title: 'Volunteer', url: 'https://volunteerhouston.org', img: 'https://i.imgur.com/3MI9AGM.png'},
-    {title: 'Ion District', url: '/Users/andrewcook/Library/Application Support/Dropbox-Capture/Thumbnails/Screenshot by Dropbox Capture.png', img: 'https://i.imgur.com/M6HCiGa.png'},
     {title: 'Michelin Guide', url: 'https://guide.michelin.com/us/en/texas/houston_2986624/restaurants?sort=distance', img: 'https://i.imgur.com/IaYIBOa.png'},
 ]
 
