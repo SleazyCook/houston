@@ -96,6 +96,16 @@ export const creators = [
         }
     },
     {
+        name: 'Tami Smith',
+        handle: '@tamicami1e',
+        img: 'https://i.imgur.com/ZRq109H.png',
+        links: {
+            tiktok: 'https://www.tiktok.com/@tamicami1e?',
+            instagram: 'https://www.instagram.com/tamicami1e',
+            twitter: 'https://x.com/tamicami1e/status/1644761780206333958'
+        }
+    },
+    {
         name: 'Wayne Dang',
         handle: '@waynedang',
         img: 'https://i.imgur.com/Nqj7s8U.png',
