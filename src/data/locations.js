@@ -2903,7 +2903,7 @@ const locations = [
         category: 'market',
         badges: ['NFC mobile payments'],
         coordinates: [29.80692355084747, -95.38224940513896],
-        neighborhood: 'Northside',
+        neighborhood: 'Heights',
         img: 'https://i.imgur.com/gGu9kbQ.png',
         website: 'https://www.houstondairymaids.com',
         blurb: 'Handmade cheeses from Texas & elsewhere, plus wine, beer, foodie-oriented gift items & tastings.',
