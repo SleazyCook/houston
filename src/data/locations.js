@@ -2055,6 +2055,18 @@ const locations = [
         blurb: 'Laid-back parlor serving creatively topped ice cream cones & sandwiches, plus heart-shaped churros.',
         description: ['Elmo Crunch', 'Ice Cream Filled Macaron', 'Home of the Original Churro Daddy']
     },
+    {
+        name: "George's Bistro & Bar",
+        category: 'food',
+        subcategory: ['upscale', 'pasta', 'salad', 'soup', 'pizza', 'steak'],
+        badges: ['NFC mobile payments', 'outdoor seating'],
+        coordinates: [29.725063849172606, -95.42097561707486],
+        neighborhood: 'West University',
+        img: 'https://i.imgur.com/LfCsngL.png',
+        website: 'https://www.georgesbistroandbar.com',
+        blurb: 'Wine and cocktails accompany a menu of American fare at this informal restaurant with a patio.',
+        description: ['Pasta', 'Patio', 'Salads']
+    },
     // Bars
     {
         name: 'Axelrad',
@@ -2886,6 +2898,17 @@ const locations = [
         description: ['Milkshakes', 'Coffee', 'Energy Drinks']
     },
     // Markets
+    {
+        name: 'Houston Dairymaids',
+        category: 'market',
+        badges: ['NFC mobile payments'],
+        coordinates: [29.80692355084747, -95.38224940513896],
+        neighborhood: 'Northside',
+        img: 'https://i.imgur.com/gGu9kbQ.png',
+        website: 'https://www.houstondairymaids.com',
+        blurb: 'Handmade cheeses from Texas & elsewhere, plus wine, beer, foodie-oriented gift items & tastings.',
+        description: ['Cheese samples', ]
+    },
     {
         name: 'H Mart',
         category: 'market',
