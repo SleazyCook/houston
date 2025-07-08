@@ -2067,6 +2067,29 @@ const locations = [
         blurb: 'Wine and cocktails accompany a menu of American fare at this informal restaurant with a patio.',
         description: ['Pasta', 'Patio', 'Salads']
     },
+    {
+        name: 'Chicago Wings and Things',
+        category: 'food',
+        subcategory: ['chicken', 'seafood'],
+        coordinates: [29.902013689935224, -95.34328017833938],
+        neighborhood: 'East Aldine',
+        img: 'https://i.imgur.com/95nnVyi.png',
+        website: 'https://chicago-wings-things.square.site',
+        blurb: 'The New Wing King in Texas',
+        description: ['10 for $10', 'Chicken and Waffles', 'Shrimp Sauce']
+    },
+    {
+        name: 'Texas Hamburger Palace',
+        category: 'food',
+        subcategory: ['burgers', 'seafood'],
+        badges: ['NFC mobile payments', 'alcohol available'],
+        coordinates: [29.718405512072497, -95.54838025074939],
+        neighborhood: 'Chinatown',
+        img: 'https://i.imgur.com/d3vCOcu.png',
+        website: 'https://www.facebook.com/people/Texas-Hamburger-Palace/100054674190103/',
+        blurb: 'A variety of burgers & fried sides are served at this Southern-flavored spot with down-home decor.',
+        description: ['Blackened Fish Sandwich', 'Onion Rings', 'Spicy Fries']
+    },
     // Bars
     {
         name: 'Axelrad',
