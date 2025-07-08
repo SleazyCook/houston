@@ -15,11 +15,11 @@ import Restaurants from './containers/Restaurants';
 import Activities from './containers/Activities';
 import Resources from './containers/Resources';
 
+import TestContainer from './containers/TestContainer';
+
 // Utilities
 import ScrollToTopReroute from './utils/ScrollToTopReroute';
 import ScrollToTopButton from './utils/ScrollToTopButton'; // update path as needed
-
-
 
 function App() {
   const [lat, setLat] = useState(29.7604);
@@ -31,7 +31,6 @@ function App() {
       <Router>
         <div className='app-router-wrapper'>
           <div className='app-router-wrapper__inner' ref={scrollRef}>
-
 
           <ScrollToTopReroute />
           <ScrollToTopButton targetRef={scrollRef} />
@@ -94,7 +93,12 @@ function App() {
                 <Route 
                   path="/resources" 
                   element={<Resources />} />
-                  <Route path="*" element={<NotFound />} />
+
+                <Route 
+                  path='/test'
+                  element={<TestContainer />} />
+
+                <Route path="*" element={<NotFound />} />
               </Routes>
               <Footer />
             </div>
