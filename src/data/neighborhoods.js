@@ -1,6 +1,6 @@
 
 
-import { FaTree, FaShoppingBasket, FaCity, FaBuilding, FaMusic, FaLandmark, FaShoppingBag, FaLightbulb, FaHandsHelping, FaBriefcase, FaRoad, FaHardHat, FaRoute, FaCocktail, FaRainbow, FaBeer, FaUniversity, FaShoppingCart } from 'react-icons/fa';
+import { FaTree, FaShoppingBasket, FaCity, FaBuilding, FaMusic, FaLandmark, FaShoppingBag, FaLightbulb, FaHandsHelping, FaBriefcase, FaRoad, FaHardHat, FaRoute, FaCocktail, FaRainbow, FaBeer, FaUniversity, FaShoppingCart, FaUtensils } from 'react-icons/fa';
 import { FaBridgeWater, FaHatCowboy, FaStore } from "react-icons/fa6";
 import { LuFerrisWheel } from "react-icons/lu";
 import { MdStadium, MdOutlineTempleBuddhist, MdFamilyRestroom, MdWarehouse, MdLocationCity, MdPeople, MdDirectionsCar, MdExplore, MdGridView, MdApartment, MdSchool, MdHomeWork, MdStreetview } from 'react-icons/md';
@@ -36,6 +36,13 @@ const neighborhoodBlurbs = [
         nearby: ['Deerbrook', 'Humble', 'Summerwood'],
         icon: FaBridgeWater,
         img: 'https://i.imgur.com/dM4OAIa.png'
+    },
+    {
+        name: 'Bellaire',
+        blurb: "Bellaire is a charming enclave in southwest Houston known for its rich cultural diversity and dynamic food scene. From authentic international cuisines to trendy cafes and bakeries, Bellaire attracts food lovers from all over the city. Its tree-lined streets, walkable neighborhoods, and strong community spirit make it a unique blend of urban convenience and small-town warmth.",
+        nearby: ['West University', 'Meyerland', 'Gulfton'],
+        icon: FaUtensils,  
+        img: 'https://i.imgur.com/vJrs4N3.png'
     },
     {
         name: 'Blalock Market',

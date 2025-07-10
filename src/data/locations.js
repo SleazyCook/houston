@@ -2061,7 +2061,7 @@ const locations = [
         subcategory: ['upscale', 'pasta', 'salad', 'soup', 'pizza', 'steak'],
         badges: ['NFC mobile payments', 'outdoor seating'],
         coordinates: [29.725063849172606, -95.42097561707486],
-        neighborhood: 'West University',
+        neighborhood: 'West University Place',
         img: 'https://i.imgur.com/LfCsngL.png',
         website: 'https://www.georgesbistroandbar.com',
         blurb: 'Wine and cocktails accompany a menu of American fare at this informal restaurant with a patio.',
@@ -2089,6 +2089,18 @@ const locations = [
         website: 'https://www.facebook.com/people/Texas-Hamburger-Palace/100054674190103/',
         blurb: 'A variety of burgers & fried sides are served at this Southern-flavored spot with down-home decor.',
         description: ['Blackened Fish Sandwich', 'Onion Rings', 'Spicy Fries']
+    },
+    {
+        name: 'Wagyuru',
+        category: 'food',
+        subcategory: ['burgers'],
+        badges: ['NFC Mobile Payments'],
+        coordinates: [29.705080819289968, -95.47082361097749],
+        neighborhood: 'Bellaire',
+        img: 'https://i.imgur.com/YB0V8B8.png',
+        website: 'https://www.wagyuru.com',
+        blurb: "At WAGYURU, our passion extends beyond simply offering premium products; we are deeply invested in our customers' experiences and in supporting the hardworking ranches of Texas.",
+        description: ['Sat & Sun Only', 'Wagyu Burgers', 'Meat Market']
     },
     // Bars
     {
