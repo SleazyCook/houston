@@ -2102,6 +2102,18 @@ const locations = [
         blurb: "At WAGYURU, our passion extends beyond simply offering premium products; we are deeply invested in our customers' experiences and in supporting the hardworking ranches of Texas.",
         description: ['Sat & Sun Only', 'Wagyu Burgers', 'Meat Market']
     },
+    {
+        name: 'The Better Box',
+        category: 'food',
+        subcategory: 'sandwiches',
+        badges: ['NFC mobile payments'],
+        coordinates: [29.92454002353021, -95.55595644825505],
+        neighborhood: 'Jersey Village',
+        img: 'https://i.imgur.com/9x790DS.png',
+        website: 'https://www.instagram.com/thebetterboxllc/?hl=en',
+        blurb: 'Philly Food Truck 😎 Now in Houston',
+        description: ['Loaded Seafood Fries', 'Philly Cheesesteak', 'Fried Eggrolls']
+    },
     // Bars
     {
         name: 'Axelrad',
