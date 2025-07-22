@@ -2114,6 +2114,18 @@ const locations = [
         blurb: 'Philly Food Truck 😎 Now in Houston',
         description: ['Loaded Seafood Fries', 'Philly Cheesesteak', 'Fried Eggrolls']
     },
+    {
+        name: "Antonini's Subs",
+        category: 'food',
+        subcategory: ['sandwiches'],
+        badges: ['NFC mobile payments'],
+        coordinates: [29.54211857437588, -95.1234131409383],
+        neighborhood: 'Webster',
+        img: 'https://i.imgur.com/fZAPgBg.png',
+        website: 'https://www.yelp.com/biz/antoninis-subs-and-steaks-webster',
+        blurb: 'Casual family-owned counter serve offering burgers, cheesesteaks, hoagies & other sandwiches.',
+        description: ['Italian Sub', 'Philly Cheese Steak', 'Meatball Sub']
+    },  
     // Bars
     {
         name: 'Axelrad',
